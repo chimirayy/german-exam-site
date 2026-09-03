@@ -150,7 +150,7 @@
       </main>
       <div class="action-bar"><div class="action-bar-inner">
         <span class="answered-count" id="answered-count"></span>
-        <button class="btn" id="btn-next">${state.currentTaskIndex === n - 1 ? "Aufgabe abgeben & Auswertung" : "Speichern & nächste Aufgabe →"}</button>
+        <button class="btn" id="btn-next">${state.currentTaskIndex === n - 1 ? "Aufgabe abgeben & Auswertung" : "Einreichen & Überprüfen →"}</button>
       </div></div>`;
 
     document.getElementById("task-container").appendChild(renderPart(part));
