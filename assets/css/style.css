@@ -310,6 +310,16 @@ button{
 }
 .transcript-box.open{ display: block; }
 
+.listening-audio audio.exhausted{ opacity: .55; }
+.play-counter{
+  font-size: .82rem;
+  font-weight: 600;
+  color: var(--type-color, var(--accent));
+  white-space: nowrap;
+}
+.play-counter.used-up{ color: var(--bad); }
+.review-audio .play-counter{ font-weight: 500; color: var(--ink-soft); }
+
 .q-item{
   padding: 14px 0;
   border-top: 1px solid var(--rule);
@@ -609,12 +619,9 @@ footer.site-footer{
 
 /* ===== B1 task-by-task redesign ===== */
 :root{ --type-color:#B5792B; --type-soft:#F6EEE1; }
-body[data-practice="lesen-ueberschriften"]{--type-color:#2F6F8F;--type-soft:#E7F1F6}
-body[data-practice="lesen-richtig-falsch"]{--type-color:#2E7650;--type-soft:#E8F3EC}
-body[data-practice="lesen-anzeigen"]{--type-color:#7655A5;--type-soft:#EEEAF6}
-body[data-practice="sprachbausteine-abc"]{--type-color:#B06A28;--type-soft:#F8EEE4}
-body[data-practice="sprachbausteine-wortkasten"]{--type-color:#A33F65;--type-soft:#F7E9EF}
+body[data-practice="lesen"]{--type-color:#2F6F8F;--type-soft:#E7F1F6}
 body[data-practice="schreiben"]{--type-color:#356A9B;--type-soft:#E8F0F8}
+body[data-practice="hoeren"]{--type-color:#C24A3B;--type-soft:#FBEAE7}
 
 .masthead{border-bottom:2px solid var(--type-color)}
 .masthead-title small{color:var(--type-color)}
@@ -686,7 +693,7 @@ body[data-practice="schreiben"]{--type-color:#356A9B;--type-soft:#E8F0F8}
 @media(max-width:820px){.redesigned-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:560px){.redesigned-grid{grid-template-columns:1fr}}
 .practice-card{border-top:5px solid var(--card-color,var(--accent));}.practice-card .cefr-tag{color:var(--card-color,var(--accent))}.practice-card:hover{border-color:var(--card-color,var(--accent))}
-.type-reading-headings{--card-color:#2F6F8F}.type-reading-tf{--card-color:#2E7650}.type-reading-ads{--card-color:#7655A5}.type-bausteine-abc{--card-color:#B06A28}.type-bausteine-word{--card-color:#A33F65}.type-writing{--card-color:#356A9B}
+.type-writing{--card-color:#356A9B}.type-listening{--card-color:#C24A3B}.type-lesen{--card-color:#2F6F8F}
 .landing-page .practice-card h2{font-size:1.35rem}.landing-page .practice-card p{margin-bottom:20px}.landing-page .go{color:var(--card-color,var(--ink))}
 
 

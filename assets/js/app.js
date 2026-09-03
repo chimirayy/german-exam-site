@@ -42,6 +42,7 @@
   function saveState() { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
 
   function taskMinutes() {
+    if (cfg.practiceId === "hoeren") return 5;
     const title = (DATA?.sections?.[0]?.title || "").toLowerCase();
     if (title.includes("schreiben") || title.includes("schriftlicher")) return 30;
     return 15;
@@ -72,7 +73,8 @@
   function tasks() { return DATA.sections[0].parts; }
   function currentTask() { return tasks()[state.currentTaskIndex]; }
   function metaFor(part) {
-    if (!state.taskMeta[part.id]) state.taskMeta[part.id] = { startedAt: null, spentSeconds: 0, submitted: false, timedOut: false };
+    if (!state.taskMeta[part.id]) state.taskMeta[part.id] = { startedAt: null, spentSeconds: 0, submitted: false, timedOut: false, plays: 0 };
+    if (state.taskMeta[part.id].plays === undefined) state.taskMeta[part.id].plays = 0;
     return state.taskMeta[part.id];
   }
 
@@ -142,7 +144,7 @@
       <nav class="task-tabs" aria-label="Aufgabennavigation">${tabs}</nav>
       <main class="page task-page task-${state.currentTaskIndex % 2 === 0 ? "even" : "odd"}">
         <div class="task-head">
-          <div><span class="task-label">Aufgabe ${state.currentTaskIndex + 1}</span><h1>${escapeHtml(part.title)}</h1></div>
+          <div><span class="task-label">${part.categoryLabel ? escapeHtml(part.categoryLabel) : "Aufgabe " + (state.currentTaskIndex + 1)}</span><h1>${escapeHtml(part.title)}</h1></div>
           <span class="task-time-note">${mins} Min. für diese Aufgabe</span>
         </div>
         <div class="instructions">${escapeHtml(part.instructions || "Bearbeiten Sie die Aufgabe.")}</div>
@@ -235,9 +237,10 @@
       <nav class="task-tabs" aria-label="Aufgabennavigation">${tasks().map((p,i)=>{const m=metaFor(p);return `<button class="task-tab ${i===idx?'active':''} ${m.submitted?'done':''}" data-task-index="${i}" type="button"><span>${i+1}</span>${m.timedOut?'<b>!</b>':''}</button>`}).join('')}</nav>
       <main class="page task-page task-review ${idx % 2 === 0 ? 'even' : 'odd'}">
         <div class="review-banner"><div class="task-label">Aufgabe abgegeben</div><h1>${escapeHtml(part.title)}</h1><div class="review-score">${score.total ? `<strong>${score.correct} / ${score.total}</strong> richtig` : 'Textaufgabe abgegeben'}${meta.timedOut ? ' · Zeit abgelaufen' : ''}</div></div>
-        <div class="review-answer">${renderPartAnswers(part).outerHTML}</div>
+        <div class="review-answer" id="review-answer-slot"></div>
       </main>
       <div class="action-bar"><div class="action-bar-inner"><span class="answered-count">${meta.timedOut ? 'Automatisch abgegeben' : 'Auswertung verfügbar'}</span><button class="btn" id="btn-review-next">${idx === tasks().length - 1 ? 'Gesamtauswertung →' : 'Nächste Aufgabe →'}</button></div></div>`;
+    document.getElementById('review-answer-slot').appendChild(renderPartAnswers(part));
     document.querySelectorAll('.task-tab').forEach(btn=>btn.addEventListener('click',()=>switchTask(Number(btn.dataset.taskIndex))));
     document.getElementById('btn-review-next').addEventListener('click',continueAfterReview);
   }
@@ -259,6 +262,7 @@
       case "cloze_mc": renderClozeMc(wrap, part); break;
       case "cloze_wordbank": renderClozeWordbank(wrap, part); break;
       case "writing": renderWriting(wrap, part); break;
+      case "listening": renderListening(wrap, part); break;
       default: wrap.innerHTML += `<p>Unbekannter Aufgabentyp: ${escapeHtml(part.type)}</p>`;
     }
     return wrap;
@@ -276,6 +280,82 @@
     }
   }
   function resolveAudioPath(p) { return cfg.assetPrefix ? cfg.assetPrefix + p : "../" + p; }
+
+  function renderListening(wrap, part) {
+    const meta = metaFor(part);
+    const maxPlays = part.maxPlays || 2;
+    const locked = meta.submitted;
+    const block = document.createElement("div");
+    block.className = "audio-block listening-audio";
+    block.innerHTML = `<audio controls preload="none" controlsList="nodownload" src="${escapeAttr(resolveAudioPath(part.audio))}"></audio><span class="play-counter"></span>`;
+    wrap.appendChild(block);
+    const audioEl = block.querySelector("audio");
+    const counterEl = block.querySelector(".play-counter");
+    let activeSession = false;
+
+    function updateCounter() {
+      const remaining = Math.max(0, maxPlays - meta.plays);
+      counterEl.textContent = locked
+        ? "Aufgabe abgegeben"
+        : remaining > 0
+          ? `▶ ${remaining} von ${maxPlays} Wiedergabe${maxPlays === 1 ? "" : "n"} übrig`
+          : "Keine Wiedergaben mehr übrig";
+      counterEl.classList.toggle("used-up", !locked && remaining === 0);
+      audioEl.classList.toggle("exhausted", locked || remaining === 0);
+    }
+    updateCounter();
+
+    if (locked) audioEl.setAttribute("disabled", "true");
+
+    audioEl.addEventListener("play", () => {
+      if (locked) { audioEl.pause(); return; }
+      if (!activeSession) {
+        if (meta.plays >= maxPlays) {
+          audioEl.pause();
+          audioEl.currentTime = 0;
+          updateCounter();
+          return;
+        }
+        meta.plays += 1;
+        activeSession = true;
+        saveState();
+        updateCounter();
+      }
+    });
+    audioEl.addEventListener("ended", () => { activeSession = false; });
+
+    part.questions.forEach((q, qi) => {
+      const num = qi + 1;
+      if (q.type === "true_false") {
+        const row = document.createElement("div"); row.className = "q-item";
+        row.innerHTML = `<div><span class="q-num">${num}</span><span class="q-statement">${escapeHtml(q.statement)}</span></div><div class="tf-choices"><button class="choice-btn" data-val="true" type="button">Richtig</button><button class="choice-btn" data-val="false" type="button">Falsch</button></div>`;
+        const stored = state.answers[part.id][q.id];
+        row.querySelectorAll(".choice-btn").forEach(b => {
+          if (stored !== undefined && String(stored) === b.dataset.val) b.classList.add("selected");
+          b.addEventListener("click", () => {
+            state.answers[part.id][q.id] = b.dataset.val === "true";
+            row.querySelectorAll(".choice-btn").forEach(x => x.classList.remove("selected"));
+            b.classList.add("selected");
+            saveState();
+            updateAnsweredCount(part);
+          });
+        });
+        wrap.appendChild(row);
+      } else if (q.type === "multiple_choice") {
+        const row = document.createElement("div"); row.className = "q-item";
+        row.innerHTML = `<div><span class="q-num">${num}</span><span class="q-statement">${escapeHtml(q.question)}</span></div><div class="mc-options">${q.options.map((o, i) => `<label class="mc-option ${state.answers[part.id][q.id] === i ? "selected" : ""}" data-idx="${i}"><input type="radio" name="${part.id}-${q.id}" ${state.answers[part.id][q.id] === i ? "checked" : ""}><span>${String.fromCharCode(97 + i)}) ${escapeHtml(o)}</span></label>`).join("")}</div>`;
+        row.querySelectorAll(".mc-option").forEach(l => l.addEventListener("click", () => {
+          const i = Number(l.dataset.idx);
+          state.answers[part.id][q.id] = i;
+          row.querySelectorAll(".mc-option").forEach(x => x.classList.remove("selected"));
+          l.classList.add("selected");
+          saveState();
+          updateAnsweredCount(part);
+        }));
+        wrap.appendChild(row);
+      }
+    });
+  }
 
   function renderTrueFalse(wrap, part) {
     if (part.text) { const p = document.createElement("p"); p.className="reading-text"; p.textContent=part.text; wrap.appendChild(p); }
@@ -300,7 +380,7 @@
   function renderClozeWordbank(wrap,part){const words = part.wordBank || part.wordbank || []; if(words.length){const d=document.createElement("div");d.className="wordbank";d.innerHTML=words.map(w=>`<span>${escapeHtml(w)}</span>`).join("");wrap.appendChild(d);}const p=document.createElement("p");p.className="cloze-text";let html=escapeHtml(part.textBefore||"");part.blanks.forEach(b=>{html+=escapeHtml(b.before||"");html+=`<select class="cloze-blank-select" data-blank="${escapeAttr(b.id)}"><option value="">${escapeHtml(b.id)}</option>${words.map(w=>`<option value="${escapeAttr(w)}" ${state.answers[part.id][b.id]===w?"selected":""}>${escapeHtml(w)}</option>`).join("")}</select>`;html+=escapeHtml(b.after||"");});html+=escapeHtml(part.textAfter||"");p.innerHTML=html;wrap.appendChild(p);p.querySelectorAll("select").forEach(s=>s.addEventListener("change",e=>{state.answers[part.id][e.target.dataset.blank]=e.target.value;saveState();updateAnsweredCount(part);}));}
   function renderWriting(wrap,part){const p=document.createElement("p");p.className="writing-prompt";p.textContent=part.prompt;wrap.appendChild(p);const ul=document.createElement("ul");ul.className="writing-points";ul.innerHTML=(part.points||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join("");wrap.appendChild(ul);const ta=document.createElement("textarea");ta.className="writing-area";ta.placeholder=`Mindestens ca. ${part.minWords||80} Wörter …`;ta.value=state.writing[part.id]||"";wrap.appendChild(ta);const wc=document.createElement("div");wc.className="wordcount";wrap.appendChild(wc);function update(){const words=ta.value.trim()?ta.value.trim().split(/\s+/).length:0;wc.textContent=`${words} Wörter · Ziel: ca. ${part.minWords||80}+`;wc.classList.toggle("ok",words>=(part.minWords||80));state.answers[part.id][part.id]=words?"written":"";}update();ta.addEventListener("input",()=>{state.writing[part.id]=ta.value;update();saveState();updateAnsweredCount(part);});}
 
-  function questionIds(part){switch(part.type){case"true_false":case"multiple_choice":return part.questions.map(q=>q.id);case"matching":return part.items.map(i=>i.id);case"matching_ads":return part.scenarios.map(s=>s.id);case"speaker_matching":return part.speakers;case"cloze_mc":case"cloze_wordbank":return part.blanks.map(b=>b.id);case"writing":return [part.id];default:return[];}}
+  function questionIds(part){switch(part.type){case"true_false":case"multiple_choice":case"listening":return part.questions.map(q=>q.id);case"matching":return part.items.map(i=>i.id);case"matching_ads":return part.scenarios.map(s=>s.id);case"speaker_matching":return part.speakers;case"cloze_mc":case"cloze_wordbank":return part.blanks.map(b=>b.id);case"writing":return [part.id];default:return[];}}
   function updateAnsweredCount(part){const ids=questionIds(part);const stored=state.answers[part.id]||{};const n=ids.filter(id=>stored[id]!==undefined&&stored[id]!==null&&stored[id]!=="").length;const el=document.getElementById("answered-count");if(el)el.textContent=`${n} / ${ids.length} beantwortet`;}
 
   function renderFinished(){
@@ -320,8 +400,17 @@
 
   function totalSpent(){return tasks().reduce((s,p)=>s+(metaFor(p).spentSeconds||0),0);}
   function formatSeconds(s){const mm=Math.floor((s||0)/60).toString().padStart(2,"0");const ss=Math.floor((s||0)%60).toString().padStart(2,"0");return `${mm}:${ss}`;}
-  function scorePart(part){const a=state.answers[part.id]||{};let total=0,correct=0;switch(part.type){case"true_false":part.questions.forEach(q=>{total++;if(a[q.id]===q.answer)correct++;});break;case"multiple_choice":part.questions.forEach(q=>{total++;if(a[q.id]===q.answer)correct++;});break;case"matching":part.items.forEach(i=>{total++;if(a[i.id]===part.answer[i.id])correct++;});break;case"matching_ads":part.scenarios.forEach(s=>{total++;if(a[s.id]===part.answer[s.id])correct++;});break;case"speaker_matching":part.speakers.forEach(id=>{total++;if(a[id]===part.answer[id])correct++;});break;case"cloze_mc":case"cloze_wordbank":part.blanks.forEach(b=>{total++;if(a[b.id]===b.answer)correct++;});break;}return{total,correct};}
-  function renderPartAnswers(part){const w=document.createElement("div");w.className="answer-part";const a=state.answers[part.id]||{};if(part.type==="writing"){const text=state.writing[part.id]||"";w.innerHTML=`<p><strong>Ihr Text</strong></p><div class="model-answer">${escapeHtml(text||"— kein Text eingegeben —")}</div><p><strong>Musterlösung</strong></p><div class="model-answer">${escapeHtml(part.modelAnswer||"")}</div>`;return w;}const arr=[];const add=(id,label,y,c)=>arr.push(answerRow(y===c,id,label,y,c));if(part.type==="true_false")part.questions.forEach(q=>add(q.id,q.statement,fmtBool(a[q.id]),fmtBool(q.answer)));else if(part.type==="multiple_choice")part.questions.forEach(q=>add(q.id,q.question,optLabel(q.options,a[q.id]),optLabel(q.options,q.answer)));else if(part.type==="matching")part.items.forEach(i=>add(i.id,i.text,a[i.id]||"–",part.answer[i.id]));else if(part.type==="matching_ads")part.scenarios.forEach(s=>add(s.id,s.text,a[s.id]||"–",part.answer[s.id]));else if(part.type==="speaker_matching")part.speakers.forEach(id=>add(id,"Person",a[id]||"–",part.answer[id]));else if(part.type==="cloze_mc")part.blanks.forEach(b=>add(b.id,"Lücke",optLabel(b.options,a[b.id]),optLabel(b.options,b.answer)));else if(part.type==="cloze_wordbank")part.blanks.forEach(b=>add(b.id,"Lücke",a[b.id]||"–",b.answer));w.innerHTML=arr.join("");return w;}
+  function scorePart(part){const a=state.answers[part.id]||{};let total=0,correct=0;switch(part.type){case"true_false":part.questions.forEach(q=>{total++;if(a[q.id]===q.answer)correct++;});break;case"multiple_choice":part.questions.forEach(q=>{total++;if(a[q.id]===q.answer)correct++;});break;case"matching":part.items.forEach(i=>{total++;if(a[i.id]===part.answer[i.id])correct++;});break;case"matching_ads":part.scenarios.forEach(s=>{total++;if(a[s.id]===part.answer[s.id])correct++;});break;case"speaker_matching":part.speakers.forEach(id=>{total++;if(a[id]===part.answer[id])correct++;});break;case"cloze_mc":case"cloze_wordbank":part.blanks.forEach(b=>{total++;if(a[b.id]===b.answer)correct++;});break;case"listening":part.questions.forEach(q=>{total++;if(a[q.id]===q.answer)correct++;});break;}return{total,correct};}
+  function renderPartAnswers(part){const w=document.createElement("div");w.className="answer-part";const a=state.answers[part.id]||{};if(part.type==="writing"){const text=state.writing[part.id]||"";w.innerHTML=`<p><strong>Ihr Text</strong></p><div class="model-answer">${escapeHtml(text||"— kein Text eingegeben —")}</div><p><strong>Musterlösung</strong></p><div class="model-answer">${escapeHtml(part.modelAnswer||"")}</div>`;return w;}
+    let prefixHtml="";
+    if(part.type==="listening"){
+      prefixHtml+=`<div class="audio-block review-audio"><audio controls preload="none" src="${escapeAttr(resolveAudioPath(part.audio))}"></audio><span class="play-counter">Unbegrenztes Nachhören in der Auswertung</span></div>`;
+      if(part.transcript)prefixHtml+=`<button class="transcript-toggle" type="button">Transkript anzeigen</button><div class="transcript-box">${escapeHtml(part.transcript)}</div>`;
+    }
+    const arr=[];const add=(id,label,y,c)=>arr.push(answerRow(y===c,id,label,y,c));if(part.type==="true_false")part.questions.forEach(q=>add(q.id,q.statement,fmtBool(a[q.id]),fmtBool(q.answer)));else if(part.type==="multiple_choice")part.questions.forEach(q=>add(q.id,q.question,optLabel(q.options,a[q.id]),optLabel(q.options,q.answer)));else if(part.type==="matching")part.items.forEach(i=>add(i.id,i.text,a[i.id]||"–",part.answer[i.id]));else if(part.type==="matching_ads")part.scenarios.forEach(s=>add(s.id,s.text,a[s.id]||"–",part.answer[s.id]));else if(part.type==="speaker_matching")part.speakers.forEach(id=>add(id,"Person",a[id]||"–",part.answer[id]));else if(part.type==="cloze_mc")part.blanks.forEach(b=>add(b.id,"Lücke",optLabel(b.options,a[b.id]),optLabel(b.options,b.answer)));else if(part.type==="cloze_wordbank")part.blanks.forEach(b=>add(b.id,"Lücke",a[b.id]||"–",b.answer));else if(part.type==="listening")part.questions.forEach(q=>{if(q.type==="true_false")add(q.id,q.statement,fmtBool(a[q.id]),fmtBool(q.answer));else if(q.type==="multiple_choice")add(q.id,q.question,optLabel(q.options,a[q.id]),optLabel(q.options,q.answer));});
+    w.innerHTML=prefixHtml+arr.join("");
+    if(part.type==="listening"&&part.transcript){const t=w.querySelector(".transcript-box");const btn=w.querySelector(".transcript-toggle");if(btn&&t)btn.addEventListener("click",()=>t.classList.toggle("open"));}
+    return w;}
   function answerRow(ok,num,label,y,c){return `<div class="answer-row"><span class="mark ${ok?"correct":"incorrect"}">${ok?"✓":"✗"}</span><div class="answer-detail"><div><strong>${escapeHtml(String(num))}.</strong> ${escapeHtml(String(label))}</div><div class="yours">Ihre Antwort: ${escapeHtml(String(y))}</div>${ok?"":`<div class="correct-answer">Richtige Antwort: ${escapeHtml(String(c))}</div>`}</div></div>`;}
   function fmtBool(v){return v===true?"Richtig":v===false?"Falsch":"–";}
   function optLabel(opts,i){return i===undefined||i===null||i===""||!opts||!opts[i]?"–":opts[i];}

@@ -1,0 +1,3270 @@
+{
+  "levelName": "Deutsch B1 Intensivtraining",
+  "sections": [
+    {
+      "title": "Lesen",
+      "parts": [
+        {
+          "id": "tf-set-9",
+          "title": "Aufgabensatz 9 · Stadtfest",
+          "type": "true_false",
+          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
+          "text": "Das diesjährige Stadtfest findet von Freitag bis Sonntag auf dem Marktplatz statt. Am Freitag beginnt das Programm um 17 Uhr mit einem Konzert. Samstag gibt es zusätzlich einen Flohmarkt in der Fußgängerzone. Der Eintritt zu allen Veranstaltungen ist frei. Wegen des Aufbaus ist der Marktplatz bereits ab Donnerstag für Autos gesperrt. Besucher werden gebeten, Bus und Bahn zu nutzen; am Samstag fahren mehrere Linien bis Mitternacht häufiger als sonst.",
+          "questions": [
+            {
+              "id": "49",
+              "statement": "Das Stadtfest dauert drei Tage.",
+              "answer": true
+            },
+            {
+              "id": "50",
+              "statement": "Am Freitag beginnt es morgens.",
+              "answer": false
+            },
+            {
+              "id": "51",
+              "statement": "Für Konzerte muss Eintritt bezahlt werden.",
+              "answer": false
+            },
+            {
+              "id": "52",
+              "statement": "Der Marktplatz ist schon ab Donnerstag für Autos gesperrt.",
+              "answer": true
+            },
+            {
+              "id": "53",
+              "statement": "Der Flohmarkt findet am Samstag statt.",
+              "answer": true
+            },
+            {
+              "id": "54",
+              "statement": "Am Samstag fahren weniger Busse als üblich.",
+              "answer": false
+            }
+          ],
+          "categoryLabel": "Lesen · Richtig/Falsch"
+        },
+        {
+          "id": "clozemc-set-5",
+          "title": "Aufgabensatz 5 · Vereinsinfo",
+          "type": "cloze_mc",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
+          "textBefore": "Liebe Mitglieder,\nunser Sommerfest findet",
+          "blanks": [
+            {
+              "id": "33",
+              "before": " am",
+              "options": [
+                "am",
+                "im",
+                "um"
+              ],
+              "answer": 0,
+              "after": " kommenden Samstag statt."
+            },
+            {
+              "id": "34",
+              "before": " Wir treffen uns",
+              "options": [
+                "um",
+                "an",
+                "nach"
+              ],
+              "answer": 0,
+              "after": " 15 Uhr im Vereinsgarten."
+            },
+            {
+              "id": "35",
+              "before": " Wer möchte, kann einen Salat",
+              "options": [
+                "mitbringen",
+                "mitgebracht",
+                "bringt mit"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "36",
+              "before": " Getränke werden vom Verein",
+              "options": [
+                "bezahlt",
+                "bezahlen",
+                "bezahltet"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "37",
+              "before": " Falls es regnet, feiern wir",
+              "options": [
+                "in",
+                "im",
+                "ins"
+              ],
+              "answer": 1,
+              "after": " großen Saal."
+            },
+            {
+              "id": "38",
+              "before": " Bitte sagt bis Donnerstag",
+              "options": [
+                "Bescheid",
+                "bescheiden",
+                "Bescheide"
+              ],
+              "answer": 0,
+              "after": " ob ihr kommt."
+            },
+            {
+              "id": "39",
+              "before": " Wir freuen uns",
+              "options": [
+                "auf",
+                "über",
+                "für"
+              ],
+              "answer": 0,
+              "after": " einen schönen Nachmittag."
+            },
+            {
+              "id": "40",
+              "before": " Herzliche",
+              "options": [
+                "Grüße",
+                "Grüßen",
+                "Gruß"
+              ],
+              "answer": 0,
+              "after": ""
+            }
+          ],
+          "textAfter": "",
+          "categoryLabel": "Sprachbausteine · a/b/c"
+        },
+        {
+          "id": "clozemc-set-6",
+          "title": "Aufgabensatz 6 · Wohnungsbesichtigung",
+          "type": "cloze_mc",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
+          "textBefore": "Guten Tag Frau Keller,\nvielen Dank",
+          "blanks": [
+            {
+              "id": "41",
+              "before": " für",
+              "options": [
+                "für",
+                "zu",
+                "an"
+              ],
+              "answer": 0,
+              "after": " Ihre Nachricht."
+            },
+            {
+              "id": "42",
+              "before": " Ich würde die Wohnung sehr gern",
+              "options": [
+                "besichtigen",
+                "besichtigt",
+                "Besichtigung"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "43",
+              "before": " Am Dienstag kann ich",
+              "options": [
+                "ab",
+                "seit",
+                "gegenüber"
+              ],
+              "answer": 0,
+              "after": " 17 Uhr."
+            },
+            {
+              "id": "44",
+              "before": " Passt",
+              "options": [
+                "Ihnen",
+                "Sie",
+                "Ihr"
+              ],
+              "answer": 0,
+              "after": " dieser Termin?"
+            },
+            {
+              "id": "45",
+              "before": " Falls nicht, könnte ich auch",
+              "options": [
+                "am",
+                "im",
+                "zu"
+              ],
+              "answer": 0,
+              "after": " Donnerstag kommen."
+            },
+            {
+              "id": "46",
+              "before": " Ich arbeite in der Nähe und bin",
+              "options": [
+                "deshalb",
+                "obwohl",
+                "während"
+              ],
+              "answer": 0,
+              "after": " zeitlich recht flexibel."
+            },
+            {
+              "id": "47",
+              "before": " Bitte teilen Sie mir die genaue Adresse",
+              "options": [
+                "mit",
+                "an",
+                "von"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "48",
+              "before": " Vielen Dank im",
+              "options": [
+                "Voraus",
+                "Voraussetzung",
+                "vor"
+              ],
+              "answer": 0,
+              "after": "."
+            }
+          ],
+          "textAfter": "",
+          "categoryLabel": "Sprachbausteine · a/b/c"
+        },
+        {
+          "id": "wordbank-set-8",
+          "title": "Aufgabensatz 8 · Reiseplanung",
+          "type": "cloze_wordbank",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Nicht alle Wörter passen.",
+          "wordbank": [
+            "zuerst",
+            "danach",
+            "weil",
+            "außerdem",
+            "damit",
+            "obwohl",
+            "deshalb"
+          ],
+          "textBefore": "Nina plant eine Reise nach Österreich,",
+          "blanks": [
+            {
+              "id": "43",
+              "before": "",
+              "answer": "zuerst",
+              "after": " vergleicht sie verschiedene Zugverbindungen."
+            },
+            {
+              "id": "44",
+              "before": "",
+              "answer": "danach",
+              "after": " reserviert sie ein kleines Hotel."
+            },
+            {
+              "id": "45",
+              "before": " Sie reist mit der Bahn,",
+              "answer": "weil",
+              "after": " sie nicht selbst fahren möchte."
+            },
+            {
+              "id": "46",
+              "before": " Sie möchte",
+              "answer": "außerdem",
+              "after": " ein Fahrrad mieten."
+            },
+            {
+              "id": "47",
+              "before": " Nina lädt Karten aufs Handy,",
+              "answer": "damit",
+              "after": " sie auch ohne Internet den Weg findet."
+            },
+            {
+              "id": "48",
+              "before": " Die Reise ist nicht ganz billig,",
+              "answer": "obwohl",
+              "after": " sie früh gebucht hat."
+            }
+          ],
+          "categoryLabel": "Sprachbausteine · Wortkasten"
+        },
+        {
+          "id": "ads-set-6",
+          "title": "Aufgabensatz 6 · Reisen",
+          "type": "matching_ads",
+          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
+            {
+              "id": "26",
+              "text": "Sie möchten mit dem Nachtzug nach Wien fahren."
+            },
+            {
+              "id": "27",
+              "text": "Eine Familie sucht Urlaub auf einem Bauernhof."
+            },
+            {
+              "id": "28",
+              "text": "Sie wollen ein Fahrrad für eine Woche mieten."
+            },
+            {
+              "id": "29",
+              "text": "Ihre Eltern suchen eine barrierefreie Unterkunft."
+            },
+            {
+              "id": "30",
+              "text": "Sie suchen eine günstige Stadtführung auf Englisch."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Reisen: Angebot nur für Firmenkunden."
+            },
+            {
+              "key": "B",
+              "text": "Nachtverbindung nach Wien, Liege- und Schlafwagen buchbar."
+            },
+            {
+              "key": "C",
+              "text": "Reisen: derzeit vollständig ausgebucht."
+            },
+            {
+              "key": "D",
+              "text": "Fahrradverleih mit Wochenpreisen und kostenloser Reparaturhilfe."
+            },
+            {
+              "key": "E",
+              "text": "Ferienhof mit Tieren, Spielplatz und Familienwohnungen."
+            },
+            {
+              "key": "F",
+              "text": "English city walk, 2 hours, low-cost group tour."
+            },
+            {
+              "key": "G",
+              "text": "Hotel mit Aufzug und rollstuhlgerechten Zimmern."
+            }
+          ],
+          "answer": {
+            "26": "B",
+            "27": "E",
+            "28": "D",
+            "29": "G",
+            "30": "F"
+          },
+          "categoryLabel": "Lesen · Anzeigen"
+        },
+        {
+          "id": "clozemc-set-2",
+          "title": "Aufgabensatz 2 · Kursanmeldung",
+          "type": "cloze_mc",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
+          "textBefore": "Guten Tag,\nich habe auf Ihrer Webseite",
+          "blanks": [
+            {
+              "id": "9",
+              "before": " einen",
+              "options": [
+                "einen",
+                "einem",
+                "einer"
+              ],
+              "answer": 0,
+              "after": " Deutschkurs gefunden."
+            },
+            {
+              "id": "10",
+              "before": " Der Kurs beginnt",
+              "options": [
+                "in",
+                "am",
+                "bei"
+              ],
+              "answer": 1,
+              "after": " 5. November."
+            },
+            {
+              "id": "11",
+              "before": " Ich möchte gern wissen,",
+              "options": [
+                "ob",
+                "denn",
+                "trotz"
+              ],
+              "answer": 0,
+              "after": " noch Plätze frei sind."
+            },
+            {
+              "id": "12",
+              "before": " Ich lerne seit",
+              "options": [
+                "zwei",
+                "zweien",
+                "zweite"
+              ],
+              "answer": 0,
+              "after": " Jahren Deutsch."
+            },
+            {
+              "id": "13",
+              "before": " Besonders wichtig ist",
+              "options": [
+                "mir",
+                "mich",
+                "mein"
+              ],
+              "answer": 0,
+              "after": " das Sprechen."
+            },
+            {
+              "id": "14",
+              "before": " Kann ich vor der Anmeldung",
+              "options": [
+                "eine",
+                "einen",
+                "einem"
+              ],
+              "answer": 0,
+              "after": " Probestunde besuchen?"
+            },
+            {
+              "id": "15",
+              "before": " Bitte schicken Sie",
+              "options": [
+                "mir",
+                "mich",
+                "meine"
+              ],
+              "answer": 0,
+              "after": " auch Informationen zu den Kursgebühren."
+            },
+            {
+              "id": "16",
+              "before": " Vielen Dank",
+              "options": [
+                "für",
+                "von",
+                "durch"
+              ],
+              "answer": 0,
+              "after": " Ihre Hilfe."
+            }
+          ],
+          "textAfter": "",
+          "categoryLabel": "Sprachbausteine · a/b/c"
+        },
+        {
+          "id": "headings-set-7",
+          "title": "Aufgabensatz 7 · Kleine Museen",
+          "type": "matching",
+          "instructions": "Lesen Sie die fünf Textabschnitte. Ordnen Sie jedem Abschnitt die passende Überschrift (A–G) zu. Zwei Überschriften bleiben übrig.",
+          "items": [
+            {
+              "id": "31",
+              "text": "Neben großen Museen gibt es viele kleine Sammlungen, die sich auf ein lokales Thema oder eine besondere Handwerkstradition konzentrieren."
+            },
+            {
+              "id": "32",
+              "text": "Oft arbeiten dort Ehrenamtliche, die persönliche Geschichten kennen und Besucher direkt durch die Ausstellung führen."
+            },
+            {
+              "id": "33",
+              "text": "Da die Budgets begrenzt sind, entwickeln manche Museen einfache digitale Angebote mit Fotos, kurzen Filmen und Audiobeiträgen."
+            },
+            {
+              "id": "34",
+              "text": "Schulen nutzen solche Einrichtungen gern für Projekttage, weil regionale Geschichte dadurch anschaulicher wird."
+            },
+            {
+              "id": "35",
+              "text": "Viele Häuser kooperieren inzwischen mit Cafés, Bibliotheken oder Tourismusbüros, um mehr Gäste zu erreichen."
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Spezialwissen abseits großer Häuser"
+            },
+            {
+              "key": "B",
+              "text": "Digital trotz kleinem Budget"
+            },
+            {
+              "key": "C",
+              "text": "Kleine Museen: ein vollständiges Verbot"
+            },
+            {
+              "key": "D",
+              "text": "Lernort für Schulklassen"
+            },
+            {
+              "key": "E",
+              "text": "Kleine Museen: deutlich höhere Preise"
+            },
+            {
+              "key": "F",
+              "text": "Gemeinsam sichtbarer werden"
+            },
+            {
+              "key": "G",
+              "text": "Persönliche Führungen als Stärke"
+            }
+          ],
+          "answer": {
+            "31": "A",
+            "32": "G",
+            "33": "B",
+            "34": "D",
+            "35": "F"
+          },
+          "categoryLabel": "Lesen · Überschriften"
+        },
+        {
+          "id": "headings-set-1",
+          "title": "Aufgabensatz 1 · Fahrrad im Alltag",
+          "type": "matching",
+          "instructions": "Lesen Sie die fünf Textabschnitte. Ordnen Sie jedem Abschnitt die passende Überschrift (A–G) zu. Zwei Überschriften bleiben übrig.",
+          "items": [
+            {
+              "id": "1",
+              "text": "Immer mehr Beschäftigte fahren mit dem Fahrrad zur Arbeit. In vielen Städten entstehen dafür neue, breite Radwege, und Firmen bieten sichere Abstellplätze an."
+            },
+            {
+              "id": "2",
+              "text": "Wer regelmäßig Rad fährt, bewegt sich automatisch mehr. Schon eine halbe Stunde am Tag kann helfen, Ausdauer und Wohlbefinden zu verbessern."
+            },
+            {
+              "id": "3",
+              "text": "Bei starkem Regen oder Schnee lassen viele ihr Fahrrad stehen. Gute Kleidung hilft zwar, aber nicht jeder möchte bei schlechtem Wetter fahren."
+            },
+            {
+              "id": "4",
+              "text": "Auch Arbeitgeber profitieren: Wer mit dem Rad kommt, braucht keinen Parkplatz. Manche Firmen unterstützen den Kauf eines Dienstrads finanziell."
+            },
+            {
+              "id": "5",
+              "text": "Verkehrsexperten erwarten, dass Fahrrad und öffentliche Verkehrsmittel künftig stärker kombiniert werden, zum Beispiel durch mehr Fahrradplätze an Bahnhöfen."
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Vorteile auch für Unternehmen"
+            },
+            {
+              "key": "B",
+              "text": "Radfahren wird für Pendler attraktiver"
+            },
+            {
+              "key": "C",
+              "text": "Fahrrad im Alltag: deutlich höhere Preise"
+            },
+            {
+              "key": "D",
+              "text": "Das Wetter bleibt ein Problem"
+            },
+            {
+              "key": "E",
+              "text": "Fahrrad im Alltag: ein vollständiges Verbot"
+            },
+            {
+              "key": "F",
+              "text": "Bewegung ohne extra Training"
+            },
+            {
+              "key": "G",
+              "text": "Fahrrad und Bahn zusammen denken"
+            }
+          ],
+          "answer": {
+            "1": "B",
+            "2": "F",
+            "3": "D",
+            "4": "A",
+            "5": "G"
+          },
+          "categoryLabel": "Lesen · Überschriften"
+        },
+        {
+          "id": "tf-set-7",
+          "title": "Aufgabensatz 7 · Gemeinschaftswerkstatt",
+          "type": "true_false",
+          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
+          "text": "Eine neue Gemeinschaftswerkstatt öffnet im ehemaligen Postgebäude. Mitglieder können dort Werkzeuge für Holz-, Metall- und Fahrradarbeiten benutzen. Vor der ersten Nutzung ist eine Sicherheitseinweisung Pflicht. Die Werkstatt ist dienstags bis samstags geöffnet; montags bleibt sie geschlossen. Eine Monatsmitgliedschaft kostet 25 Euro, Material muss zusätzlich bezahlt werden. Jugendliche ab 16 Jahren dürfen teilnehmen, brauchen bis zum 18. Geburtstag aber eine schriftliche Zustimmung der Eltern.",
+          "questions": [
+            {
+              "id": "37",
+              "statement": "Die Werkstatt befindet sich in einem früheren Postgebäude.",
+              "answer": true
+            },
+            {
+              "id": "38",
+              "statement": "Vor der ersten Nutzung gibt es eine Pflicht-Einweisung.",
+              "answer": true
+            },
+            {
+              "id": "39",
+              "statement": "Montags ist die Werkstatt geöffnet.",
+              "answer": false
+            },
+            {
+              "id": "40",
+              "statement": "Material ist in der Mitgliedschaft enthalten.",
+              "answer": false
+            },
+            {
+              "id": "41",
+              "statement": "Jugendliche ab 16 dürfen grundsätzlich teilnehmen.",
+              "answer": true
+            },
+            {
+              "id": "42",
+              "statement": "Unter 18-Jährige brauchen nie eine Zustimmung.",
+              "answer": false
+            }
+          ],
+          "categoryLabel": "Lesen · Richtig/Falsch"
+        },
+        {
+          "id": "wordbank-set-4",
+          "title": "Aufgabensatz 4 · Fahrradtour",
+          "type": "cloze_wordbank",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Nicht alle Wörter passen.",
+          "wordbank": [
+            "aber",
+            "trotzdem",
+            "zuerst",
+            "danach",
+            "weil",
+            "deshalb",
+            "während"
+          ],
+          "textBefore": "Am Sonntag wollten wir eine lange Fahrradtour machen,",
+          "blanks": [
+            {
+              "id": "19",
+              "before": "",
+              "answer": "aber",
+              "after": " am Morgen regnete es stark."
+            },
+            {
+              "id": "20",
+              "before": " Wir warteten",
+              "answer": "zuerst",
+              "after": " eine Stunde."
+            },
+            {
+              "id": "21",
+              "before": "",
+              "answer": "danach",
+              "after": " wurde das Wetter deutlich besser."
+            },
+            {
+              "id": "22",
+              "before": " Wir fuhren los,",
+              "answer": "weil",
+              "after": " wir den ganzen Tag frei hatten."
+            },
+            {
+              "id": "23",
+              "before": " Ein Weg war gesperrt,",
+              "answer": "deshalb",
+              "after": " mussten wir einen Umweg nehmen."
+            },
+            {
+              "id": "24",
+              "before": "",
+              "answer": "während",
+              "after": " der Pause aßen wir an einem kleinen See."
+            }
+          ],
+          "categoryLabel": "Sprachbausteine · Wortkasten"
+        },
+        {
+          "id": "ads-set-5",
+          "title": "Aufgabensatz 5 · Arbeit",
+          "type": "matching_ads",
+          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
+            {
+              "id": "21",
+              "text": "Sie suchen einen Nebenjob nur am Wochenende."
+            },
+            {
+              "id": "22",
+              "text": "Ihre Freundin möchte im Homeoffice arbeiten."
+            },
+            {
+              "id": "23",
+              "text": "Ein Student sucht einen Job für die Semesterferien."
+            },
+            {
+              "id": "24",
+              "text": "Sie suchen eine Teilzeitstelle am Vormittag."
+            },
+            {
+              "id": "25",
+              "text": "Ihr Bruder möchte eine Ausbildung im Handwerk beginnen."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Aushilfe samstags und sonntags im Café gesucht."
+            },
+            {
+              "key": "B",
+              "text": "Arbeit: derzeit vollständig ausgebucht."
+            },
+            {
+              "key": "C",
+              "text": "Ferienjob im Lager, sechs Wochen im August/September."
+            },
+            {
+              "key": "D",
+              "text": "Bürohilfe 20 Stunden, Arbeitszeit 8–12 Uhr."
+            },
+            {
+              "key": "E",
+              "text": "Arbeit: Angebot nur für Firmenkunden."
+            },
+            {
+              "key": "F",
+              "text": "Ausbildungsplatz als Elektroniker ab September."
+            },
+            {
+              "key": "G",
+              "text": "Kundenservice, drei Tage pro Woche remote möglich."
+            }
+          ],
+          "answer": {
+            "21": "A",
+            "22": "G",
+            "23": "C",
+            "24": "D",
+            "25": "F"
+          },
+          "categoryLabel": "Lesen · Anzeigen"
+        },
+        {
+          "id": "wordbank-set-5",
+          "title": "Aufgabensatz 5 · Homeoffice",
+          "type": "cloze_wordbank",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Nicht alle Wörter passen.",
+          "wordbank": [
+            "dadurch",
+            "allerdings",
+            "während",
+            "deshalb",
+            "außerdem",
+            "wenn",
+            "obwohl"
+          ],
+          "textBefore": "Jonas arbeitet inzwischen drei Tage pro Woche von zu Hause,",
+          "blanks": [
+            {
+              "id": "25",
+              "before": "",
+              "answer": "dadurch",
+              "after": " spart er viel Zeit für den Arbeitsweg."
+            },
+            {
+              "id": "26",
+              "before": " Er vermisst",
+              "answer": "allerdings",
+              "after": " manchmal den direkten Kontakt im Büro."
+            },
+            {
+              "id": "27",
+              "before": "",
+              "answer": "während",
+              "after": " der Videokonferenzen benutzt er ein Headset."
+            },
+            {
+              "id": "28",
+              "before": " Sein Arbeitszimmer ist ruhig,",
+              "answer": "deshalb",
+              "after": " kann er sich gut konzentrieren."
+            },
+            {
+              "id": "29",
+              "before": " Er macht",
+              "answer": "außerdem",
+              "after": " feste Pausen."
+            },
+            {
+              "id": "30",
+              "before": "",
+              "answer": "wenn",
+              "after": " wichtige Teamtermine stattfinden, fährt er ins Büro."
+            }
+          ],
+          "categoryLabel": "Sprachbausteine · Wortkasten"
+        },
+        {
+          "id": "ads-set-8",
+          "title": "Aufgabensatz 8 · Gesundheit",
+          "type": "matching_ads",
+          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
+            {
+              "id": "36",
+              "text": "Sie suchen einen Rückenkurs nach der Arbeit."
+            },
+            {
+              "id": "37",
+              "text": "Ihre Mutter braucht Physiotherapie mit Hausbesuch."
+            },
+            {
+              "id": "38",
+              "text": "Sie möchten morgens schwimmen."
+            },
+            {
+              "id": "39",
+              "text": "Ein Freund sucht eine Ernährungsberatung online."
+            },
+            {
+              "id": "40",
+              "text": "Sie wollen in einer kleinen Gruppe joggen."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Rückentraining mittwochs 18:30 Uhr."
+            },
+            {
+              "key": "B",
+              "text": "Laufgruppe für Einsteiger, maximal acht Personen."
+            },
+            {
+              "key": "C",
+              "text": "Gesundheit: Angebot nur für Firmenkunden."
+            },
+            {
+              "key": "D",
+              "text": "Frühschwimmen ab 6:30 Uhr, Montag bis Freitag."
+            },
+            {
+              "key": "E",
+              "text": "Ernährungsberatung per Video, individuelle Termine."
+            },
+            {
+              "key": "F",
+              "text": "Gesundheit: derzeit vollständig ausgebucht."
+            },
+            {
+              "key": "G",
+              "text": "Physiotherapie mobil: Behandlung auch bei Ihnen zu Hause."
+            }
+          ],
+          "answer": {
+            "36": "A",
+            "37": "G",
+            "38": "D",
+            "39": "E",
+            "40": "B"
+          },
+          "categoryLabel": "Lesen · Anzeigen"
+        },
+        {
+          "id": "ads-set-1",
+          "title": "Aufgabensatz 1 · Freizeitkurse",
+          "type": "matching_ads",
+          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
+            {
+              "id": "1",
+              "text": "Sie suchen einen Fotokurs am Wochenende."
+            },
+            {
+              "id": "2",
+              "text": "Ihre Freundin möchte abends Yoga machen."
+            },
+            {
+              "id": "3",
+              "text": "Sie möchten einen Kochkurs ohne Fleisch besuchen."
+            },
+            {
+              "id": "4",
+              "text": "Ihr Sohn sucht Gitarrenunterricht am Nachmittag."
+            },
+            {
+              "id": "5",
+              "text": "Sie möchten sonntags tanzen lernen."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Yoga für Anfänger, Dienstag und Donnerstag 19 Uhr."
+            },
+            {
+              "key": "B",
+              "text": "Fotoworkshop am Samstag, 10–16 Uhr, Grundlagen und Praxis."
+            },
+            {
+              "key": "C",
+              "text": "Vegetarisch kochen: Mittwochabend, schnelle Alltagsgerichte."
+            },
+            {
+              "key": "D",
+              "text": "Tanzkurs für Einsteiger, sonntags 17–19 Uhr."
+            },
+            {
+              "key": "E",
+              "text": "Freizeitkurse: derzeit vollständig ausgebucht."
+            },
+            {
+              "key": "F",
+              "text": "Freizeitkurse: Angebot nur für Firmenkunden."
+            },
+            {
+              "key": "G",
+              "text": "Gitarrenunterricht für Jugendliche, Termine ab 15 Uhr."
+            }
+          ],
+          "answer": {
+            "1": "B",
+            "2": "A",
+            "3": "C",
+            "4": "G",
+            "5": "D"
+          },
+          "categoryLabel": "Lesen · Anzeigen"
+        },
+        {
+          "id": "wordbank-set-1",
+          "title": "Aufgabensatz 1 · Neuer Arbeitsplatz",
+          "type": "cloze_wordbank",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Nicht alle Wörter passen.",
+          "wordbank": [
+            "obwohl",
+            "zuerst",
+            "deshalb",
+            "während",
+            "außerdem",
+            "damit",
+            "trotzdem"
+          ],
+          "textBefore": "Mira hat vor kurzem eine neue Stelle angefangen,",
+          "blanks": [
+            {
+              "id": "1",
+              "before": "",
+              "answer": "obwohl",
+              "after": " sie mit ihrer alten Arbeit eigentlich zufrieden war."
+            },
+            {
+              "id": "2",
+              "before": " Am ersten Tag war sie",
+              "answer": "zuerst",
+              "after": " etwas nervös."
+            },
+            {
+              "id": "3",
+              "before": " Die Kollegen waren sehr freundlich,",
+              "answer": "deshalb",
+              "after": " fühlte sie sich schnell wohl."
+            },
+            {
+              "id": "4",
+              "before": "",
+              "answer": "während",
+              "after": " der Mittagspause lernte sie ihr Team besser kennen."
+            },
+            {
+              "id": "5",
+              "before": " Sie bekommt",
+              "answer": "außerdem",
+              "after": " eine Weiterbildung bezahlt."
+            },
+            {
+              "id": "6",
+              "before": " Mira schreibt sich viele Notizen,",
+              "answer": "damit",
+              "after": " sie neue Abläufe nicht vergisst."
+            }
+          ],
+          "categoryLabel": "Sprachbausteine · Wortkasten"
+        },
+        {
+          "id": "tf-set-10",
+          "title": "Aufgabensatz 10 · Sprachcafé",
+          "type": "true_false",
+          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
+          "text": "Das Sprachcafé im Kulturzentrum trifft sich jeden Donnerstagabend. Willkommen sind Menschen, die Deutsch lernen und beim Sprechen sicherer werden möchten. Die Teilnahme ist kostenlos, Getränke müssen jedoch selbst bezahlt werden. Eine Anmeldung ist nur für Gruppen ab fünf Personen erforderlich. Jede Woche gibt es ein Gesprächsthema, aber niemand muss sich darauf vorbereiten. Einmal im Monat wird zusätzlich ein Spieleabend organisiert, der bis 22 Uhr dauert.",
+          "questions": [
+            {
+              "id": "55",
+              "statement": "Das Sprachcafé findet donnerstags statt.",
+              "answer": true
+            },
+            {
+              "id": "56",
+              "statement": "Nur fortgeschrittene Deutschlernende dürfen kommen.",
+              "answer": false
+            },
+            {
+              "id": "57",
+              "statement": "Die Teilnahme kostet nichts.",
+              "answer": true
+            },
+            {
+              "id": "58",
+              "statement": "Jede einzelne Person muss sich anmelden.",
+              "answer": false
+            },
+            {
+              "id": "59",
+              "statement": "Man muss das Wochenthema vorher lernen.",
+              "answer": false
+            },
+            {
+              "id": "60",
+              "statement": "Einmal pro Monat gibt es auch einen Spieleabend.",
+              "answer": true
+            }
+          ],
+          "categoryLabel": "Lesen · Richtig/Falsch"
+        },
+        {
+          "id": "tf-set-1",
+          "title": "Aufgabensatz 1 · Volkshochschule Nordstadt",
+          "type": "true_false",
+          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
+          "text": "Die Volkshochschule Nordstadt erweitert ab Oktober ihr Kursprogramm. Neu sind Abendkurse in Fotografie und Italienisch sowie ein Samstagskurs zur digitalen Bildbearbeitung. Anmeldungen sind ab dem 15. September online oder persönlich möglich. Wer bereits im vergangenen Semester einen Kurs besucht hat, erhält zehn Prozent Rabatt. Der Fotokurs findet mittwochs um 18 Uhr statt und setzt keine Vorkenntnisse voraus. Für die digitale Bildbearbeitung sollen Teilnehmende einen eigenen Laptop mitbringen. Die Zahl der Plätze ist in allen neuen Kursen auf zwölf Personen begrenzt.",
+          "questions": [
+            {
+              "id": "1",
+              "statement": "Die neuen Kurse beginnen im Oktober.",
+              "answer": true
+            },
+            {
+              "id": "2",
+              "statement": "Man kann sich nur online anmelden.",
+              "answer": false
+            },
+            {
+              "id": "3",
+              "statement": "Frühere Teilnehmer bekommen einen Rabatt.",
+              "answer": true
+            },
+            {
+              "id": "4",
+              "statement": "Für den Fotokurs braucht man Vorkenntnisse.",
+              "answer": false
+            },
+            {
+              "id": "5",
+              "statement": "Für die Bildbearbeitung soll man einen Laptop mitbringen.",
+              "answer": true
+            },
+            {
+              "id": "6",
+              "statement": "Jeder Kurs hat höchstens zwölf Plätze.",
+              "answer": true
+            }
+          ],
+          "categoryLabel": "Lesen · Richtig/Falsch"
+        },
+        {
+          "id": "clozemc-set-8",
+          "title": "Aufgabensatz 8 · Nachricht an Vermieter",
+          "type": "cloze_mc",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
+          "textBefore": "Guten Tag Herr Meier,\nseit gestern funktioniert",
+          "blanks": [
+            {
+              "id": "57",
+              "before": " die",
+              "options": [
+                "die",
+                "der",
+                "das"
+              ],
+              "answer": 0,
+              "after": " Heizung in meiner Wohnung nicht."
+            },
+            {
+              "id": "58",
+              "before": " Obwohl ich den Regler ganz aufdrehe,",
+              "options": [
+                "bleibt",
+                "bleiben",
+                "bliebten"
+              ],
+              "answer": 0,
+              "after": " es kalt."
+            },
+            {
+              "id": "59",
+              "before": " Könnten Sie bitte jemanden",
+              "options": [
+                "schicken",
+                "geschickt",
+                "schickt"
+              ],
+              "answer": 0,
+              "after": "?"
+            },
+            {
+              "id": "60",
+              "before": " Morgen bin ich den ganzen Tag",
+              "options": [
+                "zu",
+                "bei",
+                "nach"
+              ],
+              "answer": 0,
+              "after": " Hause."
+            },
+            {
+              "id": "61",
+              "before": " Am Freitag kann ich erst",
+              "options": [
+                "ab",
+                "vor",
+                "seit"
+              ],
+              "answer": 0,
+              "after": " 16 Uhr."
+            },
+            {
+              "id": "62",
+              "before": " Bitte geben Sie mir kurz",
+              "options": [
+                "Bescheid",
+                "Bescheide",
+                "bescheiden"
+              ],
+              "answer": 0,
+              "after": " wann der Techniker kommt."
+            },
+            {
+              "id": "63",
+              "before": " Vielen Dank für Ihre schnelle",
+              "options": [
+                "Hilfe",
+                "helfen",
+                "Hilfen"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "64",
+              "before": " Freundliche",
+              "options": [
+                "Grüße",
+                "Grüßen",
+                "Grußes"
+              ],
+              "answer": 0,
+              "after": ""
+            }
+          ],
+          "textAfter": "",
+          "categoryLabel": "Sprachbausteine · a/b/c"
+        },
+        {
+          "id": "wordbank-set-3",
+          "title": "Aufgabensatz 3 · Sprachkurs",
+          "type": "cloze_wordbank",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Nicht alle Wörter passen.",
+          "wordbank": [
+            "denn",
+            "trotzdem",
+            "während",
+            "besonders",
+            "deshalb",
+            "außerdem",
+            "obwohl"
+          ],
+          "textBefore": "Elena besucht seit Januar einen Deutschkurs,",
+          "blanks": [
+            {
+              "id": "13",
+              "before": "",
+              "answer": "denn",
+              "after": " sie möchte bald eine Ausbildung beginnen."
+            },
+            {
+              "id": "14",
+              "before": " Grammatik findet sie manchmal schwierig,",
+              "answer": "trotzdem",
+              "after": " übt sie jeden Tag."
+            },
+            {
+              "id": "15",
+              "before": "",
+              "answer": "während",
+              "after": " des Unterrichts spricht die Gruppe möglichst viel Deutsch."
+            },
+            {
+              "id": "16",
+              "before": " Elena mag",
+              "answer": "besonders",
+              "after": " die Rollenspiele."
+            },
+            {
+              "id": "17",
+              "before": " Sie hat bald eine Prüfung und lernt",
+              "answer": "deshalb",
+              "after": " auch am Wochenende."
+            },
+            {
+              "id": "18",
+              "before": " Ihre Lehrerin empfiehlt",
+              "answer": "außerdem",
+              "after": " deutsche Podcasts."
+            }
+          ],
+          "categoryLabel": "Sprachbausteine · Wortkasten"
+        },
+        {
+          "id": "headings-set-5",
+          "title": "Aufgabensatz 5 · Stadtgärten",
+          "type": "matching",
+          "instructions": "Lesen Sie die fünf Textabschnitte. Ordnen Sie jedem Abschnitt die passende Überschrift (A–G) zu. Zwei Überschriften bleiben übrig.",
+          "items": [
+            {
+              "id": "21",
+              "text": "Auf ungenutzten Flächen entstehen gemeinschaftliche Gärten, in denen Anwohner Gemüse, Kräuter und Blumen anbauen."
+            },
+            {
+              "id": "22",
+              "text": "Menschen ohne eigenen Balkon können dort erstmals selbst erleben, wie Lebensmittel wachsen und geerntet werden."
+            },
+            {
+              "id": "23",
+              "text": "Die Arbeit wird meist aufgeteilt: Einige kümmern sich ums Gießen, andere um Werkzeug oder neue Pflanzen."
+            },
+            {
+              "id": "24",
+              "text": "Im Sommer finden in vielen Projekten Feste, Tauschbörsen und kleine Workshops statt."
+            },
+            {
+              "id": "25",
+              "text": "Da die Flächen manchmal nur vorübergehend zur Verfügung stehen, nutzen einige Gruppen mobile Hochbeete, die schnell umziehen können."
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Stadtgärten: deutlich höhere Preise"
+            },
+            {
+              "key": "B",
+              "text": "Gärtnern auch ohne eigenes Grundstück"
+            },
+            {
+              "key": "C",
+              "text": "Der Garten als Treffpunkt"
+            },
+            {
+              "key": "D",
+              "text": "Grüne Inseln zwischen Häusern"
+            },
+            {
+              "key": "E",
+              "text": "Stadtgärten: ein vollständiges Verbot"
+            },
+            {
+              "key": "F",
+              "text": "Gemeinsame Verantwortung"
+            },
+            {
+              "key": "G",
+              "text": "Flexible Lösungen für unsichere Flächen"
+            }
+          ],
+          "answer": {
+            "21": "D",
+            "22": "B",
+            "23": "F",
+            "24": "C",
+            "25": "G"
+          },
+          "categoryLabel": "Lesen · Überschriften"
+        },
+        {
+          "id": "tf-set-2",
+          "title": "Aufgabensatz 2 · Schwimmbad am Park",
+          "type": "true_false",
+          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
+          "text": "Das Schwimmbad am Park wird nach einer sechsmonatigen Renovierung am 3. Mai wieder geöffnet. Das große Becken wurde erneuert, außerdem gibt es jetzt einen eigenen Bereich für kleine Kinder. Die Eintrittspreise bleiben unverändert. Neu ist jedoch, dass Tickets auch über eine App gekauft werden können. Montags öffnet das Bad erst um 12 Uhr, an den anderen Wochentagen bereits um 8 Uhr. Im ersten Monat nach der Wiedereröffnung finden noch keine Schwimmkurse statt, weil dafür zusätzliches Personal geschult wird.",
+          "questions": [
+            {
+              "id": "7",
+              "statement": "Das Schwimmbad war ein halbes Jahr geschlossen.",
+              "answer": true
+            },
+            {
+              "id": "8",
+              "statement": "Die Eintrittspreise werden teurer.",
+              "answer": false
+            },
+            {
+              "id": "9",
+              "statement": "Tickets gibt es nun auch per App.",
+              "answer": true
+            },
+            {
+              "id": "10",
+              "statement": "Montags öffnet das Bad um 8 Uhr.",
+              "answer": false
+            },
+            {
+              "id": "11",
+              "statement": "Es gibt einen neuen Bereich für kleine Kinder.",
+              "answer": true
+            },
+            {
+              "id": "12",
+              "statement": "Im Mai starten sofort neue Schwimmkurse.",
+              "answer": false
+            }
+          ],
+          "categoryLabel": "Lesen · Richtig/Falsch"
+        },
+        {
+          "id": "clozemc-set-7",
+          "title": "Aufgabensatz 7 · Bewerbung Praktikum",
+          "type": "cloze_mc",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
+          "textBefore": "Sehr geehrter Herr Braun,\nmit großem Interesse habe ich",
+          "blanks": [
+            {
+              "id": "49",
+              "before": " Ihre",
+              "options": [
+                "Ihre",
+                "Ihren",
+                "Ihrer"
+              ],
+              "answer": 0,
+              "after": " Anzeige gelesen."
+            },
+            {
+              "id": "50",
+              "before": " Ich studiere derzeit",
+              "options": [
+                "an",
+                "auf",
+                "zu"
+              ],
+              "answer": 0,
+              "after": " der Universität Köln."
+            },
+            {
+              "id": "51",
+              "before": " Im kommenden Semester möchte ich praktische Erfahrungen",
+              "options": [
+                "sammeln",
+                "gesammelt",
+                "sammelt"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "52",
+              "before": " Besonders interessiere ich mich",
+              "options": [
+                "für",
+                "über",
+                "gegen"
+              ],
+              "answer": 0,
+              "after": " Marketing."
+            },
+            {
+              "id": "53",
+              "before": " Deshalb bewerbe ich mich",
+              "options": [
+                "um",
+                "an",
+                "von"
+              ],
+              "answer": 0,
+              "after": " das ausgeschriebene Praktikum."
+            },
+            {
+              "id": "54",
+              "before": " Meine Unterlagen finden Sie",
+              "options": [
+                "im",
+                "am",
+                "an"
+              ],
+              "answer": 0,
+              "after": " Anhang."
+            },
+            {
+              "id": "55",
+              "before": " Für ein persönliches Gespräch stehe ich gern zur",
+              "options": [
+                "Verfügung",
+                "Verfügungen",
+                "verfügen"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "56",
+              "before": " Mit freundlichen",
+              "options": [
+                "Grüßen",
+                "Grüße",
+                "Grüß"
+              ],
+              "answer": 0,
+              "after": ""
+            }
+          ],
+          "textAfter": "",
+          "categoryLabel": "Sprachbausteine · a/b/c"
+        },
+        {
+          "id": "headings-set-6",
+          "title": "Aufgabensatz 6 · Online-Kurse",
+          "type": "matching",
+          "instructions": "Lesen Sie die fünf Textabschnitte. Ordnen Sie jedem Abschnitt die passende Überschrift (A–G) zu. Zwei Überschriften bleiben übrig.",
+          "items": [
+            {
+              "id": "26",
+              "text": "Berufstätige nutzen Online-Kurse häufig, weil sie Lernzeiten flexibel an Arbeit und Familie anpassen können."
+            },
+            {
+              "id": "27",
+              "text": "Viele Plattformen kombinieren kurze Videos mit Übungen, Tests und Diskussionsforen."
+            },
+            {
+              "id": "28",
+              "text": "Ohne feste Termine fällt es manchen Teilnehmern schwer, regelmäßig weiterzulernen."
+            },
+            {
+              "id": "29",
+              "text": "Lerngruppen per Videochat können helfen, Fragen zu klären und die Motivation über mehrere Wochen hochzuhalten."
+            },
+            {
+              "id": "30",
+              "text": "Immer mehr Arbeitgeber übernehmen Kursgebühren, wenn die Inhalte für die berufliche Entwicklung nützlich sind."
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Selbstdisziplin bleibt entscheidend"
+            },
+            {
+              "key": "B",
+              "text": "Mehr als nur Videos ansehen"
+            },
+            {
+              "key": "C",
+              "text": "Firmen investieren in Weiterbildung"
+            },
+            {
+              "key": "D",
+              "text": "Online-Kurse: ein vollständiges Verbot"
+            },
+            {
+              "key": "E",
+              "text": "Lernen passend zum eigenen Alltag"
+            },
+            {
+              "key": "F",
+              "text": "Gemeinsam bleibt man leichter dran"
+            },
+            {
+              "key": "G",
+              "text": "Online-Kurse: deutlich höhere Preise"
+            }
+          ],
+          "answer": {
+            "26": "E",
+            "27": "B",
+            "28": "A",
+            "29": "F",
+            "30": "C"
+          },
+          "categoryLabel": "Lesen · Überschriften"
+        },
+        {
+          "id": "wordbank-set-7",
+          "title": "Aufgabensatz 7 · Stadtbibliothek",
+          "type": "cloze_wordbank",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Nicht alle Wörter passen.",
+          "wordbank": [
+            "damit",
+            "deshalb",
+            "außerdem",
+            "während",
+            "trotzdem",
+            "wenn",
+            "obwohl"
+          ],
+          "textBefore": "Die Bibliothek hat ihre Öffnungszeiten verlängert,",
+          "blanks": [
+            {
+              "id": "37",
+              "before": "",
+              "answer": "damit",
+              "after": " Berufstätige auch abends kommen können."
+            },
+            {
+              "id": "38",
+              "before": " Viele Besucher nutzen",
+              "answer": "deshalb",
+              "after": " die neuen Abendstunden."
+            },
+            {
+              "id": "39",
+              "before": " Es gibt",
+              "answer": "außerdem",
+              "after": " mehr Arbeitsplätze mit Steckdosen."
+            },
+            {
+              "id": "40",
+              "before": "",
+              "answer": "während",
+              "after": " der Servicezeiten helfen Mitarbeiter bei Fragen."
+            },
+            {
+              "id": "41",
+              "before": " Später am Abend ist weniger Personal da,",
+              "answer": "trotzdem",
+              "after": " kann man Bücher ausleihen."
+            },
+            {
+              "id": "42",
+              "before": "",
+              "answer": "wenn",
+              "after": " ein Problem entsteht, steht eine Notfallnummer bereit."
+            }
+          ],
+          "categoryLabel": "Sprachbausteine · Wortkasten"
+        },
+        {
+          "id": "headings-set-4",
+          "title": "Aufgabensatz 4 · Gebrauchte Technik",
+          "type": "matching",
+          "instructions": "Lesen Sie die fünf Textabschnitte. Ordnen Sie jedem Abschnitt die passende Überschrift (A–G) zu. Zwei Überschriften bleiben übrig.",
+          "items": [
+            {
+              "id": "16",
+              "text": "Smartphones und Laptops werden zunehmend gebraucht gekauft. Spezialisierte Händler prüfen die Geräte und verkaufen sie mit Garantie."
+            },
+            {
+              "id": "17",
+              "text": "Ein gebrauchtes Gerät kostet häufig deutlich weniger als ein neues Modell, obwohl die Leistung für den Alltag völlig ausreicht."
+            },
+            {
+              "id": "18",
+              "text": "Wer gebrauchte Elektronik kauft, verlängert ihre Nutzungsdauer und reduziert den Bedarf an neuen Rohstoffen."
+            },
+            {
+              "id": "19",
+              "text": "Käufer sollten besonders auf den Zustand des Akkus und auf seriöse Rückgaberegeln achten."
+            },
+            {
+              "id": "20",
+              "text": "Viele Hersteller bieten inzwischen eigene Programme für generalüberholte Geräte an. Experten erwarten, dass dieser Markt weiter wächst."
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Ein Beitrag zum Umweltschutz"
+            },
+            {
+              "key": "B",
+              "text": "Gebrauchte Technik: ein vollständiges Verbot"
+            },
+            {
+              "key": "C",
+              "text": "Hersteller entdecken den Gebrauchtmarkt"
+            },
+            {
+              "key": "D",
+              "text": "Vor dem Kauf genau prüfen"
+            },
+            {
+              "key": "E",
+              "text": "Gebrauchte Technik: deutlich höhere Preise"
+            },
+            {
+              "key": "F",
+              "text": "Weniger bezahlen für genug Leistung"
+            },
+            {
+              "key": "G",
+              "text": "Secondhand-Technik wird professioneller"
+            }
+          ],
+          "answer": {
+            "16": "G",
+            "17": "F",
+            "18": "A",
+            "19": "D",
+            "20": "C"
+          },
+          "categoryLabel": "Lesen · Überschriften"
+        },
+        {
+          "id": "clozemc-set-4",
+          "title": "Aufgabensatz 4 · Reklamation",
+          "type": "cloze_mc",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
+          "textBefore": "Sehr geehrte Damen und Herren,\nvor einer Woche habe ich",
+          "blanks": [
+            {
+              "id": "25",
+              "before": " bei",
+              "options": [
+                "bei",
+                "nach",
+                "aus"
+              ],
+              "answer": 0,
+              "after": " Ihnen einen Wasserkocher bestellt."
+            },
+            {
+              "id": "26",
+              "before": " Leider ist das Gerät gestern",
+              "options": [
+                "angekommen",
+                "ankommen",
+                "ankammt"
+              ],
+              "answer": 0,
+              "after": " und funktioniert nicht."
+            },
+            {
+              "id": "27",
+              "before": " Obwohl ich es genau nach Anleitung benutzt habe,",
+              "options": [
+                "wird",
+                "bleibt",
+                "ist"
+              ],
+              "answer": 1,
+              "after": " das Wasser kalt."
+            },
+            {
+              "id": "28",
+              "before": " Ich möchte das Gerät deshalb",
+              "options": [
+                "zurückgeben",
+                "zurückgegeben",
+                "gab zurück"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "29",
+              "before": " Bitte teilen Sie mir mit,",
+              "options": [
+                "wie",
+                "als",
+                "seit"
+              ],
+              "answer": 0,
+              "after": " ich es zurückschicken soll."
+            },
+            {
+              "id": "30",
+              "before": " Die Rechnung habe ich dieser E-Mail",
+              "options": [
+                "beigefügt",
+                "beifügen",
+                "beigefügte"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "31",
+              "before": " Ich hoffe auf eine schnelle",
+              "options": [
+                "Lösung",
+                "Lösungen",
+                "lösen"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "32",
+              "before": " Mit freundlichen",
+              "options": [
+                "Grüßen",
+                "Grüße",
+                "Grußes"
+              ],
+              "answer": 0,
+              "after": ""
+            }
+          ],
+          "textAfter": "",
+          "categoryLabel": "Sprachbausteine · a/b/c"
+        },
+        {
+          "id": "ads-set-4",
+          "title": "Aufgabensatz 4 · Dienstleistungen",
+          "type": "matching_ads",
+          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
+            {
+              "id": "16",
+              "text": "Sie brauchen am Samstag Hilfe beim Umzug."
+            },
+            {
+              "id": "17",
+              "text": "Ihr Fahrrad muss schnell repariert werden."
+            },
+            {
+              "id": "18",
+              "text": "Sie suchen eine Reinigungskraft alle zwei Wochen."
+            },
+            {
+              "id": "19",
+              "text": "Sie brauchen Betreuung für Ihre Katze im Urlaub."
+            },
+            {
+              "id": "20",
+              "text": "Sie möchten alte Möbel abholen lassen."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Dienstleistungen: Angebot nur für Firmenkunden."
+            },
+            {
+              "key": "B",
+              "text": "Haushaltshilfe regelmäßig oder 14-tägig, zuverlässig und versichert."
+            },
+            {
+              "key": "C",
+              "text": "Umzugshelfer am Wochenende, Transporter kann mitgebracht werden."
+            },
+            {
+              "key": "D",
+              "text": "Möbelabholung und Entsorgung, auch aus oberen Etagen."
+            },
+            {
+              "key": "E",
+              "text": "Katzenbetreuung bei Ihnen zu Hause, tägliche Besuche möglich."
+            },
+            {
+              "key": "F",
+              "text": "Dienstleistungen: derzeit vollständig ausgebucht."
+            },
+            {
+              "key": "G",
+              "text": "Fahrradservice ohne Termin, kleine Reparaturen am selben Tag."
+            }
+          ],
+          "answer": {
+            "16": "C",
+            "17": "G",
+            "18": "B",
+            "19": "E",
+            "20": "D"
+          },
+          "categoryLabel": "Lesen · Anzeigen"
+        },
+        {
+          "id": "headings-set-3",
+          "title": "Aufgabensatz 3 · Kochen in der Mittagspause",
+          "type": "matching",
+          "instructions": "Lesen Sie die fünf Textabschnitte. Ordnen Sie jedem Abschnitt die passende Überschrift (A–G) zu. Zwei Überschriften bleiben übrig.",
+          "items": [
+            {
+              "id": "11",
+              "text": "Immer mehr Büros richten kleine Küchen ein, damit Beschäftigte ihr Mittagessen selbst zubereiten oder mitgebrachte Speisen aufwärmen können."
+            },
+            {
+              "id": "12",
+              "text": "Selbstgekochtes Essen ist oft günstiger als ein täglicher Restaurantbesuch und lässt sich besser an persönliche Vorlieben anpassen."
+            },
+            {
+              "id": "13",
+              "text": "Wenn mehrere Kollegen gleichzeitig kochen, kann es eng werden. Klare Regeln und feste Zeiten vermeiden Konflikte."
+            },
+            {
+              "id": "14",
+              "text": "In manchen Teams kocht jeden Tag eine andere Person für alle. Dadurch entstehen gemeinsame Pausen und neue Gespräche."
+            },
+            {
+              "id": "15",
+              "text": "Ernährungsberater empfehlen, Mahlzeiten am Vorabend vorzubereiten, wenn in der Pause wenig Zeit zur Verfügung steht."
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Vorbereitung spart Zeit"
+            },
+            {
+              "key": "B",
+              "text": "Kochen in der Mittagspause: ein vollständiges Verbot"
+            },
+            {
+              "key": "C",
+              "text": "Organisation verhindert Streit"
+            },
+            {
+              "key": "D",
+              "text": "Küchen werden Teil moderner Büros"
+            },
+            {
+              "key": "E",
+              "text": "Günstiger und individueller essen"
+            },
+            {
+              "key": "F",
+              "text": "Gemeinsam essen stärkt das Team"
+            },
+            {
+              "key": "G",
+              "text": "Kochen in der Mittagspause: deutlich höhere Preise"
+            }
+          ],
+          "answer": {
+            "11": "D",
+            "12": "E",
+            "13": "C",
+            "14": "F",
+            "15": "A"
+          },
+          "categoryLabel": "Lesen · Überschriften"
+        },
+        {
+          "id": "clozemc-set-10",
+          "title": "Aufgabensatz 10 · Terminverschiebung",
+          "type": "cloze_mc",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
+          "textBefore": "Sehr geehrte Frau Winter,\nleider kann ich",
+          "blanks": [
+            {
+              "id": "73",
+              "before": " den",
+              "options": [
+                "den",
+                "dem",
+                "der"
+              ],
+              "answer": 0,
+              "after": " vereinbarten Termin am Mittwoch nicht wahrnehmen."
+            },
+            {
+              "id": "74",
+              "before": " Ich muss kurzfristig",
+              "options": [
+                "nach",
+                "zu",
+                "bei"
+              ],
+              "answer": 0,
+              "after": " Berlin fahren."
+            },
+            {
+              "id": "75",
+              "before": " Wäre es möglich, den Termin auf Freitag zu",
+              "options": [
+                "verschieben",
+                "verschoben",
+                "verschiebt"
+              ],
+              "answer": 0,
+              "after": "?"
+            },
+            {
+              "id": "76",
+              "before": " Am Vormittag hätte ich",
+              "options": [
+                "ab",
+                "zwischen",
+                "gegen"
+              ],
+              "answer": 1,
+              "after": " 9 und 12 Uhr Zeit."
+            },
+            {
+              "id": "77",
+              "before": " Falls Freitag nicht passt, nennen Sie mir bitte",
+              "options": [
+                "einen",
+                "einem",
+                "eine"
+              ],
+              "answer": 0,
+              "after": " anderen Termin."
+            },
+            {
+              "id": "78",
+              "before": " Ich entschuldige mich",
+              "options": [
+                "für",
+                "mit",
+                "aus"
+              ],
+              "answer": 0,
+              "after": " die Umstände."
+            },
+            {
+              "id": "79",
+              "before": " Vielen Dank für Ihr",
+              "options": [
+                "Verständnis",
+                "verstehen",
+                "Verständnisse"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "80",
+              "before": " Mit freundlichen",
+              "options": [
+                "Grüßen",
+                "Grüße",
+                "Gruß"
+              ],
+              "answer": 0,
+              "after": ""
+            }
+          ],
+          "textAfter": "",
+          "categoryLabel": "Sprachbausteine · a/b/c"
+        },
+        {
+          "id": "wordbank-set-10",
+          "title": "Aufgabensatz 10 · Weiterbildung",
+          "type": "cloze_wordbank",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Nicht alle Wörter passen.",
+          "wordbank": [
+            "obwohl",
+            "deshalb",
+            "während",
+            "außerdem",
+            "damit",
+            "trotzdem",
+            "bevor"
+          ],
+          "textBefore": "Sophie macht neben ihrer Arbeit eine Weiterbildung,",
+          "blanks": [
+            {
+              "id": "55",
+              "before": "",
+              "answer": "obwohl",
+              "after": " sie unter der Woche wenig Zeit hat."
+            },
+            {
+              "id": "56",
+              "before": " Die Prüfungen sind wichtig,",
+              "answer": "deshalb",
+              "after": " lernt sie regelmäßig."
+            },
+            {
+              "id": "57",
+              "before": "",
+              "answer": "während",
+              "after": " der Zugfahrt liest sie Fachtexte."
+            },
+            {
+              "id": "58",
+              "before": " Am Wochenende besucht sie",
+              "answer": "außerdem",
+              "after": " Online-Seminare."
+            },
+            {
+              "id": "59",
+              "before": " Sie plant ihre Woche genau,",
+              "answer": "damit",
+              "after": " Arbeit und Lernen zusammenpassen."
+            },
+            {
+              "id": "60",
+              "before": " Manchmal ist sie müde,",
+              "answer": "trotzdem",
+              "after": " möchte sie den Kurs abschließen."
+            }
+          ],
+          "categoryLabel": "Sprachbausteine · Wortkasten"
+        },
+        {
+          "id": "tf-set-3",
+          "title": "Aufgabensatz 3 · Marktbus im Landkreis",
+          "type": "true_false",
+          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
+          "text": "Seit Anfang Juni fährt im Landkreis ein sogenannter Marktbus. Er bringt Menschen aus kleinen Dörfern zweimal pro Woche zum Wochenmarkt in die Kreisstadt. Die Hin- und Rückfahrt kostet zusammen vier Euro. Kinder bis zwölf Jahre fahren kostenlos. Eine Reservierung ist nicht nötig, allerdings hält der Bus nur an besonders markierten Haltestellen. Das Projekt läuft zunächst bis Ende Dezember. Danach entscheidet der Kreistag, ob das Angebot dauerhaft weitergeführt wird.",
+          "questions": [
+            {
+              "id": "13",
+              "statement": "Der Marktbus fährt jeden Tag.",
+              "answer": false
+            },
+            {
+              "id": "14",
+              "statement": "Er fährt Menschen aus Dörfern in die Kreisstadt.",
+              "answer": true
+            },
+            {
+              "id": "15",
+              "statement": "Hin- und Rückfahrt kosten insgesamt vier Euro.",
+              "answer": true
+            },
+            {
+              "id": "16",
+              "statement": "Alle Kinder müssen bezahlen.",
+              "answer": false
+            },
+            {
+              "id": "17",
+              "statement": "Man muss vorher einen Platz reservieren.",
+              "answer": false
+            },
+            {
+              "id": "18",
+              "statement": "Das Projekt ist zunächst bis Jahresende geplant.",
+              "answer": true
+            }
+          ],
+          "categoryLabel": "Lesen · Richtig/Falsch"
+        },
+        {
+          "id": "wordbank-set-9",
+          "title": "Aufgabensatz 9 · Kochen",
+          "type": "cloze_wordbank",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Nicht alle Wörter passen.",
+          "wordbank": [
+            "weil",
+            "dadurch",
+            "zuerst",
+            "anschließend",
+            "außerdem",
+            "wenn",
+            "trotzdem"
+          ],
+          "textBefore": "Tarek kocht seit einigen Monaten häufiger selbst,",
+          "blanks": [
+            {
+              "id": "49",
+              "before": "",
+              "answer": "weil",
+              "after": " er gesünder essen möchte."
+            },
+            {
+              "id": "50",
+              "before": " Er kauft frische Zutaten und spart",
+              "answer": "dadurch",
+              "after": " oft Geld."
+            },
+            {
+              "id": "51",
+              "before": "",
+              "answer": "zuerst",
+              "after": " schneidet er Gemüse und bereitet alles vor."
+            },
+            {
+              "id": "52",
+              "before": "",
+              "answer": "anschließend",
+              "after": " beginnt er mit dem Kochen."
+            },
+            {
+              "id": "53",
+              "before": " Er probiert",
+              "answer": "außerdem",
+              "after": " jede Woche ein neues Rezept."
+            },
+            {
+              "id": "54",
+              "before": "",
+              "answer": "wenn",
+              "after": " Freunde zu Besuch kommen, kocht er besonders gern."
+            }
+          ],
+          "categoryLabel": "Sprachbausteine · Wortkasten"
+        },
+        {
+          "id": "headings-set-2",
+          "title": "Aufgabensatz 2 · Neue Nachbarschaft",
+          "type": "matching",
+          "instructions": "Lesen Sie die fünf Textabschnitte. Ordnen Sie jedem Abschnitt die passende Überschrift (A–G) zu. Zwei Überschriften bleiben übrig.",
+          "items": [
+            {
+              "id": "6",
+              "text": "In vielen Wohnvierteln entstehen Nachbarschaftsgruppen, in denen sich Menschen über kleine Hilfen und gemeinsame Aktivitäten austauschen."
+            },
+            {
+              "id": "7",
+              "text": "Besonders ältere Menschen nutzen solche Gruppen, wenn sie Hilfe beim Einkaufen oder bei kleinen Reparaturen brauchen."
+            },
+            {
+              "id": "8",
+              "text": "Familien organisieren gemeinsam Spielnachmittage und teilen manchmal Kinderkleidung oder selten gebrauchte Geräte."
+            },
+            {
+              "id": "9",
+              "text": "Nicht alle möchten ihre Telefonnummer in großen Chatgruppen veröffentlichen. Einige Initiativen nutzen deshalb geschützte Plattformen."
+            },
+            {
+              "id": "10",
+              "text": "Viele Gruppen treffen sich zusätzlich einmal im Monat persönlich in einem Café oder Gemeinschaftsraum."
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Neue Nachbarschaft: ein vollständiges Verbot"
+            },
+            {
+              "key": "B",
+              "text": "Datenschutz ist wichtig"
+            },
+            {
+              "key": "C",
+              "text": "Mehr Kontakt direkt vor der Haustür"
+            },
+            {
+              "key": "D",
+              "text": "Teilen statt alles neu kaufen"
+            },
+            {
+              "key": "E",
+              "text": "Vom Chat zum echten Treffen"
+            },
+            {
+              "key": "F",
+              "text": "Neue Nachbarschaft: deutlich höhere Preise"
+            },
+            {
+              "key": "G",
+              "text": "Unterstützung im Alltag"
+            }
+          ],
+          "answer": {
+            "6": "C",
+            "7": "G",
+            "8": "D",
+            "9": "B",
+            "10": "E"
+          },
+          "categoryLabel": "Lesen · Überschriften"
+        },
+        {
+          "id": "ads-set-7",
+          "title": "Aufgabensatz 7 · Kaufen und Verkaufen",
+          "type": "matching_ads",
+          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
+            {
+              "id": "31",
+              "text": "Sie möchten einen gebrauchten Schreibtisch kaufen."
+            },
+            {
+              "id": "32",
+              "text": "Sie wollen Ihr Auto verkaufen und den Preis verhandeln."
+            },
+            {
+              "id": "33",
+              "text": "Sie suchen ein Kinderfahrrad bis 100 Euro."
+            },
+            {
+              "id": "34",
+              "text": "Sie möchten gebrauchte Bücher verschenken."
+            },
+            {
+              "id": "35",
+              "text": "Sie brauchen einen Laptop mit Garantie."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Großer Schreibtisch gebraucht, guter Zustand, Abholung."
+            },
+            {
+              "key": "B",
+              "text": "Auto privat zu verkaufen, Preis VB, Besichtigung möglich."
+            },
+            {
+              "key": "C",
+              "text": "Bücherannahme für sozialen Flohmarkt, Spenden willkommen."
+            },
+            {
+              "key": "D",
+              "text": "Kaufen und Verkaufen: derzeit vollständig ausgebucht."
+            },
+            {
+              "key": "E",
+              "text": "Kinderfahrrad 24 Zoll, 80 Euro."
+            },
+            {
+              "key": "F",
+              "text": "Generalüberholte Laptops, 12 Monate Händlergarantie."
+            },
+            {
+              "key": "G",
+              "text": "Kaufen und Verkaufen: Angebot nur für Firmenkunden."
+            }
+          ],
+          "answer": {
+            "31": "A",
+            "32": "B",
+            "33": "E",
+            "34": "C",
+            "35": "F"
+          },
+          "categoryLabel": "Lesen · Anzeigen"
+        },
+        {
+          "id": "wordbank-set-6",
+          "title": "Aufgabensatz 6 · Verein",
+          "type": "cloze_wordbank",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Nicht alle Wörter passen.",
+          "wordbank": [
+            "weil",
+            "besonders",
+            "außerdem",
+            "damit",
+            "obwohl",
+            "deshalb",
+            "während"
+          ],
+          "textBefore": "Unser Sportverein sucht neue Helfer,",
+          "blanks": [
+            {
+              "id": "31",
+              "before": "",
+              "answer": "weil",
+              "after": " im Herbst mehrere Veranstaltungen geplant sind."
+            },
+            {
+              "id": "32",
+              "before": " Gesucht werden",
+              "answer": "besonders",
+              "after": " Personen für den Empfang."
+            },
+            {
+              "id": "33",
+              "before": " Wir brauchen",
+              "answer": "außerdem",
+              "after": " Hilfe beim Aufbau."
+            },
+            {
+              "id": "34",
+              "before": " Alle Helfer bekommen vorher Informationen,",
+              "answer": "damit",
+              "after": " sie ihre Aufgaben kennen."
+            },
+            {
+              "id": "35",
+              "before": " Man braucht keine Erfahrung,",
+              "answer": "obwohl",
+              "after": " Zuverlässigkeit wichtig ist."
+            },
+            {
+              "id": "36",
+              "before": " Interessierte sollen sich früh melden,",
+              "answer": "deshalb",
+              "after": " steht die E-Mail-Adresse auf unserer Webseite."
+            }
+          ],
+          "categoryLabel": "Sprachbausteine · Wortkasten"
+        },
+        {
+          "id": "tf-set-4",
+          "title": "Aufgabensatz 4 · Büchertausch im Bahnhof",
+          "type": "true_false",
+          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
+          "text": "Im Hauptbahnhof steht seit kurzem ein offenes Bücherregal. Reisende dürfen dort kostenlos Bücher mitnehmen und eigene Bücher hineinstellen. Das Regal befindet sich neben der Information und ist während der gesamten Öffnungszeit des Bahnhofs zugänglich. Zeitschriften und Schulbücher sollen nicht abgelegt werden. Ein Verein kontrolliert das Regal dreimal pro Woche und sortiert beschädigte Bücher aus. Das Projekt wurde von lokalen Geschäften finanziert und soll zunächst ein Jahr lang getestet werden.",
+          "questions": [
+            {
+              "id": "19",
+              "statement": "Für ausgeliehene Bücher muss man nichts bezahlen.",
+              "answer": true
+            },
+            {
+              "id": "20",
+              "statement": "Das Regal steht außerhalb des Bahnhofs.",
+              "answer": false
+            },
+            {
+              "id": "21",
+              "statement": "Zeitschriften sind ausdrücklich erwünscht.",
+              "answer": false
+            },
+            {
+              "id": "22",
+              "statement": "Ein Verein kümmert sich regelmäßig um das Regal.",
+              "answer": true
+            },
+            {
+              "id": "23",
+              "statement": "Die Finanzierung kam von lokalen Geschäften.",
+              "answer": true
+            },
+            {
+              "id": "24",
+              "statement": "Das Projekt ist von Anfang an dauerhaft.",
+              "answer": false
+            }
+          ],
+          "categoryLabel": "Lesen · Richtig/Falsch"
+        },
+        {
+          "id": "headings-set-8",
+          "title": "Aufgabensatz 8 · Vier-Tage-Woche",
+          "type": "matching",
+          "instructions": "Lesen Sie die fünf Textabschnitte. Ordnen Sie jedem Abschnitt die passende Überschrift (A–G) zu. Zwei Überschriften bleiben übrig.",
+          "items": [
+            {
+              "id": "36",
+              "text": "Einige Unternehmen testen, ob Beschäftigte ihre Aufgaben an vier statt an fünf Tagen erledigen können."
+            },
+            {
+              "id": "37",
+              "text": "Befürworter berichten von längeren Erholungsphasen und mehr Zeit für Familie oder persönliche Projekte."
+            },
+            {
+              "id": "38",
+              "text": "Damit die Arbeit trotzdem geschafft wird, müssen Besprechungen oft kürzer und Abläufe klarer organisiert werden."
+            },
+            {
+              "id": "39",
+              "text": "In Bereichen mit Kundenkontakt ist eine Vier-Tage-Woche schwieriger, weil der Service an allen Werktagen erreichbar bleiben soll."
+            },
+            {
+              "id": "40",
+              "text": "Ob sich das Modell dauerhaft durchsetzt, hängt laut Experten stark von Beruf, Teamgröße und Arbeitsaufgaben ab."
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Keine Lösung für alle"
+            },
+            {
+              "key": "B",
+              "text": "Vier-Tage-Woche: ein vollständiges Verbot"
+            },
+            {
+              "key": "C",
+              "text": "Effizientere Organisation nötig"
+            },
+            {
+              "key": "D",
+              "text": "Nicht für jede Branche einfach"
+            },
+            {
+              "key": "E",
+              "text": "Neue Arbeitszeitmodelle im Test"
+            },
+            {
+              "key": "F",
+              "text": "Vier-Tage-Woche: deutlich höhere Preise"
+            },
+            {
+              "key": "G",
+              "text": "Mehr freie Zeit als Vorteil"
+            }
+          ],
+          "answer": {
+            "36": "E",
+            "37": "G",
+            "38": "C",
+            "39": "D",
+            "40": "A"
+          },
+          "categoryLabel": "Lesen · Überschriften"
+        },
+        {
+          "id": "clozemc-set-9",
+          "title": "Aufgabensatz 9 · Einladung",
+          "type": "cloze_mc",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
+          "textBefore": "Hallo zusammen,\nich möchte euch gern",
+          "blanks": [
+            {
+              "id": "65",
+              "before": " zu",
+              "options": [
+                "zu",
+                "für",
+                "bei"
+              ],
+              "answer": 0,
+              "after": " meinem Geburtstag einladen."
+            },
+            {
+              "id": "66",
+              "before": " Wir feiern",
+              "options": [
+                "am",
+                "im",
+                "in"
+              ],
+              "answer": 0,
+              "after": " Samstag, den 14. Juni."
+            },
+            {
+              "id": "67",
+              "before": " Die Feier beginnt",
+              "options": [
+                "um",
+                "seit",
+                "von"
+              ],
+              "answer": 0,
+              "after": " 18 Uhr."
+            },
+            {
+              "id": "68",
+              "before": " Wenn das Wetter schön ist, sitzen wir",
+              "options": [
+                "im",
+                "an",
+                "auf dem"
+              ],
+              "answer": 0,
+              "after": " Garten."
+            },
+            {
+              "id": "69",
+              "before": " Bitte bringt keine Geschenke",
+              "options": [
+                "mit",
+                "an",
+                "bei"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "70",
+              "before": " Ich würde mich aber",
+              "options": [
+                "über",
+                "auf",
+                "durch"
+              ],
+              "answer": 0,
+              "after": " einen Salat oder Nachtisch freuen."
+            },
+            {
+              "id": "71",
+              "before": " Sagt mir bitte bis Montag,",
+              "options": [
+                "ob",
+                "dass",
+                "weil"
+              ],
+              "answer": 0,
+              "after": " ihr kommen könnt."
+            },
+            {
+              "id": "72",
+              "before": " Liebe",
+              "options": [
+                "Grüße",
+                "Grüßen",
+                "Gruß"
+              ],
+              "answer": 0,
+              "after": ""
+            }
+          ],
+          "textAfter": "",
+          "categoryLabel": "Sprachbausteine · a/b/c"
+        },
+        {
+          "id": "clozemc-set-3",
+          "title": "Aufgabensatz 3 · Entschuldigung an Kollegin",
+          "type": "cloze_mc",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
+          "textBefore": "Hallo Jana,\nes tut mir leid,",
+          "blanks": [
+            {
+              "id": "17",
+              "before": " dass",
+              "options": [
+                "dass",
+                "ob",
+                "damit"
+              ],
+              "answer": 0,
+              "after": " ich gestern nicht zur Besprechung kommen konnte."
+            },
+            {
+              "id": "18",
+              "before": " Ich war krank und musste",
+              "options": [
+                "zum",
+                "zur",
+                "bei"
+              ],
+              "answer": 0,
+              "after": " Arzt gehen."
+            },
+            {
+              "id": "19",
+              "before": " Hast du vielleicht Notizen",
+              "options": [
+                "gemacht",
+                "machen",
+                "macht"
+              ],
+              "answer": 0,
+              "after": "?"
+            },
+            {
+              "id": "20",
+              "before": " Es wäre nett, wenn du sie mir",
+              "options": [
+                "schicken",
+                "schickst",
+                "geschickt"
+              ],
+              "answer": 1,
+              "after": " könntest."
+            },
+            {
+              "id": "21",
+              "before": " Ich möchte auch wissen,",
+              "options": [
+                "welche",
+                "welcher",
+                "welches"
+              ],
+              "answer": 0,
+              "after": " Aufgaben ich übernehmen soll."
+            },
+            {
+              "id": "22",
+              "before": " Morgen bin ich wieder",
+              "options": [
+                "im",
+                "ins",
+                "in den"
+              ],
+              "answer": 0,
+              "after": " Büro."
+            },
+            {
+              "id": "23",
+              "before": " Dann können wir alles in Ruhe",
+              "options": [
+                "besprechen",
+                "besprochen",
+                "spricht"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "24",
+              "before": " Danke",
+              "options": [
+                "für",
+                "auf",
+                "gegen"
+              ],
+              "answer": 0,
+              "after": " dein Verständnis."
+            }
+          ],
+          "textAfter": "",
+          "categoryLabel": "Sprachbausteine · a/b/c"
+        },
+        {
+          "id": "headings-set-9",
+          "title": "Aufgabensatz 9 · Reparieren statt wegwerfen",
+          "type": "matching",
+          "instructions": "Lesen Sie die fünf Textabschnitte. Ordnen Sie jedem Abschnitt die passende Überschrift (A–G) zu. Zwei Überschriften bleiben übrig.",
+          "items": [
+            {
+              "id": "41",
+              "text": "Repair-Cafés bieten regelmäßig Treffen an, bei denen Besucher defekte Geräte gemeinsam mit erfahrenen Helfern reparieren."
+            },
+            {
+              "id": "42",
+              "text": "Für viele lohnt sich der Besuch besonders bei kleinen Defekten, die in einer professionellen Werkstatt relativ teuer wären."
+            },
+            {
+              "id": "43",
+              "text": "Die Helfer zeigen nicht nur, was kaputt ist, sondern erklären auch, wie man Geräte sicher öffnet und wieder zusammensetzt."
+            },
+            {
+              "id": "44",
+              "text": "Nicht jedes Gerät kann gerettet werden. Manchmal fehlen Ersatzteile oder ein Schaden ist zu groß."
+            },
+            {
+              "id": "45",
+              "text": "Trotzdem wächst das Interesse, weil viele Menschen bewusster mit Ressourcen umgehen und Dinge länger nutzen möchten."
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Reparieren statt wegwerfen: deutlich höhere Preise"
+            },
+            {
+              "key": "B",
+              "text": "Hilfe zur Selbsthilfe"
+            },
+            {
+              "key": "C",
+              "text": "Reparieren statt wegwerfen: ein vollständiges Verbot"
+            },
+            {
+              "key": "D",
+              "text": "Nachhaltigkeit treibt den Trend"
+            },
+            {
+              "key": "E",
+              "text": "Reparieren hat Grenzen"
+            },
+            {
+              "key": "F",
+              "text": "Kleine Reparaturen sparen Geld"
+            },
+            {
+              "key": "G",
+              "text": "Wissen wird weitergegeben"
+            }
+          ],
+          "answer": {
+            "41": "B",
+            "42": "F",
+            "43": "G",
+            "44": "E",
+            "45": "D"
+          },
+          "categoryLabel": "Lesen · Überschriften"
+        },
+        {
+          "id": "ads-set-2",
+          "title": "Aufgabensatz 2 · Wohnen",
+          "type": "matching_ads",
+          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
+            {
+              "id": "6",
+              "text": "Sie suchen ein möbliertes Zimmer für zwei Monate."
+            },
+            {
+              "id": "7",
+              "text": "Ein Paar sucht eine Wohnung mit Balkon."
+            },
+            {
+              "id": "8",
+              "text": "Sie brauchen einen Stellplatz für Ihr Auto."
+            },
+            {
+              "id": "9",
+              "text": "Ihre Schwester sucht eine WG nur für Frauen."
+            },
+            {
+              "id": "10",
+              "text": "Sie möchten mit Hund umziehen."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Tiefgaragenplatz zentral, monatlich kündbar."
+            },
+            {
+              "key": "B",
+              "text": "Möbliertes Zimmer, Kurzzeitmiete ab vier Wochen möglich."
+            },
+            {
+              "key": "C",
+              "text": "2-Zimmer-Wohnung mit großem Südbalkon, ab sofort."
+            },
+            {
+              "key": "D",
+              "text": "Frauen-WG sucht neue Mitbewohnerin, ruhige Lage."
+            },
+            {
+              "key": "E",
+              "text": "Wohnen: Angebot nur für Firmenkunden."
+            },
+            {
+              "key": "F",
+              "text": "Wohnen: derzeit vollständig ausgebucht."
+            },
+            {
+              "key": "G",
+              "text": "3-Zimmer-Wohnung, Haustiere nach Absprache ausdrücklich möglich."
+            }
+          ],
+          "answer": {
+            "6": "B",
+            "7": "C",
+            "8": "A",
+            "9": "D",
+            "10": "G"
+          },
+          "categoryLabel": "Lesen · Anzeigen"
+        },
+        {
+          "id": "ads-set-9",
+          "title": "Aufgabensatz 9 · Kinder und Familie",
+          "type": "matching_ads",
+          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
+            {
+              "id": "41",
+              "text": "Sie suchen Betreuung für Ihr Kind am Samstag."
+            },
+            {
+              "id": "42",
+              "text": "Ihre Tochter möchte einen Malkurs besuchen."
+            },
+            {
+              "id": "43",
+              "text": "Sie brauchen einen gebrauchten Kinderwagen."
+            },
+            {
+              "id": "44",
+              "text": "Sie suchen einen Babysitter am Abend."
+            },
+            {
+              "id": "45",
+              "text": "Ihre Familie möchte sonntags ins Kindertheater."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Erfahrene Babysitterin, abends und am Wochenende verfügbar."
+            },
+            {
+              "key": "B",
+              "text": "Kinder und Familie: Angebot nur für Firmenkunden."
+            },
+            {
+              "key": "C",
+              "text": "Kindertheater jeden Sonntag um 15 Uhr."
+            },
+            {
+              "key": "D",
+              "text": "Kreativkurs Malen für Kinder ab 7, freitags."
+            },
+            {
+              "key": "E",
+              "text": "Kinder und Familie: derzeit vollständig ausgebucht."
+            },
+            {
+              "key": "F",
+              "text": "Kinderwagen gebraucht, zusammenklappbar, günstig abzugeben."
+            },
+            {
+              "key": "G",
+              "text": "Samstagsbetreuung für Kinder von 4–8 Jahren."
+            }
+          ],
+          "answer": {
+            "41": "G",
+            "42": "D",
+            "43": "F",
+            "44": "A",
+            "45": "C"
+          },
+          "categoryLabel": "Lesen · Anzeigen"
+        },
+        {
+          "id": "tf-set-6",
+          "title": "Aufgabensatz 6 · Neue Buslinie 27",
+          "type": "true_false",
+          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
+          "text": "Die Stadt führt zum Fahrplanwechsel die neue Buslinie 27 ein. Sie verbindet den Bahnhof mit dem neuen Gewerbegebiet und fährt werktags alle zwanzig Minuten. Samstags fährt sie nur einmal pro Stunde, sonntags gar nicht. In den ersten zwei Wochen können Fahrgäste die Linie kostenlos testen. Danach gelten die normalen Tarife des Verkehrsverbunds. Zwei Haltestellen werden erst im November eröffnet, weil dort die Bauarbeiten noch nicht abgeschlossen sind.",
+          "questions": [
+            {
+              "id": "31",
+              "statement": "Die Linie 27 fährt zum neuen Gewerbegebiet.",
+              "answer": true
+            },
+            {
+              "id": "32",
+              "statement": "Werktags kommt der Bus alle zwanzig Minuten.",
+              "answer": true
+            },
+            {
+              "id": "33",
+              "statement": "Sonntags fährt die Linie jede Stunde.",
+              "answer": false
+            },
+            {
+              "id": "34",
+              "statement": "Die ersten zwei Wochen sind kostenlos.",
+              "answer": true
+            },
+            {
+              "id": "35",
+              "statement": "Danach gelten besondere, höhere Preise.",
+              "answer": false
+            },
+            {
+              "id": "36",
+              "statement": "Alle Haltestellen sind sofort fertig.",
+              "answer": false
+            }
+          ],
+          "categoryLabel": "Lesen · Richtig/Falsch"
+        },
+        {
+          "id": "ads-set-3",
+          "title": "Aufgabensatz 3 · Lernen",
+          "type": "matching_ads",
+          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
+            {
+              "id": "11",
+              "text": "Ihre Tochter braucht Mathematik-Nachhilfe für Klasse 9."
+            },
+            {
+              "id": "12",
+              "text": "Sie suchen einen Deutschkurs am Vormittag."
+            },
+            {
+              "id": "13",
+              "text": "Ihr Vater möchte einen Computerkurs für Senioren."
+            },
+            {
+              "id": "14",
+              "text": "Sie möchten Spanisch online lernen."
+            },
+            {
+              "id": "15",
+              "text": "Ein Freund braucht Hilfe bei Bewerbungen."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Spanisch per Videokurs, flexible Abendtermine."
+            },
+            {
+              "key": "B",
+              "text": "Bewerbungswerkstatt: Lebenslauf, Anschreiben und Gesprächstraining."
+            },
+            {
+              "key": "C",
+              "text": "PC-Grundkurs 60+, kleine Gruppen und langsames Lerntempo."
+            },
+            {
+              "key": "D",
+              "text": "Lernen: derzeit vollständig ausgebucht."
+            },
+            {
+              "key": "E",
+              "text": "Lernen: Angebot nur für Firmenkunden."
+            },
+            {
+              "key": "F",
+              "text": "Deutsch B1, Montag bis Freitag 9–11 Uhr."
+            },
+            {
+              "key": "G",
+              "text": "Mathe-Nachhilfe Klassen 7–10, Einzelunterricht möglich."
+            }
+          ],
+          "answer": {
+            "11": "G",
+            "12": "F",
+            "13": "C",
+            "14": "A",
+            "15": "B"
+          },
+          "categoryLabel": "Lesen · Anzeigen"
+        },
+        {
+          "id": "clozemc-set-1",
+          "title": "Aufgabensatz 1 · Anfrage an ein Hotel",
+          "type": "cloze_mc",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
+          "textBefore": "Sehr geehrte Damen und Herren,\nich interessiere mich",
+          "blanks": [
+            {
+              "id": "1",
+              "before": " für",
+              "options": [
+                "für",
+                "an",
+                "mit"
+              ],
+              "answer": 0,
+              "after": " ein Doppelzimmer in Ihrem Hotel."
+            },
+            {
+              "id": "2",
+              "before": " Ich möchte",
+              "options": [
+                "von",
+                "vom",
+                "am"
+              ],
+              "answer": 2,
+              "after": " 12. bis 15. Oktober bei Ihnen übernachten."
+            },
+            {
+              "id": "3",
+              "before": " Können Sie mir bitte mitteilen,",
+              "options": [
+                "ob",
+                "dass",
+                "weil"
+              ],
+              "answer": 0,
+              "after": " noch ein ruhiges Zimmer frei ist?"
+            },
+            {
+              "id": "4",
+              "before": " Außerdem würde ich gern wissen,",
+              "options": [
+                "wie",
+                "was",
+                "wo"
+              ],
+              "answer": 0,
+              "after": " viel das Frühstück kostet."
+            },
+            {
+              "id": "5",
+              "before": " Ich reise",
+              "options": [
+                "mit",
+                "bei",
+                "zu"
+              ],
+              "answer": 0,
+              "after": " dem Zug an."
+            },
+            {
+              "id": "6",
+              "before": " Deshalb brauche ich keinen",
+              "options": [
+                "Parkplatz",
+                "Parkplätze",
+                "Parkplätzen"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "7",
+              "before": " Über eine schnelle Antwort würde ich",
+              "options": [
+                "mir",
+                "mich",
+                "mein"
+              ],
+              "answer": 1,
+              "after": " sehr freuen."
+            },
+            {
+              "id": "8",
+              "before": " Mit freundlichen",
+              "options": [
+                "Grüßen",
+                "Grüße",
+                "Gruß"
+              ],
+              "answer": 0,
+              "after": ""
+            }
+          ],
+          "textAfter": "",
+          "categoryLabel": "Sprachbausteine · a/b/c"
+        },
+        {
+          "id": "tf-set-5",
+          "title": "Aufgabensatz 5 · Firmenkantine",
+          "type": "true_false",
+          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
+          "text": "Die Kantine der Firma Berger hat ihr Angebot geändert. Seit September gibt es täglich mindestens ein vegetarisches Hauptgericht. Einmal pro Woche wird ausschließlich regional gekocht. Beschäftigte können das Menü bereits am Vortag über das Intranet bestellen und sparen dabei fünfzig Cent. Wer spontan kommt, bekommt aber ebenfalls eine Mahlzeit, solange der Vorrat reicht. Die Kantine ist von 11.30 bis 14 Uhr geöffnet. Externe Gäste dürfen sie nur in Begleitung eines Mitarbeiters nutzen.",
+          "questions": [
+            {
+              "id": "25",
+              "statement": "Jeden Tag gibt es ein vegetarisches Hauptgericht.",
+              "answer": true
+            },
+            {
+              "id": "26",
+              "statement": "Regional gekocht wird jeden Tag.",
+              "answer": false
+            },
+            {
+              "id": "27",
+              "statement": "Vorbesteller zahlen etwas weniger.",
+              "answer": true
+            },
+            {
+              "id": "28",
+              "statement": "Ohne Vorbestellung bekommt man grundsätzlich nichts.",
+              "answer": false
+            },
+            {
+              "id": "29",
+              "statement": "Die Kantine schließt um 14 Uhr.",
+              "answer": true
+            },
+            {
+              "id": "30",
+              "statement": "Externe Gäste können immer allein dort essen.",
+              "answer": false
+            }
+          ],
+          "categoryLabel": "Lesen · Richtig/Falsch"
+        },
+        {
+          "id": "wordbank-set-2",
+          "title": "Aufgabensatz 2 · Umzug",
+          "type": "cloze_wordbank",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Nicht alle Wörter passen.",
+          "wordbank": [
+            "weil",
+            "deshalb",
+            "bevor",
+            "dort",
+            "außerdem",
+            "obwohl",
+            "damit"
+          ],
+          "textBefore": "Paul zieht nächsten Monat in eine andere Stadt,",
+          "blanks": [
+            {
+              "id": "7",
+              "before": "",
+              "answer": "weil",
+              "after": " er eine neue Arbeitsstelle gefunden hat."
+            },
+            {
+              "id": "8",
+              "before": " Er sucht",
+              "answer": "deshalb",
+              "after": " eine Wohnung in der Nähe seiner Firma."
+            },
+            {
+              "id": "9",
+              "before": "",
+              "answer": "bevor",
+              "after": " er umzieht, möchte er noch viele Freunde treffen."
+            },
+            {
+              "id": "10",
+              "before": " Seine Schwester lebt schon",
+              "answer": "dort",
+              "after": " und hilft ihm bei der Suche."
+            },
+            {
+              "id": "11",
+              "before": " Sie kennt",
+              "answer": "außerdem",
+              "after": " einen guten Umzugsservice."
+            },
+            {
+              "id": "12",
+              "before": " Paul packt frühzeitig seine Sachen,",
+              "answer": "damit",
+              "after": " am Umzugstag alles schneller geht."
+            }
+          ],
+          "categoryLabel": "Sprachbausteine · Wortkasten"
+        },
+        {
+          "id": "headings-set-10",
+          "title": "Aufgabensatz 10 · Flexible Bibliotheken",
+          "type": "matching",
+          "instructions": "Lesen Sie die fünf Textabschnitte. Ordnen Sie jedem Abschnitt die passende Überschrift (A–G) zu. Zwei Überschriften bleiben übrig.",
+          "items": [
+            {
+              "id": "46",
+              "text": "Einige Bibliotheken öffnen inzwischen morgens früher und abends länger, auch wenn nicht die ganze Zeit Personal anwesend ist."
+            },
+            {
+              "id": "47",
+              "text": "Registrierte Nutzer betreten die Räume außerhalb der Servicezeiten mit ihrer Bibliothekskarte."
+            },
+            {
+              "id": "48",
+              "text": "Ausleihe und Rückgabe funktionieren dann über Automaten, während Beratung nur zu den normalen Personalzeiten möglich ist."
+            },
+            {
+              "id": "49",
+              "text": "Studierende und Berufstätige schätzen besonders die ruhigen Arbeitsplätze am Abend."
+            },
+            {
+              "id": "50",
+              "text": "Vor der Einführung prüfen Bibliotheken genau, wie Sicherheit, Datenschutz und technische Störungen geregelt werden können."
+            }
+          ],
+          "options": [
+            {
+              "key": "A",
+              "text": "Längere Öffnungszeiten durch neue Konzepte"
+            },
+            {
+              "key": "B",
+              "text": "Automaten ersetzen nicht jede Beratung"
+            },
+            {
+              "key": "C",
+              "text": "Flexible Bibliotheken: deutlich höhere Preise"
+            },
+            {
+              "key": "D",
+              "text": "Flexible Bibliotheken: ein vollständiges Verbot"
+            },
+            {
+              "key": "E",
+              "text": "Zugang mit persönlicher Karte"
+            },
+            {
+              "key": "F",
+              "text": "Sicherheit muss vorher geklärt sein"
+            },
+            {
+              "key": "G",
+              "text": "Mehr Lernzeit für Menschen mit vollem Tag"
+            }
+          ],
+          "answer": {
+            "46": "A",
+            "47": "E",
+            "48": "B",
+            "49": "G",
+            "50": "F"
+          },
+          "categoryLabel": "Lesen · Überschriften"
+        },
+        {
+          "id": "tf-set-8",
+          "title": "Aufgabensatz 8 · Hotel am See",
+          "type": "true_false",
+          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
+          "text": "Das Hotel am See bietet ab diesem Sommer Fahrräder für seine Gäste an. Normale Cityräder sind für Hotelgäste drei Stunden pro Tag kostenlos, E-Bikes kosten 15 Euro pro Tag. Helme können ohne Aufpreis ausgeliehen werden. Die Räder müssen spätestens um 20 Uhr zurückgebracht werden. Eine Reservierung ist an der Rezeption möglich, besonders an Wochenenden wird sie empfohlen. Für Schäden, die durch falsche Nutzung entstehen, haften die Gäste selbst.",
+          "questions": [
+            {
+              "id": "43",
+              "statement": "Cityräder sind für Gäste drei Stunden täglich kostenlos.",
+              "answer": true
+            },
+            {
+              "id": "44",
+              "statement": "E-Bikes sind ebenfalls kostenlos.",
+              "answer": false
+            },
+            {
+              "id": "45",
+              "statement": "Helme kosten extra.",
+              "answer": false
+            },
+            {
+              "id": "46",
+              "statement": "Die Räder müssen bis 20 Uhr zurück sein.",
+              "answer": true
+            },
+            {
+              "id": "47",
+              "statement": "Am Wochenende ist eine Reservierung verboten.",
+              "answer": false
+            },
+            {
+              "id": "48",
+              "statement": "Für selbst verursachte Schäden können Gäste zahlen müssen.",
+              "answer": true
+            }
+          ],
+          "categoryLabel": "Lesen · Richtig/Falsch"
+        },
+        {
+          "id": "ads-set-10",
+          "title": "Aufgabensatz 10 · Veranstaltungen",
+          "type": "matching_ads",
+          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
+            {
+              "id": "46",
+              "text": "Sie möchten am Freitag Jazz hören."
+            },
+            {
+              "id": "47",
+              "text": "Ihre Freundin sucht einen kostenlosen Flohmarkt."
+            },
+            {
+              "id": "48",
+              "text": "Sie wollen eine Ausstellung am Montag besuchen."
+            },
+            {
+              "id": "49",
+              "text": "Ein Bekannter möchte einen Vortrag über Klima hören."
+            },
+            {
+              "id": "50",
+              "text": "Sie suchen ein Open-Air-Kino."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Vortrag: Klimaschutz in Städten, Donnerstagabend."
+            },
+            {
+              "key": "B",
+              "text": "Veranstaltungen: derzeit vollständig ausgebucht."
+            },
+            {
+              "key": "C",
+              "text": "Veranstaltungen: Angebot nur für Firmenkunden."
+            },
+            {
+              "key": "D",
+              "text": "Galerie geöffnet Montag 12–18 Uhr."
+            },
+            {
+              "key": "E",
+              "text": "Nachbarschaftsflohmarkt, Eintritt frei, Samstag."
+            },
+            {
+              "key": "F",
+              "text": "Jazzabend Freitag 20 Uhr im Kulturkeller."
+            },
+            {
+              "key": "G",
+              "text": "Sommerkino draußen im Stadtpark, ab 21 Uhr."
+            }
+          ],
+          "answer": {
+            "46": "F",
+            "47": "E",
+            "48": "D",
+            "49": "A",
+            "50": "G"
+          },
+          "categoryLabel": "Lesen · Anzeigen"
+        }
+      ]
+    }
+  ]
+}

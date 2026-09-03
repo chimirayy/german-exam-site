@@ -1,0 +1,940 @@
+{
+  "levelName": "Deutsch B1 Intensivtraining",
+  "sections": [
+    {
+      "title": "Hören",
+      "parts": [
+        {
+          "id": "ansage_01",
+          "type": "listening",
+          "category": "ansage",
+          "categoryLabel": "Hören · Teil 1 · Ansagen",
+          "title": "Öffentlicher Verkehr",
+          "instructions": "Sie hören eine kurze Durchsage oder Ansage. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/ansage/ansage_01.mp3",
+          "maxPlays": 2,
+          "transcript": "Sehr geehrte Fahrgäste auf Gleis 3. Der Intercity-Express nach Frankfurt über Nürnberg, planmäßige Abfahrt 14:15 Uhr, hat heute voraussichtlich 25 Minuten Verspätung. Grund dafür ist eine Signalstörung auf der Strecke. Passagiere nach Nürnberg können alternativ den Regionalexpress auf Gleis 5 nutzen, der in wenigen Minuten abfährt. Wir bitten um Ihr Verständnis.",
+          "questions": [
+            {
+              "id": "ansage_01_q1",
+              "type": "true_false",
+              "statement": "Der Zug nach Frankfurt fährt heute pünktlich um 14:15 Uhr ab.",
+              "answer": false
+            },
+            {
+              "id": "ansage_01_q2",
+              "type": "multiple_choice",
+              "question": "Was sollen Fahrgäste tun, die nach Nürnberg reisen möchten?",
+              "options": [
+                "Auf Gleis 3 auf den ICE warten.",
+                "Den Regionalexpress auf Gleis 5 nehmen.",
+                "Ein neues Ticket für den Intercity kaufen."
+              ],
+              "answer": 1,
+              "explanation": "Für Passagiere nach Nürnberg wird der Regionalexpress auf Gleis 5 empfohlen, der in Kürze abfährt."
+            }
+          ]
+        },
+        {
+          "id": "ansage_02",
+          "type": "listening",
+          "category": "ansage",
+          "categoryLabel": "Hören · Teil 1 · Ansagen",
+          "title": "Einkaufen",
+          "instructions": "Sie hören eine kurze Durchsage oder Ansage. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/ansage/ansage_02.mp3",
+          "maxPlays": 2,
+          "transcript": "Liebe Kundinnen und Kunden. Wir begrüßen Sie herzlich in unserer Filiale! Achten Sie heute besonders auf unsere Angebote in der Obst- und Gemüseabteilung. Frische Bio-Äpfel aus der Region erhalten Sie diese Woche für nur 1 Euro 99 das Kilo. Außerdem finden Sie in Gang 4 frisch gebackenes Vollkornbrot zum halben Preis. Wir wünschen Ihnen einen angenehmen Einkauf!",
+          "questions": [
+            {
+              "id": "ansage_02_q1",
+              "type": "true_false",
+              "statement": "Die Bio-Äpfel kosten diese Woche 1 Euro 99 pro Kilogramm.",
+              "answer": true
+            },
+            {
+              "id": "ansage_02_q2",
+              "type": "multiple_choice",
+              "question": "Welches Produkt ist in Gang 4 im Angebot?",
+              "options": [
+                "Regionales Obst.",
+                "Bio-Gemüse.",
+                "Frisch gebackenes Brot."
+              ],
+              "answer": 2,
+              "explanation": "In Gang 4 gibt es frisch gebackenes Vollkornbrot zum halben Preis."
+            }
+          ]
+        },
+        {
+          "id": "ansage_03",
+          "type": "listening",
+          "category": "ansage",
+          "categoryLabel": "Hören · Teil 1 · Ansagen",
+          "title": "Gesundheit & Termine",
+          "instructions": "Sie hören eine kurze Durchsage oder Ansage. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/ansage/ansage_03.mp3",
+          "maxPlays": 2,
+          "transcript": "Guten Tag, hier ist die Praxis von Dr. Schneider. Unsere Praxis bleibt wegen Fortbildung vom 10. bis zum 15. Oktober geschlossen. In dringenden medizinischen Fällen wenden Sie sich bitte an die Vertretungspraxis Dr. Weber in der Hauptstraße 12, Telefonnummer 089 45 67 89. Ab Montag, dem 18. Oktober, sind wir wieder wie gewohnt für Sie da.",
+          "questions": [
+            {
+              "id": "ansage_03_q1",
+              "type": "true_false",
+              "statement": "Die Praxis von Dr. Schneider ist im Urlaub.",
+              "answer": false
+            },
+            {
+              "id": "ansage_03_q2",
+              "type": "multiple_choice",
+              "question": "Was tun Patientinnen und Patienten bei dringenden medizinischen Problemen?",
+              "options": [
+                "Sie rufen ab dem 18. Oktober noch einmal an.",
+                "Sie gehen in die Vertretungspraxis von Dr. Weber.",
+                "Sie kommen am 10. Oktober direkt in die Praxis."
+              ],
+              "answer": 1,
+              "explanation": "In dringenden Fällen vertritt Dr. Weber in der Hauptstraße 12 die Praxis während der Fortbildung."
+            }
+          ]
+        },
+        {
+          "id": "ansage_04",
+          "type": "listening",
+          "category": "ansage",
+          "categoryLabel": "Hören · Teil 1 · Ansagen",
+          "title": "Wetter & Freizeit",
+          "instructions": "Sie hören eine kurze Durchsage oder Ansage. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/ansage/ansage_04.mp3",
+          "maxPlays": 2,
+          "transcript": "Und nun zum Wetter für das kommende Wochenende. Am Samstag bleibt es im Norden meist sonnig und trocken mit Temperaturen bis zu 22 Grad. Im Süden hingegen müssen Sie am Nachmittag mit leichten Regenschauern und kühlerem Wind rechnen. Am Sonntag wird es überall wieder freundlicher und milder. Perfekt für einen Ausflug ins Grüne!",
+          "questions": [
+            {
+              "id": "ansage_04_q1",
+              "type": "true_false",
+              "statement": "Am Samstag regnet es im Norden Deutschlands.",
+              "answer": false
+            },
+            {
+              "id": "ansage_04_q2",
+              "type": "multiple_choice",
+              "question": "Wie wird das Wetter am Sonntag?",
+              "options": [
+                "Überall sonnig und wieder angenehmer.",
+                "Windig und deutlich kälter als am Samstag.",
+                "Im Süden gibt es weiterhin starken Regen."
+              ],
+              "answer": 0,
+              "explanation": "Am Sonntag wird das Wetter überall wieder freundlicher und milder."
+            }
+          ]
+        },
+        {
+          "id": "ansage_05",
+          "type": "listening",
+          "category": "ansage",
+          "categoryLabel": "Hören · Teil 1 · Ansagen",
+          "title": "Reisen & Flughafen",
+          "instructions": "Sie hören eine kurze Durchsage oder Ansage. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/ansage/ansage_05.mp3",
+          "maxPlays": 2,
+          "transcript": "Letzter Aufruf für die Passagiere des Fluges LH 452 nach Berlin. Bitte beachten Sie eine kurzfristige Änderung: Das Boarding erfolgt nicht wie angekündigt an Gate B12, sondern an Gate B22. Bitte begeben Sie sich umgehend zur Handgepäckkontrolle am neuen Gate. Der Einstieg beginnt in wenigen Minuten.",
+          "questions": [
+            {
+              "id": "ansage_05_q1",
+              "type": "true_false",
+              "statement": "Der Flug nach Berlin startet wie gewohnt von Gate B12.",
+              "answer": false
+            },
+            {
+              "id": "ansage_05_q2",
+              "type": "multiple_choice",
+              "question": "Was sollten die Passagiere nach der Durchsage sofort tun?",
+              "options": [
+                "Zum Schalter im Hauptgebäude gehen.",
+                "Zur Kontrolle am Gate B22 gehen.",
+                "Am Gate B12 auf weitere Informationen warten."
+              ],
+              "answer": 1,
+              "explanation": "Das Boarding wurde auf Gate B22 verlegt, Passagiere sollen direkt dorthin gehen."
+            }
+          ]
+        },
+        {
+          "id": "ansage_06",
+          "type": "listening",
+          "category": "ansage",
+          "categoryLabel": "Hören · Teil 1 · Ansagen",
+          "title": "Alltagsplanung",
+          "instructions": "Sie hören eine kurze Durchsage oder Ansage. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/ansage/ansage_06.mp3",
+          "maxPlays": 2,
+          "transcript": "Hallo Thomas, hier ist Markus. Ich wollte mich wegen unseres Treffens am Freitag melden. Leider schaffe ich es nicht um 18 Uhr, weil ich etwas länger im Büro bleiben muss. Passt es dir vielleicht um 19:30 Uhr vor dem Kino? Gib mir kurz Bescheid, ob das klappt, damit ich die Karten reservieren kann. Bis dann!",
+          "questions": [
+            {
+              "id": "ansage_06_q1",
+              "type": "true_false",
+              "statement": "Markus muss am Freitag länger arbeiten.",
+              "answer": true
+            },
+            {
+              "id": "ansage_06_q2",
+              "type": "multiple_choice",
+              "question": "Worum bittet Markus seinen Freund Thomas?",
+              "options": [
+                "Um 18 Uhr vor dem Kino zu warten.",
+                "Die Kinokarten bereits vorab zu kaufen.",
+                "Rückmeldung zum neuen Treffpunkt-Zeitpunkt zu geben."
+              ],
+              "answer": 2,
+              "explanation": "Markus möchte wissen, ob 19:30 Uhr für Thomas passt, damit er die Karten reservieren kann."
+            }
+          ]
+        },
+        {
+          "id": "ansage_07",
+          "type": "listening",
+          "category": "ansage",
+          "categoryLabel": "Hören · Teil 1 · Ansagen",
+          "title": "Einkaufen",
+          "instructions": "Sie hören eine kurze Durchsage oder Ansage. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/ansage/ansage_07.mp3",
+          "maxPlays": 2,
+          "transcript": "Achtung, eine kleine Fundmeldung! An der Information im Erdgeschoss wurde ein braunes Lederportemonnaie abgegeben. Der Eigentümer kann die Geldbörse unter Vorlage eines Ausweises an der Hauptkasse abholen. Ich wiederhole: Ein braunes Portemonnaie wurde an der Information abgegeben.",
+          "questions": [
+            {
+              "id": "ansage_07_q1",
+              "type": "true_false",
+              "statement": "Man kann die Geldbörse ohne Ausweis abholen.",
+              "answer": false
+            },
+            {
+              "id": "ansage_07_q2",
+              "type": "multiple_choice",
+              "question": "Wo kann der Besitzer sein Portemonnaie abholen?",
+              "options": [
+                "An der Hauptkasse.",
+                "An der Information im Erdgeschoss.",
+                "Beim Fundbüro im ersten Stock."
+              ],
+              "answer": 0,
+              "explanation": "Der Eigentümer soll das Portemonnaie unter Vorlage des Ausweises an der Hauptkasse abholen."
+            }
+          ]
+        },
+        {
+          "id": "ansage_08",
+          "type": "listening",
+          "category": "ansage",
+          "categoryLabel": "Hören · Teil 1 · Ansagen",
+          "title": "Bildung & Kurse",
+          "instructions": "Sie hören eine kurze Durchsage oder Ansage. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/ansage/ansage_08.mp3",
+          "maxPlays": 2,
+          "transcript": "Guten Tag, hier ist die Sprachschule Lingua. Diese Nachricht richtet sich an die Teilnehmer des Deutschkurses B1 am Donnerstagabend. Wegen Erkrankung der Kursleiterin muss der Unterricht heute leider entfallen. Der Ausfalltermin wird am Ende des Semesters nachgeholt. Ein Ersatztermin wird Ihnen per E-Mail mitgeteilt.",
+          "questions": [
+            {
+              "id": "ansage_08_q1",
+              "type": "true_false",
+              "statement": "Der Deutschkurs am Donnerstagabend findet heute statt.",
+              "answer": false
+            },
+            {
+              "id": "ansage_08_q2",
+              "type": "multiple_choice",
+              "question": "Wie erfahren die Kursteilnehmer den neuen Termin?",
+              "options": [
+                "Per Telefonanruf.",
+                "Per E-Mail.",
+                "Auf der Website der Sprachschule."
+              ],
+              "answer": 1,
+              "explanation": "Der Ersatztermin wird den Kursteilnehmern per E-Mail zugeschickt."
+            }
+          ]
+        },
+        {
+          "id": "ansage_09",
+          "type": "listening",
+          "category": "ansage",
+          "categoryLabel": "Hören · Teil 1 · Ansagen",
+          "title": "Kultur & Freizeit",
+          "instructions": "Sie hören eine kurze Durchsage oder Ansage. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/ansage/ansage_09.mp3",
+          "maxPlays": 2,
+          "transcript": "Sehr geehrte Besucherinnen und Besucher. Unser Museum schließt in 15 Minuten. Wir bitten Sie, sich langsam zu den Ausgängen zu begeben und Ihre Garderobe im Erdgeschoss abzuholen. Der Mueseumsshop hat noch bis 18 Uhr für Sie geöffnet. Wir danken Ihnen für Ihren Besuch und wünschen Ihnen einen schönen Abend.",
+          "questions": [
+            {
+              "id": "ansage_09_q1",
+              "type": "true_false",
+              "statement": "Besucher sollen ihre Jacken und Taschen im Erdgeschoss abholen.",
+              "answer": true
+            },
+            {
+              "id": "ansage_09_q2",
+              "type": "multiple_choice",
+              "question": "Was bleibt nach der Museumsschließung noch geöffnet?",
+              "options": [
+                "Die Hauptausstellung.",
+                "Der Museumsshop.",
+                "Das Museumscafé."
+              ],
+              "answer": 1,
+              "explanation": "Der Museumsshop bleibt noch bis 18 Uhr geöffnet, auch wenn die Ausstellungsräume schließen."
+            }
+          ]
+        },
+        {
+          "id": "ansage_10",
+          "type": "listening",
+          "category": "ansage",
+          "categoryLabel": "Hören · Teil 1 · Ansagen",
+          "title": "Gastronomie",
+          "instructions": "Sie hören eine kurze Durchsage oder Ansage. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/ansage/ansage_10.mp3",
+          "maxPlays": 2,
+          "transcript": "Guten Tag Herr Schmidt, hier ist das Restaurant Müller. Wir bestätigen Ihre Tischreservierung für diesen Samstag um 20:00 Uhr für vier Personen. Sollten Sie sich verspäten oder den Tisch nicht mehr benötigen, bitten wir Sie, uns mindestens zwei Stunden vorher telefonisch zu informieren. Wir freuen uns auf Ihren Besuch!",
+          "questions": [
+            {
+              "id": "ansage_10_q1",
+              "type": "true_false",
+              "statement": "Herr Schmidt hat einen Tisch für vier Personen reserviert.",
+              "answer": true
+            },
+            {
+              "id": "ansage_10_q2",
+              "type": "multiple_choice",
+              "question": "Was soll Herr Schmidt tun, wenn er den Tisch stornieren muss?",
+              "options": [
+                "Eine E-Mail schreiben.",
+                "Spätestens 2 Stunden vorher anrufen.",
+                "Direkt im Restaurant vorbeikommen."
+              ],
+              "answer": 1,
+              "explanation": "Bei Absage oder Verspätung bittet das Restaurant um einen Anruf mindestens zwei Stunden vor dem Termin."
+            }
+          ]
+        },
+        {
+          "id": "report_01",
+          "type": "listening",
+          "category": "report",
+          "categoryLabel": "Hören · Teil 2 · Berichte",
+          "title": "Kultur & Kunst",
+          "instructions": "Sie hören einen informativen Radiobeitrag. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/report/report_01.mp3",
+          "maxPlays": 2,
+          "transcript": "Willkommen bei unserem Radiomagazin 'Kultur unterwegs'. Heute berichten wir über das neue Museum für moderne Kunst in Dresden. Nach drei Jahren Bauzeit wurde das Gebäude am vergangenen Wochenende endlich eröffnet. Das Museum befindet sich in einem ehemaligen Fabrikgebäude direkt am Elbufer und bietet Platz für über 500 Kunstwerke. Besonders beeindruckend ist die lichtdurchflutete Glashalle im Erdgeschoss, in der Skulpturen internationaler Künstler gezeigt werden. Für Studenten und Senioren gibt es jeden Mittwoch ermäßigten Eintritt. Außerdem werden am Wochenende kostenlose Führungen auf Deutsch und Englisch angeboten. Ein Besuch lohnt sich besonders am späten Nachmittag, wenn das Licht im Gebäude am schönsten ist.",
+          "questions": [
+            {
+              "id": "report_01_q1",
+              "type": "true_false",
+              "statement": "Das neue Kunstmuseum in Dresden befindet sich in einem ehemaligen Fabrikgebäude.",
+              "answer": true
+            },
+            {
+              "id": "report_01_q2",
+              "type": "multiple_choice",
+              "question": "Wann gibt es im Museum ermäßigten Eintritt für Studenten?",
+              "options": [
+                "Jeden Tag am späten Nachmittag.",
+                "An jedem Mittwoch.",
+                "Nur am Wochenende."
+              ],
+              "answer": 1,
+              "explanation": "Für Studenten und Senioren gibt es jeden Mittwoch ermäßigten Eintritt."
+            }
+          ]
+        },
+        {
+          "id": "report_02",
+          "type": "listening",
+          "category": "report",
+          "categoryLabel": "Hören · Teil 2 · Berichte",
+          "title": "Umwelt & Stadtleben",
+          "instructions": "Sie hören einen informativen Radiobeitrag. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/report/report_02.mp3",
+          "maxPlays": 2,
+          "transcript": "Guten Tag liebe Hörerinnen und Hörer, willkommen zu 'Umwelt kompakt'. Heute geht es um eine grüne Initiative in unserer Stadt: das Projekt 'Essbare Stadt'. Seit diesem Frühjahr pflanzt die Stadtverwaltung in öffentlichen Parks und Gemüsegärten Obstbäume, Beerensträucher und Kräuter an. Das Besondere daran: Alle Bürgerinnen und Bürger dürfen das reife Obst und Gemüse kostenlos pflücken und mit nach Hause nehmen. Ziel des Projekts ist es, das Bewusstsein für regionale Lebensmittel zu stärken und die Stadt grüner zu gestalten. Freiwillige Helfer treffen sich jeden Samstagmorgen, um bei der Pflege der Beete zu helfen. Wer mitmachen möchte, findet alle Informationen auf unserer Website.",
+          "questions": [
+            {
+              "id": "report_02_q1",
+              "type": "true_false",
+              "statement": "Bürger müssen für das Obst aus den öffentlichen Gärten bezahlen.",
+              "answer": false
+            },
+            {
+              "id": "report_02_q2",
+              "type": "multiple_choice",
+              "question": "Wann treffen sich die freiwilligen Helfer zur Pflege der Beete?",
+              "options": [
+                "Jeden Samstagmorgen.",
+                "Jeden Mittwoch nach der Arbeit.",
+                "Am ersten Sonntag im Monat."
+              ],
+              "answer": 0,
+              "explanation": "Freiwillige Helfer treffen sich jeden Samstagmorgen, um bei der Pflege zu helfen."
+            }
+          ]
+        },
+        {
+          "id": "report_03",
+          "type": "listening",
+          "category": "report",
+          "categoryLabel": "Hören · Teil 2 · Berichte",
+          "title": "Reisen & Sport",
+          "instructions": "Sie hören einen informativen Radiobeitrag. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/report/report_03.mp3",
+          "maxPlays": 2,
+          "transcript": "In unserer heutigen Ausgabe von 'Reiselust' stellen wir Ihnen den Bodensee-Radweg vor. Dieser beliebte Radweg führt auf knapp 260 Kilometern durch drei Länder: Deutschland, Österreich und die Schweiz. Die Strecke ist größtenteils flach und verläuft fast durchgehend nahe am Ufer, was sie besonders für Familien mit Kindern attraktiv macht. Unterwegs passiert man historische Städte wie Konstanz und Lindau sowie die berühmte Blumeninsel Mainau. Wer nicht die gesamte Strecke radeln möchte, kann die Tour jederzeit unterbrechen und eine Etappe bequem mit dem Passagierschiff abkürzen. Die beste Reisezeit ist von Mai bis Oktober.",
+          "questions": [
+            {
+              "id": "report_03_q1",
+              "type": "true_false",
+              "statement": "Der Bodensee-Radweg verläuft durch zwei verschiedene Länder.",
+              "answer": false
+            },
+            {
+              "id": "report_03_q2",
+              "type": "multiple_choice",
+              "question": "Wie kann man eine Etappe auf dem Radweg abkürzen?",
+              "options": [
+                "Mit dem Zug.",
+                "Mit einem Passagierschiff.",
+                "Mit einem öffentlichen Bus."
+              ],
+              "answer": 1,
+              "explanation": "Man kann die Tour jederzeit unterbrechen und eine Etappe mit dem Passagierschiff abkürzen."
+            }
+          ]
+        },
+        {
+          "id": "report_04",
+          "type": "listening",
+          "category": "report",
+          "categoryLabel": "Hören · Teil 2 · Berichte",
+          "title": "Bildung & Senioren",
+          "instructions": "Sie hören einen informativen Radiobeitrag. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/report/report_04.mp3",
+          "maxPlays": 2,
+          "transcript": "Willkommen beim Konsumentenmagazin. Heute informieren wir Sie über ein neues Angebot der Volkshochschule: Digitale Kurse für Seniorinnen und Senioren. Immer mehr ältere Menschen möchten Smartphones, Tablets und Videokonferenzen im Alltag nutzen, um mit ihren Familien in Kontakt zu bleiben. Die Kurse beginnen im kommenden Monat und finden in kleinen Gruppen mit maximal acht Personen statt. Jeder Teilnehmer kann sein eigenes Gerät mitbringen und lernt Schritt für Schritt die wichtigsten Funktionen kennen. Die Kursgebühr beträgt 45 Euro für insgesamt sechs Termine. Eine vorherige Anmeldung im Sekretariat der Volkshochschule ist erforderlich.",
+          "questions": [
+            {
+              "id": "report_04_q1",
+              "type": "true_false",
+              "statement": "Die Digitalkurse finden in Großgruppen mit 20 Personen statt.",
+              "answer": false
+            },
+            {
+              "id": "report_04_q2",
+              "type": "multiple_choice",
+              "question": "Wie viel kostet der Kurs für insgesamt sechs Termine?",
+              "options": [
+                "Der Kurs ist komplett kostenlos.",
+                "45 Euro.",
+                "60 Euro."
+              ],
+              "answer": 1,
+              "explanation": "Die Kursgebühr beträgt 45 Euro für insgesamt sechs Termine."
+            }
+          ]
+        },
+        {
+          "id": "report_05",
+          "type": "listening",
+          "category": "report",
+          "categoryLabel": "Hören · Teil 2 · Berichte",
+          "title": "Gesundheit & Alltag",
+          "instructions": "Sie hören einen informativen Radiobeitrag. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/report/report_05.mp3",
+          "maxPlays": 2,
+          "transcript": "Herzlich willkommen zu 'Gesund durch den Tag'. Heute sprechen wir über die gesundheitlichen Vorteile des täglichen Spazierengehens. Wissenschaftliche Studien zeigen, dass schon 30 Minuten zügiges Gehen pro Tag das Risiko für Herzkrankheiten deutlich senkt. Außerdem hilft die Bewegung an der frischen Luft, Stress abzubauen und den Schlaf zu verbessern. Experten empfehlen, die Spaziergänge in den Tagesablauf einzubauen – zum Beispiel, indem man den Arbeitsweg teilweise zu Fuß zurücklegt oder die Mittagspause für eine kleine Runde im Park nutzt. Regelmäßigkeit ist dabei wichtiger als die Geschwindigkeit.",
+          "questions": [
+            {
+              "id": "report_05_q1",
+              "type": "true_false",
+              "statement": "Schon 30 Minuten zügiges Gehen pro Tag senkt das Risiko für Herzkrankheiten.",
+              "answer": true
+            },
+            {
+              "id": "report_05_q2",
+              "type": "multiple_choice",
+              "question": "Was ist laut Experten beim Spazierengehen am wichtigsten?",
+              "options": [
+                "Hohe Geschwindigkeit.",
+                "Die Regelmäßigkeit.",
+                "Das Tragen von speziellem Sportschuhwerk."
+              ],
+              "answer": 1,
+              "explanation": "Experten betonen, dass Regelmäßigkeit wichtiger ist als die Geschwindigkeit."
+            }
+          ]
+        },
+        {
+          "id": "report_06",
+          "type": "listening",
+          "category": "report",
+          "categoryLabel": "Hören · Teil 2 · Berichte",
+          "title": "Veranstaltungen & Stadtleben",
+          "instructions": "Sie hören einen informativen Radiobeitrag. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/report/report_06.mp3",
+          "maxPlays": 2,
+          "transcript": "In unserem Lokalradio berichten wir heute über das traditionelle Stadtfest, das am kommenden Wochenende stattfindet. Auf insgesamt drei Bühnen rund um den Marktplatz gibt es zwei Tage lang Musik von regionalen Bands, Theaterstücke und ein buntes Kinderprogramm. Kulinarisch erwartet die Besucher eine große Auswahl an Spezialitäten aus der Region sowie vegetarische und vegane Gerichte. Wegen des Stadtfestes ist die gesamte Innenstadt von Freitagabend bis Sonntag Mitternacht für den Autoverkehr gesperrt. Besuchern wird dringend empfohlen, mit öffentlichen Verkehrsmitteln oder dem Fahrrad anzureisen.",
+          "questions": [
+            {
+              "id": "report_06_q1",
+              "type": "true_false",
+              "statement": "Autos dürfen am Wochenende normal durch die Innenstadt fahren.",
+              "answer": false
+            },
+            {
+              "id": "report_06_q2",
+              "type": "multiple_choice",
+              "question": "Wie sollten Besucher am besten zum Stadtfest anreisen?",
+              "options": [
+                "Mit dem eigenen Auto.",
+                "Mit dem Taxi.",
+                "Mit Öffentlichen Verkehrsmitteln oder dem Fahrrad."
+              ],
+              "answer": 2,
+              "explanation": "Wegen der Straßensperrungen wird die Anreise per Fahrrad oder ÖPNV dringend empfohlen."
+            }
+          ]
+        },
+        {
+          "id": "report_07",
+          "type": "listening",
+          "category": "report",
+          "categoryLabel": "Hören · Teil 2 · Berichte",
+          "title": "Schule & Ausbildung",
+          "instructions": "Sie hören einen informativen Radiobeitrag. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/report/report_07.mp3",
+          "maxPlays": 2,
+          "transcript": "Guten Abend beim Bildungsmagazin. Wir stellen Ihnen heute ein erfolgreiches Schulprojekt vor: 'Schüler helfen Schülern'. An der Goethe-Gesamtschule geben ältere Schülerinnen und Schüler aus den Jahrgängen 9 und 10 jüngeren Kindern aus der Orientierungsstufe Nachhilfe. Das Nachhilfeprogramm findet zweimal pro Woche direkt nach dem regulären Unterricht in den Räumen der Schule statt. Die jüngeren Schüler lernen in einer entspannten Atmosphäre, während die älteren Schüler Verantwortung übernehmen und ihr eigenes Wissen festigen. Das Projekt wird von Eltern und Lehrern sehr gelobt, da es auch den Zusammenhalt an der Schule stärkt.",
+          "questions": [
+            {
+              "id": "report_07_q1",
+              "type": "true_false",
+              "statement": "Die Nachhilfe findet in den Räumen der Schule statt.",
+              "answer": true
+            },
+            {
+              "id": "report_07_q2",
+              "type": "multiple_choice",
+              "question": "Wer gibt den jüngeren Kindern Nachhilfe?",
+              "options": [
+                "Ältere Schülerinnen und Schüler aus den Klassen 9 und 10.",
+                "Studentische Lehrkräfte von der Universität.",
+                "Ehrenamtliche Eltern."
+              ],
+              "answer": 0,
+              "explanation": "Schüler der 9. und 10. Jahrgangsstufe geben den jüngeren Kindern Nachhilfe."
+            }
+          ]
+        },
+        {
+          "id": "report_08",
+          "type": "listening",
+          "category": "report",
+          "categoryLabel": "Hören · Teil 2 · Berichte",
+          "title": "Technik & Haushalt",
+          "instructions": "Sie hören einen informativen Radiobeitrag. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/report/report_08.mp3",
+          "maxPlays": 2,
+          "transcript": "Willkommen bei 'Technik heute'. Wir berichten über das Thema 'Smart Home' und Energiesparen im Haushalt. Intelligente Thermostate und programmierbare Heizkörperventile erfreuen sich immer größerer Beliebtheit. Mit diesen Geräten kann man die Temperatur in jedem Raum individuell steuern und per Smartphone-App auch von unterwegs anpassen. Studien zeigen, dass Haushalte durch den Einsatz smarter Thermostate bis zu 15 Prozent ihrer Heizkosten einsparen können. Die Installation ist meist unkompliziert und kann ohne Handwerker durchgeführt werden, da die neuen Ventile einfach auf die alten Heizkörper geschraubt werden.",
+          "questions": [
+            {
+              "id": "report_08_q1",
+              "type": "true_false",
+              "statement": "Für die Installation intelligenter Thermostate braucht man unbedingt einen Handwerker.",
+              "answer": false
+            },
+            {
+              "id": "report_08_q2",
+              "type": "multiple_choice",
+              "question": "Wie viel Prozent der Heizkosten kann man laut Studien durch smarte Thermostate sparen?",
+              "options": [
+                "Bis zu 5 Prozent.",
+                "Bis zu 15 Prozent.",
+                "Bis zu 50 Prozent."
+              ],
+              "answer": 1,
+              "explanation": "Haushalte können durch smarte Thermostate bis zu 15 Prozent ihrer Heizkosten einsparen."
+            }
+          ]
+        },
+        {
+          "id": "report_09",
+          "type": "listening",
+          "category": "report",
+          "categoryLabel": "Hören · Teil 2 · Berichte",
+          "title": "Beruf & Arbeit",
+          "instructions": "Sie hören einen informativen Radiobeitrag. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/report/report_09.mp3",
+          "maxPlays": 2,
+          "transcript": "Heute in unserer Reihe 'Berufe im Porträt': Der Beruf des Landschaftsgärtners. Landschaftsgärtner gestalten Gärten, Parkanlagen und öffentliche Grünflächen. Zu ihren täglichen Aufgaben gehören das Pflanzen von Bäumen, das Anlegen von Rasenflächen sowie der Bau von Holzzäunen und Steinwegen. Der Beruf erfordert nicht nur körperliche Fitness und handwerkliches Geschick, sondern auch gutes Wissen über Pflanzenkunde und Bodenbeschaffenheit. Die Ausbildung dauert drei Jahre und kombiniert praktische Arbeit im Betrieb mit theoretischem Unterricht in der Berufsschule. Fachkräfte sind auf dem Arbeitsmarkt derzeit sehr gefragt.",
+          "questions": [
+            {
+              "id": "report_09_q1",
+              "type": "true_false",
+              "statement": "Die Ausbildung zum Landschaftsgärtner dauert drei Jahre.",
+              "answer": true
+            },
+            {
+              "id": "report_09_q2",
+              "type": "multiple_choice",
+              "question": "Welche Qualifikation gehört NICHT zum Beruf des Landschaftsgärtners?",
+              "options": [
+                "Handwerkliches Geschick.",
+                "Körperliche Fitness.",
+                "Ein Hochschulabschluss in Architektur."
+              ],
+              "answer": 2,
+              "explanation": "Der Beruf erfordert Fitness, Geschick und Pflanzenkunde, aber keinen Hochschulabschluss."
+            }
+          ]
+        },
+        {
+          "id": "report_10",
+          "type": "listening",
+          "category": "report",
+          "categoryLabel": "Hören · Teil 2 · Berichte",
+          "title": "Geschichte & Bibliothek",
+          "instructions": "Sie hören einen informativen Radiobeitrag. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/report/report_10.mp3",
+          "maxPlays": 2,
+          "transcript": "Liebe Hörerinnen und Hörer, in unserem Geschichtsbeitrag geht es heute um die Wiedereröffnung der historischen Stadtbibliothek. Das Denkmal geschützte Gebäude aus dem 19. Jahrhundert wurde über zwei Jahre lang aufwendig restauriert. Neben modernen Arbeitsplätzen mit kostenlosem WLAN bietet die Bibliothek nun auch ein gemütliches Lesecafé und einen überdachten Innenhof. Der historische Buchbestand wurde digitalisiert und steht Besuchern nun an digitalen Terminals zur Verfügung. Die feierliche Eröffnung findet am kommenden Dienstag um 10 Uhr statt. Der Eintritt ist am Eröffnungstag für alle Besucher frei.",
+          "questions": [
+            {
+              "id": "report_10_q1",
+              "type": "true_false",
+              "statement": "Der Eintritt zur Bibliothek kostet am Eröffnungstag Geld.",
+              "answer": false
+            },
+            {
+              "id": "report_10_q2",
+              "type": "multiple_choice",
+              "question": "Wie steht der historische Buchbestand Besuchern nun zur Verfügung?",
+              "options": [
+                "Nur nach vorheriger Anmeldung per Post.",
+                "Digitalisiert an digitalen Terminals.",
+                "Der Bestand wurde komplett an ein Museum verkauft."
+              ],
+              "answer": 1,
+              "explanation": "Der historische Buchbestand wurde digitalisiert und ist an Terminals einsehbar."
+            }
+          ]
+        },
+        {
+          "id": "dialogue_01",
+          "type": "listening",
+          "category": "dialogue",
+          "categoryLabel": "Hören · Teil 3 · Gespräche",
+          "title": "Work-Life & Homeoffice",
+          "instructions": "Sie hören ein Gespräch zwischen Anna und Thomas. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/dialogue/dialogue_01.mp3",
+          "maxPlays": 2,
+          "transcript": "Anna: Sag mal, Thomas, was hältst du eigentlich von Homeoffice? Ich finde es super, weil man sich den Weg zur Arbeit spart.\nThomas: An sich stimme ich dir zu, Anna. Aber mir fehlt im Homeoffice oft der persönliche Kontakt zu den Kollegen.\nAnna: Das verstehe ich. Eine Kombination aus zwei Tagen Homeoffice und drei Tagen Büro wäre für mich perfekt.",
+          "questions": [
+            {
+              "id": "dialogue_01_q1",
+              "type": "true_false",
+              "statement": "Thomas findet Homeoffice in jeder Hinsicht perfekt.",
+              "answer": false
+            },
+            {
+              "id": "dialogue_01_q2",
+              "type": "multiple_choice",
+              "question": "Welches Arbeitsmodell findet Anna am besten?",
+              "options": [
+                "5 Tage im Büro arbeiten.",
+                "Eine Kombination aus Homeoffice und Büro.",
+                "Nur noch von zu Hause aus arbeiten."
+              ],
+              "answer": 1,
+              "explanation": "Anna wünscht sich zwei Tage Homeoffice und drei Tage Büro."
+            }
+          ]
+        },
+        {
+          "id": "dialogue_02",
+          "type": "listening",
+          "category": "dialogue",
+          "categoryLabel": "Hören · Teil 3 · Gespräche",
+          "title": "Ernährung & Gesundheit",
+          "instructions": "Sie hören ein Gespräch zwischen Sarah und Mann. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/dialogue/dialogue_02.mp3",
+          "maxPlays": 2,
+          "transcript": "Mann: Sarah, ernährst du dich jetzt eigentlich komplett vegetarisch?\nSarah: Ja, seit zwei Monaten. Ich fühle mich viel fitter und es tut der Umwelt gut.\nMann: Ganz auf Fleisch zu verzichten fällt mir schwer, aber ich versuche zumindest, weniger Fleisch zu essen.",
+          "questions": [
+            {
+              "id": "dialogue_02_q1",
+              "type": "true_false",
+              "statement": "Sarah ernährt sich seit zwei Monaten vegetarisch.",
+              "answer": true
+            },
+            {
+              "id": "dialogue_02_q2",
+              "type": "multiple_choice",
+              "question": "Was nimmt sich der Mann beim Fleischessen vor?",
+              "options": [
+                "Gar kein Fleisch mehr zu essen.",
+                "Seinen Fleischkonsum zu reduzieren.",
+                "Nur noch im Restaurant Fleisch zu bestellen."
+              ],
+              "answer": 1,
+              "explanation": "Er findet kompletten Verzicht schwer, möchte aber zumindest weniger Fleisch essen."
+            }
+          ]
+        },
+        {
+          "id": "dialogue_03",
+          "type": "listening",
+          "category": "dialogue",
+          "categoryLabel": "Hören · Teil 3 · Gespräche",
+          "title": "Reisen & Verkehrsmittel",
+          "instructions": "Sie hören ein Gespräch zwischen Frau und Michael. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/dialogue/dialogue_03.mp3",
+          "maxPlays": 2,
+          "transcript": "Frau: Michael, fährst du dieses Jahr wieder mit dem Auto in den Urlaub?\nMichael: Nein, diesmal nehmen wir den Zug. Das ist entspannter und man muss nicht im Stau stehen.\nFrau: Gute Idee! Zugreisen sind zwar manchmal etwas teurer, aber man kann während der Fahrt lesen.",
+          "questions": [
+            {
+              "id": "dialogue_03_q1",
+              "type": "true_false",
+              "statement": "Michael fährt dieses Jahr mit dem Auto in den Urlaub.",
+              "answer": false
+            },
+            {
+              "id": "dialogue_03_q2",
+              "type": "multiple_choice",
+              "question": "Welchen Vorteil von Zugreisen nennt die Frau?",
+              "options": [
+                "Zugtickets sind immer sehr günstig.",
+                "Man kommt viel schneller an als mit dem Flugzeug.",
+                "Man kann während der Fahrt entspannt lesen."
+              ],
+              "answer": 2,
+              "explanation": "Die Frau erwähnt, dass man während der Zugfahrt lesen kann."
+            }
+          ]
+        },
+        {
+          "id": "dialogue_04",
+          "type": "listening",
+          "category": "dialogue",
+          "categoryLabel": "Hören · Teil 3 · Gespräche",
+          "title": "Mobilität in der Stadt",
+          "instructions": "Sie hören ein Gespräch zwischen Julia und Mann. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/dialogue/dialogue_04.mp3",
+          "maxPlays": 2,
+          "transcript": "Mann: Ich überlege, ein E-Bike für den Arbeitsweg zu kaufen. Was meinst du, Julia?\nJulia: Für die Stadt ist das ideal! Man ist viel schneller als mit dem Auto und findet leicht einen Parkplatz.\nMann: Stimmt, nur die Anschaffungskosten sind recht hoch.",
+          "questions": [
+            {
+              "id": "dialogue_04_q1",
+              "type": "true_false",
+              "statement": "Der Mann hat sich bereits ein E-Bike gekauft.",
+              "answer": false
+            },
+            {
+              "id": "dialogue_04_q2",
+              "type": "multiple_choice",
+              "question": "Was sieht der Mann als Nachteil bei einem E-Bike?",
+              "options": [
+                "Die hohen Anschaffungskosten.",
+                "Die schwere Parkplatzsuche.",
+                "Die langsame Geschwindigkeit."
+              ],
+              "answer": 0,
+              "explanation": "Der Mann merkt an, dass die Anschaffungskosten für ein E-Bike recht hoch sind."
+            }
+          ]
+        },
+        {
+          "id": "dialogue_05",
+          "type": "listening",
+          "category": "dialogue",
+          "categoryLabel": "Hören · Teil 3 · Gespräche",
+          "title": "Medien & Lesen",
+          "instructions": "Sie hören ein Gespräch zwischen Frau und Mann. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/dialogue/dialogue_05.mp3",
+          "maxPlays": 2,
+          "transcript": "Frau: Liest du noch echte Bücher aus Papier, oder nutzt du nur noch einen E-Reader?\nMann: Ich benutze fast nur noch den E-Reader. Auf Reisen ist das extrem praktisch.\nFrau: Ich mag das Gefühl von Papier in den Händen einfach lieber, auch wenn das Buch mehr wiegt.",
+          "questions": [
+            {
+              "id": "dialogue_05_q1",
+              "type": "true_false",
+              "statement": "Der Mann liest unterwegs am liebsten gedruckte Bücher.",
+              "answer": false
+            },
+            {
+              "id": "dialogue_05_q2",
+              "type": "multiple_choice",
+              "question": "Warum bevorzugt die Frau gedruckte Bücher?",
+              "options": [
+                "Weil sie billiger als E-Books sind.",
+                "Wegen des Gefühl von Papier in den Händen.",
+                "Weil sie leichter zu transportieren sind."
+              ],
+              "answer": 1,
+              "explanation": "Die Frau mag das Gefühl von Papier in den Händen lieber, obwohl Bücher schwerer sind."
+            }
+          ]
+        },
+        {
+          "id": "dialogue_06",
+          "type": "listening",
+          "category": "dialogue",
+          "categoryLabel": "Hören · Teil 3 · Gespräche",
+          "title": "Einkaufen & Shopping",
+          "instructions": "Sie hören ein Gespräch zwischen Frau und Mann. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/dialogue/dialogue_06.mp3",
+          "maxPlays": 2,
+          "transcript": "Mann: Kaufst du deine Kleidung eigentlich meistens online oder im Geschäft?\nFrau: Ich gehe lieber in die Stadt. Im Geschäft kann ich die Sachen direkt anprobieren und muss nichts zurückschicken.\nMann: Da hast du recht. Das ständige Zurückschicken von Online-Bestellungen nervt wirklich.",
+          "questions": [
+            {
+              "id": "dialogue_06_q1",
+              "type": "true_false",
+              "statement": "Die Frau bestellt Kleidung am liebsten im Internet.",
+              "answer": false
+            },
+            {
+              "id": "dialogue_06_q2",
+              "type": "multiple_choice",
+              "question": "Was stört den Mann beim Online-Shopping von Kleidung?",
+              "options": [
+                "Das ständige Zurückschicken der Ware.",
+                "Die langen Lieferzeiten.",
+                "Die hohen Versandkosten."
+              ],
+              "answer": 0,
+              "explanation": "Der Mann stimmt zu, dass das Retounieren und Zurückschicken von Bestellungen nervig ist."
+            }
+          ]
+        },
+        {
+          "id": "dialogue_07",
+          "type": "listening",
+          "category": "dialogue",
+          "categoryLabel": "Hören · Teil 3 · Gespräche",
+          "title": "Soziale Medien",
+          "instructions": "Sie hören ein Gespräch zwischen Frau und Mann. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/dialogue/dialogue_07.mp3",
+          "maxPlays": 2,
+          "transcript": "Frau: Findest du soziale Medien eher nützlich oder Zeitverschwendung?\nMann: Beides. Um mit alten Freunden in Kontakt zu bleiben, sind sie super. Aber man verliert schnell zu viel Zeit damit.\nFrau: Genau meine Meinung. Man sollte die Nutzung am Tag begrenzen.",
+          "questions": [
+            {
+              "id": "dialogue_07_q1",
+              "type": "true_false",
+              "statement": "Der Mann hält soziale Medien für reine Zeitverschwendung.",
+              "answer": false
+            },
+            {
+              "id": "dialogue_07_q2",
+              "type": "multiple_choice",
+              "question": "Welche Empfehlung vertritt die Frau?",
+              "options": [
+                "Soziale Medien gar nicht mehr zu nutzen.",
+                "Die tägliche Nutzungszeit zu beschränken.",
+                "Nur noch beruflich online zu sein."
+              ],
+              "answer": 1,
+              "explanation": "Die Frau sagt, dass man die tägliche Nutzung von Social Media begrenzen sollte."
+            }
+          ]
+        },
+        {
+          "id": "dialogue_08",
+          "type": "listening",
+          "category": "dialogue",
+          "categoryLabel": "Hören · Teil 3 · Gespräche",
+          "title": "Urlaubsplanung",
+          "instructions": "Sie hören ein Gespräch zwischen Frau und Mann. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/dialogue/dialogue_08.mp3",
+          "maxPlays": 2,
+          "transcript": "Mann: Sollten wir für unsere nächste Gruppenreise ein Hotel oder eine Ferienwohnung buchen?\nFrau: Eine Ferienwohnung ist viel gemütlicher für Gruppen. Man kann zusammen kochen und ist flexibler.\nMann: Guter Punkt, und meistens ist es für alle zusammen auch günstiger.",
+          "questions": [
+            {
+              "id": "dialogue_08_q1",
+              "type": "true_false",
+              "statement": "Die Frau empfiehlt ein Hotel für die Gruppenreise.",
+              "answer": false
+            },
+            {
+              "id": "dialogue_08_q2",
+              "type": "multiple_choice",
+              "question": "Warum ist eine Ferienwohnung laut den Sprechern besser?",
+              "options": [
+                "Es gibt dort täglichen Reinigungsservice.",
+                "Man kann zusammen kochen und es ist günstiger.",
+                "Hotels bieten weniger Platz für zwei Personen."
+              ],
+              "answer": 1,
+              "explanation": "Sie erwähnen gemeinsamen Kochen, Gemütlichkeit und den günstigeren Preis für Gruppen."
+            }
+          ]
+        },
+        {
+          "id": "dialogue_09",
+          "type": "listening",
+          "category": "dialogue",
+          "categoryLabel": "Hören · Teil 3 · Gespräche",
+          "title": "Sport & Alltag",
+          "instructions": "Sie hören ein Gespräch zwischen Frau und David. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/dialogue/dialogue_09.mp3",
+          "maxPlays": 2,
+          "transcript": "Frau: Machst du regelmäßig Sport, David?\nDavid: Ich gehe dreimal pro Woche joggen. Das hilft mir perfekt, nach der Arbeit zu entspannen.\nFrau: Respekt! Ich sollte auch wieder anfangen, ins Fitnessstudio zu gehen.",
+          "questions": [
+            {
+              "id": "dialogue_09_q1",
+              "type": "true_false",
+              "statement": "David geht dreimal in der Woche joggen.",
+              "answer": true
+            },
+            {
+              "id": "dialogue_09_q2",
+              "type": "multiple_choice",
+              "question": "Welche Absicht äußert die Frau am Ende?",
+              "options": [
+                "Zusammen mit David joggen zu gehen.",
+                "Wieder mit dem Fitnessstudio anzufangen.",
+                "Einen neuen Sportverein zu gründen."
+              ],
+              "answer": 1,
+              "explanation": "Sie nimmt sich vor, wieder ins Fitnessstudio zu gehen."
+            }
+          ]
+        },
+        {
+          "id": "dialogue_10",
+          "type": "listening",
+          "category": "dialogue",
+          "categoryLabel": "Hören · Teil 3 · Gespräche",
+          "title": "Schule & Erziehung",
+          "instructions": "Sie hören ein Gespräch zwischen Frau und Mann. Lösen Sie die Aufgaben zu Aussage 1 (richtig/falsch) und Aussage 2 (Mehrfachauswahl). Sie hören den Text zweimal.",
+          "audio": "assets/audio/hoeren/dialogue/dialogue_10.mp3",
+          "maxPlays": 2,
+          "transcript": "Mann: Findest du, dass Noten in der Grundschule abgeschafft werden sollten?\nFrau: Ja, Leistungsdruck hilft kleinen Kindern nicht. Detailliertes Feedback ohne Noten wäre viel besser.\nMann: Ich weiß nicht. Richtige Noten bereiten die Kinder aber besser auf die spätere Zukunft vor.",
+          "questions": [
+            {
+              "id": "dialogue_10_q1",
+              "type": "true_false",
+              "statement": "Die Frau ist dafür, Noten in der Grundschule abzuschaffen.",
+              "answer": true
+            },
+            {
+              "id": "dialogue_10_q2",
+              "type": "multiple_choice",
+              "question": "Welches Argument bringt der Mann für Schulnoten?",
+              "options": [
+                "Noten sparen den Lehrern viel Zeit.",
+                "Noten machen Kindern mehr Spaß.",
+                "Sie bereiten Kinder besser auf die Zukunft vor."
+              ],
+              "answer": 2,
+              "explanation": "Der Mann meint, Noten bereiten Kinder besser auf die spätere Zukunft vor."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
