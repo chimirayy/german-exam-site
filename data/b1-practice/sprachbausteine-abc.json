@@ -1,0 +1,996 @@
+{
+  "level": "B1",
+  "levelName": "telc Deutsch B1 · Sprachbausteine · a/b/c-Lückentext",
+  "levelColor": "#B5792B",
+  "introduction": "B1-Intensivtraining für den Aufgabentyp „Sprachbausteine · a/b/c-Lückentext“. Diese Seite enthält zehn vollständige Aufgabensätze dieses Formats. Die Bearbeitung und Auswertung erfolgt unabhängig von allen anderen Aufgabentypen.",
+  "sections": [
+    {
+      "id": "practice",
+      "title": "Sprachbausteine · a/b/c-Lückentext",
+      "timeMinutes": 15,
+      "instructions": "Bearbeiten Sie zehn Aufgabensätze. Das Aufgabenformat entspricht B1 Sprachbausteine Teil 1.",
+      "parts": [
+        {
+          "id": "clozemc-set-1",
+          "title": "Aufgabensatz 1 · Anfrage an ein Hotel",
+          "type": "cloze_mc",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
+          "textBefore": "Sehr geehrte Damen und Herren,\nich interessiere mich",
+          "blanks": [
+            {
+              "id": "1",
+              "before": " für",
+              "options": [
+                "für",
+                "an",
+                "mit"
+              ],
+              "answer": 0,
+              "after": " ein Doppelzimmer in Ihrem Hotel."
+            },
+            {
+              "id": "2",
+              "before": " Ich möchte",
+              "options": [
+                "von",
+                "vom",
+                "am"
+              ],
+              "answer": 2,
+              "after": " 12. bis 15. Oktober bei Ihnen übernachten."
+            },
+            {
+              "id": "3",
+              "before": " Können Sie mir bitte mitteilen,",
+              "options": [
+                "ob",
+                "dass",
+                "weil"
+              ],
+              "answer": 0,
+              "after": " noch ein ruhiges Zimmer frei ist?"
+            },
+            {
+              "id": "4",
+              "before": " Außerdem würde ich gern wissen,",
+              "options": [
+                "wie",
+                "was",
+                "wo"
+              ],
+              "answer": 0,
+              "after": " viel das Frühstück kostet."
+            },
+            {
+              "id": "5",
+              "before": " Ich reise",
+              "options": [
+                "mit",
+                "bei",
+                "zu"
+              ],
+              "answer": 0,
+              "after": " dem Zug an."
+            },
+            {
+              "id": "6",
+              "before": " Deshalb brauche ich keinen",
+              "options": [
+                "Parkplatz",
+                "Parkplätze",
+                "Parkplätzen"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "7",
+              "before": " Über eine schnelle Antwort würde ich",
+              "options": [
+                "mir",
+                "mich",
+                "mein"
+              ],
+              "answer": 1,
+              "after": " sehr freuen."
+            },
+            {
+              "id": "8",
+              "before": " Mit freundlichen",
+              "options": [
+                "Grüßen",
+                "Grüße",
+                "Gruß"
+              ],
+              "answer": 0,
+              "after": ""
+            }
+          ],
+          "textAfter": ""
+        },
+        {
+          "id": "clozemc-set-2",
+          "title": "Aufgabensatz 2 · Kursanmeldung",
+          "type": "cloze_mc",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
+          "textBefore": "Guten Tag,\nich habe auf Ihrer Webseite",
+          "blanks": [
+            {
+              "id": "9",
+              "before": " einen",
+              "options": [
+                "einen",
+                "einem",
+                "einer"
+              ],
+              "answer": 0,
+              "after": " Deutschkurs gefunden."
+            },
+            {
+              "id": "10",
+              "before": " Der Kurs beginnt",
+              "options": [
+                "in",
+                "am",
+                "bei"
+              ],
+              "answer": 1,
+              "after": " 5. November."
+            },
+            {
+              "id": "11",
+              "before": " Ich möchte gern wissen,",
+              "options": [
+                "ob",
+                "denn",
+                "trotz"
+              ],
+              "answer": 0,
+              "after": " noch Plätze frei sind."
+            },
+            {
+              "id": "12",
+              "before": " Ich lerne seit",
+              "options": [
+                "zwei",
+                "zweien",
+                "zweite"
+              ],
+              "answer": 0,
+              "after": " Jahren Deutsch."
+            },
+            {
+              "id": "13",
+              "before": " Besonders wichtig ist",
+              "options": [
+                "mir",
+                "mich",
+                "mein"
+              ],
+              "answer": 0,
+              "after": " das Sprechen."
+            },
+            {
+              "id": "14",
+              "before": " Kann ich vor der Anmeldung",
+              "options": [
+                "eine",
+                "einen",
+                "einem"
+              ],
+              "answer": 0,
+              "after": " Probestunde besuchen?"
+            },
+            {
+              "id": "15",
+              "before": " Bitte schicken Sie",
+              "options": [
+                "mir",
+                "mich",
+                "meine"
+              ],
+              "answer": 0,
+              "after": " auch Informationen zu den Kursgebühren."
+            },
+            {
+              "id": "16",
+              "before": " Vielen Dank",
+              "options": [
+                "für",
+                "von",
+                "durch"
+              ],
+              "answer": 0,
+              "after": " Ihre Hilfe."
+            }
+          ],
+          "textAfter": ""
+        },
+        {
+          "id": "clozemc-set-3",
+          "title": "Aufgabensatz 3 · Entschuldigung an Kollegin",
+          "type": "cloze_mc",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
+          "textBefore": "Hallo Jana,\nes tut mir leid,",
+          "blanks": [
+            {
+              "id": "17",
+              "before": " dass",
+              "options": [
+                "dass",
+                "ob",
+                "damit"
+              ],
+              "answer": 0,
+              "after": " ich gestern nicht zur Besprechung kommen konnte."
+            },
+            {
+              "id": "18",
+              "before": " Ich war krank und musste",
+              "options": [
+                "zum",
+                "zur",
+                "bei"
+              ],
+              "answer": 0,
+              "after": " Arzt gehen."
+            },
+            {
+              "id": "19",
+              "before": " Hast du vielleicht Notizen",
+              "options": [
+                "gemacht",
+                "machen",
+                "macht"
+              ],
+              "answer": 0,
+              "after": "?"
+            },
+            {
+              "id": "20",
+              "before": " Es wäre nett, wenn du sie mir",
+              "options": [
+                "schicken",
+                "schickst",
+                "geschickt"
+              ],
+              "answer": 1,
+              "after": " könntest."
+            },
+            {
+              "id": "21",
+              "before": " Ich möchte auch wissen,",
+              "options": [
+                "welche",
+                "welcher",
+                "welches"
+              ],
+              "answer": 0,
+              "after": " Aufgaben ich übernehmen soll."
+            },
+            {
+              "id": "22",
+              "before": " Morgen bin ich wieder",
+              "options": [
+                "im",
+                "ins",
+                "in den"
+              ],
+              "answer": 0,
+              "after": " Büro."
+            },
+            {
+              "id": "23",
+              "before": " Dann können wir alles in Ruhe",
+              "options": [
+                "besprechen",
+                "besprochen",
+                "spricht"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "24",
+              "before": " Danke",
+              "options": [
+                "für",
+                "auf",
+                "gegen"
+              ],
+              "answer": 0,
+              "after": " dein Verständnis."
+            }
+          ],
+          "textAfter": ""
+        },
+        {
+          "id": "clozemc-set-4",
+          "title": "Aufgabensatz 4 · Reklamation",
+          "type": "cloze_mc",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
+          "textBefore": "Sehr geehrte Damen und Herren,\nvor einer Woche habe ich",
+          "blanks": [
+            {
+              "id": "25",
+              "before": " bei",
+              "options": [
+                "bei",
+                "nach",
+                "aus"
+              ],
+              "answer": 0,
+              "after": " Ihnen einen Wasserkocher bestellt."
+            },
+            {
+              "id": "26",
+              "before": " Leider ist das Gerät gestern",
+              "options": [
+                "angekommen",
+                "ankommen",
+                "ankammt"
+              ],
+              "answer": 0,
+              "after": " und funktioniert nicht."
+            },
+            {
+              "id": "27",
+              "before": " Obwohl ich es genau nach Anleitung benutzt habe,",
+              "options": [
+                "wird",
+                "bleibt",
+                "ist"
+              ],
+              "answer": 1,
+              "after": " das Wasser kalt."
+            },
+            {
+              "id": "28",
+              "before": " Ich möchte das Gerät deshalb",
+              "options": [
+                "zurückgeben",
+                "zurückgegeben",
+                "gab zurück"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "29",
+              "before": " Bitte teilen Sie mir mit,",
+              "options": [
+                "wie",
+                "als",
+                "seit"
+              ],
+              "answer": 0,
+              "after": " ich es zurückschicken soll."
+            },
+            {
+              "id": "30",
+              "before": " Die Rechnung habe ich dieser E-Mail",
+              "options": [
+                "beigefügt",
+                "beifügen",
+                "beigefügte"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "31",
+              "before": " Ich hoffe auf eine schnelle",
+              "options": [
+                "Lösung",
+                "Lösungen",
+                "lösen"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "32",
+              "before": " Mit freundlichen",
+              "options": [
+                "Grüßen",
+                "Grüße",
+                "Grußes"
+              ],
+              "answer": 0,
+              "after": ""
+            }
+          ],
+          "textAfter": ""
+        },
+        {
+          "id": "clozemc-set-5",
+          "title": "Aufgabensatz 5 · Vereinsinfo",
+          "type": "cloze_mc",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
+          "textBefore": "Liebe Mitglieder,\nunser Sommerfest findet",
+          "blanks": [
+            {
+              "id": "33",
+              "before": " am",
+              "options": [
+                "am",
+                "im",
+                "um"
+              ],
+              "answer": 0,
+              "after": " kommenden Samstag statt."
+            },
+            {
+              "id": "34",
+              "before": " Wir treffen uns",
+              "options": [
+                "um",
+                "an",
+                "nach"
+              ],
+              "answer": 0,
+              "after": " 15 Uhr im Vereinsgarten."
+            },
+            {
+              "id": "35",
+              "before": " Wer möchte, kann einen Salat",
+              "options": [
+                "mitbringen",
+                "mitgebracht",
+                "bringt mit"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "36",
+              "before": " Getränke werden vom Verein",
+              "options": [
+                "bezahlt",
+                "bezahlen",
+                "bezahltet"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "37",
+              "before": " Falls es regnet, feiern wir",
+              "options": [
+                "in",
+                "im",
+                "ins"
+              ],
+              "answer": 1,
+              "after": " großen Saal."
+            },
+            {
+              "id": "38",
+              "before": " Bitte sagt bis Donnerstag",
+              "options": [
+                "Bescheid",
+                "bescheiden",
+                "Bescheide"
+              ],
+              "answer": 0,
+              "after": " ob ihr kommt."
+            },
+            {
+              "id": "39",
+              "before": " Wir freuen uns",
+              "options": [
+                "auf",
+                "über",
+                "für"
+              ],
+              "answer": 0,
+              "after": " einen schönen Nachmittag."
+            },
+            {
+              "id": "40",
+              "before": " Herzliche",
+              "options": [
+                "Grüße",
+                "Grüßen",
+                "Gruß"
+              ],
+              "answer": 0,
+              "after": ""
+            }
+          ],
+          "textAfter": ""
+        },
+        {
+          "id": "clozemc-set-6",
+          "title": "Aufgabensatz 6 · Wohnungsbesichtigung",
+          "type": "cloze_mc",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
+          "textBefore": "Guten Tag Frau Keller,\nvielen Dank",
+          "blanks": [
+            {
+              "id": "41",
+              "before": " für",
+              "options": [
+                "für",
+                "zu",
+                "an"
+              ],
+              "answer": 0,
+              "after": " Ihre Nachricht."
+            },
+            {
+              "id": "42",
+              "before": " Ich würde die Wohnung sehr gern",
+              "options": [
+                "besichtigen",
+                "besichtigt",
+                "Besichtigung"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "43",
+              "before": " Am Dienstag kann ich",
+              "options": [
+                "ab",
+                "seit",
+                "gegenüber"
+              ],
+              "answer": 0,
+              "after": " 17 Uhr."
+            },
+            {
+              "id": "44",
+              "before": " Passt",
+              "options": [
+                "Ihnen",
+                "Sie",
+                "Ihr"
+              ],
+              "answer": 0,
+              "after": " dieser Termin?"
+            },
+            {
+              "id": "45",
+              "before": " Falls nicht, könnte ich auch",
+              "options": [
+                "am",
+                "im",
+                "zu"
+              ],
+              "answer": 0,
+              "after": " Donnerstag kommen."
+            },
+            {
+              "id": "46",
+              "before": " Ich arbeite in der Nähe und bin",
+              "options": [
+                "deshalb",
+                "obwohl",
+                "während"
+              ],
+              "answer": 0,
+              "after": " zeitlich recht flexibel."
+            },
+            {
+              "id": "47",
+              "before": " Bitte teilen Sie mir die genaue Adresse",
+              "options": [
+                "mit",
+                "an",
+                "von"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "48",
+              "before": " Vielen Dank im",
+              "options": [
+                "Voraus",
+                "Voraussetzung",
+                "vor"
+              ],
+              "answer": 0,
+              "after": "."
+            }
+          ],
+          "textAfter": ""
+        },
+        {
+          "id": "clozemc-set-7",
+          "title": "Aufgabensatz 7 · Bewerbung Praktikum",
+          "type": "cloze_mc",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
+          "textBefore": "Sehr geehrter Herr Braun,\nmit großem Interesse habe ich",
+          "blanks": [
+            {
+              "id": "49",
+              "before": " Ihre",
+              "options": [
+                "Ihre",
+                "Ihren",
+                "Ihrer"
+              ],
+              "answer": 0,
+              "after": " Anzeige gelesen."
+            },
+            {
+              "id": "50",
+              "before": " Ich studiere derzeit",
+              "options": [
+                "an",
+                "auf",
+                "zu"
+              ],
+              "answer": 0,
+              "after": " der Universität Köln."
+            },
+            {
+              "id": "51",
+              "before": " Im kommenden Semester möchte ich praktische Erfahrungen",
+              "options": [
+                "sammeln",
+                "gesammelt",
+                "sammelt"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "52",
+              "before": " Besonders interessiere ich mich",
+              "options": [
+                "für",
+                "über",
+                "gegen"
+              ],
+              "answer": 0,
+              "after": " Marketing."
+            },
+            {
+              "id": "53",
+              "before": " Deshalb bewerbe ich mich",
+              "options": [
+                "um",
+                "an",
+                "von"
+              ],
+              "answer": 0,
+              "after": " das ausgeschriebene Praktikum."
+            },
+            {
+              "id": "54",
+              "before": " Meine Unterlagen finden Sie",
+              "options": [
+                "im",
+                "am",
+                "an"
+              ],
+              "answer": 0,
+              "after": " Anhang."
+            },
+            {
+              "id": "55",
+              "before": " Für ein persönliches Gespräch stehe ich gern zur",
+              "options": [
+                "Verfügung",
+                "Verfügungen",
+                "verfügen"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "56",
+              "before": " Mit freundlichen",
+              "options": [
+                "Grüßen",
+                "Grüße",
+                "Grüß"
+              ],
+              "answer": 0,
+              "after": ""
+            }
+          ],
+          "textAfter": ""
+        },
+        {
+          "id": "clozemc-set-8",
+          "title": "Aufgabensatz 8 · Nachricht an Vermieter",
+          "type": "cloze_mc",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
+          "textBefore": "Guten Tag Herr Meier,\nseit gestern funktioniert",
+          "blanks": [
+            {
+              "id": "57",
+              "before": " die",
+              "options": [
+                "die",
+                "der",
+                "das"
+              ],
+              "answer": 0,
+              "after": " Heizung in meiner Wohnung nicht."
+            },
+            {
+              "id": "58",
+              "before": " Obwohl ich den Regler ganz aufdrehe,",
+              "options": [
+                "bleibt",
+                "bleiben",
+                "bliebten"
+              ],
+              "answer": 0,
+              "after": " es kalt."
+            },
+            {
+              "id": "59",
+              "before": " Könnten Sie bitte jemanden",
+              "options": [
+                "schicken",
+                "geschickt",
+                "schickt"
+              ],
+              "answer": 0,
+              "after": "?"
+            },
+            {
+              "id": "60",
+              "before": " Morgen bin ich den ganzen Tag",
+              "options": [
+                "zu",
+                "bei",
+                "nach"
+              ],
+              "answer": 0,
+              "after": " Hause."
+            },
+            {
+              "id": "61",
+              "before": " Am Freitag kann ich erst",
+              "options": [
+                "ab",
+                "vor",
+                "seit"
+              ],
+              "answer": 0,
+              "after": " 16 Uhr."
+            },
+            {
+              "id": "62",
+              "before": " Bitte geben Sie mir kurz",
+              "options": [
+                "Bescheid",
+                "Bescheide",
+                "bescheiden"
+              ],
+              "answer": 0,
+              "after": " wann der Techniker kommt."
+            },
+            {
+              "id": "63",
+              "before": " Vielen Dank für Ihre schnelle",
+              "options": [
+                "Hilfe",
+                "helfen",
+                "Hilfen"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "64",
+              "before": " Freundliche",
+              "options": [
+                "Grüße",
+                "Grüßen",
+                "Grußes"
+              ],
+              "answer": 0,
+              "after": ""
+            }
+          ],
+          "textAfter": ""
+        },
+        {
+          "id": "clozemc-set-9",
+          "title": "Aufgabensatz 9 · Einladung",
+          "type": "cloze_mc",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
+          "textBefore": "Hallo zusammen,\nich möchte euch gern",
+          "blanks": [
+            {
+              "id": "65",
+              "before": " zu",
+              "options": [
+                "zu",
+                "für",
+                "bei"
+              ],
+              "answer": 0,
+              "after": " meinem Geburtstag einladen."
+            },
+            {
+              "id": "66",
+              "before": " Wir feiern",
+              "options": [
+                "am",
+                "im",
+                "in"
+              ],
+              "answer": 0,
+              "after": " Samstag, den 14. Juni."
+            },
+            {
+              "id": "67",
+              "before": " Die Feier beginnt",
+              "options": [
+                "um",
+                "seit",
+                "von"
+              ],
+              "answer": 0,
+              "after": " 18 Uhr."
+            },
+            {
+              "id": "68",
+              "before": " Wenn das Wetter schön ist, sitzen wir",
+              "options": [
+                "im",
+                "an",
+                "auf dem"
+              ],
+              "answer": 0,
+              "after": " Garten."
+            },
+            {
+              "id": "69",
+              "before": " Bitte bringt keine Geschenke",
+              "options": [
+                "mit",
+                "an",
+                "bei"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "70",
+              "before": " Ich würde mich aber",
+              "options": [
+                "über",
+                "auf",
+                "durch"
+              ],
+              "answer": 0,
+              "after": " einen Salat oder Nachtisch freuen."
+            },
+            {
+              "id": "71",
+              "before": " Sagt mir bitte bis Montag,",
+              "options": [
+                "ob",
+                "dass",
+                "weil"
+              ],
+              "answer": 0,
+              "after": " ihr kommen könnt."
+            },
+            {
+              "id": "72",
+              "before": " Liebe",
+              "options": [
+                "Grüße",
+                "Grüßen",
+                "Gruß"
+              ],
+              "answer": 0,
+              "after": ""
+            }
+          ],
+          "textAfter": ""
+        },
+        {
+          "id": "clozemc-set-10",
+          "title": "Aufgabensatz 10 · Terminverschiebung",
+          "type": "cloze_mc",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
+          "textBefore": "Sehr geehrte Frau Winter,\nleider kann ich",
+          "blanks": [
+            {
+              "id": "73",
+              "before": " den",
+              "options": [
+                "den",
+                "dem",
+                "der"
+              ],
+              "answer": 0,
+              "after": " vereinbarten Termin am Mittwoch nicht wahrnehmen."
+            },
+            {
+              "id": "74",
+              "before": " Ich muss kurzfristig",
+              "options": [
+                "nach",
+                "zu",
+                "bei"
+              ],
+              "answer": 0,
+              "after": " Berlin fahren."
+            },
+            {
+              "id": "75",
+              "before": " Wäre es möglich, den Termin auf Freitag zu",
+              "options": [
+                "verschieben",
+                "verschoben",
+                "verschiebt"
+              ],
+              "answer": 0,
+              "after": "?"
+            },
+            {
+              "id": "76",
+              "before": " Am Vormittag hätte ich",
+              "options": [
+                "ab",
+                "zwischen",
+                "gegen"
+              ],
+              "answer": 1,
+              "after": " 9 und 12 Uhr Zeit."
+            },
+            {
+              "id": "77",
+              "before": " Falls Freitag nicht passt, nennen Sie mir bitte",
+              "options": [
+                "einen",
+                "einem",
+                "eine"
+              ],
+              "answer": 0,
+              "after": " anderen Termin."
+            },
+            {
+              "id": "78",
+              "before": " Ich entschuldige mich",
+              "options": [
+                "für",
+                "mit",
+                "aus"
+              ],
+              "answer": 0,
+              "after": " die Umstände."
+            },
+            {
+              "id": "79",
+              "before": " Vielen Dank für Ihr",
+              "options": [
+                "Verständnis",
+                "verstehen",
+                "Verständnisse"
+              ],
+              "answer": 0,
+              "after": "."
+            },
+            {
+              "id": "80",
+              "before": " Mit freundlichen",
+              "options": [
+                "Grüßen",
+                "Grüße",
+                "Gruß"
+              ],
+              "answer": 0,
+              "after": ""
+            }
+          ],
+          "textAfter": ""
+        }
+      ]
+    }
+  ]
+}

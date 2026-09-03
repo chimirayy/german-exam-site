@@ -579,3 +579,30 @@ footer.site-footer{
   .part{ padding: 18px 16px; }
   .match-row{ grid-template-columns: 1fr; }
 }
+
+/* B1 task-format rebuild */
+.practice-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:18px;
+  margin:28px 0 44px;
+}
+.practice-card{
+  display:block;
+  text-decoration:none;
+  color:inherit;
+  border:1px solid var(--rule);
+  border-top:4px solid var(--accent);
+  border-radius:var(--radius);
+  background:var(--paper-raised);
+  padding:24px;
+  transition:transform .12s ease,box-shadow .12s ease;
+}
+.practice-card:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(28,36,48,.08)}
+.practice-card h2{font-size:1.35rem;margin-bottom:8px}
+.practice-card p{color:var(--ink-soft);font-size:.92rem;margin:0 0 16px}
+.practice-card .cefr-tag{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.04em;color:var(--accent);margin-bottom:9px}
+.practice-card .go{font-size:.88rem;font-weight:600}
+.practice-nav{gap:10px;max-width:620px;justify-content:flex-end}
+.practice-nav a{font-size:.78rem}
+@media(max-width:760px){.practice-grid{grid-template-columns:1fr}.practice-nav{width:100%;justify-content:flex-start}.masthead-inner{align-items:flex-start}}

@@ -1,0 +1,156 @@
+{
+  "level": "B1",
+  "levelName": "telc Deutsch B1 · Schriftlicher Ausdruck",
+  "levelColor": "#B5792B",
+  "introduction": "B1-Intensivtraining für den Aufgabentyp „Schriftlicher Ausdruck“. Diese Seite enthält zehn vollständige Aufgabensätze dieses Formats. Die Bearbeitung und Auswertung erfolgt unabhängig von allen anderen Aufgabentypen.",
+  "sections": [
+    {
+      "id": "practice",
+      "title": "Schriftlicher Ausdruck",
+      "timeMinutes": 30,
+      "instructions": "Bearbeiten Sie zehn B1-Schreibaufgaben. Jede Aufgabe folgt demselben Grundformat; die Auswertung zeigt Ihren Text jeweils neben einem Mustertext.",
+      "parts": [
+        {
+          "id": "writing-set-1",
+          "title": "Aufgabe 1 · Homeoffice",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "In Ihrer Firma soll ab nächstem Monat häufiger im Homeoffice gearbeitet werden. Schreiben Sie an Ihre Abteilungsleitung.",
+          "points": [
+            "Nehmen Sie Stellung zu der Entscheidung.",
+            "Nennen Sie einen Vorteil und einen Nachteil für Sie.",
+            "Machen Sie einen Vorschlag für eine gute Organisation."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrte Damen und Herren,\n\nich möchte Ihnen meine Meinung zu diesem Thema mitteilen. Grundsätzlich finde ich die geplante Änderung sinnvoll, weil sie Vorteile für viele Beteiligte haben kann. Gleichzeitig sollte man beachten, dass nicht jede Person die gleichen Möglichkeiten und Bedürfnisse hat. Für mich wäre besonders wichtig, dass es klare Regeln und verlässliche Informationen gibt. Ich schlage deshalb vor, die neue Regelung zunächst für einige Wochen zu testen und anschließend Rückmeldungen zu sammeln. So könnten Probleme früh erkannt und gemeinsam gelöst werden.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-2",
+          "title": "Aufgabe 2 · Sprachkurs",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "Ihr Deutschkurs soll künftig nur noch online stattfinden. Schreiben Sie an die Kursleitung.",
+          "points": [
+            "Sagen Sie, wie Sie die Änderung finden.",
+            "Beschreiben Sie Ihre Erfahrungen mit Online-Unterricht.",
+            "Machen Sie einen Vorschlag für die Kursorganisation."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrte Damen und Herren,\n\nich möchte Ihnen meine Meinung zu diesem Thema mitteilen. Grundsätzlich finde ich die geplante Änderung sinnvoll, weil sie Vorteile für viele Beteiligte haben kann. Gleichzeitig sollte man beachten, dass nicht jede Person die gleichen Möglichkeiten und Bedürfnisse hat. Für mich wäre besonders wichtig, dass es klare Regeln und verlässliche Informationen gibt. Ich schlage deshalb vor, die neue Regelung zunächst für einige Wochen zu testen und anschließend Rückmeldungen zu sammeln. So könnten Probleme früh erkannt und gemeinsam gelöst werden.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-3",
+          "title": "Aufgabe 3 · Sportverein",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "Ihr Sportverein möchte die Mitgliedsbeiträge erhöhen. Schreiben Sie an den Vorstand.",
+          "points": [
+            "Nehmen Sie Stellung zur Erhöhung.",
+            "Erklären Sie, was Ihnen am Verein wichtig ist.",
+            "Schlagen Sie eine Alternative oder Verbesserung vor."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrte Damen und Herren,\n\nich möchte Ihnen meine Meinung zu diesem Thema mitteilen. Grundsätzlich finde ich die geplante Änderung sinnvoll, weil sie Vorteile für viele Beteiligte haben kann. Gleichzeitig sollte man beachten, dass nicht jede Person die gleichen Möglichkeiten und Bedürfnisse hat. Für mich wäre besonders wichtig, dass es klare Regeln und verlässliche Informationen gibt. Ich schlage deshalb vor, die neue Regelung zunächst für einige Wochen zu testen und anschließend Rückmeldungen zu sammeln. So könnten Probleme früh erkannt und gemeinsam gelöst werden.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-4",
+          "title": "Aufgabe 4 · Wohnhaus",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "In Ihrem Wohnhaus soll der Fahrradkeller neu organisiert werden. Schreiben Sie an die Hausverwaltung.",
+          "points": [
+            "Beschreiben Sie die aktuelle Situation.",
+            "Nennen Sie ein Problem, das gelöst werden sollte.",
+            "Machen Sie einen konkreten Vorschlag."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrte Damen und Herren,\n\nich möchte Ihnen meine Meinung zu diesem Thema mitteilen. Grundsätzlich finde ich die geplante Änderung sinnvoll, weil sie Vorteile für viele Beteiligte haben kann. Gleichzeitig sollte man beachten, dass nicht jede Person die gleichen Möglichkeiten und Bedürfnisse hat. Für mich wäre besonders wichtig, dass es klare Regeln und verlässliche Informationen gibt. Ich schlage deshalb vor, die neue Regelung zunächst für einige Wochen zu testen und anschließend Rückmeldungen zu sammeln. So könnten Probleme früh erkannt und gemeinsam gelöst werden.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-5",
+          "title": "Aufgabe 5 · Arbeitszeit",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "Ihre Firma überlegt, flexible Arbeitszeiten einzuführen. Schreiben Sie an Ihre Teamleitung.",
+          "points": [
+            "Sagen Sie, wie Sie die Idee finden.",
+            "Nennen Sie einen persönlichen Vorteil und einen möglichen Nachteil.",
+            "Schlagen Sie Regeln für die Kernarbeitszeit vor."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrte Damen und Herren,\n\nich möchte Ihnen meine Meinung zu diesem Thema mitteilen. Grundsätzlich finde ich die geplante Änderung sinnvoll, weil sie Vorteile für viele Beteiligte haben kann. Gleichzeitig sollte man beachten, dass nicht jede Person die gleichen Möglichkeiten und Bedürfnisse hat. Für mich wäre besonders wichtig, dass es klare Regeln und verlässliche Informationen gibt. Ich schlage deshalb vor, die neue Regelung zunächst für einige Wochen zu testen und anschließend Rückmeldungen zu sammeln. So könnten Probleme früh erkannt und gemeinsam gelöst werden.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-6",
+          "title": "Aufgabe 6 · Bibliothek",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "Ihre Stadtbibliothek möchte sonntags öffnen, dafür aber montags geschlossen bleiben. Schreiben Sie an die Bibliotheksleitung.",
+          "points": [
+            "Nehmen Sie Stellung zu den neuen Öffnungszeiten.",
+            "Erklären Sie, wann Sie die Bibliothek normalerweise nutzen.",
+            "Machen Sie einen Vorschlag."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrte Damen und Herren,\n\nich möchte Ihnen meine Meinung zu diesem Thema mitteilen. Grundsätzlich finde ich die geplante Änderung sinnvoll, weil sie Vorteile für viele Beteiligte haben kann. Gleichzeitig sollte man beachten, dass nicht jede Person die gleichen Möglichkeiten und Bedürfnisse hat. Für mich wäre besonders wichtig, dass es klare Regeln und verlässliche Informationen gibt. Ich schlage deshalb vor, die neue Regelung zunächst für einige Wochen zu testen und anschließend Rückmeldungen zu sammeln. So könnten Probleme früh erkannt und gemeinsam gelöst werden.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-7",
+          "title": "Aufgabe 7 · Kantine",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "Die Kantine an Ihrem Arbeitsplatz möchte nur noch bargeldlose Zahlung anbieten. Schreiben Sie an die Verwaltung.",
+          "points": [
+            "Sagen Sie Ihre Meinung zu der Änderung.",
+            "Nennen Sie einen Vorteil und einen Nachteil.",
+            "Schlagen Sie eine praktische Lösung vor."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrte Damen und Herren,\n\nich möchte Ihnen meine Meinung zu diesem Thema mitteilen. Grundsätzlich finde ich die geplante Änderung sinnvoll, weil sie Vorteile für viele Beteiligte haben kann. Gleichzeitig sollte man beachten, dass nicht jede Person die gleichen Möglichkeiten und Bedürfnisse hat. Für mich wäre besonders wichtig, dass es klare Regeln und verlässliche Informationen gibt. Ich schlage deshalb vor, die neue Regelung zunächst für einige Wochen zu testen und anschließend Rückmeldungen zu sammeln. So könnten Probleme früh erkannt und gemeinsam gelöst werden.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-8",
+          "title": "Aufgabe 8 · Nachbarschaft",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "In Ihrer Straße soll ein gemeinsamer Nachbarschaftstag organisiert werden. Schreiben Sie an das Organisationsteam.",
+          "points": [
+            "Erklären Sie, warum Sie die Idee gut oder schlecht finden.",
+            "Schlagen Sie eine Aktivität vor.",
+            "Bieten Sie konkrete Hilfe an."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrte Damen und Herren,\n\nich möchte Ihnen meine Meinung zu diesem Thema mitteilen. Grundsätzlich finde ich die geplante Änderung sinnvoll, weil sie Vorteile für viele Beteiligte haben kann. Gleichzeitig sollte man beachten, dass nicht jede Person die gleichen Möglichkeiten und Bedürfnisse hat. Für mich wäre besonders wichtig, dass es klare Regeln und verlässliche Informationen gibt. Ich schlage deshalb vor, die neue Regelung zunächst für einige Wochen zu testen und anschließend Rückmeldungen zu sammeln. So könnten Probleme früh erkannt und gemeinsam gelöst werden.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-9",
+          "title": "Aufgabe 9 · Weiterbildung",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "Ihr Arbeitgeber bietet einen B1/B2-Deutschkurs während der Arbeitszeit an. Schreiben Sie an die Personalabteilung.",
+          "points": [
+            "Sagen Sie, ob Sie teilnehmen möchten und warum.",
+            "Beschreiben Sie Ihr Lernziel.",
+            "Fragen Sie nach einem organisatorischen Detail."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrte Damen und Herren,\n\nich möchte Ihnen meine Meinung zu diesem Thema mitteilen. Grundsätzlich finde ich die geplante Änderung sinnvoll, weil sie Vorteile für viele Beteiligte haben kann. Gleichzeitig sollte man beachten, dass nicht jede Person die gleichen Möglichkeiten und Bedürfnisse hat. Für mich wäre besonders wichtig, dass es klare Regeln und verlässliche Informationen gibt. Ich schlage deshalb vor, die neue Regelung zunächst für einige Wochen zu testen und anschließend Rückmeldungen zu sammeln. So könnten Probleme früh erkannt und gemeinsam gelöst werden.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-10",
+          "title": "Aufgabe 10 · Verkehr",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "Ihre Stadt plant, eine wichtige Straße am Wochenende für Autos zu sperren. Schreiben Sie an die Stadtverwaltung.",
+          "points": [
+            "Nehmen Sie Stellung zu dem Plan.",
+            "Nennen Sie einen Vorteil und einen möglichen Nachteil.",
+            "Machen Sie einen Vorschlag für die Umsetzung."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrte Damen und Herren,\n\nich möchte Ihnen meine Meinung zu diesem Thema mitteilen. Grundsätzlich finde ich die geplante Änderung sinnvoll, weil sie Vorteile für viele Beteiligte haben kann. Gleichzeitig sollte man beachten, dass nicht jede Person die gleichen Möglichkeiten und Bedürfnisse hat. Für mich wäre besonders wichtig, dass es klare Regeln und verlässliche Informationen gibt. Ich schlage deshalb vor, die neue Regelung zunächst für einige Wochen zu testen und anschließend Rückmeldungen zu sammeln. So könnten Probleme früh erkannt und gemeinsam gelöst werden.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "level": "B1",
+  "levelName": "telc Deutsch B1 · Lesen · Richtig oder falsch",
+  "levelColor": "#B5792B",
+  "introduction": "B1-Intensivtraining für den Aufgabentyp „Lesen · Richtig oder falsch“. Diese Seite enthält zehn vollständige Aufgabensätze dieses Formats. Die Bearbeitung und Auswertung erfolgt unabhängig von allen anderen Aufgabentypen.",
+  "sections": [
+    {
+      "id": "practice",
+      "title": "Lesen · Richtig oder falsch",
+      "timeMinutes": 45,
+      "instructions": "Bearbeiten Sie zehn Aufgabensätze. Das Aufgabenformat entspricht B1 Leseverstehen Teil 2.",
+      "parts": [
+        {
+          "id": "tf-set-1",
+          "title": "Aufgabensatz 1 · Volkshochschule Nordstadt",
+          "type": "true_false",
+          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
+          "text": "Die Volkshochschule Nordstadt erweitert ab Oktober ihr Kursprogramm. Neu sind Abendkurse in Fotografie und Italienisch sowie ein Samstagskurs zur digitalen Bildbearbeitung. Anmeldungen sind ab dem 15. September online oder persönlich möglich. Wer bereits im vergangenen Semester einen Kurs besucht hat, erhält zehn Prozent Rabatt. Der Fotokurs findet mittwochs um 18 Uhr statt und setzt keine Vorkenntnisse voraus. Für die digitale Bildbearbeitung sollen Teilnehmende einen eigenen Laptop mitbringen. Die Zahl der Plätze ist in allen neuen Kursen auf zwölf Personen begrenzt.",
+          "questions": [
+            {
+              "id": "1",
+              "statement": "Die neuen Kurse beginnen im Oktober.",
+              "answer": true
+            },
+            {
+              "id": "2",
+              "statement": "Man kann sich nur online anmelden.",
+              "answer": false
+            },
+            {
+              "id": "3",
+              "statement": "Frühere Teilnehmer bekommen einen Rabatt.",
+              "answer": true
+            },
+            {
+              "id": "4",
+              "statement": "Für den Fotokurs braucht man Vorkenntnisse.",
+              "answer": false
+            },
+            {
+              "id": "5",
+              "statement": "Für die Bildbearbeitung soll man einen Laptop mitbringen.",
+              "answer": true
+            },
+            {
+              "id": "6",
+              "statement": "Jeder Kurs hat höchstens zwölf Plätze.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "tf-set-2",
+          "title": "Aufgabensatz 2 · Schwimmbad am Park",
+          "type": "true_false",
+          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
+          "text": "Das Schwimmbad am Park wird nach einer sechsmonatigen Renovierung am 3. Mai wieder geöffnet. Das große Becken wurde erneuert, außerdem gibt es jetzt einen eigenen Bereich für kleine Kinder. Die Eintrittspreise bleiben unverändert. Neu ist jedoch, dass Tickets auch über eine App gekauft werden können. Montags öffnet das Bad erst um 12 Uhr, an den anderen Wochentagen bereits um 8 Uhr. Im ersten Monat nach der Wiedereröffnung finden noch keine Schwimmkurse statt, weil dafür zusätzliches Personal geschult wird.",
+          "questions": [
+            {
+              "id": "7",
+              "statement": "Das Schwimmbad war ein halbes Jahr geschlossen.",
+              "answer": true
+            },
+            {
+              "id": "8",
+              "statement": "Die Eintrittspreise werden teurer.",
+              "answer": false
+            },
+            {
+              "id": "9",
+              "statement": "Tickets gibt es nun auch per App.",
+              "answer": true
+            },
+            {
+              "id": "10",
+              "statement": "Montags öffnet das Bad um 8 Uhr.",
+              "answer": false
+            },
+            {
+              "id": "11",
+              "statement": "Es gibt einen neuen Bereich für kleine Kinder.",
+              "answer": true
+            },
+            {
+              "id": "12",
+              "statement": "Im Mai starten sofort neue Schwimmkurse.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "tf-set-3",
+          "title": "Aufgabensatz 3 · Marktbus im Landkreis",
+          "type": "true_false",
+          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
+          "text": "Seit Anfang Juni fährt im Landkreis ein sogenannter Marktbus. Er bringt Menschen aus kleinen Dörfern zweimal pro Woche zum Wochenmarkt in die Kreisstadt. Die Hin- und Rückfahrt kostet zusammen vier Euro. Kinder bis zwölf Jahre fahren kostenlos. Eine Reservierung ist nicht nötig, allerdings hält der Bus nur an besonders markierten Haltestellen. Das Projekt läuft zunächst bis Ende Dezember. Danach entscheidet der Kreistag, ob das Angebot dauerhaft weitergeführt wird.",
+          "questions": [
+            {
+              "id": "13",
+              "statement": "Der Marktbus fährt jeden Tag.",
+              "answer": false
+            },
+            {
+              "id": "14",
+              "statement": "Er fährt Menschen aus Dörfern in die Kreisstadt.",
+              "answer": true
+            },
+            {
+              "id": "15",
+              "statement": "Hin- und Rückfahrt kosten insgesamt vier Euro.",
+              "answer": true
+            },
+            {
+              "id": "16",
+              "statement": "Alle Kinder müssen bezahlen.",
+              "answer": false
+            },
+            {
+              "id": "17",
+              "statement": "Man muss vorher einen Platz reservieren.",
+              "answer": false
+            },
+            {
+              "id": "18",
+              "statement": "Das Projekt ist zunächst bis Jahresende geplant.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "tf-set-4",
+          "title": "Aufgabensatz 4 · Büchertausch im Bahnhof",
+          "type": "true_false",
+          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
+          "text": "Im Hauptbahnhof steht seit kurzem ein offenes Bücherregal. Reisende dürfen dort kostenlos Bücher mitnehmen und eigene Bücher hineinstellen. Das Regal befindet sich neben der Information und ist während der gesamten Öffnungszeit des Bahnhofs zugänglich. Zeitschriften und Schulbücher sollen nicht abgelegt werden. Ein Verein kontrolliert das Regal dreimal pro Woche und sortiert beschädigte Bücher aus. Das Projekt wurde von lokalen Geschäften finanziert und soll zunächst ein Jahr lang getestet werden.",
+          "questions": [
+            {
+              "id": "19",
+              "statement": "Für ausgeliehene Bücher muss man nichts bezahlen.",
+              "answer": true
+            },
+            {
+              "id": "20",
+              "statement": "Das Regal steht außerhalb des Bahnhofs.",
+              "answer": false
+            },
+            {
+              "id": "21",
+              "statement": "Zeitschriften sind ausdrücklich erwünscht.",
+              "answer": false
+            },
+            {
+              "id": "22",
+              "statement": "Ein Verein kümmert sich regelmäßig um das Regal.",
+              "answer": true
+            },
+            {
+              "id": "23",
+              "statement": "Die Finanzierung kam von lokalen Geschäften.",
+              "answer": true
+            },
+            {
+              "id": "24",
+              "statement": "Das Projekt ist von Anfang an dauerhaft.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "tf-set-5",
+          "title": "Aufgabensatz 5 · Firmenkantine",
+          "type": "true_false",
+          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
+          "text": "Die Kantine der Firma Berger hat ihr Angebot geändert. Seit September gibt es täglich mindestens ein vegetarisches Hauptgericht. Einmal pro Woche wird ausschließlich regional gekocht. Beschäftigte können das Menü bereits am Vortag über das Intranet bestellen und sparen dabei fünfzig Cent. Wer spontan kommt, bekommt aber ebenfalls eine Mahlzeit, solange der Vorrat reicht. Die Kantine ist von 11.30 bis 14 Uhr geöffnet. Externe Gäste dürfen sie nur in Begleitung eines Mitarbeiters nutzen.",
+          "questions": [
+            {
+              "id": "25",
+              "statement": "Jeden Tag gibt es ein vegetarisches Hauptgericht.",
+              "answer": true
+            },
+            {
+              "id": "26",
+              "statement": "Regional gekocht wird jeden Tag.",
+              "answer": false
+            },
+            {
+              "id": "27",
+              "statement": "Vorbesteller zahlen etwas weniger.",
+              "answer": true
+            },
+            {
+              "id": "28",
+              "statement": "Ohne Vorbestellung bekommt man grundsätzlich nichts.",
+              "answer": false
+            },
+            {
+              "id": "29",
+              "statement": "Die Kantine schließt um 14 Uhr.",
+              "answer": true
+            },
+            {
+              "id": "30",
+              "statement": "Externe Gäste können immer allein dort essen.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "tf-set-6",
+          "title": "Aufgabensatz 6 · Neue Buslinie 27",
+          "type": "true_false",
+          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
+          "text": "Die Stadt führt zum Fahrplanwechsel die neue Buslinie 27 ein. Sie verbindet den Bahnhof mit dem neuen Gewerbegebiet und fährt werktags alle zwanzig Minuten. Samstags fährt sie nur einmal pro Stunde, sonntags gar nicht. In den ersten zwei Wochen können Fahrgäste die Linie kostenlos testen. Danach gelten die normalen Tarife des Verkehrsverbunds. Zwei Haltestellen werden erst im November eröffnet, weil dort die Bauarbeiten noch nicht abgeschlossen sind.",
+          "questions": [
+            {
+              "id": "31",
+              "statement": "Die Linie 27 fährt zum neuen Gewerbegebiet.",
+              "answer": true
+            },
+            {
+              "id": "32",
+              "statement": "Werktags kommt der Bus alle zwanzig Minuten.",
+              "answer": true
+            },
+            {
+              "id": "33",
+              "statement": "Sonntags fährt die Linie jede Stunde.",
+              "answer": false
+            },
+            {
+              "id": "34",
+              "statement": "Die ersten zwei Wochen sind kostenlos.",
+              "answer": true
+            },
+            {
+              "id": "35",
+              "statement": "Danach gelten besondere, höhere Preise.",
+              "answer": false
+            },
+            {
+              "id": "36",
+              "statement": "Alle Haltestellen sind sofort fertig.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "tf-set-7",
+          "title": "Aufgabensatz 7 · Gemeinschaftswerkstatt",
+          "type": "true_false",
+          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
+          "text": "Eine neue Gemeinschaftswerkstatt öffnet im ehemaligen Postgebäude. Mitglieder können dort Werkzeuge für Holz-, Metall- und Fahrradarbeiten benutzen. Vor der ersten Nutzung ist eine Sicherheitseinweisung Pflicht. Die Werkstatt ist dienstags bis samstags geöffnet; montags bleibt sie geschlossen. Eine Monatsmitgliedschaft kostet 25 Euro, Material muss zusätzlich bezahlt werden. Jugendliche ab 16 Jahren dürfen teilnehmen, brauchen bis zum 18. Geburtstag aber eine schriftliche Zustimmung der Eltern.",
+          "questions": [
+            {
+              "id": "37",
+              "statement": "Die Werkstatt befindet sich in einem früheren Postgebäude.",
+              "answer": true
+            },
+            {
+              "id": "38",
+              "statement": "Vor der ersten Nutzung gibt es eine Pflicht-Einweisung.",
+              "answer": true
+            },
+            {
+              "id": "39",
+              "statement": "Montags ist die Werkstatt geöffnet.",
+              "answer": false
+            },
+            {
+              "id": "40",
+              "statement": "Material ist in der Mitgliedschaft enthalten.",
+              "answer": false
+            },
+            {
+              "id": "41",
+              "statement": "Jugendliche ab 16 dürfen grundsätzlich teilnehmen.",
+              "answer": true
+            },
+            {
+              "id": "42",
+              "statement": "Unter 18-Jährige brauchen nie eine Zustimmung.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "tf-set-8",
+          "title": "Aufgabensatz 8 · Hotel am See",
+          "type": "true_false",
+          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
+          "text": "Das Hotel am See bietet ab diesem Sommer Fahrräder für seine Gäste an. Normale Cityräder sind für Hotelgäste drei Stunden pro Tag kostenlos, E-Bikes kosten 15 Euro pro Tag. Helme können ohne Aufpreis ausgeliehen werden. Die Räder müssen spätestens um 20 Uhr zurückgebracht werden. Eine Reservierung ist an der Rezeption möglich, besonders an Wochenenden wird sie empfohlen. Für Schäden, die durch falsche Nutzung entstehen, haften die Gäste selbst.",
+          "questions": [
+            {
+              "id": "43",
+              "statement": "Cityräder sind für Gäste drei Stunden täglich kostenlos.",
+              "answer": true
+            },
+            {
+              "id": "44",
+              "statement": "E-Bikes sind ebenfalls kostenlos.",
+              "answer": false
+            },
+            {
+              "id": "45",
+              "statement": "Helme kosten extra.",
+              "answer": false
+            },
+            {
+              "id": "46",
+              "statement": "Die Räder müssen bis 20 Uhr zurück sein.",
+              "answer": true
+            },
+            {
+              "id": "47",
+              "statement": "Am Wochenende ist eine Reservierung verboten.",
+              "answer": false
+            },
+            {
+              "id": "48",
+              "statement": "Für selbst verursachte Schäden können Gäste zahlen müssen.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "tf-set-9",
+          "title": "Aufgabensatz 9 · Stadtfest",
+          "type": "true_false",
+          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
+          "text": "Das diesjährige Stadtfest findet von Freitag bis Sonntag auf dem Marktplatz statt. Am Freitag beginnt das Programm um 17 Uhr mit einem Konzert. Samstag gibt es zusätzlich einen Flohmarkt in der Fußgängerzone. Der Eintritt zu allen Veranstaltungen ist frei. Wegen des Aufbaus ist der Marktplatz bereits ab Donnerstag für Autos gesperrt. Besucher werden gebeten, Bus und Bahn zu nutzen; am Samstag fahren mehrere Linien bis Mitternacht häufiger als sonst.",
+          "questions": [
+            {
+              "id": "49",
+              "statement": "Das Stadtfest dauert drei Tage.",
+              "answer": true
+            },
+            {
+              "id": "50",
+              "statement": "Am Freitag beginnt es morgens.",
+              "answer": false
+            },
+            {
+              "id": "51",
+              "statement": "Für Konzerte muss Eintritt bezahlt werden.",
+              "answer": false
+            },
+            {
+              "id": "52",
+              "statement": "Der Marktplatz ist schon ab Donnerstag für Autos gesperrt.",
+              "answer": true
+            },
+            {
+              "id": "53",
+              "statement": "Der Flohmarkt findet am Samstag statt.",
+              "answer": true
+            },
+            {
+              "id": "54",
+              "statement": "Am Samstag fahren weniger Busse als üblich.",
+              "answer": false
+            }
+          ]
+        },
+        {
+          "id": "tf-set-10",
+          "title": "Aufgabensatz 10 · Sprachcafé",
+          "type": "true_false",
+          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
+          "text": "Das Sprachcafé im Kulturzentrum trifft sich jeden Donnerstagabend. Willkommen sind Menschen, die Deutsch lernen und beim Sprechen sicherer werden möchten. Die Teilnahme ist kostenlos, Getränke müssen jedoch selbst bezahlt werden. Eine Anmeldung ist nur für Gruppen ab fünf Personen erforderlich. Jede Woche gibt es ein Gesprächsthema, aber niemand muss sich darauf vorbereiten. Einmal im Monat wird zusätzlich ein Spieleabend organisiert, der bis 22 Uhr dauert.",
+          "questions": [
+            {
+              "id": "55",
+              "statement": "Das Sprachcafé findet donnerstags statt.",
+              "answer": true
+            },
+            {
+              "id": "56",
+              "statement": "Nur fortgeschrittene Deutschlernende dürfen kommen.",
+              "answer": false
+            },
+            {
+              "id": "57",
+              "statement": "Die Teilnahme kostet nichts.",
+              "answer": true
+            },
+            {
+              "id": "58",
+              "statement": "Jede einzelne Person muss sich anmelden.",
+              "answer": false
+            },
+            {
+              "id": "59",
+              "statement": "Man muss das Wochenthema vorher lernen.",
+              "answer": false
+            },
+            {
+              "id": "60",
+              "statement": "Einmal pro Monat gibt es auch einen Spieleabend.",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

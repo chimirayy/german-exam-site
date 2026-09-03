@@ -14,7 +14,7 @@
   const cfg = window.EXAM_CONFIG;
   if (!cfg) { console.error("EXAM_CONFIG missing on this page."); return; }
 
-  const STORAGE_KEY = `telc-exam-state-${cfg.level}`;
+  const STORAGE_KEY = `telc-exam-state-${cfg.level}-${cfg.practiceId || "full"}`;
   const root = document.getElementById("exam-root");
 
   let DATA = null;
@@ -63,6 +63,9 @@
       return r.json();
     })
     .then((json) => {
+      if (!json || !Array.isArray(json.sections) || json.sections.length === 0) {
+        throw new Error("Die Prüfungsdatei enthält keine gültigen sections.");
+      }
       DATA = json;
       render();
     })
@@ -78,6 +81,24 @@
 
   function render() {
     clearInterval(tickHandle);
+
+    // Each practice page is an independent exam. Older builds used a
+    // multi-section state shape, so a saved index can point past the
+    // single section in the new format. Clamp it instead of crashing.
+    if (!Array.isArray(DATA?.sections) || DATA.sections.length === 0) {
+      root.innerHTML = `<div class="card"><p><strong>Fehler beim Laden der Prüfung.</strong></p><p>Die Prüfungsdatei enthält keine gültigen Abschnitte.</p></div>`;
+      return;
+    }
+    if (!Number.isInteger(state.currentSectionIndex) ||
+        state.currentSectionIndex < 0 ||
+        state.currentSectionIndex >= DATA.sections.length) {
+      state.currentSectionIndex = 0;
+      // A stale finished state from an older version must not leave this
+      // new, single-page practice in an impossible state.
+      if (!state.sectionMeta[DATA.sections[0].id]) state.finished = false;
+      saveState();
+    }
+
     if (!state.started) return renderStart();
     if (state.finished) return renderFinished();
     return renderSection();
@@ -92,17 +113,17 @@
     root.innerHTML = `
       <div class="start-screen">
         <span class="badge">${DATA.levelName}</span>
-        <h1 style="margin-top:10px">Übungsprüfung starten</h1>
+        <h1 style="margin-top:10px">Training starten</h1>
         <p class="prose" style="margin:0 auto 22px;color:var(--ink-soft)">${DATA.introduction}</p>
         <div class="card">
-          <h3>Ablauf der Prüfung</h3>
+          <h3>Ablauf des Trainings</h3>
           <ul class="timeline">
             ${DATA.sections.map(sec => `
               <li><span class="t-name">${sec.title}</span><span class="t-time">${sec.timeMinutes} Min.</span></li>
             `).join("")}
           </ul>
           <ul class="timeline" style="margin-top:14px;border-top:1px solid var(--rule);padding-top:10px">
-            <li><span class="t-name">Gesamtdauer</span><span class="t-time">${totalMinutes} Min.</span></li>
+            <li><span class="t-name">Zeitlimit</span><span class="t-time">${totalMinutes} Min.</span></li>
           </ul>
         </div>
         <div class="card" style="margin-top:16px">
@@ -114,7 +135,7 @@
             <li>Beim Hörverstehen: Ist keine Audiodatei hinterlegt, können Sie das Transkript einblenden.</li>
           </ul>
         </div>
-        <button class="btn" style="margin-top:24px" id="btn-start">Prüfung beginnen</button>
+        <button class="btn" style="margin-top:24px" id="btn-start">Training beginnen</button>
       </div>
     `;
     document.getElementById("btn-start").addEventListener("click", () => {
@@ -173,7 +194,7 @@
       <div class="action-bar">
         <div class="action-bar-inner">
           <span class="answered-count" id="answered-count"></span>
-          <button class="btn" id="btn-next">${isLastSection(section) ? "Prüfung abschließen" : "Teil abgeben & weiter"}</button>
+          <button class="btn" id="btn-next">${isLastSection(section) ? "Training abschließen" : "Teil abgeben & weiter"}</button>
         </div>
       </div>
     `;
@@ -213,7 +234,7 @@
   function confirmAdvance(section) {
     const last = isLastSection(section);
     const msg = last
-      ? "Möchten Sie die Prüfung jetzt abschließen? Sie können danach nichts mehr ändern."
+      ? "Möchten Sie dieses Training jetzt abschließen? Sie können danach nichts mehr ändern."
       : `Möchten Sie „${section.title}“ abgeben? Sie können zu diesem Teil nicht zurückkehren.`;
     if (window.confirm(msg)) advanceSection(section, false);
   }
@@ -546,7 +567,7 @@
       root.innerHTML = `
         <div class="result-screen">
           <div class="lock-icon">🔒</div>
-          <h1>Prüfung abgeschlossen</h1>
+          <h1>Training abgeschlossen</h1>
           <p style="color:var(--ink-soft)">Alle Teile wurden abgegeben. Der Auswertungsbogen ist jetzt verfügbar.</p>
           <div class="card">
             <h3>Bearbeitungszeit je Teil</h3>

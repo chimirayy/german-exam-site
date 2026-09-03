@@ -1,0 +1,666 @@
+{
+  "level": "B1",
+  "levelName": "telc Deutsch B1 · Lesen · Anzeigen zuordnen",
+  "levelColor": "#B5792B",
+  "introduction": "B1-Intensivtraining für den Aufgabentyp „Lesen · Anzeigen zuordnen“. Diese Seite enthält zehn vollständige Aufgabensätze dieses Formats. Die Bearbeitung und Auswertung erfolgt unabhängig von allen anderen Aufgabentypen.",
+  "sections": [
+    {
+      "id": "practice",
+      "title": "Lesen · Anzeigen zuordnen",
+      "timeMinutes": 45,
+      "instructions": "Bearbeiten Sie zehn Aufgabensätze. Das Aufgabenformat entspricht B1 Leseverstehen Teil 3.",
+      "parts": [
+        {
+          "id": "ads-set-1",
+          "title": "Aufgabensatz 1 · Freizeitkurse",
+          "type": "matching_ads",
+          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
+            {
+              "id": "1",
+              "text": "Sie suchen einen Fotokurs am Wochenende."
+            },
+            {
+              "id": "2",
+              "text": "Ihre Freundin möchte abends Yoga machen."
+            },
+            {
+              "id": "3",
+              "text": "Sie möchten einen Kochkurs ohne Fleisch besuchen."
+            },
+            {
+              "id": "4",
+              "text": "Ihr Sohn sucht Gitarrenunterricht am Nachmittag."
+            },
+            {
+              "id": "5",
+              "text": "Sie möchten sonntags tanzen lernen."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Yoga für Anfänger, Dienstag und Donnerstag 19 Uhr."
+            },
+            {
+              "key": "B",
+              "text": "Fotoworkshop am Samstag, 10–16 Uhr, Grundlagen und Praxis."
+            },
+            {
+              "key": "C",
+              "text": "Vegetarisch kochen: Mittwochabend, schnelle Alltagsgerichte."
+            },
+            {
+              "key": "D",
+              "text": "Tanzkurs für Einsteiger, sonntags 17–19 Uhr."
+            },
+            {
+              "key": "E",
+              "text": "Freizeitkurse: derzeit vollständig ausgebucht."
+            },
+            {
+              "key": "F",
+              "text": "Freizeitkurse: Angebot nur für Firmenkunden."
+            },
+            {
+              "key": "G",
+              "text": "Gitarrenunterricht für Jugendliche, Termine ab 15 Uhr."
+            }
+          ],
+          "answer": {
+            "1": "B",
+            "2": "A",
+            "3": "C",
+            "4": "G",
+            "5": "D"
+          }
+        },
+        {
+          "id": "ads-set-2",
+          "title": "Aufgabensatz 2 · Wohnen",
+          "type": "matching_ads",
+          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
+            {
+              "id": "6",
+              "text": "Sie suchen ein möbliertes Zimmer für zwei Monate."
+            },
+            {
+              "id": "7",
+              "text": "Ein Paar sucht eine Wohnung mit Balkon."
+            },
+            {
+              "id": "8",
+              "text": "Sie brauchen einen Stellplatz für Ihr Auto."
+            },
+            {
+              "id": "9",
+              "text": "Ihre Schwester sucht eine WG nur für Frauen."
+            },
+            {
+              "id": "10",
+              "text": "Sie möchten mit Hund umziehen."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Tiefgaragenplatz zentral, monatlich kündbar."
+            },
+            {
+              "key": "B",
+              "text": "Möbliertes Zimmer, Kurzzeitmiete ab vier Wochen möglich."
+            },
+            {
+              "key": "C",
+              "text": "2-Zimmer-Wohnung mit großem Südbalkon, ab sofort."
+            },
+            {
+              "key": "D",
+              "text": "Frauen-WG sucht neue Mitbewohnerin, ruhige Lage."
+            },
+            {
+              "key": "E",
+              "text": "Wohnen: Angebot nur für Firmenkunden."
+            },
+            {
+              "key": "F",
+              "text": "Wohnen: derzeit vollständig ausgebucht."
+            },
+            {
+              "key": "G",
+              "text": "3-Zimmer-Wohnung, Haustiere nach Absprache ausdrücklich möglich."
+            }
+          ],
+          "answer": {
+            "6": "B",
+            "7": "C",
+            "8": "A",
+            "9": "D",
+            "10": "G"
+          }
+        },
+        {
+          "id": "ads-set-3",
+          "title": "Aufgabensatz 3 · Lernen",
+          "type": "matching_ads",
+          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
+            {
+              "id": "11",
+              "text": "Ihre Tochter braucht Mathematik-Nachhilfe für Klasse 9."
+            },
+            {
+              "id": "12",
+              "text": "Sie suchen einen Deutschkurs am Vormittag."
+            },
+            {
+              "id": "13",
+              "text": "Ihr Vater möchte einen Computerkurs für Senioren."
+            },
+            {
+              "id": "14",
+              "text": "Sie möchten Spanisch online lernen."
+            },
+            {
+              "id": "15",
+              "text": "Ein Freund braucht Hilfe bei Bewerbungen."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Spanisch per Videokurs, flexible Abendtermine."
+            },
+            {
+              "key": "B",
+              "text": "Bewerbungswerkstatt: Lebenslauf, Anschreiben und Gesprächstraining."
+            },
+            {
+              "key": "C",
+              "text": "PC-Grundkurs 60+, kleine Gruppen und langsames Lerntempo."
+            },
+            {
+              "key": "D",
+              "text": "Lernen: derzeit vollständig ausgebucht."
+            },
+            {
+              "key": "E",
+              "text": "Lernen: Angebot nur für Firmenkunden."
+            },
+            {
+              "key": "F",
+              "text": "Deutsch B1, Montag bis Freitag 9–11 Uhr."
+            },
+            {
+              "key": "G",
+              "text": "Mathe-Nachhilfe Klassen 7–10, Einzelunterricht möglich."
+            }
+          ],
+          "answer": {
+            "11": "G",
+            "12": "F",
+            "13": "C",
+            "14": "A",
+            "15": "B"
+          }
+        },
+        {
+          "id": "ads-set-4",
+          "title": "Aufgabensatz 4 · Dienstleistungen",
+          "type": "matching_ads",
+          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
+            {
+              "id": "16",
+              "text": "Sie brauchen am Samstag Hilfe beim Umzug."
+            },
+            {
+              "id": "17",
+              "text": "Ihr Fahrrad muss schnell repariert werden."
+            },
+            {
+              "id": "18",
+              "text": "Sie suchen eine Reinigungskraft alle zwei Wochen."
+            },
+            {
+              "id": "19",
+              "text": "Sie brauchen Betreuung für Ihre Katze im Urlaub."
+            },
+            {
+              "id": "20",
+              "text": "Sie möchten alte Möbel abholen lassen."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Dienstleistungen: Angebot nur für Firmenkunden."
+            },
+            {
+              "key": "B",
+              "text": "Haushaltshilfe regelmäßig oder 14-tägig, zuverlässig und versichert."
+            },
+            {
+              "key": "C",
+              "text": "Umzugshelfer am Wochenende, Transporter kann mitgebracht werden."
+            },
+            {
+              "key": "D",
+              "text": "Möbelabholung und Entsorgung, auch aus oberen Etagen."
+            },
+            {
+              "key": "E",
+              "text": "Katzenbetreuung bei Ihnen zu Hause, tägliche Besuche möglich."
+            },
+            {
+              "key": "F",
+              "text": "Dienstleistungen: derzeit vollständig ausgebucht."
+            },
+            {
+              "key": "G",
+              "text": "Fahrradservice ohne Termin, kleine Reparaturen am selben Tag."
+            }
+          ],
+          "answer": {
+            "16": "C",
+            "17": "G",
+            "18": "B",
+            "19": "E",
+            "20": "D"
+          }
+        },
+        {
+          "id": "ads-set-5",
+          "title": "Aufgabensatz 5 · Arbeit",
+          "type": "matching_ads",
+          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
+            {
+              "id": "21",
+              "text": "Sie suchen einen Nebenjob nur am Wochenende."
+            },
+            {
+              "id": "22",
+              "text": "Ihre Freundin möchte im Homeoffice arbeiten."
+            },
+            {
+              "id": "23",
+              "text": "Ein Student sucht einen Job für die Semesterferien."
+            },
+            {
+              "id": "24",
+              "text": "Sie suchen eine Teilzeitstelle am Vormittag."
+            },
+            {
+              "id": "25",
+              "text": "Ihr Bruder möchte eine Ausbildung im Handwerk beginnen."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Aushilfe samstags und sonntags im Café gesucht."
+            },
+            {
+              "key": "B",
+              "text": "Arbeit: derzeit vollständig ausgebucht."
+            },
+            {
+              "key": "C",
+              "text": "Ferienjob im Lager, sechs Wochen im August/September."
+            },
+            {
+              "key": "D",
+              "text": "Bürohilfe 20 Stunden, Arbeitszeit 8–12 Uhr."
+            },
+            {
+              "key": "E",
+              "text": "Arbeit: Angebot nur für Firmenkunden."
+            },
+            {
+              "key": "F",
+              "text": "Ausbildungsplatz als Elektroniker ab September."
+            },
+            {
+              "key": "G",
+              "text": "Kundenservice, drei Tage pro Woche remote möglich."
+            }
+          ],
+          "answer": {
+            "21": "A",
+            "22": "G",
+            "23": "C",
+            "24": "D",
+            "25": "F"
+          }
+        },
+        {
+          "id": "ads-set-6",
+          "title": "Aufgabensatz 6 · Reisen",
+          "type": "matching_ads",
+          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
+            {
+              "id": "26",
+              "text": "Sie möchten mit dem Nachtzug nach Wien fahren."
+            },
+            {
+              "id": "27",
+              "text": "Eine Familie sucht Urlaub auf einem Bauernhof."
+            },
+            {
+              "id": "28",
+              "text": "Sie wollen ein Fahrrad für eine Woche mieten."
+            },
+            {
+              "id": "29",
+              "text": "Ihre Eltern suchen eine barrierefreie Unterkunft."
+            },
+            {
+              "id": "30",
+              "text": "Sie suchen eine günstige Stadtführung auf Englisch."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Reisen: Angebot nur für Firmenkunden."
+            },
+            {
+              "key": "B",
+              "text": "Nachtverbindung nach Wien, Liege- und Schlafwagen buchbar."
+            },
+            {
+              "key": "C",
+              "text": "Reisen: derzeit vollständig ausgebucht."
+            },
+            {
+              "key": "D",
+              "text": "Fahrradverleih mit Wochenpreisen und kostenloser Reparaturhilfe."
+            },
+            {
+              "key": "E",
+              "text": "Ferienhof mit Tieren, Spielplatz und Familienwohnungen."
+            },
+            {
+              "key": "F",
+              "text": "English city walk, 2 hours, low-cost group tour."
+            },
+            {
+              "key": "G",
+              "text": "Hotel mit Aufzug und rollstuhlgerechten Zimmern."
+            }
+          ],
+          "answer": {
+            "26": "B",
+            "27": "E",
+            "28": "D",
+            "29": "G",
+            "30": "F"
+          }
+        },
+        {
+          "id": "ads-set-7",
+          "title": "Aufgabensatz 7 · Kaufen und Verkaufen",
+          "type": "matching_ads",
+          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
+            {
+              "id": "31",
+              "text": "Sie möchten einen gebrauchten Schreibtisch kaufen."
+            },
+            {
+              "id": "32",
+              "text": "Sie wollen Ihr Auto verkaufen und den Preis verhandeln."
+            },
+            {
+              "id": "33",
+              "text": "Sie suchen ein Kinderfahrrad bis 100 Euro."
+            },
+            {
+              "id": "34",
+              "text": "Sie möchten gebrauchte Bücher verschenken."
+            },
+            {
+              "id": "35",
+              "text": "Sie brauchen einen Laptop mit Garantie."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Großer Schreibtisch gebraucht, guter Zustand, Abholung."
+            },
+            {
+              "key": "B",
+              "text": "Auto privat zu verkaufen, Preis VB, Besichtigung möglich."
+            },
+            {
+              "key": "C",
+              "text": "Bücherannahme für sozialen Flohmarkt, Spenden willkommen."
+            },
+            {
+              "key": "D",
+              "text": "Kaufen und Verkaufen: derzeit vollständig ausgebucht."
+            },
+            {
+              "key": "E",
+              "text": "Kinderfahrrad 24 Zoll, 80 Euro."
+            },
+            {
+              "key": "F",
+              "text": "Generalüberholte Laptops, 12 Monate Händlergarantie."
+            },
+            {
+              "key": "G",
+              "text": "Kaufen und Verkaufen: Angebot nur für Firmenkunden."
+            }
+          ],
+          "answer": {
+            "31": "A",
+            "32": "B",
+            "33": "E",
+            "34": "C",
+            "35": "F"
+          }
+        },
+        {
+          "id": "ads-set-8",
+          "title": "Aufgabensatz 8 · Gesundheit",
+          "type": "matching_ads",
+          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
+            {
+              "id": "36",
+              "text": "Sie suchen einen Rückenkurs nach der Arbeit."
+            },
+            {
+              "id": "37",
+              "text": "Ihre Mutter braucht Physiotherapie mit Hausbesuch."
+            },
+            {
+              "id": "38",
+              "text": "Sie möchten morgens schwimmen."
+            },
+            {
+              "id": "39",
+              "text": "Ein Freund sucht eine Ernährungsberatung online."
+            },
+            {
+              "id": "40",
+              "text": "Sie wollen in einer kleinen Gruppe joggen."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Rückentraining mittwochs 18:30 Uhr."
+            },
+            {
+              "key": "B",
+              "text": "Laufgruppe für Einsteiger, maximal acht Personen."
+            },
+            {
+              "key": "C",
+              "text": "Gesundheit: Angebot nur für Firmenkunden."
+            },
+            {
+              "key": "D",
+              "text": "Frühschwimmen ab 6:30 Uhr, Montag bis Freitag."
+            },
+            {
+              "key": "E",
+              "text": "Ernährungsberatung per Video, individuelle Termine."
+            },
+            {
+              "key": "F",
+              "text": "Gesundheit: derzeit vollständig ausgebucht."
+            },
+            {
+              "key": "G",
+              "text": "Physiotherapie mobil: Behandlung auch bei Ihnen zu Hause."
+            }
+          ],
+          "answer": {
+            "36": "A",
+            "37": "G",
+            "38": "D",
+            "39": "E",
+            "40": "B"
+          }
+        },
+        {
+          "id": "ads-set-9",
+          "title": "Aufgabensatz 9 · Kinder und Familie",
+          "type": "matching_ads",
+          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
+            {
+              "id": "41",
+              "text": "Sie suchen Betreuung für Ihr Kind am Samstag."
+            },
+            {
+              "id": "42",
+              "text": "Ihre Tochter möchte einen Malkurs besuchen."
+            },
+            {
+              "id": "43",
+              "text": "Sie brauchen einen gebrauchten Kinderwagen."
+            },
+            {
+              "id": "44",
+              "text": "Sie suchen einen Babysitter am Abend."
+            },
+            {
+              "id": "45",
+              "text": "Ihre Familie möchte sonntags ins Kindertheater."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Erfahrene Babysitterin, abends und am Wochenende verfügbar."
+            },
+            {
+              "key": "B",
+              "text": "Kinder und Familie: Angebot nur für Firmenkunden."
+            },
+            {
+              "key": "C",
+              "text": "Kindertheater jeden Sonntag um 15 Uhr."
+            },
+            {
+              "key": "D",
+              "text": "Kreativkurs Malen für Kinder ab 7, freitags."
+            },
+            {
+              "key": "E",
+              "text": "Kinder und Familie: derzeit vollständig ausgebucht."
+            },
+            {
+              "key": "F",
+              "text": "Kinderwagen gebraucht, zusammenklappbar, günstig abzugeben."
+            },
+            {
+              "key": "G",
+              "text": "Samstagsbetreuung für Kinder von 4–8 Jahren."
+            }
+          ],
+          "answer": {
+            "41": "G",
+            "42": "D",
+            "43": "F",
+            "44": "A",
+            "45": "C"
+          }
+        },
+        {
+          "id": "ads-set-10",
+          "title": "Aufgabensatz 10 · Veranstaltungen",
+          "type": "matching_ads",
+          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
+            {
+              "id": "46",
+              "text": "Sie möchten am Freitag Jazz hören."
+            },
+            {
+              "id": "47",
+              "text": "Ihre Freundin sucht einen kostenlosen Flohmarkt."
+            },
+            {
+              "id": "48",
+              "text": "Sie wollen eine Ausstellung am Montag besuchen."
+            },
+            {
+              "id": "49",
+              "text": "Ein Bekannter möchte einen Vortrag über Klima hören."
+            },
+            {
+              "id": "50",
+              "text": "Sie suchen ein Open-Air-Kino."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Vortrag: Klimaschutz in Städten, Donnerstagabend."
+            },
+            {
+              "key": "B",
+              "text": "Veranstaltungen: derzeit vollständig ausgebucht."
+            },
+            {
+              "key": "C",
+              "text": "Veranstaltungen: Angebot nur für Firmenkunden."
+            },
+            {
+              "key": "D",
+              "text": "Galerie geöffnet Montag 12–18 Uhr."
+            },
+            {
+              "key": "E",
+              "text": "Nachbarschaftsflohmarkt, Eintritt frei, Samstag."
+            },
+            {
+              "key": "F",
+              "text": "Jazzabend Freitag 20 Uhr im Kulturkeller."
+            },
+            {
+              "key": "G",
+              "text": "Sommerkino draußen im Stadtpark, ab 21 Uhr."
+            }
+          ],
+          "answer": {
+            "46": "F",
+            "47": "E",
+            "48": "D",
+            "49": "A",
+            "50": "G"
+          }
+        }
+      ]
+    }
+  ]
+}
