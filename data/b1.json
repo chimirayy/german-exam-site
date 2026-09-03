@@ -1,0 +1,196 @@
+{
+  "level": "B1",
+  "levelName": "telc Deutsch B1",
+  "levelColor": "#B5792B",
+  "introduction": "Diese Übungsprüfung ist im Format der telc-Prüfung Deutsch B1 aufgebaut. Sie besteht aus vier Teilen: Leseverstehen, Sprachbausteine, Hörverstehen und Schriftlicher Ausdruck. Der mündliche Teil (Sprechen) ist nicht enthalten.",
+  "sections": [
+    {
+      "id": "lesen",
+      "title": "Leseverstehen",
+      "timeMinutes": 45,
+      "instructions": "Der Leseverstehen-Teil besteht aus drei Aufgaben.",
+      "parts": [
+        {
+          "id": "lesen-teil1",
+          "title": "Teil 1 – Überschriften zuordnen",
+          "type": "matching",
+          "instructions": "Lesen Sie die fünf Textabschnitte (1–5) eines Zeitschriftenartikels. Ordnen Sie jedem Abschnitt die passende Überschrift (A–G) zu. Zwei Überschriften bleiben übrig.",
+          "items": [
+            { "id": "1", "text": "Immer mehr Menschen in Deutschland arbeiten von zu Hause aus. Was vor einigen Jahren noch die Ausnahme war, ist inzwischen für viele Beschäftigte normaler Alltag geworden." },
+            { "id": "2", "text": "Befürworter des Homeoffice loben vor allem die gewonnene Zeit: Wer nicht pendeln muss, hat mehr Zeit für Familie, Sport oder Hobbys und ist oft ausgeglichener." },
+            { "id": "3", "text": "Kritiker weisen dagegen darauf hin, dass der persönliche Austausch mit Kollegen fehlt. Viele Ideen entstehen spontan im Gespräch, und genau das ist im Homeoffice schwieriger." },
+            { "id": "4", "text": "Auch für Unternehmen bringt das mobile Arbeiten Vorteile: Sie können Bürofläche sparen und Mitarbeitende aus anderen Städten oder Ländern einstellen." },
+            { "id": "5", "text": "Experten sind sich einig, dass die Zukunft in einer Mischung liegt: einige Tage im Büro, einige Tage zu Hause. So lassen sich die Vorteile beider Modelle verbinden." }
+          ],
+          "options": [
+            { "key": "A", "text": "Weniger Kontakt, weniger Kreativität" },
+            { "key": "B", "text": "Ein Modell für die Zukunft" },
+            { "key": "C", "text": "Vom Ausnahmefall zum Alltag" },
+            { "key": "D", "text": "Höhere Gehälter im Homeoffice" },
+            { "key": "E", "text": "Vorteile für Firmen" },
+            { "key": "F", "text": "Mehr Zeit für das Privatleben" },
+            { "key": "G", "text": "Technische Probleme beim Arbeiten von zu Hause" }
+          ],
+          "answer": { "1": "C", "2": "F", "3": "A", "4": "E", "5": "B" }
+        },
+        {
+          "id": "lesen-teil2",
+          "title": "Teil 2 – Richtig oder falsch",
+          "type": "true_false",
+          "instructions": "Lesen Sie den Text. Sind die Aussagen 6–11 richtig oder falsch?",
+          "text": "Die Stadtbibliothek Neustadt hat ihr Angebot in den letzten Jahren stark verändert. Neben klassischen Büchern können Besucherinnen und Besucher inzwischen auch E-Book-Reader, Hörbücher und sogar Werkzeug ausleihen. Besonders beliebt ist der neue 'Ideenraum', in dem Nutzer 3D-Drucker und Nähmaschinen kostenlos verwenden dürfen. Wer die Geräte nutzen möchte, muss vorher einen kurzen Einführungskurs besuchen, der jeden Samstag angeboten wird. Die Bibliotheksleiterin Frau Hoffmann erklärt: 'Wir wollen ein Ort für alle sein, nicht nur für Leseratten.' Die Ausleihe der neuen Medien ist für Mitglieder kostenlos, nur bei verspäteter Rückgabe wird eine kleine Gebühr fällig. Die Zahl der Mitglieder ist seit der Umstellung um fast 30 Prozent gestiegen.",
+          "questions": [
+            { "id": "6", "statement": "In der Bibliothek kann man nur Bücher ausleihen.", "answer": false },
+            { "id": "7", "statement": "Im Ideenraum stehen unter anderem 3D-Drucker zur Verfügung.", "answer": true },
+            { "id": "8", "statement": "Der Einführungskurs findet jeden Tag statt.", "answer": false },
+            { "id": "9", "statement": "Frau Hoffmann ist die Leiterin der Bibliothek.", "answer": true },
+            { "id": "10", "statement": "Für die Ausleihe der neuen Medien muss man immer bezahlen.", "answer": false },
+            { "id": "11", "statement": "Die Mitgliederzahl ist gestiegen.", "answer": true }
+          ]
+        },
+        {
+          "id": "lesen-teil3",
+          "title": "Teil 3 – Anzeigen zuordnen",
+          "type": "matching_ads",
+          "instructions": "Lesen Sie die Situationen 12–16 und die Anzeigen A–G. Welche Anzeige passt zu welcher Situation? Eine Anzeige passt zu keiner Situation.",
+          "scenarios": [
+            { "id": "12", "text": "Ihre Kollegin sucht einen Yogakurs, der auch abends nach der Arbeit stattfindet." },
+            { "id": "13", "text": "Sie möchten Ihr altes Auto verkaufen und dabei den Preis selbst festlegen können." },
+            { "id": "14", "text": "Ein Freund sucht eine möblierte Wohnung nur für die nächsten drei Monate." },
+            { "id": "15", "text": "Sie interessieren sich für einen Computerkurs speziell für Menschen über 60." },
+            { "id": "16", "text": "Sie suchen eine Nachhilfelehrerin für Mathematik für Ihre Tochter in der 8. Klasse." }
+          ],
+          "ads": [
+            { "key": "A", "text": "Möblierte 2-Zimmer-Wohnung, Kurzzeitmiete ab 1 Monat möglich, zentrale Lage." },
+            { "key": "B", "text": "Yoga am Abend: dienstags und donnerstags 19–20:30 Uhr, für Anfänger geeignet." },
+            { "key": "C", "text": "Computerkurs für Senioren 60+, kleine Gruppen, geduldige Trainer, vormittags." },
+            { "key": "D", "text": "Auto zu verkaufen, Festpreis 4.500 Euro, keine Verhandlung möglich." },
+            { "key": "E", "text": "Biete Nachhilfe in Mathematik für Klasse 5–9, erfahrene Lehrerin, online oder vor Ort." },
+            { "key": "F", "text": "Verkaufe Auto, Preisvorstellung offen, Angebote willkommen." },
+            { "key": "G", "text": "Yogakurs am Vormittag, montags und mittwochs 10–11:30 Uhr." }
+          ],
+          "answer": { "12": "B", "13": "F", "14": "A", "15": "C", "16": "E" }
+        }
+      ]
+    },
+    {
+      "id": "bausteine",
+      "title": "Sprachbausteine",
+      "timeMinutes": 15,
+      "instructions": "Wählen Sie für jede Lücke das passende Wort.",
+      "parts": [
+        {
+          "id": "bausteine-teil1",
+          "title": "Teil 1",
+          "type": "cloze_mc",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke (17–24) die richtige Lösung a, b oder c.",
+          "textBefore": "Sehr geehrte Damen und Herren,\nhiermit möchte ich mich",
+          "blanks": [
+            { "id": "17", "before": " für", "options": ["die", "der", "dem"], "answer": 0, "after": " ausgeschriebene Stelle als Bürokauffrau bewerben." },
+            { "id": "18", "before": " Ich habe", "options": ["Ihre", "Ihrer", "Ihren"], "answer": 0, "after": " Anzeige in der Zeitung gelesen." },
+            { "id": "19", "before": " Zurzeit arbeite ich", "options": ["bei", "seit", "von"], "answer": 0, "after": " einem mittelständischen Unternehmen." },
+            { "id": "20", "before": " Ich suche eine neue Herausforderung,", "options": ["weil", "obwohl", "damit"], "answer": 0, "after": " meine jetzige Stelle befristet ist." },
+            { "id": "21", "before": " Über", "options": ["ein", "eine", "einen"], "answer": 1, "after": " Einladung zu einem Gespräch würde ich mich sehr freuen." },
+            { "id": "22", "before": " Meine Unterlagen habe ich", "options": ["beigefügt", "beigelegen", "beilegend"], "answer": 0, "after": "." },
+            { "id": "23", "before": " Für Rückfragen stehe ich Ihnen", "options": ["gern", "gerne", "gerner"], "answer": 0, "after": " zur Verfügung." },
+            { "id": "24", "before": " Mit freundlichen", "options": ["Grüße", "Grüßen", "Gruß"], "answer": 1, "after": "" }
+          ],
+          "textAfter": ""
+        },
+        {
+          "id": "bausteine-teil2",
+          "title": "Teil 2",
+          "type": "cloze_wordbank",
+          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke (25–30) das passende Wort aus dem Kasten. Nicht alle Wörter passen.",
+          "wordbank": ["obwohl", "trotzdem", "deshalb", "dabei", "während", "sondern", "sowohl"],
+          "textBefore": "Anna hat sich entschieden, ein Jahr im Ausland zu studieren,",
+          "blanks": [
+            { "id": "25", "before": "", "answer": "obwohl", "after": " ihre Familie zunächst dagegen war." },
+            { "id": "26", "before": " Sie wollte", "answer": "trotzdem", "after": " neue Erfahrungen sammeln." },
+            { "id": "27", "before": " Sie hat sich nicht nur für ein Land entschieden,", "answer": "sondern", "after": " für drei mögliche Ziele beworben." },
+            { "id": "28", "before": " ", "answer": "während", "after": " des Auswahlverfahrens musste sie mehrere Tests machen." },
+            { "id": "29", "before": " Am Ende hat sie einen Platz in Spanien bekommen und ist", "answer": "deshalb", "after": " sehr glücklich." },
+            { "id": "30", "before": " Sie freut sich ", "answer": "sowohl", "after": " auf das Studium als auch auf die neue Kultur." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hoeren",
+      "title": "Hörverstehen",
+      "timeMinutes": 20,
+      "instructions": "Sie hören jeden Text zweimal. Falls kein Audio verfügbar ist, lesen Sie das Transkript.",
+      "parts": [
+        {
+          "id": "hoeren-teil1",
+          "title": "Teil 1 – Kurze Durchsagen und Nachrichten",
+          "type": "true_false",
+          "audio": "audio/b1/b1-hoeren-teil1.mp3",
+          "instructions": "Sie hören vier kurze Texte. Sind die Aussagen 31–34 richtig oder falsch?",
+          "transcript": "Text 1 (Ansage im Zug): Sehr geehrte Fahrgäste, aufgrund von Bauarbeiten hält dieser Zug heute außerplanmäßig auch in Hattingen. Reisende nach Bochum steigen dort bitte in den Ersatzbus um.\n\nText 2 (Anrufbeantworter): Guten Tag, hier ist die Praxis Dr. Neumann. Wir haben derzeit Betriebsferien und sind ab dem 12. August wieder für Sie erreichbar. In dringenden Fällen wenden Sie sich bitte an den ärztlichen Notdienst.\n\nText 3 (Werbedurchsage im Radio): Nur noch bis Sonntag: Im Möbelhaus Wagner erhalten Sie zwanzig Prozent Rabatt auf alle Sofas und Sessel. Schauen Sie vorbei, es lohnt sich!\n\nText 4 (Nachricht auf Mailbox): Hallo Sabine, hier ist Tom. Ich kann heute Abend leider doch nicht zum Sport kommen, mir ist etwas dazwischengekommen. Wir sehen uns dann nächste Woche, oder?",
+          "questions": [
+            { "id": "31", "statement": "Der Zug hält heute zusätzlich in Hattingen.", "answer": true },
+            { "id": "32", "statement": "Die Praxis ist ab dem 12. August wieder geöffnet.", "answer": true },
+            { "id": "33", "statement": "Der Rabatt im Möbelhaus gilt noch den ganzen Monat.", "answer": false },
+            { "id": "34", "statement": "Tom kommt heute Abend zum Sport.", "answer": false }
+          ]
+        },
+        {
+          "id": "hoeren-teil2",
+          "title": "Teil 2 – Interview",
+          "type": "multiple_choice",
+          "audio": "audio/b1/b1-hoeren-teil2.mp3",
+          "instructions": "Sie hören ein Interview mit einer Stadtplanerin. Wählen Sie für die Fragen 35–40 die richtige Antwort a, b oder c.",
+          "transcript": "Moderator: Frau Dr. Lang, Sie planen seit Jahren autofreie Innenstädte. Warum ist Ihnen dieses Thema so wichtig?\nFrau Dr. Lang: Weil unsere Städte für Menschen gebaut werden sollten, nicht für Autos. Wenn weniger Autos fahren, gibt es mehr Platz für Grünflächen, Radwege und Cafés im Freien.\nModerator: Viele Geschäftsleute befürchten aber, dass ohne Parkplätze weniger Kunden kommen. Wie reagieren Sie darauf?\nFrau Dr. Lang: Das ist ein häufiges Argument, doch Studien aus anderen Städten zeigen oft das Gegenteil: Wenn die Innenstadt angenehmer wird, bleiben Menschen länger und geben sogar mehr Geld aus.\nModerator: Wie sieht Ihr konkreter Plan für unsere Stadt aus?\nFrau Dr. Lang: Wir wollen zunächst zwei zentrale Straßen für den Autoverkehr sperren und stattdessen breite Fußgängerzonen mit Bäumen und Sitzbänken schaffen. Das Projekt startet im nächsten Frühjahr als Testphase für ein Jahr.\nModerator: Und wenn die Testphase nicht gut ankommt?\nFrau Dr. Lang: Dann werten wir die Ergebnisse gemeinsam mit den Bürgern aus und passen den Plan an. Uns ist wichtig, dass die Menschen mitentscheiden können.",
+          "questions": [
+            { "id": "35", "question": "Warum setzt sich Frau Dr. Lang für autofreie Innenstädte ein?", "options": ["Städte sollten für Menschen gebaut sein.", "Autos verursachen zu viel Lärm.", "Es gibt zu wenige Parkplätze."], "answer": 0 },
+            { "id": "36", "question": "Was befürchten Geschäftsleute?", "options": ["Höhere Mieten", "Weniger Kunden ohne Parkplätze", "Mehr Verkehr"], "answer": 1 },
+            { "id": "37", "question": "Was zeigen Studien aus anderen Städten laut Frau Dr. Lang?", "options": ["Kunden geben oft mehr Geld aus.", "Die Geschäfte schließen häufiger.", "Die Mieten steigen stark."], "answer": 0 },
+            { "id": "38", "question": "Was ist für den konkreten Plan vorgesehen?", "options": ["Ein neues Parkhaus", "Zwei gesperrte Straßen mit Fußgängerzonen", "Ein neues Straßenbahnnetz"], "answer": 1 },
+            { "id": "39", "question": "Wie lange dauert die Testphase?", "options": ["Ein halbes Jahr", "Ein Jahr", "Zwei Jahre"], "answer": 1 },
+            { "id": "40", "question": "Was passiert, wenn die Testphase nicht gut ankommt?", "options": ["Das Projekt wird sofort beendet.", "Der Plan wird gemeinsam mit den Bürgern angepasst.", "Es ändert sich nichts."], "answer": 1 }
+          ]
+        },
+        {
+          "id": "hoeren-teil3",
+          "title": "Teil 3 – Kurzgespräche",
+          "type": "speaker_matching",
+          "audio": "audio/b1/b1-hoeren-teil3.mp3",
+          "instructions": "Sie hören fünf kurze Gespräche (41–45). Ordnen Sie jedem Gespräch die passende Aussage (A–F) zu. Eine Aussage passt zu keinem Gespräch.",
+          "transcript": "Gespräch 1: 'Ich wollte eigentlich zur Prüfung anmelden, aber die Frist ist schon abgelaufen.' 'Frag doch mal im Sekretariat, ob es eine Ausnahme gibt.'\n\nGespräch 2: 'Wie war dein Vorstellungsgespräch?' 'Ganz gut, glaube ich. Sie sagten, sie melden sich in zwei Wochen.'\n\nGespräch 3: 'Kommst du mit ins Kino?' 'Gern, aber erst muss ich noch meine Wohnung aufräumen, hier sieht es chaotisch aus.'\n\nGespräch 4: 'Hast du das Paket schon bekommen?' 'Nein, laut Tracking ist es noch unterwegs, es soll morgen ankommen.'\n\nGespräch 5: 'Warum bist du so spät?' 'Der Bus hatte Verspätung, es gab einen Unfall auf der Straße.'",
+          "speakers": ["41", "42", "43", "44", "45"],
+          "options": [
+            { "key": "A", "text": "Eine Person wartet auf ein Ergebnis." },
+            { "key": "B", "text": "Eine Person hat eine Frist verpasst." },
+            { "key": "C", "text": "Eine Person kam wegen des Verkehrs zu spät." },
+            { "key": "D", "text": "Eine Person hat ein Paket schon erhalten." },
+            { "key": "E", "text": "Eine Person muss zuerst aufräumen." },
+            { "key": "F", "text": "Eine Person wartet noch auf eine Lieferung." }
+          ],
+          "answer": { "41": "B", "42": "A", "43": "E", "44": "F", "45": "C" }
+        }
+      ]
+    },
+    {
+      "id": "schreiben",
+      "title": "Schriftlicher Ausdruck",
+      "timeMinutes": 30,
+      "instructions": "Schreiben Sie einen zusammenhängenden Text (ca. 80–100 Wörter). Achten Sie auf Anrede, Struktur und Grußformel.",
+      "parts": [
+        {
+          "id": "schreiben-teil1",
+          "title": "Aufgabe",
+          "type": "writing",
+          "prompt": "In Ihrer Firma wurde entschieden, dass ab nächstem Monat mehr im Homeoffice gearbeitet werden soll. Schreiben Sie eine E-Mail an Ihre Abteilungsleitung.",
+          "points": [
+            "Nehmen Sie Stellung dazu, wie Sie diese Entscheidung finden.",
+            "Nennen Sie einen Vorteil und einen Nachteil des Homeoffice für Sie persönlich.",
+            "Machen Sie einen Vorschlag, wie die Umstellung gut gelingen könnte."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrte Frau Fischer,\nvielen Dank für die Information zur geplanten Umstellung auf mehr Homeoffice. Ich finde diese Entscheidung grundsätzlich sinnvoll, da sie mehr Flexibilität ermöglicht. Für mich persönlich bedeutet das weniger Zeit im Stau, allerdings vermisse ich dann den direkten Austausch mit meinen Kollegen im Büro. Ich schlage vor, dass wir uns weiterhin an zwei festen Tagen pro Woche im Büro treffen, damit gemeinsame Absprachen nicht zu kurz kommen. So könnten wir die Vorteile beider Arbeitsformen verbinden.\nMit freundlichen Grüßen\n(Ihr Name)"
+        }
+      ]
+    }
+  ]
+}

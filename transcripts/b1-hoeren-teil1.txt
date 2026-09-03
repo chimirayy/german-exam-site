@@ -1,0 +1,10 @@
+Teil 1 – Kurze Durchsagen und Nachrichten
+=========================================
+
+Text 1 (Ansage im Zug): Sehr geehrte Fahrgäste, aufgrund von Bauarbeiten hält dieser Zug heute außerplanmäßig auch in Hattingen. Reisende nach Bochum steigen dort bitte in den Ersatzbus um.
+
+Text 2 (Anrufbeantworter): Guten Tag, hier ist die Praxis Dr. Neumann. Wir haben derzeit Betriebsferien und sind ab dem 12. August wieder für Sie erreichbar. In dringenden Fällen wenden Sie sich bitte an den ärztlichen Notdienst.
+
+Text 3 (Werbedurchsage im Radio): Nur noch bis Sonntag: Im Möbelhaus Wagner erhalten Sie zwanzig Prozent Rabatt auf alle Sofas und Sessel. Schauen Sie vorbei, es lohnt sich!
+
+Text 4 (Nachricht auf Mailbox): Hallo Sabine, hier ist Tom. Ich kann heute Abend leider doch nicht zum Sport kommen, mir ist etwas dazwischengekommen. Wir sehen uns dann nächste Woche, oder?
