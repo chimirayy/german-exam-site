@@ -149,6 +149,286 @@
           ],
           "minWords": 80,
           "modelAnswer": "Sehr geehrte Damen und Herren,\n\nich möchte Ihnen meine Meinung zu diesem Thema mitteilen. Grundsätzlich finde ich die geplante Änderung sinnvoll, weil sie Vorteile für viele Beteiligte haben kann. Gleichzeitig sollte man beachten, dass nicht jede Person die gleichen Möglichkeiten und Bedürfnisse hat. Für mich wäre besonders wichtig, dass es klare Regeln und verlässliche Informationen gibt. Ich schlage deshalb vor, die neue Regelung zunächst für einige Wochen zu testen und anschließend Rückmeldungen zu sammeln. So könnten Probleme früh erkannt und gemeinsam gelöst werden.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-11",
+          "title": "Aufgabe 11 · Parkplatz",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "An Ihrem Arbeitsplatz gibt es zu wenige Parkplätze für alle Mitarbeitenden. Schreiben Sie an Ihre Abteilungsleitung.",
+          "points": [
+            "Beschreiben Sie das Problem aus Ihrer Sicht.",
+            "Nennen Sie einen Vorteil und einen Nachteil von Fahrgemeinschaften.",
+            "Machen Sie einen Vorschlag, wie die Parkplätze fair verteilt werden könnten."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrte Damen und Herren,\n\nseit einigen Wochen ist es morgens sehr schwierig, noch einen freien Parkplatz zu finden. Viele Kolleginnen und Kollegen kommen deshalb zu spät zu wichtigen Terminen. Fahrgemeinschaften könnten die Situation deutlich entspannen, da weniger Autos gleichzeitig ankommen; allerdings passt der Arbeitsweg nicht bei allen zusammen, sodass diese Lösung nicht für jeden möglich ist. Ich schlage deshalb vor, feste Parkplätze nach Abteilungen zu vergeben und zusätzlich einen Bereich für Fahrgemeinschaften zu reservieren. So könnte allen geholfen werden, ohne dass jemand benachteiligt wird.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-12",
+          "title": "Aufgabe 12 · Mittagspause",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "Der Betriebsrat schlägt vor, die Mittagspause von 30 auf 45 Minuten zu verlängern, dafür soll der Feierabend später sein. Schreiben Sie an den Betriebsrat.",
+          "points": [
+            "Sagen Sie, was Sie von dem Vorschlag halten.",
+            "Nennen Sie einen Vorteil und einen Nachteil für Ihren Alltag.",
+            "Machen Sie einen eigenen Vorschlag zur Pausenregelung."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrte Damen und Herren,\n\nvielen Dank für die Information zur geplanten Änderung der Mittagspause. Grundsätzlich finde ich eine längere Pause sinnvoll, weil man sich dadurch besser erholen und in Ruhe essen kann. Für mich persönlich wäre der spätere Feierabend allerdings ein Nachteil, da ich meine Kinder pünktlich von der Schule abholen muss. Ich schlage deshalb vor, die längere Pause zunächst freiwillig anzubieten, sodass jede Person selbst entscheiden kann, ob sie daran teilnimmt. So könnten beide Bedürfnisse berücksichtigt werden.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-13",
+          "title": "Aufgabe 13 · Firmenfeier",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "Bei der nächsten Firmenfeier soll es erstmals eine Kinderbetreuung geben. Schreiben Sie an die Organisatorin der Feier.",
+          "points": [
+            "Sagen Sie, was Sie von der Idee halten.",
+            "Nennen Sie einen Vorteil und einen möglichen Nachteil.",
+            "Machen Sie einen Vorschlag, wie die Betreuung organisiert werden könnte."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Liebe Frau Schmidt,\n\nich finde die Idee einer Kinderbetreuung bei der Firmenfeier sehr gut, denn dadurch können auch Eltern mit kleinen Kindern entspannt teilnehmen. Ein Vorteil ist sicher, dass mehr Kolleginnen und Kollegen mit ihren Familien kommen können. Ein Nachteil könnte sein, dass die Betreuung zusätzliche Kosten verursacht, die vielleicht nicht im Budget eingeplant sind. Ich schlage vor, für die Betreuung einen erfahrenen externen Anbieter zu buchen und die Eltern vorher zu fragen, wie viele Kinder ungefähr teilnehmen werden. So lässt sich alles gut planen.\n\nHerzliche Grüße\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-14",
+          "title": "Aufgabe 14 · Kantine",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "Die Kantine an Ihrem Arbeitsplatz möchte den Speiseplan ändern und mehr vegetarische Gerichte anbieten. Schreiben Sie an die Kantinenleitung.",
+          "points": [
+            "Sagen Sie, was Sie von der Änderung halten.",
+            "Nennen Sie einen Vorteil und einen Nachteil.",
+            "Machen Sie einen Vorschlag für den neuen Speiseplan."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrte Damen und Herren,\n\nvielen Dank, dass Sie die Meinung der Mitarbeitenden zum neuen Speiseplan einholen. Ich begrüße es sehr, dass mehr vegetarische Gerichte angeboten werden sollen, weil dies gesünder ist und vielen Kolleginnen und Kollegen entgegenkommt. Ein Nachteil könnte sein, dass Personen, die gerne Fleisch essen, sich weniger berücksichtigt fühlen. Ich schlage deshalb vor, täglich mindestens ein Gericht mit und eines ohne Fleisch anzubieten. Auf diese Weise hätten alle eine passende Auswahl, und niemand müsste auf sein Lieblingsgericht verzichten.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-15",
+          "title": "Aufgabe 15 · Vereinszeitung",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "Ihr Sportverein möchte die gedruckte Vereinszeitung abschaffen und nur noch eine Version per E-Mail verschicken. Schreiben Sie an den Vereinsvorstand.",
+          "points": [
+            "Sagen Sie, was Sie von dieser Umstellung halten.",
+            "Nennen Sie einen Vorteil und einen Nachteil.",
+            "Machen Sie einen Vorschlag, wie man alle Mitglieder erreichen kann."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrter Vorstand,\n\nich habe von der geplanten Umstellung der Vereinszeitung gehört und möchte dazu kurz Stellung nehmen. Eine digitale Version spart Papier und Portokosten, das finde ich positiv. Allerdings haben einige ältere Mitglieder keinen E-Mail-Zugang und würden dann keine Informationen mehr erhalten. Ich schlage deshalb vor, die Zeitung zwar hauptsächlich digital zu verschicken, für Mitglieder ohne E-Mail-Adresse aber weiterhin eine gedruckte Version am Vereinsheim auszulegen. So bleiben alle gut informiert. Über eine kurze Rückmeldung der Mitglieder zu diesem Vorschlag würde ich mich sehr freuen.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-16",
+          "title": "Aufgabe 16 · Fitnessstudio",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "Ihr Fitnessstudio überlegt, auch sonntags zu öffnen. Schreiben Sie an die Studioleitung.",
+          "points": [
+            "Sagen Sie, was Sie von der Idee halten.",
+            "Nennen Sie einen Vorteil und einen Nachteil.",
+            "Machen Sie einen Vorschlag für die Öffnungszeiten am Sonntag."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrte Damen und Herren,\n\nich finde die Idee, sonntags zu öffnen, sehr gut, weil ich unter der Woche selten Zeit zum Training habe. Ein Vorteil wäre für viele Mitglieder mehr Flexibilität beim Sport. Ein Nachteil könnte sein, dass am Sonntag weniger Personal zur Verfügung steht und dadurch die Geräte nicht regelmäßig kontrolliert werden können. Ich schlage vor, sonntags zunächst mit verkürzten Öffnungszeiten zu starten, zum Beispiel von 10 bis 16 Uhr, und je nach Nachfrage später zu erweitern.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-17",
+          "title": "Aufgabe 17 · Bürorenovierung",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "Ihre Firma zieht in ein neues Bürogebäude um und Sie dürfen bei der Gestaltung der Pausenräume mitentscheiden. Schreiben Sie an die zuständige Kollegin.",
+          "points": [
+            "Sagen Sie, was Ihnen bei einem Pausenraum wichtig ist.",
+            "Nennen Sie einen Vorteil eines gemütlichen Pausenraums.",
+            "Machen Sie einen konkreten Vorschlag für die Ausstattung."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Liebe Frau Vogel,\n\nvielen Dank, dass wir bei der Gestaltung der neuen Pausenräume mitreden dürfen. Für mich ist es besonders wichtig, dass es einen ruhigen Bereich zum Entspannen gibt, getrennt von einem Bereich zum Reden. Ein gemütlicher Pausenraum sorgt meiner Meinung nach dafür, dass man erholter zurück an den Arbeitsplatz geht. Ich schlage vor, bequeme Sessel, eine kleine Kaffeeecke und wenn möglich auch einen Ausblick ins Grüne einzuplanen. Das würde die Pause deutlich angenehmer machen.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-18",
+          "title": "Aufgabe 18 · Dienstfahrrad",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "Ihre Firma möchte statt Firmenwagen künftig auch Dienstfahrräder anbieten. Schreiben Sie an die Personalabteilung.",
+          "points": [
+            "Sagen Sie, was Sie von diesem Angebot halten.",
+            "Nennen Sie einen Vorteil und einen Nachteil eines Dienstfahrrads.",
+            "Machen Sie einen Vorschlag, für wen dieses Angebot besonders passt."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrte Damen und Herren,\n\nich finde das neue Angebot der Dienstfahrräder sehr sinnvoll, da es umweltfreundlich ist und gleichzeitig die Gesundheit fördert. Ein weiterer Vorteil ist, dass man in der Stadt oft schneller unterwegs ist als mit dem Auto. Ein Nachteil ist allerdings, dass ein Fahrrad bei schlechtem Wetter oder für lange Strecken weniger praktisch ist. Ich schlage deshalb vor, das Angebot vor allem den Kolleginnen und Kollegen anzubieten, die einen kurzen Arbeitsweg innerhalb der Stadt haben. So würde sich das Angebot am meisten lohnen.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-19",
+          "title": "Aufgabe 19 · Weihnachtsfeier",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "In diesem Jahr soll die Weihnachtsfeier Ihrer Firma an einem neuen Ort stattfinden, mit einem kleineren Budget als sonst. Schreiben Sie an das Organisationsteam.",
+          "points": [
+            "Sagen Sie, was Sie von der Änderung halten.",
+            "Nennen Sie einen Vorteil und einen Nachteil eines kleineren Budgets.",
+            "Machen Sie einen Vorschlag, wie man trotzdem eine schöne Feier organisieren kann."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Liebes Organisationsteam,\n\nvielen Dank für die frühzeitige Information zur diesjährigen Weihnachtsfeier. Ich finde es verständlich, dass in diesem Jahr weniger Budget zur Verfügung steht, und sehe darin auch die Chance, die Feier persönlicher zu gestalten. Ein Nachteil ist natürlich, dass weniger Extras wie Live-Musik möglich sind. Ich schlage vor, die Feier in einem kleineren, aber gemütlichen Raum zu organisieren und stattdessen einen selbst gestalteten Programmpunkt einzuplanen, zum Beispiel ein gemeinsames Quiz. So bleibt die Stimmung trotzdem gut.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-20",
+          "title": "Aufgabe 20 · Elternabend",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "Die Schule Ihres Kindes möchte den nächsten Elternabend von einem Wochentag auf einen Samstagvormittag verlegen. Schreiben Sie an die Klassenlehrerin.",
+          "points": [
+            "Sagen Sie, was Sie von dieser Änderung halten.",
+            "Nennen Sie einen Vorteil und einen Nachteil des neuen Termins.",
+            "Machen Sie einen Vorschlag für einen passenden Termin."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrte Frau Krause,\n\nvielen Dank für die Information zum geplanten neuen Termin. Ein Elternabend am Samstagvormittag hätte den Vorteil, dass berufstätige Eltern keinen Urlaub nehmen müssen. Für Familien mit kleinen Kindern oder Wochenendplänen könnte der Samstag allerdings ungünstig sein. Ich schlage deshalb vor, den Elternabend an einem Freitagnachmittag anzubieten, da dieser Tag für viele einfacher zu planen ist als ein Samstag. So könnten möglichst viele Eltern teilnehmen. Über eine kurze Rückmeldung, ob dieser Vorschlag umsetzbar ist, würde ich mich sehr freuen.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-21",
+          "title": "Aufgabe 21 · Mülltrennung",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "In Ihrem Wohnhaus funktioniert die Mülltrennung nicht gut, viele Mülltonnen sind falsch befüllt. Schreiben Sie an die Hausverwaltung.",
+          "points": [
+            "Beschreiben Sie das Problem.",
+            "Nennen Sie eine mögliche Ursache dafür.",
+            "Machen Sie einen Vorschlag, wie die Mülltrennung verbessert werden kann."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrte Damen und Herren,\n\nich möchte Sie auf ein Problem in unserem Wohnhaus aufmerksam machen: In letzter Zeit landet immer wieder Restmüll in der Papier- und Biotonne. Ein Grund dafür könnte sein, dass einige neue Mieter die Regeln zur Mülltrennung noch nicht kennen. Ich schlage deshalb vor, im Eingangsbereich mehrsprachige Hinweisschilder mit Bildern anzubringen, die klar zeigen, was in welche Tonne gehört. So könnten Missverständnisse vermieden und die Mülltrennung deutlich verbessert werden. Zusätzlich wäre es hilfreich, wenn bei größeren Verstößen auch persönlich mit den betroffenen Mietparteien gesprochen würde.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-22",
+          "title": "Aufgabe 22 · IT-Support",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "Ihre Firma möchte ein neues Ticketsystem für IT-Probleme einführen, statt wie bisher per Telefon zu helfen. Schreiben Sie an die IT-Abteilung.",
+          "points": [
+            "Sagen Sie, was Sie von der Umstellung halten.",
+            "Nennen Sie einen Vorteil und einen Nachteil eines Ticketsystems.",
+            "Machen Sie einen Vorschlag, wie dringende Probleme trotzdem schnell gelöst werden können."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrte Damen und Herren,\n\nvielen Dank für die Information zum geplanten Ticketsystem. Ich finde es sinnvoll, weil dadurch alle Anfragen dokumentiert werden und nichts vergessen wird. Ein Nachteil könnte jedoch sein, dass es bei dringenden Problemen zu lange dauert, bis jemand antwortet. Ich schlage deshalb vor, zusätzlich zum Ticketsystem eine Telefon-Hotline für wirklich dringende Fälle beizubehalten. So könnten einfache Anfragen effizient bearbeitet werden, ohne dass bei akuten Problemen wertvolle Zeit verloren geht. Zusätzlich fände ich es hilfreich, wenn man beim Erstellen eines Tickets die Dringlichkeit selbst auswählen könnte.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-23",
+          "title": "Aufgabe 23 · Homeoffice-Ausstattung",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "Ihre Firma überlegt, ob sie Mitarbeitenden im Homeoffice einen Zuschuss für einen ergonomischen Bürostuhl geben soll. Schreiben Sie an die Personalabteilung.",
+          "points": [
+            "Sagen Sie, was Sie von diesem Vorschlag halten.",
+            "Nennen Sie einen Vorteil eines guten Bürostuhls für die Gesundheit.",
+            "Machen Sie einen Vorschlag, wie hoch der Zuschuss sein könnte."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrte Damen und Herren,\n\nich begrüße den Vorschlag, einen Zuschuss für einen ergonomischen Bürostuhl anzubieten, sehr. Viele Kolleginnen und Kollegen arbeiten mittlerweile mehrere Tage pro Woche von zu Hause aus, oft an einem einfachen Küchenstuhl. Ein guter Bürostuhl kann Rückenschmerzen deutlich vorbeugen und so langfristig Krankheitstage verringern. Ich schlage vor, einen einmaligen Zuschuss von etwa 150 Euro anzubieten, gegen Vorlage der Rechnung. Das würde vielen helfen, ohne das Budget der Firma zu stark zu belasten.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-24",
+          "title": "Aufgabe 24 · Videokonferenzen",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "Ihre Firma möchte künftig Dienstreisen reduzieren und stattdessen mehr Videokonferenzen nutzen. Schreiben Sie an Ihre Vorgesetzte.",
+          "points": [
+            "Sagen Sie, was Sie von dieser Idee halten.",
+            "Nennen Sie einen Vorteil und einen Nachteil von Videokonferenzen.",
+            "Machen Sie einen Vorschlag, wann persönliche Treffen trotzdem sinnvoll sind."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Liebe Frau Berger,\n\nich finde den Vorschlag, Dienstreisen zu reduzieren, grundsätzlich gut, da dadurch Zeit und Kosten gespart werden. Videokonferenzen sind zudem gut für die Umwelt, weil weniger geflogen oder gefahren werden muss. Ein Nachteil ist allerdings, dass der persönliche Kontakt zu Kunden manchmal fehlt und wichtige Details online schwerer zu klären sind. Ich schlage deshalb vor, bei neuen Geschäftskontakten weiterhin ein persönliches Treffen einzuplanen und erst danach auf Videokonferenzen umzusteigen. Für kleinere interne Abstimmungen halte ich Videokonferenzen ohnehin schon jetzt für völlig ausreichend.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-25",
+          "title": "Aufgabe 25 · Sprachtandem",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "Ihre Firma möchte ein Sprachtandem-Programm einführen, bei dem Kolleginnen und Kollegen sich gegenseitig beim Sprachenlernen helfen. Schreiben Sie an die Organisatorin.",
+          "points": [
+            "Sagen Sie, was Sie von der Idee halten.",
+            "Nennen Sie einen Vorteil eines Sprachtandems.",
+            "Machen Sie einen Vorschlag, wie oft sich die Teilnehmenden treffen sollten."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Liebe Frau Nowak,\n\nich finde die Idee eines Sprachtandem-Programms sehr gut, weil man dabei praktisch und im direkten Kontakt eine neue Sprache lernen kann. Ein großer Vorteil ist außerdem, dass die Kolleginnen und Kollegen sich dadurch auch persönlich besser kennenlernen. Ich schlage vor, sich einmal pro Woche für etwa 30 Minuten in der Mittagspause zu treffen, damit das Programm gut in den Arbeitsalltag passt und niemand überfordert wird. Zusätzlich könnte man die Sprachpaare je nach gewünschter Sprache online zusammenstellen, damit die Organisation einfach bleibt.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-26",
+          "title": "Aufgabe 26 · Stadtbücherei",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "Die Stadtbücherei in Ihrer Nähe überlegt, die Öffnungszeiten am Abend zu erweitern. Schreiben Sie an die Bücherei-Leitung.",
+          "points": [
+            "Sagen Sie, was Sie von der Erweiterung halten.",
+            "Nennen Sie einen Vorteil für berufstätige Personen.",
+            "Machen Sie einen Vorschlag für passende neue Öffnungszeiten."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrte Damen und Herren,\n\nich finde die geplante Erweiterung der Öffnungszeiten sehr sinnvoll. Als berufstätige Person schaffe ich es unter der Woche nur selten, die Bücherei vor 18 Uhr zu besuchen. Längere Öffnungszeiten am Abend würden vielen Berufstätigen den Zugang deutlich erleichtern. Ich schlage vor, die Bücherei an mindestens zwei Werktagen bis 20 Uhr zu öffnen, zum Beispiel dienstags und donnerstags. So könnten auch Menschen mit vollem Terminkalender die Angebote nutzen. Über eine positive Rückmeldung zu diesem Vorschlag würde ich mich sehr freuen.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-27",
+          "title": "Aufgabe 27 · Firmensport",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "Ihre Firma überlegt, ein wöchentliches Firmensport-Angebot einzuführen. Schreiben Sie an die Personalabteilung.",
+          "points": [
+            "Sagen Sie, was Sie von der Idee halten.",
+            "Nennen Sie einen Vorteil für die Mitarbeitenden.",
+            "Machen Sie einen Vorschlag, welche Sportart angeboten werden könnte."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrte Damen und Herren,\n\nich finde die Idee eines Firmensport-Angebots ausgezeichnet. Regelmäßige Bewegung während der Arbeitswoche würde vielen Kolleginnen und Kollegen helfen, Stress abzubauen und gesünder zu bleiben. Außerdem stärkt gemeinsamer Sport den Zusammenhalt im Team. Ich schlage vor, mit einem einfachen Angebot wie wöchentlichem Yoga oder einem kurzen Lauftraining in der Mittagspause zu starten, da dies für die meisten Personen unabhängig vom Fitnesslevel geeignet ist. Über einen konkreten Termin und weitere Informationen würde ich mich sehr freuen.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-28",
+          "title": "Aufgabe 28 · Innenhof",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "In Ihrem Wohnhaus soll der Innenhof neu gestaltet werden, unter anderem mit mehr Grünflächen. Schreiben Sie an die Hausverwaltung.",
+          "points": [
+            "Sagen Sie, was Sie von der Umgestaltung halten.",
+            "Nennen Sie einen Vorteil von mehr Grünflächen.",
+            "Machen Sie einen konkreten Vorschlag für die Gestaltung."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrte Damen und Herren,\n\nich freue mich sehr über die geplante Umgestaltung unseres Innenhofs. Mehr Grünflächen würden nicht nur schöner aussehen, sondern auch die Luftqualität verbessern und ein angenehmeres Wohnklima schaffen. Besonders im Sommer wäre ein schattiger, grüner Innenhof ein echter Gewinn für alle Bewohnerinnen und Bewohner. Ich schlage vor, neben Bäumen und Beeten auch ein paar Sitzbänke aufzustellen, damit der Innenhof zum Verweilen einlädt. Über eine Information, wann mit den Bauarbeiten begonnen wird, würde ich mich sehr freuen.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-29",
+          "title": "Aufgabe 29 · Rauchverbot",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "Ihre Firma überlegt, ein Rauchverbot auf dem gesamten Firmengelände einzuführen. Schreiben Sie an die Geschäftsleitung.",
+          "points": [
+            "Sagen Sie, was Sie von diesem Vorschlag halten.",
+            "Nennen Sie einen Vorteil und einen Nachteil eines Rauchverbots.",
+            "Machen Sie einen Vorschlag für einen fairen Kompromiss."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Sehr geehrte Damen und Herren,\n\nich verstehe die Überlegung, ein Rauchverbot auf dem gesamten Gelände einzuführen, da dies die Gesundheit aller Mitarbeitenden schützt. Gleichzeitig ist mir bewusst, dass Raucherinnen und Raucher dann keinen Platz mehr für ihre Pause haben und dies zu Unmut führen könnte. Ich schlage deshalb als Kompromiss vor, einen kleinen, überdachten Raucherbereich abseits der Eingänge einzurichten. So würde die Gesundheit der Nichtraucher geschützt, ohne die Raucher komplett auszuschließen. Über eine baldige Entscheidung und Information aller Mitarbeitenden würde ich mich sehr freuen.\n\nMit freundlichen Grüßen\n(Ihr Name)"
+        },
+        {
+          "id": "writing-set-30",
+          "title": "Aufgabe 30 · Nachbarschaftstreff",
+          "type": "writing",
+          "instructions": "Schreiben Sie einen zusammenhängenden Text von ca. 80–100 Wörtern. Achten Sie auf Anrede, Struktur und Grußformel.",
+          "prompt": "In Ihrer Straße soll regelmäßig ein kleiner Nachbarschaftstreff stattfinden. Schreiben Sie an die Person, die die Idee organisiert.",
+          "points": [
+            "Sagen Sie, was Sie von der Idee halten.",
+            "Nennen Sie einen Vorteil eines regelmäßigen Treffens.",
+            "Machen Sie einen Vorschlag, wie oft und wo man sich treffen könnte."
+          ],
+          "minWords": 80,
+          "modelAnswer": "Liebe Frau Hoffmann,\n\nich finde die Idee eines regelmäßigen Nachbarschaftstreffs sehr schön. Gerade in einer großen Straße wie unserer kennt man sich oft kaum, und ein gemeinsames Treffen würde helfen, sich besser kennenzulernen und im Alltag gegenseitig zu unterstützen. Ich schlage vor, sich einmal im Monat an einem Samstagnachmittag im kleinen Park am Ende der Straße zu treffen. Das wäre für die meisten Nachbarn gut erreichbar und würde niemanden zeitlich zu sehr belasten. Ich freue mich schon jetzt auf ein gutes und freundliches Miteinander in unserer Straße.\n\nHerzliche Grüße\n(Ihr Name)"
         }
       ]
     }
