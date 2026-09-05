@@ -94,6 +94,24 @@ button{
 .masthead-nav a{ text-decoration: none; color: var(--ink-soft); border-bottom: 1px solid transparent; padding-bottom: 2px; }
 .masthead-nav a:hover, .masthead-nav a[aria-current="page"]{ color: var(--ink); border-color: var(--rule-strong); }
 
+.hub-link{
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: .82rem;
+  font-weight: 500;
+  color: var(--ink-soft);
+  text-decoration: none;
+  padding: 7px 14px;
+  border: 1px solid var(--rule-strong);
+  border-radius: 999px;
+  background: var(--paper);
+  transition: color .15s, border-color .15s, background .15s;
+}
+.hub-link:hover{ color: var(--ink); border-color: var(--ink-soft); background: var(--paper-raised); }
+.hub-link svg{ width: 14px; height: 14px; }
+
 /* ---------- Layout shells ---------- */
 
 .page{
