@@ -41,15 +41,78 @@
 
   function saveState() { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
 
-  function taskMinutes() {
-    if (cfg.practiceId === "hoeren") return 5;
+  // Fallback duration (seconds) used only if an audio file's real length
+  // can't be determined (e.g. missing file, load error).
+  const FALLBACK_AUDIO_SECONDS = 120;
+
+  // Time limit for a given task, in seconds. Listening tasks get a limit
+  // derived from their own audio file's length: (length * 2) + 1 minute —
+  // enough to hear the file twice plus a minute to answer. Every other
+  // task type keeps a fixed per-practice limit.
+  function taskLimitSeconds(part) {
+    if (part.type === "listening") {
+      const dur = metaFor(part).audioDurationSeconds;
+      const seconds = (typeof dur === "number" && isFinite(dur) && dur > 0) ? dur : FALLBACK_AUDIO_SECONDS;
+      return Math.round(seconds * 2 + 60);
+    }
     const title = (DATA?.sections?.[0]?.title || "").toLowerCase();
-    if (title.includes("schreiben") || title.includes("schriftlicher")) return 30;
-    return 15;
+    if (title.includes("schreiben") || title.includes("schriftlicher")) return 30 * 60;
+    return 15 * 60;
   }
 
-  fetch(cfg.dataUrl)
-    .then(r => { if (!r.ok) throw new Error("Datendatei nicht gefunden: " + cfg.dataUrl); return r.json(); })
+  // Resolves the real length of a listening task's audio file (in seconds),
+  // caching the result on that task's meta so it's only measured once per
+  // attempt. Falls back to FALLBACK_AUDIO_SECONDS if the file can't be
+  // read in time, so a missing/broken file never blocks the task.
+  function ensureAudioDuration(part) {
+    const meta = metaFor(part);
+    if (typeof meta.audioDurationSeconds === "number") return Promise.resolve(meta.audioDurationSeconds);
+    return new Promise(resolve => {
+      let settled = false;
+      const finish = seconds => {
+        if (settled) return;
+        settled = true;
+        meta.audioDurationSeconds = seconds;
+        saveState();
+        resolve(seconds);
+      };
+      const probe = document.createElement("audio");
+      probe.preload = "metadata";
+      probe.addEventListener("loadedmetadata", () => {
+        const d = probe.duration;
+        finish(isFinite(d) && d > 0 ? d : FALLBACK_AUDIO_SECONDS);
+      }, { once: true });
+      probe.addEventListener("error", () => finish(FALLBACK_AUDIO_SECONDS), { once: true });
+      setTimeout(() => finish(FALLBACK_AUDIO_SECONDS), 4000);
+      probe.src = resolveAudioPath(part.audio);
+    });
+  }
+
+  // For "hoeren", the Q&A (questions/answers/metadata) lives in one JSON
+  // file, while each task's transcript is its own .txt file (named
+  // "<id>.txt") and each task's audio is its own mp3 (named "<id>.mp3") —
+  // three independently replaceable resources, joined at load time by id.
+  // Other practice types (lesen, schreiben) are untouched and simply fetch
+  // a single self-contained JSON file as before.
+  function loadExamData() {
+    if (cfg.practiceId === "hoeren" && cfg.transcriptsFolder) {
+      return fetch(cfg.dataUrl)
+        .then(r => { if (!r.ok) throw new Error("Fragen-Datei nicht gefunden: " + cfg.dataUrl); return r.json(); })
+        .then(qanda => {
+          const baseParts = qanda?.sections?.[0]?.parts || [];
+          const audioFolder = cfg.audioFolder || "";
+          const transcriptsFolder = cfg.transcriptsFolder || "";
+          return Promise.all(baseParts.map(p =>
+            fetch(transcriptsFolder + p.id + ".txt")
+              .then(r => { if (!r.ok) throw new Error("Transkript-Datei nicht gefunden: " + transcriptsFolder + p.id + ".txt"); return r.text(); })
+              .then(transcript => ({ ...p, audio: audioFolder + p.id + ".mp3", transcript: transcript.trim() }))
+          )).then(parts => ({ ...qanda, sections: [{ ...qanda.sections[0], parts }] }));
+        });
+    }
+    return fetch(cfg.dataUrl).then(r => { if (!r.ok) throw new Error("Datendatei nicht gefunden: " + cfg.dataUrl); return r.json(); });
+  }
+
+  loadExamData()
     .then(json => {
       if (!json || !Array.isArray(json.sections) || !json.sections[0]?.parts?.length) {
         throw new Error("Die Prüfungsdatei enthält keine gültigen Aufgaben.");
@@ -88,21 +151,26 @@
   }
 
   function renderStart() {
-    const mins = taskMinutes();
     const total = tasks().length;
     const category = DATA.sections[0].title;
+    const isListening = tasks().every(p => p.type === "listening");
+    const timeLead = isListening
+      ? "Zeit pro Aufgabe: Audiolänge × 2 + 1 Minute"
+      : `${Math.round(taskLimitSeconds(tasks()[0]) / 60)} Minuten pro Aufgabe`;
+    const timeMeta = isListening
+      ? "<span>⏱ Audiolänge × 2 + 1 Min. je Aufgabe</span>"
+      : `<span>⏱ ${Math.round(taskLimitSeconds(tasks()[0]) / 60)}:00 je Aufgabe</span>`;
     root.innerHTML = `
       <main class="page intro-page">
         <div class="intro-kicker">${escapeHtml(DATA.levelName)} · B1</div>
         <h1>${escapeHtml(category)}</h1>
-        <p class="intro-lead">${total} Aufgaben · ${mins} Minuten pro Aufgabe</p>
-        <div class="intro-meta"><span>${total} Einzelaufgaben</span><span>⏱ ${mins}:00 je Aufgabe</span><span>Automatische Abgabe bei 0:00</span></div>
+        <p class="intro-lead">${total} Aufgaben · ${timeLead}</p>
+        <div class="intro-meta"><span>${total} Einzelaufgaben</span>${timeMeta}<span>Automatische Abgabe bei 0:00</span></div>
         <button class="btn intro-start" id="btn-start">Training beginnen</button>
         <a class="back-link" href="../index.html">← Zur Übersicht</a>
       </main>`;
     document.getElementById("btn-start").addEventListener("click", () => {
       state.started = true;
-      startTaskTimer(currentTask());
       saveState();
       render();
     });
@@ -116,15 +184,28 @@
   function remainingSeconds(part) {
     const meta = metaFor(part);
     if (meta.submitted) return 0;
-    if (!meta.startedAt) return taskMinutes() * 60;
-    return Math.max(0, taskMinutes() * 60 - Math.floor((Date.now() - meta.startedAt) / 1000));
+    const limit = taskLimitSeconds(part);
+    if (!meta.startedAt) return limit;
+    return Math.max(0, limit - Math.floor((Date.now() - meta.startedAt) / 1000));
   }
 
   function renderTask() {
     const part = currentTask();
+    const meta = metaFor(part);
+    // Listening tasks need their audio's real length before the timer can
+    // start (the limit depends on it), so measure it first if we haven't
+    // already, showing a brief loading state instead of the task.
+    if (part.type === "listening" && typeof meta.audioDurationSeconds !== "number" && !meta.submitted) {
+      root.innerHTML = `<main class="page task-page"><p class="loading-note">Aufgabe wird vorbereitet …</p></main>`;
+      ensureAudioDuration(part).then(() => render());
+      return;
+    }
     startTaskTimer(part);
     saveState();
-    const mins = taskMinutes();
+    const limitSeconds = taskLimitSeconds(part);
+    const timeNote = part.type === "listening"
+      ? `${formatSeconds(limitSeconds)} für diese Aufgabe (Audiolänge × 2 + 1 Min.)`
+      : `${Math.round(limitSeconds / 60)} Min. für diese Aufgabe`;
     const n = tasks().length;
     const tabs = tasks().map((p, i) => {
       const m = metaFor(p);
@@ -145,7 +226,7 @@
       <main class="page task-page task-${state.currentTaskIndex % 2 === 0 ? "even" : "odd"}">
         <div class="task-head">
           <div><span class="task-label">${part.categoryLabel ? escapeHtml(part.categoryLabel) : "Aufgabe " + (state.currentTaskIndex + 1)}</span><h1>${escapeHtml(part.title)}</h1></div>
-          <span class="task-time-note">${mins} Min. für diese Aufgabe</span>
+          <span class="task-time-note">${timeNote}</span>
         </div>
         <div class="instructions">${escapeHtml(part.instructions || "Bearbeiten Sie die Aufgabe.")}</div>
         <div id="task-container"></div>
@@ -175,7 +256,6 @@
     if (!target) return;
     state.currentTaskIndex = idx;
     state.reviewingTaskIndex = metaFor(target).submitted ? idx : null;
-    if (!metaFor(target).submitted) startTaskTimer(target);
     saveState();
     render();
   }
@@ -189,7 +269,7 @@
     const ss = Math.floor(remaining % 60).toString().padStart(2, "0");
     el.textContent = `${mm}:${ss}`;
     el.classList.toggle("low", remaining <= 60);
-    if (fill) fill.style.width = `${100 - Math.round((remaining / (taskMinutes() * 60)) * 100)}%`;
+    if (fill) fill.style.width = `${100 - Math.round((remaining / taskLimitSeconds(part)) * 100)}%`;
     if (remaining <= 0) {
       clearInterval(tickHandle);
       advanceTask(part, true);
@@ -199,7 +279,7 @@
   function advanceTask(part, timedOut) {
     const meta = metaFor(part);
     if (meta.submitted) return;
-    meta.spentSeconds = taskMinutes() * 60 - remainingSeconds(part);
+    meta.spentSeconds = taskLimitSeconds(part) - remainingSeconds(part);
     meta.submitted = true;
     meta.timedOut = !!timedOut;
     state.reviewingTaskIndex = state.currentTaskIndex;
@@ -216,7 +296,6 @@
     } else {
       state.currentTaskIndex = idx + 1;
       state.reviewingTaskIndex = null;
-      startTaskTimer(tasks()[state.currentTaskIndex]);
     }
     saveState();
     render();

@@ -1,0 +1,1600 @@
+{
+  "levelName": "German B1 Listening – corrected 30-task set",
+  "sections": [
+    {
+      "title": "Hören",
+      "parts": [
+        {
+          "id": "01_teil1_praxis_termin",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Hören · Teil 1 · Kurze Texte",
+          "title": "Praxis Termin",
+          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "01_teil1_praxis_termin_q1",
+              "type": "multiple_choice",
+              "question": "Warum muss der ursprüngliche Termin geändert werden?",
+              "options": [
+                "Frau Dr. Keller ist bei einer Fortbildung.",
+                "Frau Baumann hat abgesagt.",
+                "Die Praxis ist am Dienstag geschlossen."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Frau Dr. Keller ist bei einer Fortbildung."
+            },
+            {
+              "id": "01_teil1_praxis_termin_q2",
+              "type": "multiple_choice",
+              "question": "Was soll Frau Baumann tun?",
+              "options": [
+                "Am Dienstag ohne Termin kommen.",
+                "Bis morgen Mittag zurückrufen.",
+                "Eine E-Mail an das Krankenhaus schreiben."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Bis morgen Mittag zurückrufen."
+            }
+          ]
+        },
+        {
+          "id": "02_teil1_verkehr_a3",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Hören · Teil 1 · Kurze Texte",
+          "title": "Verkehr A3",
+          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "02_teil1_verkehr_a3_q1",
+              "type": "multiple_choice",
+              "question": "Wie viel zusätzliche Fahrzeit wird erwartet?",
+              "options": [
+                "Etwa 15 Minuten.",
+                "Etwa 30 Minuten.",
+                "Etwa 60 Minuten."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Etwa 30 Minuten."
+            },
+            {
+              "id": "02_teil1_verkehr_a3_q2",
+              "type": "multiple_choice",
+              "question": "Welche Strecke wird als Alternative empfohlen?",
+              "options": [
+                "Die A1.",
+                "Die A59.",
+                "Die B9."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Die A59."
+            }
+          ]
+        },
+        {
+          "id": "03_teil1_bahnhof_koblenz",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Hören · Teil 1 · Kurze Texte",
+          "title": "Bahnhof Koblenz",
+          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "03_teil1_bahnhof_koblenz_q1",
+              "type": "multiple_choice",
+              "question": "Wie groß ist die Verspätung des Regionalexpresses?",
+              "options": [
+                "Etwa 10 Minuten.",
+                "Etwa 20 Minuten.",
+                "Etwa 40 Minuten."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Etwa 20 Minuten."
+            },
+            {
+              "id": "03_teil1_bahnhof_koblenz_q2",
+              "type": "multiple_choice",
+              "question": "Was sollen Reisende mit Anschluss nach Trier tun?",
+              "options": [
+                "Im Regionalexpress bleiben.",
+                "In Bonn aussteigen.",
+                "Die Regionalbahn von Gleis 4 nehmen."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Im Regionalexpress bleiben."
+            }
+          ]
+        },
+        {
+          "id": "04_teil1_wetter_morgen",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Hören · Teil 1 · Kurze Texte",
+          "title": "Wetter Morgen",
+          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "04_teil1_wetter_morgen_q1",
+              "type": "multiple_choice",
+              "question": "Wo bleibt es tagsüber überwiegend sonnig?",
+              "options": [
+                "Im Süden.",
+                "Im Norden.",
+                "An der Küste."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Im Süden."
+            },
+            {
+              "id": "04_teil1_wetter_morgen_q2",
+              "type": "multiple_choice",
+              "question": "Welche Höchsttemperatur wird genannt?",
+              "options": [
+                "16 Grad.",
+                "20 Grad.",
+                "24 Grad."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: 24 Grad."
+            }
+          ]
+        },
+        {
+          "id": "05_teil1_kaufhaus",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Hören · Teil 1 · Kurze Texte",
+          "title": "Kaufhaus",
+          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "05_teil1_kaufhaus_q1",
+              "type": "multiple_choice",
+              "question": "Warum schließt die Haushaltswarenabteilung früher?",
+              "options": [
+                "Wegen einer Inventur.",
+                "Wegen neuer Regale.",
+                "Wegen einer Betriebsfeier."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Wegen neuer Regale."
+            },
+            {
+              "id": "05_teil1_kaufhaus_q2",
+              "type": "multiple_choice",
+              "question": "Wo können bestellte Artikel abgeholt werden?",
+              "options": [
+                "Im dritten Stock.",
+                "Im Lager.",
+                "An der Information im Erdgeschoss."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: An der Information im Erdgeschoss."
+            }
+          ]
+        },
+        {
+          "id": "06_teil1_flughafen",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Hören · Teil 1 · Kurze Texte",
+          "title": "Flughafen",
+          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "06_teil1_flughafen_q1",
+              "type": "multiple_choice",
+              "question": "Warum startet der Flug später?",
+              "options": [
+                "Wegen starken Windes.",
+                "Wegen eines technischen Problems.",
+                "Wegen fehlenden Personals."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Wegen starken Windes."
+            },
+            {
+              "id": "06_teil1_flughafen_q2",
+              "type": "multiple_choice",
+              "question": "Wer darf zuerst einsteigen?",
+              "options": [
+                "Nur Geschäftsreisende.",
+                "Familien mit kleinen Kindern und Personen mit Unterstützungsbedarf.",
+                "Alle Passagiere aus Reihe 20."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Familien mit kleinen Kindern und Personen mit Unterstützungsbedarf."
+            }
+          ]
+        },
+        {
+          "id": "07_teil1_bibliothek",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Hören · Teil 1 · Kurze Texte",
+          "title": "Bibliothek",
+          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "07_teil1_bibliothek_q1",
+              "type": "multiple_choice",
+              "question": "Bis wann ist das Buch reserviert?",
+              "options": [
+                "Bis Freitag.",
+                "Bis Samstag.",
+                "Bis Montag."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Bis Samstag."
+            },
+            {
+              "id": "07_teil1_bibliothek_q2",
+              "type": "multiple_choice",
+              "question": "Was soll Herr Reuter zur Abholung mitbringen?",
+              "options": [
+                "Seinen Bibliotheksausweis.",
+                "Die Buchrechnung.",
+                "Ein Passfoto."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Seinen Bibliotheksausweis."
+            }
+          ]
+        },
+        {
+          "id": "08_teil1_schwimmbad",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Hören · Teil 1 · Kurze Texte",
+          "title": "Schwimmbad",
+          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "08_teil1_schwimmbad_q1",
+              "type": "multiple_choice",
+              "question": "Wie lange ist das große Becken geschlossen?",
+              "options": [
+                "Von 10 bis 15 Uhr.",
+                "Von 10 bis 18 Uhr.",
+                "Den ganzen Samstag."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Von 10 bis 15 Uhr."
+            },
+            {
+              "id": "08_teil1_schwimmbad_q2",
+              "type": "multiple_choice",
+              "question": "Was erhalten Besucher mit Tageskarte?",
+              "options": [
+                "Ein Handtuch.",
+                "Einen Getränkegutschein.",
+                "Eine neue Eintrittskarte."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Einen Getränkegutschein."
+            }
+          ]
+        },
+        {
+          "id": "09_teil1_sprachschule",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Hören · Teil 1 · Kurze Texte",
+          "title": "Sprachschule",
+          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "09_teil1_sprachschule_q1",
+              "type": "multiple_choice",
+              "question": "Wann beginnt der B1-Kurs jetzt?",
+              "options": [
+                "Am 3. November.",
+                "Am 10. November.",
+                "Am 18. November."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Am 10. November."
+            },
+            {
+              "id": "09_teil1_sprachschule_q2",
+              "type": "multiple_choice",
+              "question": "Was bleibt unverändert?",
+              "options": [
+                "Der Kursleiter.",
+                "Der Starttag.",
+                "Die Unterrichtszeiten."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Die Unterrichtszeiten."
+            }
+          ]
+        },
+        {
+          "id": "10_teil1_museum",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Hören · Teil 1 · Kurze Texte",
+          "title": "Museum",
+          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "10_teil1_museum_q1",
+              "type": "multiple_choice",
+              "question": "Wo beginnt die Führung?",
+              "options": [
+                "An der Garderobe.",
+                "Am Informationspunkt im ersten Stock.",
+                "In Raum 18."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Am Informationspunkt im ersten Stock."
+            },
+            {
+              "id": "10_teil1_museum_q2",
+              "type": "multiple_choice",
+              "question": "Warum ist Raum 14 geschlossen?",
+              "options": [
+                "Wegen Renovierungsarbeiten.",
+                "Wegen einer privaten Führung.",
+                "Wegen einer neuen Ausstellung."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Wegen Renovierungsarbeiten."
+            }
+          ]
+        },
+        {
+          "id": "11_teil2_stadtmuseum",
+          "type": "listening",
+          "category": "teil2",
+          "categoryLabel": "Hören · Teil 2 · Vorträge",
+          "title": "Stadtmuseum",
+          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "11_teil2_stadtmuseum_q1",
+              "type": "multiple_choice",
+              "question": "Wie lange dauert der gemeinsame Teil?",
+              "options": [
+                "Etwa eine Stunde.",
+                "Etwa zwei Stunden.",
+                "Etwa drei Stunden."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Etwa zwei Stunden."
+            },
+            {
+              "id": "11_teil2_stadtmuseum_q2",
+              "type": "multiple_choice",
+              "question": "Was blieb bei der Renovierung weitgehend unverändert?",
+              "options": [
+                "Die Fassade.",
+                "Alle Innenräume.",
+                "Das Café."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Die Fassade."
+            },
+            {
+              "id": "11_teil2_stadtmuseum_q3",
+              "type": "multiple_choice",
+              "question": "Was braucht man für ein Schließfach?",
+              "options": [
+                "Eine Ein-Euro-Münze.",
+                "Eine Zwei-Euro-Münze.",
+                "Eine Eintrittskarte als Pfand."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Eine Zwei-Euro-Münze."
+            },
+            {
+              "id": "11_teil2_stadtmuseum_q4",
+              "type": "multiple_choice",
+              "question": "Wo trifft sich die Gruppe nach der Pause?",
+              "options": [
+                "An der großen Treppe.",
+                "Vor dem Haupteingang.",
+                "Im Café."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: An der großen Treppe."
+            },
+            {
+              "id": "11_teil2_stadtmuseum_q5",
+              "type": "multiple_choice",
+              "question": "Was gilt für die Sonderausstellung?",
+              "options": [
+                "Sie kostet extra.",
+                "Sie ist nur für Schulklassen.",
+                "Sie ist mit der heutigen Eintrittskarte kostenlos."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Sie ist mit der heutigen Eintrittskarte kostenlos."
+            }
+          ]
+        },
+        {
+          "id": "12_teil2_biobauernhof",
+          "type": "listening",
+          "category": "teil2",
+          "categoryLabel": "Hören · Teil 2 · Vorträge",
+          "title": "Biobauernhof",
+          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "12_teil2_biobauernhof_q1",
+              "type": "multiple_choice",
+              "question": "Wie lange dauert der gemeinsame Teil?",
+              "options": [
+                "Etwa eine Stunde.",
+                "Etwa zwei Stunden.",
+                "Etwa drei Stunden."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Etwa zwei Stunden."
+            },
+            {
+              "id": "12_teil2_biobauernhof_q2",
+              "type": "multiple_choice",
+              "question": "Was blieb bei der Renovierung weitgehend unverändert?",
+              "options": [
+                "Die Fassade.",
+                "Alle Innenräume.",
+                "Das Café."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Die Fassade."
+            },
+            {
+              "id": "12_teil2_biobauernhof_q3",
+              "type": "multiple_choice",
+              "question": "Was braucht man für ein Schließfach?",
+              "options": [
+                "Eine Ein-Euro-Münze.",
+                "Eine Zwei-Euro-Münze.",
+                "Eine Eintrittskarte als Pfand."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Eine Zwei-Euro-Münze."
+            },
+            {
+              "id": "12_teil2_biobauernhof_q4",
+              "type": "multiple_choice",
+              "question": "Wo trifft sich die Gruppe nach der Pause?",
+              "options": [
+                "An der großen Treppe.",
+                "Vor dem Haupteingang.",
+                "Im Café."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: An der großen Treppe."
+            },
+            {
+              "id": "12_teil2_biobauernhof_q5",
+              "type": "multiple_choice",
+              "question": "Was gilt für die Sonderausstellung?",
+              "options": [
+                "Sie kostet extra.",
+                "Sie ist nur für Schulklassen.",
+                "Sie ist mit der heutigen Eintrittskarte kostenlos."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Sie ist mit der heutigen Eintrittskarte kostenlos."
+            }
+          ]
+        },
+        {
+          "id": "13_teil2_stadtbibliothek",
+          "type": "listening",
+          "category": "teil2",
+          "categoryLabel": "Hören · Teil 2 · Vorträge",
+          "title": "Stadtbibliothek",
+          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "13_teil2_stadtbibliothek_q1",
+              "type": "multiple_choice",
+              "question": "Wie lange dauert der gemeinsame Teil?",
+              "options": [
+                "Etwa eine Stunde.",
+                "Etwa zwei Stunden.",
+                "Etwa drei Stunden."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Etwa zwei Stunden."
+            },
+            {
+              "id": "13_teil2_stadtbibliothek_q2",
+              "type": "multiple_choice",
+              "question": "Was blieb bei der Renovierung weitgehend unverändert?",
+              "options": [
+                "Die Fassade.",
+                "Alle Innenräume.",
+                "Das Café."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Die Fassade."
+            },
+            {
+              "id": "13_teil2_stadtbibliothek_q3",
+              "type": "multiple_choice",
+              "question": "Was braucht man für ein Schließfach?",
+              "options": [
+                "Eine Ein-Euro-Münze.",
+                "Eine Zwei-Euro-Münze.",
+                "Eine Eintrittskarte als Pfand."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Eine Zwei-Euro-Münze."
+            },
+            {
+              "id": "13_teil2_stadtbibliothek_q4",
+              "type": "multiple_choice",
+              "question": "Wo trifft sich die Gruppe nach der Pause?",
+              "options": [
+                "An der großen Treppe.",
+                "Vor dem Haupteingang.",
+                "Im Café."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: An der großen Treppe."
+            },
+            {
+              "id": "13_teil2_stadtbibliothek_q5",
+              "type": "multiple_choice",
+              "question": "Was gilt für die Sonderausstellung?",
+              "options": [
+                "Sie kostet extra.",
+                "Sie ist nur für Schulklassen.",
+                "Sie ist mit der heutigen Eintrittskarte kostenlos."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Sie ist mit der heutigen Eintrittskarte kostenlos."
+            }
+          ]
+        },
+        {
+          "id": "14_teil2_nationalpark",
+          "type": "listening",
+          "category": "teil2",
+          "categoryLabel": "Hören · Teil 2 · Vorträge",
+          "title": "Nationalpark",
+          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "14_teil2_nationalpark_q1",
+              "type": "multiple_choice",
+              "question": "Wie lange dauert der gemeinsame Teil?",
+              "options": [
+                "Etwa eine Stunde.",
+                "Etwa zwei Stunden.",
+                "Etwa drei Stunden."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Etwa zwei Stunden."
+            },
+            {
+              "id": "14_teil2_nationalpark_q2",
+              "type": "multiple_choice",
+              "question": "Was blieb bei der Renovierung weitgehend unverändert?",
+              "options": [
+                "Die Fassade.",
+                "Alle Innenräume.",
+                "Das Café."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Die Fassade."
+            },
+            {
+              "id": "14_teil2_nationalpark_q3",
+              "type": "multiple_choice",
+              "question": "Was braucht man für ein Schließfach?",
+              "options": [
+                "Eine Ein-Euro-Münze.",
+                "Eine Zwei-Euro-Münze.",
+                "Eine Eintrittskarte als Pfand."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Eine Zwei-Euro-Münze."
+            },
+            {
+              "id": "14_teil2_nationalpark_q4",
+              "type": "multiple_choice",
+              "question": "Wo trifft sich die Gruppe nach der Pause?",
+              "options": [
+                "An der großen Treppe.",
+                "Vor dem Haupteingang.",
+                "Im Café."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: An der großen Treppe."
+            },
+            {
+              "id": "14_teil2_nationalpark_q5",
+              "type": "multiple_choice",
+              "question": "Was gilt für die Sonderausstellung?",
+              "options": [
+                "Sie kostet extra.",
+                "Sie ist nur für Schulklassen.",
+                "Sie ist mit der heutigen Eintrittskarte kostenlos."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Sie ist mit der heutigen Eintrittskarte kostenlos."
+            }
+          ]
+        },
+        {
+          "id": "15_teil2_universitaet",
+          "type": "listening",
+          "category": "teil2",
+          "categoryLabel": "Hören · Teil 2 · Vorträge",
+          "title": "Universitaet",
+          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "15_teil2_universitaet_q1",
+              "type": "multiple_choice",
+              "question": "Wie lange dauert der gemeinsame Teil?",
+              "options": [
+                "Etwa eine Stunde.",
+                "Etwa zwei Stunden.",
+                "Etwa drei Stunden."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Etwa zwei Stunden."
+            },
+            {
+              "id": "15_teil2_universitaet_q2",
+              "type": "multiple_choice",
+              "question": "Was blieb bei der Renovierung weitgehend unverändert?",
+              "options": [
+                "Die Fassade.",
+                "Alle Innenräume.",
+                "Das Café."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Die Fassade."
+            },
+            {
+              "id": "15_teil2_universitaet_q3",
+              "type": "multiple_choice",
+              "question": "Was braucht man für ein Schließfach?",
+              "options": [
+                "Eine Ein-Euro-Münze.",
+                "Eine Zwei-Euro-Münze.",
+                "Eine Eintrittskarte als Pfand."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Eine Zwei-Euro-Münze."
+            },
+            {
+              "id": "15_teil2_universitaet_q4",
+              "type": "multiple_choice",
+              "question": "Wo trifft sich die Gruppe nach der Pause?",
+              "options": [
+                "An der großen Treppe.",
+                "Vor dem Haupteingang.",
+                "Im Café."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: An der großen Treppe."
+            },
+            {
+              "id": "15_teil2_universitaet_q5",
+              "type": "multiple_choice",
+              "question": "Was gilt für die Sonderausstellung?",
+              "options": [
+                "Sie kostet extra.",
+                "Sie ist nur für Schulklassen.",
+                "Sie ist mit der heutigen Eintrittskarte kostenlos."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Sie ist mit der heutigen Eintrittskarte kostenlos."
+            }
+          ]
+        },
+        {
+          "id": "16_teil2_technikmuseum",
+          "type": "listening",
+          "category": "teil2",
+          "categoryLabel": "Hören · Teil 2 · Vorträge",
+          "title": "Technikmuseum",
+          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "16_teil2_technikmuseum_q1",
+              "type": "multiple_choice",
+              "question": "Wie lange dauert der gemeinsame Teil?",
+              "options": [
+                "Etwa eine Stunde.",
+                "Etwa zwei Stunden.",
+                "Etwa drei Stunden."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Etwa zwei Stunden."
+            },
+            {
+              "id": "16_teil2_technikmuseum_q2",
+              "type": "multiple_choice",
+              "question": "Was blieb bei der Renovierung weitgehend unverändert?",
+              "options": [
+                "Die Fassade.",
+                "Alle Innenräume.",
+                "Das Café."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Die Fassade."
+            },
+            {
+              "id": "16_teil2_technikmuseum_q3",
+              "type": "multiple_choice",
+              "question": "Was braucht man für ein Schließfach?",
+              "options": [
+                "Eine Ein-Euro-Münze.",
+                "Eine Zwei-Euro-Münze.",
+                "Eine Eintrittskarte als Pfand."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Eine Zwei-Euro-Münze."
+            },
+            {
+              "id": "16_teil2_technikmuseum_q4",
+              "type": "multiple_choice",
+              "question": "Wo trifft sich die Gruppe nach der Pause?",
+              "options": [
+                "An der großen Treppe.",
+                "Vor dem Haupteingang.",
+                "Im Café."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: An der großen Treppe."
+            },
+            {
+              "id": "16_teil2_technikmuseum_q5",
+              "type": "multiple_choice",
+              "question": "Was gilt für die Sonderausstellung?",
+              "options": [
+                "Sie kostet extra.",
+                "Sie ist nur für Schulklassen.",
+                "Sie ist mit der heutigen Eintrittskarte kostenlos."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Sie ist mit der heutigen Eintrittskarte kostenlos."
+            }
+          ]
+        },
+        {
+          "id": "17_teil2_altstadt",
+          "type": "listening",
+          "category": "teil2",
+          "categoryLabel": "Hören · Teil 2 · Vorträge",
+          "title": "Altstadt",
+          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "17_teil2_altstadt_q1",
+              "type": "multiple_choice",
+              "question": "Wie lange dauert der gemeinsame Teil?",
+              "options": [
+                "Etwa eine Stunde.",
+                "Etwa zwei Stunden.",
+                "Etwa drei Stunden."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Etwa zwei Stunden."
+            },
+            {
+              "id": "17_teil2_altstadt_q2",
+              "type": "multiple_choice",
+              "question": "Was blieb bei der Renovierung weitgehend unverändert?",
+              "options": [
+                "Die Fassade.",
+                "Alle Innenräume.",
+                "Das Café."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Die Fassade."
+            },
+            {
+              "id": "17_teil2_altstadt_q3",
+              "type": "multiple_choice",
+              "question": "Was braucht man für ein Schließfach?",
+              "options": [
+                "Eine Ein-Euro-Münze.",
+                "Eine Zwei-Euro-Münze.",
+                "Eine Eintrittskarte als Pfand."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Eine Zwei-Euro-Münze."
+            },
+            {
+              "id": "17_teil2_altstadt_q4",
+              "type": "multiple_choice",
+              "question": "Wo trifft sich die Gruppe nach der Pause?",
+              "options": [
+                "An der großen Treppe.",
+                "Vor dem Haupteingang.",
+                "Im Café."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: An der großen Treppe."
+            },
+            {
+              "id": "17_teil2_altstadt_q5",
+              "type": "multiple_choice",
+              "question": "Was gilt für die Sonderausstellung?",
+              "options": [
+                "Sie kostet extra.",
+                "Sie ist nur für Schulklassen.",
+                "Sie ist mit der heutigen Eintrittskarte kostenlos."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Sie ist mit der heutigen Eintrittskarte kostenlos."
+            }
+          ]
+        },
+        {
+          "id": "18_teil2_berufsschule",
+          "type": "listening",
+          "category": "teil2",
+          "categoryLabel": "Hören · Teil 2 · Vorträge",
+          "title": "Berufsschule",
+          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "18_teil2_berufsschule_q1",
+              "type": "multiple_choice",
+              "question": "Wie lange dauert der gemeinsame Teil?",
+              "options": [
+                "Etwa eine Stunde.",
+                "Etwa zwei Stunden.",
+                "Etwa drei Stunden."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Etwa zwei Stunden."
+            },
+            {
+              "id": "18_teil2_berufsschule_q2",
+              "type": "multiple_choice",
+              "question": "Was blieb bei der Renovierung weitgehend unverändert?",
+              "options": [
+                "Die Fassade.",
+                "Alle Innenräume.",
+                "Das Café."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Die Fassade."
+            },
+            {
+              "id": "18_teil2_berufsschule_q3",
+              "type": "multiple_choice",
+              "question": "Was braucht man für ein Schließfach?",
+              "options": [
+                "Eine Ein-Euro-Münze.",
+                "Eine Zwei-Euro-Münze.",
+                "Eine Eintrittskarte als Pfand."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Eine Zwei-Euro-Münze."
+            },
+            {
+              "id": "18_teil2_berufsschule_q4",
+              "type": "multiple_choice",
+              "question": "Wo trifft sich die Gruppe nach der Pause?",
+              "options": [
+                "An der großen Treppe.",
+                "Vor dem Haupteingang.",
+                "Im Café."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: An der großen Treppe."
+            },
+            {
+              "id": "18_teil2_berufsschule_q5",
+              "type": "multiple_choice",
+              "question": "Was gilt für die Sonderausstellung?",
+              "options": [
+                "Sie kostet extra.",
+                "Sie ist nur für Schulklassen.",
+                "Sie ist mit der heutigen Eintrittskarte kostenlos."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Sie ist mit der heutigen Eintrittskarte kostenlos."
+            }
+          ]
+        },
+        {
+          "id": "19_teil2_radiohaus",
+          "type": "listening",
+          "category": "teil2",
+          "categoryLabel": "Hören · Teil 2 · Vorträge",
+          "title": "Radiohaus",
+          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "19_teil2_radiohaus_q1",
+              "type": "multiple_choice",
+              "question": "Wie lange dauert der gemeinsame Teil?",
+              "options": [
+                "Etwa eine Stunde.",
+                "Etwa zwei Stunden.",
+                "Etwa drei Stunden."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Etwa zwei Stunden."
+            },
+            {
+              "id": "19_teil2_radiohaus_q2",
+              "type": "multiple_choice",
+              "question": "Was blieb bei der Renovierung weitgehend unverändert?",
+              "options": [
+                "Die Fassade.",
+                "Alle Innenräume.",
+                "Das Café."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Die Fassade."
+            },
+            {
+              "id": "19_teil2_radiohaus_q3",
+              "type": "multiple_choice",
+              "question": "Was braucht man für ein Schließfach?",
+              "options": [
+                "Eine Ein-Euro-Münze.",
+                "Eine Zwei-Euro-Münze.",
+                "Eine Eintrittskarte als Pfand."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Eine Zwei-Euro-Münze."
+            },
+            {
+              "id": "19_teil2_radiohaus_q4",
+              "type": "multiple_choice",
+              "question": "Wo trifft sich die Gruppe nach der Pause?",
+              "options": [
+                "An der großen Treppe.",
+                "Vor dem Haupteingang.",
+                "Im Café."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: An der großen Treppe."
+            },
+            {
+              "id": "19_teil2_radiohaus_q5",
+              "type": "multiple_choice",
+              "question": "Was gilt für die Sonderausstellung?",
+              "options": [
+                "Sie kostet extra.",
+                "Sie ist nur für Schulklassen.",
+                "Sie ist mit der heutigen Eintrittskarte kostenlos."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Sie ist mit der heutigen Eintrittskarte kostenlos."
+            }
+          ]
+        },
+        {
+          "id": "20_teil2_umweltzentrum",
+          "type": "listening",
+          "category": "teil2",
+          "categoryLabel": "Hören · Teil 2 · Vorträge",
+          "title": "Umweltzentrum",
+          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "20_teil2_umweltzentrum_q1",
+              "type": "multiple_choice",
+              "question": "Wie lange dauert der gemeinsame Teil?",
+              "options": [
+                "Etwa eine Stunde.",
+                "Etwa zwei Stunden.",
+                "Etwa drei Stunden."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Etwa zwei Stunden."
+            },
+            {
+              "id": "20_teil2_umweltzentrum_q2",
+              "type": "multiple_choice",
+              "question": "Was blieb bei der Renovierung weitgehend unverändert?",
+              "options": [
+                "Die Fassade.",
+                "Alle Innenräume.",
+                "Das Café."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Die Fassade."
+            },
+            {
+              "id": "20_teil2_umweltzentrum_q3",
+              "type": "multiple_choice",
+              "question": "Was braucht man für ein Schließfach?",
+              "options": [
+                "Eine Ein-Euro-Münze.",
+                "Eine Zwei-Euro-Münze.",
+                "Eine Eintrittskarte als Pfand."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Eine Zwei-Euro-Münze."
+            },
+            {
+              "id": "20_teil2_umweltzentrum_q4",
+              "type": "multiple_choice",
+              "question": "Wo trifft sich die Gruppe nach der Pause?",
+              "options": [
+                "An der großen Treppe.",
+                "Vor dem Haupteingang.",
+                "Im Café."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: An der großen Treppe."
+            },
+            {
+              "id": "20_teil2_umweltzentrum_q5",
+              "type": "multiple_choice",
+              "question": "Was gilt für die Sonderausstellung?",
+              "options": [
+                "Sie kostet extra.",
+                "Sie ist nur für Schulklassen.",
+                "Sie ist mit der heutigen Eintrittskarte kostenlos."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Sie ist mit der heutigen Eintrittskarte kostenlos."
+            }
+          ]
+        },
+        {
+          "id": "21_teil3_geburtstagsfest",
+          "type": "listening",
+          "category": "teil3",
+          "categoryLabel": "Hören · Teil 3 · Gespräche",
+          "title": "Geburtstagsfest",
+          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "21_teil3_geburtstagsfest_q1",
+              "type": "true_false",
+              "statement": "Die Hauptperson kommt wegen einer Zugverspätung später an.",
+              "answer": true
+            },
+            {
+              "id": "21_teil3_geburtstagsfest_q2",
+              "type": "true_false",
+              "statement": "Sie übernachtet schließlich in einem Hotel im Zentrum.",
+              "answer": false
+            },
+            {
+              "id": "21_teil3_geburtstagsfest_q3",
+              "type": "true_false",
+              "statement": "Am Anfang kennt sie nur zwei Personen aus der Gruppe.",
+              "answer": true
+            },
+            {
+              "id": "21_teil3_geburtstagsfest_q4",
+              "type": "true_false",
+              "statement": "Fast alle Speisen am Buffet enthalten Fleisch.",
+              "answer": false
+            },
+            {
+              "id": "21_teil3_geburtstagsfest_q5",
+              "type": "true_false",
+              "statement": "Sie singt später vor anderen Leuten mit.",
+              "answer": true
+            },
+            {
+              "id": "21_teil3_geburtstagsfest_q6",
+              "type": "true_false",
+              "statement": "Die Stadtführung wird wegen des Regens abgesagt.",
+              "answer": false
+            },
+            {
+              "id": "21_teil3_geburtstagsfest_q7",
+              "type": "true_false",
+              "statement": "Der Zug auf der Rückfahrt ist pünktlich.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "22_teil3_neue_wohnung",
+          "type": "listening",
+          "category": "teil3",
+          "categoryLabel": "Hören · Teil 3 · Gespräche",
+          "title": "Neue Wohnung",
+          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "22_teil3_neue_wohnung_q1",
+              "type": "true_false",
+              "statement": "Die Hauptperson kommt wegen einer Zugverspätung später an.",
+              "answer": true
+            },
+            {
+              "id": "22_teil3_neue_wohnung_q2",
+              "type": "true_false",
+              "statement": "Sie übernachtet schließlich in einem Hotel im Zentrum.",
+              "answer": false
+            },
+            {
+              "id": "22_teil3_neue_wohnung_q3",
+              "type": "true_false",
+              "statement": "Am Anfang kennt sie nur zwei Personen aus der Gruppe.",
+              "answer": true
+            },
+            {
+              "id": "22_teil3_neue_wohnung_q4",
+              "type": "true_false",
+              "statement": "Fast alle Speisen am Buffet enthalten Fleisch.",
+              "answer": false
+            },
+            {
+              "id": "22_teil3_neue_wohnung_q5",
+              "type": "true_false",
+              "statement": "Sie singt später vor anderen Leuten mit.",
+              "answer": true
+            },
+            {
+              "id": "22_teil3_neue_wohnung_q6",
+              "type": "true_false",
+              "statement": "Die Stadtführung wird wegen des Regens abgesagt.",
+              "answer": false
+            },
+            {
+              "id": "22_teil3_neue_wohnung_q7",
+              "type": "true_false",
+              "statement": "Der Zug auf der Rückfahrt ist pünktlich.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "23_teil3_bergurlaub",
+          "type": "listening",
+          "category": "teil3",
+          "categoryLabel": "Hören · Teil 3 · Gespräche",
+          "title": "Bergurlaub",
+          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "23_teil3_bergurlaub_q1",
+              "type": "true_false",
+              "statement": "Die Hauptperson kommt wegen einer Zugverspätung später an.",
+              "answer": true
+            },
+            {
+              "id": "23_teil3_bergurlaub_q2",
+              "type": "true_false",
+              "statement": "Sie übernachtet schließlich in einem Hotel im Zentrum.",
+              "answer": false
+            },
+            {
+              "id": "23_teil3_bergurlaub_q3",
+              "type": "true_false",
+              "statement": "Am Anfang kennt sie nur zwei Personen aus der Gruppe.",
+              "answer": true
+            },
+            {
+              "id": "23_teil3_bergurlaub_q4",
+              "type": "true_false",
+              "statement": "Fast alle Speisen am Buffet enthalten Fleisch.",
+              "answer": false
+            },
+            {
+              "id": "23_teil3_bergurlaub_q5",
+              "type": "true_false",
+              "statement": "Sie singt später vor anderen Leuten mit.",
+              "answer": true
+            },
+            {
+              "id": "23_teil3_bergurlaub_q6",
+              "type": "true_false",
+              "statement": "Die Stadtführung wird wegen des Regens abgesagt.",
+              "answer": false
+            },
+            {
+              "id": "23_teil3_bergurlaub_q7",
+              "type": "true_false",
+              "statement": "Der Zug auf der Rückfahrt ist pünktlich.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "24_teil3_neuer_job",
+          "type": "listening",
+          "category": "teil3",
+          "categoryLabel": "Hören · Teil 3 · Gespräche",
+          "title": "Neuer Job",
+          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "24_teil3_neuer_job_q1",
+              "type": "true_false",
+              "statement": "Die Hauptperson kommt wegen einer Zugverspätung später an.",
+              "answer": true
+            },
+            {
+              "id": "24_teil3_neuer_job_q2",
+              "type": "true_false",
+              "statement": "Sie übernachtet schließlich in einem Hotel im Zentrum.",
+              "answer": false
+            },
+            {
+              "id": "24_teil3_neuer_job_q3",
+              "type": "true_false",
+              "statement": "Am Anfang kennt sie nur zwei Personen aus der Gruppe.",
+              "answer": true
+            },
+            {
+              "id": "24_teil3_neuer_job_q4",
+              "type": "true_false",
+              "statement": "Fast alle Speisen am Buffet enthalten Fleisch.",
+              "answer": false
+            },
+            {
+              "id": "24_teil3_neuer_job_q5",
+              "type": "true_false",
+              "statement": "Sie singt später vor anderen Leuten mit.",
+              "answer": true
+            },
+            {
+              "id": "24_teil3_neuer_job_q6",
+              "type": "true_false",
+              "statement": "Die Stadtführung wird wegen des Regens abgesagt.",
+              "answer": false
+            },
+            {
+              "id": "24_teil3_neuer_job_q7",
+              "type": "true_false",
+              "statement": "Der Zug auf der Rückfahrt ist pünktlich.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "25_teil3_konzert",
+          "type": "listening",
+          "category": "teil3",
+          "categoryLabel": "Hören · Teil 3 · Gespräche",
+          "title": "Konzert",
+          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "25_teil3_konzert_q1",
+              "type": "true_false",
+              "statement": "Die Hauptperson kommt wegen einer Zugverspätung später an.",
+              "answer": true
+            },
+            {
+              "id": "25_teil3_konzert_q2",
+              "type": "true_false",
+              "statement": "Sie übernachtet schließlich in einem Hotel im Zentrum.",
+              "answer": false
+            },
+            {
+              "id": "25_teil3_konzert_q3",
+              "type": "true_false",
+              "statement": "Am Anfang kennt sie nur zwei Personen aus der Gruppe.",
+              "answer": true
+            },
+            {
+              "id": "25_teil3_konzert_q4",
+              "type": "true_false",
+              "statement": "Fast alle Speisen am Buffet enthalten Fleisch.",
+              "answer": false
+            },
+            {
+              "id": "25_teil3_konzert_q5",
+              "type": "true_false",
+              "statement": "Sie singt später vor anderen Leuten mit.",
+              "answer": true
+            },
+            {
+              "id": "25_teil3_konzert_q6",
+              "type": "true_false",
+              "statement": "Die Stadtführung wird wegen des Regens abgesagt.",
+              "answer": false
+            },
+            {
+              "id": "25_teil3_konzert_q7",
+              "type": "true_false",
+              "statement": "Der Zug auf der Rückfahrt ist pünktlich.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "26_teil3_fahrradtour",
+          "type": "listening",
+          "category": "teil3",
+          "categoryLabel": "Hören · Teil 3 · Gespräche",
+          "title": "Fahrradtour",
+          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "26_teil3_fahrradtour_q1",
+              "type": "true_false",
+              "statement": "Die Hauptperson kommt wegen einer Zugverspätung später an.",
+              "answer": true
+            },
+            {
+              "id": "26_teil3_fahrradtour_q2",
+              "type": "true_false",
+              "statement": "Sie übernachtet schließlich in einem Hotel im Zentrum.",
+              "answer": false
+            },
+            {
+              "id": "26_teil3_fahrradtour_q3",
+              "type": "true_false",
+              "statement": "Am Anfang kennt sie nur zwei Personen aus der Gruppe.",
+              "answer": true
+            },
+            {
+              "id": "26_teil3_fahrradtour_q4",
+              "type": "true_false",
+              "statement": "Fast alle Speisen am Buffet enthalten Fleisch.",
+              "answer": false
+            },
+            {
+              "id": "26_teil3_fahrradtour_q5",
+              "type": "true_false",
+              "statement": "Sie singt später vor anderen Leuten mit.",
+              "answer": true
+            },
+            {
+              "id": "26_teil3_fahrradtour_q6",
+              "type": "true_false",
+              "statement": "Die Stadtführung wird wegen des Regens abgesagt.",
+              "answer": false
+            },
+            {
+              "id": "26_teil3_fahrradtour_q7",
+              "type": "true_false",
+              "statement": "Der Zug auf der Rückfahrt ist pünktlich.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "27_teil3_sprachkurs",
+          "type": "listening",
+          "category": "teil3",
+          "categoryLabel": "Hören · Teil 3 · Gespräche",
+          "title": "Sprachkurs",
+          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "27_teil3_sprachkurs_q1",
+              "type": "true_false",
+              "statement": "Die Hauptperson kommt wegen einer Zugverspätung später an.",
+              "answer": true
+            },
+            {
+              "id": "27_teil3_sprachkurs_q2",
+              "type": "true_false",
+              "statement": "Sie übernachtet schließlich in einem Hotel im Zentrum.",
+              "answer": false
+            },
+            {
+              "id": "27_teil3_sprachkurs_q3",
+              "type": "true_false",
+              "statement": "Am Anfang kennt sie nur zwei Personen aus der Gruppe.",
+              "answer": true
+            },
+            {
+              "id": "27_teil3_sprachkurs_q4",
+              "type": "true_false",
+              "statement": "Fast alle Speisen am Buffet enthalten Fleisch.",
+              "answer": false
+            },
+            {
+              "id": "27_teil3_sprachkurs_q5",
+              "type": "true_false",
+              "statement": "Sie singt später vor anderen Leuten mit.",
+              "answer": true
+            },
+            {
+              "id": "27_teil3_sprachkurs_q6",
+              "type": "true_false",
+              "statement": "Die Stadtführung wird wegen des Regens abgesagt.",
+              "answer": false
+            },
+            {
+              "id": "27_teil3_sprachkurs_q7",
+              "type": "true_false",
+              "statement": "Der Zug auf der Rückfahrt ist pünktlich.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "28_teil3_familienfeier",
+          "type": "listening",
+          "category": "teil3",
+          "categoryLabel": "Hören · Teil 3 · Gespräche",
+          "title": "Familienfeier",
+          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "28_teil3_familienfeier_q1",
+              "type": "true_false",
+              "statement": "Die Hauptperson kommt wegen einer Zugverspätung später an.",
+              "answer": true
+            },
+            {
+              "id": "28_teil3_familienfeier_q2",
+              "type": "true_false",
+              "statement": "Sie übernachtet schließlich in einem Hotel im Zentrum.",
+              "answer": false
+            },
+            {
+              "id": "28_teil3_familienfeier_q3",
+              "type": "true_false",
+              "statement": "Am Anfang kennt sie nur zwei Personen aus der Gruppe.",
+              "answer": true
+            },
+            {
+              "id": "28_teil3_familienfeier_q4",
+              "type": "true_false",
+              "statement": "Fast alle Speisen am Buffet enthalten Fleisch.",
+              "answer": false
+            },
+            {
+              "id": "28_teil3_familienfeier_q5",
+              "type": "true_false",
+              "statement": "Sie singt später vor anderen Leuten mit.",
+              "answer": true
+            },
+            {
+              "id": "28_teil3_familienfeier_q6",
+              "type": "true_false",
+              "statement": "Die Stadtführung wird wegen des Regens abgesagt.",
+              "answer": false
+            },
+            {
+              "id": "28_teil3_familienfeier_q7",
+              "type": "true_false",
+              "statement": "Der Zug auf der Rückfahrt ist pünktlich.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "29_teil3_sportverein",
+          "type": "listening",
+          "category": "teil3",
+          "categoryLabel": "Hören · Teil 3 · Gespräche",
+          "title": "Sportverein",
+          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "29_teil3_sportverein_q1",
+              "type": "true_false",
+              "statement": "Die Hauptperson kommt wegen einer Zugverspätung später an.",
+              "answer": true
+            },
+            {
+              "id": "29_teil3_sportverein_q2",
+              "type": "true_false",
+              "statement": "Sie übernachtet schließlich in einem Hotel im Zentrum.",
+              "answer": false
+            },
+            {
+              "id": "29_teil3_sportverein_q3",
+              "type": "true_false",
+              "statement": "Am Anfang kennt sie nur zwei Personen aus der Gruppe.",
+              "answer": true
+            },
+            {
+              "id": "29_teil3_sportverein_q4",
+              "type": "true_false",
+              "statement": "Fast alle Speisen am Buffet enthalten Fleisch.",
+              "answer": false
+            },
+            {
+              "id": "29_teil3_sportverein_q5",
+              "type": "true_false",
+              "statement": "Sie singt später vor anderen Leuten mit.",
+              "answer": true
+            },
+            {
+              "id": "29_teil3_sportverein_q6",
+              "type": "true_false",
+              "statement": "Die Stadtführung wird wegen des Regens abgesagt.",
+              "answer": false
+            },
+            {
+              "id": "29_teil3_sportverein_q7",
+              "type": "true_false",
+              "statement": "Der Zug auf der Rückfahrt ist pünktlich.",
+              "answer": true
+            }
+          ]
+        },
+        {
+          "id": "30_teil3_wochenendtrip",
+          "type": "listening",
+          "category": "teil3",
+          "categoryLabel": "Hören · Teil 3 · Gespräche",
+          "title": "Wochenendtrip",
+          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "30_teil3_wochenendtrip_q1",
+              "type": "true_false",
+              "statement": "Die Hauptperson kommt wegen einer Zugverspätung später an.",
+              "answer": true
+            },
+            {
+              "id": "30_teil3_wochenendtrip_q2",
+              "type": "true_false",
+              "statement": "Sie übernachtet schließlich in einem Hotel im Zentrum.",
+              "answer": false
+            },
+            {
+              "id": "30_teil3_wochenendtrip_q3",
+              "type": "true_false",
+              "statement": "Am Anfang kennt sie nur zwei Personen aus der Gruppe.",
+              "answer": true
+            },
+            {
+              "id": "30_teil3_wochenendtrip_q4",
+              "type": "true_false",
+              "statement": "Fast alle Speisen am Buffet enthalten Fleisch.",
+              "answer": false
+            },
+            {
+              "id": "30_teil3_wochenendtrip_q5",
+              "type": "true_false",
+              "statement": "Sie singt später vor anderen Leuten mit.",
+              "answer": true
+            },
+            {
+              "id": "30_teil3_wochenendtrip_q6",
+              "type": "true_false",
+              "statement": "Die Stadtführung wird wegen des Regens abgesagt.",
+              "answer": false
+            },
+            {
+              "id": "30_teil3_wochenendtrip_q7",
+              "type": "true_false",
+              "statement": "Der Zug auf der Rückfahrt ist pünktlich.",
+              "answer": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

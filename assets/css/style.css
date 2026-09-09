@@ -669,6 +669,7 @@ body[data-practice="hoeren"]{--type-color:#C24A3B;--type-soft:#FBEAE7}
 .task-tab b{position:absolute;right:3px;top:1px;font-size:.62rem;color:var(--bad)}
 
 .task-page{padding-top:34px;max-width:900px}
+.loading-note{color:var(--muted,#6b7280);font-size:.95rem;padding:48px 0;text-align:center}
 .task-head{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:16px}
 .task-head h1{margin:5px 0 0;font-size:1.65rem}
 .task-time-note{font-size:.82rem;font-weight:600;color:var(--type-color);white-space:nowrap}
