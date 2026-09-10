@@ -366,62 +366,62 @@
             {
               "id": "11_teil2_stadtmuseum_q1",
               "type": "multiple_choice",
-              "question": "Wie lange dauert der gemeinsame Teil?",
+              "question": "Worum geht es in der neuen Ausstellung?",
               "options": [
-                "Etwa eine Stunde.",
-                "Etwa zwei Stunden.",
-                "Etwa drei Stunden."
+                "Um die Geschichte des Stadtparks.",
+                "Um Menschen, die in die Stadt gezogen sind.",
+                "Um moderne Textilmaschinen."
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Etwa zwei Stunden."
+              "explanation": "Richtige Antwort: Um Menschen, die in die Stadt gezogen sind."
             },
             {
               "id": "11_teil2_stadtmuseum_q2",
               "type": "multiple_choice",
-              "question": "Was blieb bei der Renovierung weitgehend unverändert?",
+              "question": "Was befindet sich heute am Ort der früheren Fabrik?",
               "options": [
-                "Die Fassade.",
-                "Alle Innenräume.",
-                "Das Café."
+                "Der Stadtpark.",
+                "Das Museumscafé.",
+                "Ein Bahnhof."
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Die Fassade."
+              "explanation": "Richtige Antwort: Der Stadtpark."
             },
             {
               "id": "11_teil2_stadtmuseum_q3",
               "type": "multiple_choice",
-              "question": "Was braucht man für ein Schließfach?",
+              "question": "Was können Besucher kostenlos ausleihen?",
               "options": [
-                "Eine Ein-Euro-Münze.",
-                "Eine Zwei-Euro-Münze.",
-                "Eine Eintrittskarte als Pfand."
+                "Ein Aufnahmegerät.",
+                "Eine Übersetzung.",
+                "Kopfhörer."
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Eine Zwei-Euro-Münze."
+              "answer": 2,
+              "explanation": "Richtige Antwort: Kopfhörer."
             },
             {
               "id": "11_teil2_stadtmuseum_q4",
               "type": "multiple_choice",
               "question": "Wo trifft sich die Gruppe nach der Pause?",
               "options": [
-                "An der großen Treppe.",
-                "Vor dem Haupteingang.",
-                "Im Café."
+                "An der Garderobe.",
+                "Beim roten Straßenbahnwagen.",
+                "Vor dem Werkraum."
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: An der großen Treppe."
+              "answer": 1,
+              "explanation": "Richtige Antwort: Beim roten Straßenbahnwagen."
             },
             {
               "id": "11_teil2_stadtmuseum_q5",
               "type": "multiple_choice",
-              "question": "Was gilt für die Sonderausstellung?",
+              "question": "Wofür braucht man eine Reservierung?",
               "options": [
-                "Sie kostet extra.",
-                "Sie ist nur für Schulklassen.",
-                "Sie ist mit der heutigen Eintrittskarte kostenlos."
+                "Für die Abendveranstaltung.",
+                "Für das Erinnerungsheft.",
+                "Für die Führung."
               ],
-              "answer": 2,
-              "explanation": "Richtige Antwort: Sie ist mit der heutigen Eintrittskarte kostenlos."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Für die Abendveranstaltung."
             }
           ]
         },
@@ -437,62 +437,62 @@
             {
               "id": "12_teil2_biobauernhof_q1",
               "type": "multiple_choice",
-              "question": "Wie lange dauert der gemeinsame Teil?",
+              "question": "Seit wann arbeitet der Hof ökologisch?",
               "options": [
-                "Etwa eine Stunde.",
-                "Etwa zwei Stunden.",
-                "Etwa drei Stunden."
+                "Seit drei Jahren.",
+                "Seit dreizehn Jahren.",
+                "Seit dreißig Jahren."
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Etwa zwei Stunden."
+              "answer": 2,
+              "explanation": "Richtige Antwort: Seit dreißig Jahren."
             },
             {
               "id": "12_teil2_biobauernhof_q2",
               "type": "multiple_choice",
-              "question": "Was blieb bei der Renovierung weitgehend unverändert?",
+              "question": "Was dürfen Besucher im Kuhstall tun?",
               "options": [
-                "Die Fassade.",
-                "Alle Innenräume.",
-                "Das Café."
+                "Beim Melken zusehen.",
+                "Die Kühe füttern.",
+                "Die Tiere auf die Weide bringen."
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Die Fassade."
+              "explanation": "Richtige Antwort: Beim Melken zusehen."
             },
             {
               "id": "12_teil2_biobauernhof_q3",
               "type": "multiple_choice",
-              "question": "Was braucht man für ein Schließfach?",
+              "question": "Warum wird Regenwasser gesammelt?",
               "options": [
-                "Eine Ein-Euro-Münze.",
-                "Eine Zwei-Euro-Münze.",
-                "Eine Eintrittskarte als Pfand."
+                "Weil es wenig geregnet hat.",
+                "Weil das Leitungswasser zu kalt ist.",
+                "Weil die Felder vergrößert wurden."
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Eine Zwei-Euro-Münze."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Weil es wenig geregnet hat."
             },
             {
               "id": "12_teil2_biobauernhof_q4",
               "type": "multiple_choice",
-              "question": "Wo trifft sich die Gruppe nach der Pause?",
+              "question": "Wo probieren die Gäste den Käse?",
               "options": [
-                "An der großen Treppe.",
-                "Vor dem Haupteingang.",
-                "Im Café."
+                "In der Käserei.",
+                "Im Hofladen.",
+                "Auf dem Feld."
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: An der großen Treppe."
+              "answer": 1,
+              "explanation": "Richtige Antwort: Im Hofladen."
             },
             {
               "id": "12_teil2_biobauernhof_q5",
               "type": "multiple_choice",
-              "question": "Was gilt für die Sonderausstellung?",
+              "question": "Was bekommen Teilnehmende geschenkt?",
               "options": [
-                "Sie kostet extra.",
-                "Sie ist nur für Schulklassen.",
-                "Sie ist mit der heutigen Eintrittskarte kostenlos."
+                "Ein Brot.",
+                "Einen Preisnachlass.",
+                "Kräutersamen."
               ],
               "answer": 2,
-              "explanation": "Richtige Antwort: Sie ist mit der heutigen Eintrittskarte kostenlos."
+              "explanation": "Richtige Antwort: Kräutersamen."
             }
           ]
         },
@@ -508,62 +508,62 @@
             {
               "id": "13_teil2_stadtbibliothek_q1",
               "type": "multiple_choice",
-              "question": "Wie lange dauert der gemeinsame Teil?",
+              "question": "Wer kann einen Bibliotheksausweis bekommen?",
               "options": [
-                "Etwa eine Stunde.",
-                "Etwa zwei Stunden.",
-                "Etwa drei Stunden."
+                "Nur Personen mit Wohnsitz in der Stadt.",
+                "Menschen, die hier wohnen, arbeiten oder studieren.",
+                "Nur Erwachsene und Studierende."
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Etwa zwei Stunden."
+              "explanation": "Richtige Antwort: Menschen, die hier wohnen, arbeiten oder studieren."
             },
             {
               "id": "13_teil2_stadtbibliothek_q2",
               "type": "multiple_choice",
-              "question": "Was blieb bei der Renovierung weitgehend unverändert?",
+              "question": "Wie lange darf man Filme normalerweise behalten?",
               "options": [
-                "Die Fassade.",
-                "Alle Innenräume.",
-                "Das Café."
+                "Zwei Wochen.",
+                "Vier Wochen.",
+                "Acht Wochen."
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Die Fassade."
+              "explanation": "Richtige Antwort: Zwei Wochen."
             },
             {
               "id": "13_teil2_stadtbibliothek_q3",
               "type": "multiple_choice",
-              "question": "Was braucht man für ein Schließfach?",
+              "question": "Was kann nicht über die Rückgabemaschine abgegeben werden?",
               "options": [
-                "Eine Ein-Euro-Münze.",
-                "Eine Zwei-Euro-Münze.",
-                "Eine Eintrittskarte als Pfand."
+                "Bücher.",
+                "Hörbücher.",
+                "Instrumente."
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Eine Zwei-Euro-Münze."
+              "answer": 2,
+              "explanation": "Richtige Antwort: Instrumente."
             },
             {
               "id": "13_teil2_stadtbibliothek_q4",
               "type": "multiple_choice",
-              "question": "Wo trifft sich die Gruppe nach der Pause?",
+              "question": "Wofür braucht man eine vorherige Buchung?",
               "options": [
-                "An der großen Treppe.",
-                "Vor dem Haupteingang.",
-                "Im Café."
+                "Für die Smartphone-Beratung.",
+                "Für den Bewerbungskurs.",
+                "Für das Gäste-WLAN."
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: An der großen Treppe."
+              "answer": 1,
+              "explanation": "Richtige Antwort: Für den Bewerbungskurs."
             },
             {
               "id": "13_teil2_stadtbibliothek_q5",
               "type": "multiple_choice",
-              "question": "Was gilt für die Sonderausstellung?",
+              "question": "Was verleiht die Bibliothek der Dinge?",
               "options": [
-                "Sie kostet extra.",
-                "Sie ist nur für Schulklassen.",
-                "Sie ist mit der heutigen Eintrittskarte kostenlos."
+                "Bohrmaschinen.",
+                "Küchengeräte.",
+                "Mobiltelefone."
               ],
-              "answer": 2,
-              "explanation": "Richtige Antwort: Sie ist mit der heutigen Eintrittskarte kostenlos."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Bohrmaschinen."
             }
           ]
         },
@@ -579,62 +579,62 @@
             {
               "id": "14_teil2_nationalpark_q1",
               "type": "multiple_choice",
-              "question": "Wie lange dauert der gemeinsame Teil?",
+              "question": "Wo endet die Führung?",
               "options": [
-                "Etwa eine Stunde.",
-                "Etwa zwei Stunden.",
-                "Etwa drei Stunden."
+                "Am Informationszentrum.",
+                "Am Bahnhof Waldhöhe.",
+                "An der Schutzhütte."
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Etwa zwei Stunden."
+              "explanation": "Richtige Antwort: Am Bahnhof Waldhöhe."
             },
             {
               "id": "14_teil2_nationalpark_q2",
               "type": "multiple_choice",
-              "question": "Was blieb bei der Renovierung weitgehend unverändert?",
+              "question": "Was geschieht mit alten Gräben im Moor?",
               "options": [
-                "Die Fassade.",
-                "Alle Innenräume.",
-                "Das Café."
+                "Sie werden tiefer gemacht.",
+                "Sie werden für Boote geöffnet.",
+                "Sie werden geschlossen."
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Die Fassade."
+              "answer": 2,
+              "explanation": "Richtige Antwort: Sie werden geschlossen."
             },
             {
               "id": "14_teil2_nationalpark_q3",
               "type": "multiple_choice",
-              "question": "Was braucht man für ein Schließfach?",
+              "question": "Was gilt für Hunde?",
               "options": [
-                "Eine Ein-Euro-Münze.",
-                "Eine Zwei-Euro-Münze.",
-                "Eine Eintrittskarte als Pfand."
+                "Sie müssen an einer kurzen Leine bleiben.",
+                "Sie dürfen frei laufen.",
+                "Sie sind nur an der Hütte erlaubt."
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Eine Zwei-Euro-Münze."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Sie müssen an einer kurzen Leine bleiben."
             },
             {
               "id": "14_teil2_nationalpark_q4",
               "type": "multiple_choice",
-              "question": "Wo trifft sich die Gruppe nach der Pause?",
+              "question": "Was gibt es an der Pausenhütte?",
               "options": [
-                "An der großen Treppe.",
-                "Vor dem Haupteingang.",
-                "Im Café."
+                "Einen Imbiss.",
+                "Trinkwasser.",
+                "Einen Fahrradverleih."
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: An der großen Treppe."
+              "answer": 1,
+              "explanation": "Richtige Antwort: Trinkwasser."
             },
             {
               "id": "14_teil2_nationalpark_q5",
               "type": "multiple_choice",
-              "question": "Was gilt für die Sonderausstellung?",
+              "question": "Was ist in der Führungskarte enthalten?",
               "options": [
-                "Sie kostet extra.",
-                "Sie ist nur für Schulklassen.",
-                "Sie ist mit der heutigen Eintrittskarte kostenlos."
+                "Die Rückfahrt mit dem Zug.",
+                "Ein Mittagessen.",
+                "Ein Fernglas ohne Pfand."
               ],
-              "answer": 2,
-              "explanation": "Richtige Antwort: Sie ist mit der heutigen Eintrittskarte kostenlos."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Die Rückfahrt mit dem Zug."
             }
           ]
         },
@@ -650,62 +650,62 @@
             {
               "id": "15_teil2_universitaet_q1",
               "type": "multiple_choice",
-              "question": "Wie lange dauert der gemeinsame Teil?",
+              "question": "Wofür muss man sich besonders anmelden?",
               "options": [
-                "Etwa eine Stunde.",
-                "Etwa zwei Stunden.",
-                "Etwa drei Stunden."
+                "Für Vorlesungen ohne Teilnehmergrenze.",
+                "Für Sprachkurse und Labore.",
+                "Für den Lernraum im Gebäude C."
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Etwa zwei Stunden."
+              "explanation": "Richtige Antwort: Für Sprachkurse und Labore."
             },
             {
               "id": "15_teil2_universitaet_q2",
               "type": "multiple_choice",
-              "question": "Was blieb bei der Renovierung weitgehend unverändert?",
+              "question": "Wie werden freie Plätze aus der Warteliste vergeben?",
               "options": [
-                "Die Fassade.",
-                "Alle Innenräume.",
-                "Das Café."
+                "Durch die Lehrkräfte.",
+                "Nach Studienfach.",
+                "Nach der Reihenfolge der Anmeldung."
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Die Fassade."
+              "answer": 2,
+              "explanation": "Richtige Antwort: Nach der Reihenfolge der Anmeldung."
             },
             {
               "id": "15_teil2_universitaet_q3",
               "type": "multiple_choice",
-              "question": "Was braucht man für ein Schließfach?",
+              "question": "Welcher Ort ist rund um die Uhr geöffnet?",
               "options": [
-                "Eine Ein-Euro-Münze.",
-                "Eine Zwei-Euro-Münze.",
-                "Eine Eintrittskarte als Pfand."
+                "Die Bibliothek.",
+                "Der Lernraum im Gebäude C.",
+                "Das Sportzentrum."
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Eine Zwei-Euro-Münze."
+              "explanation": "Richtige Antwort: Der Lernraum im Gebäude C."
             },
             {
               "id": "15_teil2_universitaet_q4",
               "type": "multiple_choice",
-              "question": "Wo trifft sich die Gruppe nach der Pause?",
+              "question": "Wie bezahlt man in der Mensa?",
               "options": [
-                "An der großen Treppe.",
-                "Vor dem Haupteingang.",
-                "Im Café."
+                "Mit dem Studierendenausweis.",
+                "Nur mit Bargeld.",
+                "Mit einer Essensmarke."
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: An der großen Treppe."
+              "explanation": "Richtige Antwort: Mit dem Studierendenausweis."
             },
             {
               "id": "15_teil2_universitaet_q5",
               "type": "multiple_choice",
-              "question": "Was gilt für die Sonderausstellung?",
+              "question": "Was können Studierende statt der Campusführung tun?",
               "options": [
-                "Sie kostet extra.",
-                "Sie ist nur für Schulklassen.",
-                "Sie ist mit der heutigen Eintrittskarte kostenlos."
+                "Eine Prüfung schreiben.",
+                "Im Innenhof warten.",
+                "Hilfe bei der Anmeldung bekommen."
               ],
               "answer": 2,
-              "explanation": "Richtige Antwort: Sie ist mit der heutigen Eintrittskarte kostenlos."
+              "explanation": "Richtige Antwort: Hilfe bei der Anmeldung bekommen."
             }
           ]
         },
@@ -721,62 +721,62 @@
             {
               "id": "16_teil2_technikmuseum_q1",
               "type": "multiple_choice",
-              "question": "Wie lange dauert der gemeinsame Teil?",
+              "question": "Warum ist das Fahrrad von 1888 besonders interessant?",
               "options": [
-                "Etwa eine Stunde.",
-                "Etwa zwei Stunden.",
-                "Etwa drei Stunden."
+                "Es stammt von einem berühmten Hersteller.",
+                "Es wurde für den Schulweg verändert.",
+                "Es ist das teuerste Objekt."
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Etwa zwei Stunden."
+              "explanation": "Richtige Antwort: Es wurde für den Schulweg verändert."
             },
             {
               "id": "16_teil2_technikmuseum_q2",
               "type": "multiple_choice",
-              "question": "Was blieb bei der Renovierung weitgehend unverändert?",
+              "question": "Womit arbeiten die Gruppen?",
               "options": [
-                "Die Fassade.",
-                "Alle Innenräume.",
-                "Das Café."
+                "Mit einem echten Radio.",
+                "Mit einem Lernmodell.",
+                "Mit einer Mikrowelle."
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Die Fassade."
+              "answer": 1,
+              "explanation": "Richtige Antwort: Mit einem Lernmodell."
             },
             {
               "id": "16_teil2_technikmuseum_q3",
               "type": "multiple_choice",
-              "question": "Was braucht man für ein Schließfach?",
+              "question": "Was stellt das Museum kostenlos bereit?",
               "options": [
-                "Eine Ein-Euro-Münze.",
-                "Eine Zwei-Euro-Münze.",
-                "Eine Eintrittskarte als Pfand."
+                "Werkzeuge für zu Hause.",
+                "Essen und Getränke.",
+                "Schutzbrillen."
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Eine Zwei-Euro-Münze."
+              "answer": 2,
+              "explanation": "Richtige Antwort: Schutzbrillen."
             },
             {
               "id": "16_teil2_technikmuseum_q4",
               "type": "multiple_choice",
-              "question": "Wo trifft sich die Gruppe nach der Pause?",
+              "question": "Warum soll man sich beim Hinausgehen melden?",
               "options": [
-                "An der großen Treppe.",
-                "Vor dem Haupteingang.",
-                "Im Café."
+                "Die Tür lässt sich von außen nicht öffnen.",
+                "Die Führung endet dann sofort.",
+                "Der Aufzug ist gesperrt."
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: An der großen Treppe."
+              "explanation": "Richtige Antwort: Die Tür lässt sich von außen nicht öffnen."
             },
             {
               "id": "16_teil2_technikmuseum_q5",
               "type": "multiple_choice",
-              "question": "Was gilt für die Sonderausstellung?",
+              "question": "Was braucht man für das Reparaturcafé?",
               "options": [
-                "Sie kostet extra.",
-                "Sie ist nur für Schulklassen.",
-                "Sie ist mit der heutigen Eintrittskarte kostenlos."
+                "Eine Online-Anmeldung.",
+                "Eine Eintrittskarte für Kinder.",
+                "Ein Hochspannungsgerät."
               ],
-              "answer": 2,
-              "explanation": "Richtige Antwort: Sie ist mit der heutigen Eintrittskarte kostenlos."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Eine Online-Anmeldung."
             }
           ]
         },
@@ -792,62 +792,62 @@
             {
               "id": "17_teil2_altstadt_q1",
               "type": "multiple_choice",
-              "question": "Wie lange dauert der gemeinsame Teil?",
+              "question": "Was findet heute auf dem Marktplatz statt?",
               "options": [
-                "Etwa eine Stunde.",
-                "Etwa zwei Stunden.",
-                "Etwa drei Stunden."
+                "Der wöchentliche Lebensmittelmarkt.",
+                "Saisonale Veranstaltungen.",
+                "Ein täglicher Pferdemarkt."
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Etwa zwei Stunden."
+              "explanation": "Richtige Antwort: Saisonale Veranstaltungen."
             },
             {
               "id": "17_teil2_altstadt_q2",
               "type": "multiple_choice",
-              "question": "Was blieb bei der Renovierung weitgehend unverändert?",
+              "question": "Was befindet sich jetzt im gelben Haus?",
               "options": [
-                "Die Fassade.",
-                "Alle Innenräume.",
-                "Das Café."
+                "Nur ein Gasthof.",
+                "Ein Schuhgeschäft.",
+                "Werkstätten und Wohnungen."
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Die Fassade."
+              "answer": 2,
+              "explanation": "Richtige Antwort: Werkstätten und Wohnungen."
             },
             {
               "id": "17_teil2_altstadt_q3",
               "type": "multiple_choice",
-              "question": "Was braucht man für ein Schließfach?",
+              "question": "Bis wann dürfen Lieferfahrzeuge in die Altstadt fahren?",
               "options": [
-                "Eine Ein-Euro-Münze.",
-                "Eine Zwei-Euro-Münze.",
-                "Eine Eintrittskarte als Pfand."
+                "Bis 10 Uhr.",
+                "Bis 12 Uhr.",
+                "Bis 14 Uhr."
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Eine Zwei-Euro-Münze."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Bis 10 Uhr."
             },
             {
               "id": "17_teil2_altstadt_q4",
               "type": "multiple_choice",
-              "question": "Wo trifft sich die Gruppe nach der Pause?",
+              "question": "Was gilt für den Aussichtsturm?",
               "options": [
-                "An der großen Treppe.",
-                "Vor dem Haupteingang.",
-                "Im Café."
+                "Er hat einen kleinen Aufzug.",
+                "Der Eintritt ist inbegriffen.",
+                "Er besitzt 69 Stufen."
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: An der großen Treppe."
+              "answer": 1,
+              "explanation": "Richtige Antwort: Der Eintritt ist inbegriffen."
             },
             {
               "id": "17_teil2_altstadt_q5",
               "type": "multiple_choice",
-              "question": "Was gilt für die Sonderausstellung?",
+              "question": "Wo endet die Führung?",
               "options": [
-                "Sie kostet extra.",
-                "Sie ist nur für Schulklassen.",
-                "Sie ist mit der heutigen Eintrittskarte kostenlos."
+                "Am Marktplatz.",
+                "Am Hauptbahnhof.",
+                "Am Flussufer."
               ],
               "answer": 2,
-              "explanation": "Richtige Antwort: Sie ist mit der heutigen Eintrittskarte kostenlos."
+              "explanation": "Richtige Antwort: Am Flussufer."
             }
           ]
         },
@@ -863,62 +863,62 @@
             {
               "id": "18_teil2_berufsschule_q1",
               "type": "multiple_choice",
-              "question": "Wie lange dauert der gemeinsame Teil?",
+              "question": "Wer entscheidet über eine Verkürzung der Ausbildung?",
               "options": [
-                "Etwa eine Stunde.",
-                "Etwa zwei Stunden.",
-                "Etwa drei Stunden."
+                "Nur die Berufsschule.",
+                "Betrieb und Kammer.",
+                "Allein der Auszubildende."
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Etwa zwei Stunden."
+              "explanation": "Richtige Antwort: Betrieb und Kammer."
             },
             {
               "id": "18_teil2_berufsschule_q2",
               "type": "multiple_choice",
-              "question": "Was blieb bei der Renovierung weitgehend unverändert?",
+              "question": "Wann findet normalerweise Unterricht statt?",
               "options": [
-                "Die Fassade.",
-                "Alle Innenräume.",
-                "Das Café."
+                "An zwei Tagen pro Woche.",
+                "Jeden Vormittag.",
+                "Nur in arbeitsreichen Monaten."
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Die Fassade."
+              "explanation": "Richtige Antwort: An zwei Tagen pro Woche."
             },
             {
               "id": "18_teil2_berufsschule_q3",
               "type": "multiple_choice",
-              "question": "Was braucht man für ein Schließfach?",
+              "question": "Warum ist Englisch verpflichtend?",
               "options": [
-                "Eine Ein-Euro-Münze.",
-                "Eine Zwei-Euro-Münze.",
-                "Eine Eintrittskarte als Pfand."
+                "Für Reisen ins Ausland.",
+                "Für die Abschlussprüfung in London.",
+                "Wegen internationaler Lieferdokumente."
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Eine Zwei-Euro-Münze."
+              "answer": 2,
+              "explanation": "Richtige Antwort: Wegen internationaler Lieferdokumente."
             },
             {
               "id": "18_teil2_berufsschule_q4",
               "type": "multiple_choice",
-              "question": "Wo trifft sich die Gruppe nach der Pause?",
+              "question": "Bis wann kann man ein Leihgerät beantragen?",
               "options": [
-                "An der großen Treppe.",
-                "Vor dem Haupteingang.",
-                "Im Café."
+                "Bis Ende Juni.",
+                "Bis September.",
+                "Nach der Zwischenprüfung."
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: An der großen Treppe."
+              "explanation": "Richtige Antwort: Bis Ende Juni."
             },
             {
               "id": "18_teil2_berufsschule_q5",
               "type": "multiple_choice",
-              "question": "Was gilt für die Sonderausstellung?",
+              "question": "Was ist in der Lernlagerhalle vorgeschrieben?",
               "options": [
-                "Sie kostet extra.",
-                "Sie ist nur für Schulklassen.",
-                "Sie ist mit der heutigen Eintrittskarte kostenlos."
+                "Ein eigener Laptop.",
+                "Geschlossene Schuhe.",
+                "Eine Vertrauensperson."
               ],
-              "answer": 2,
-              "explanation": "Richtige Antwort: Sie ist mit der heutigen Eintrittskarte kostenlos."
+              "answer": 1,
+              "explanation": "Richtige Antwort: Geschlossene Schuhe."
             }
           ]
         },
@@ -934,62 +934,62 @@
             {
               "id": "19_teil2_radiohaus_q1",
               "type": "multiple_choice",
-              "question": "Wie lange dauert der gemeinsame Teil?",
+              "question": "Wie lange dauert die Führung?",
               "options": [
-                "Etwa eine Stunde.",
-                "Etwa zwei Stunden.",
-                "Etwa drei Stunden."
+                "Achtzig Minuten.",
+                "Zwei Stunden.",
+                "Siebzig Minuten."
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Etwa zwei Stunden."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Achtzig Minuten."
             },
             {
               "id": "19_teil2_radiohaus_q2",
               "type": "multiple_choice",
-              "question": "Was blieb bei der Renovierung weitgehend unverändert?",
+              "question": "Wann wird eine Meldung nicht automatisch gesendet?",
               "options": [
-                "Die Fassade.",
-                "Alle Innenräume.",
-                "Das Café."
+                "Wenn sie von der Polizei kommt.",
+                "Wenn sie oft in sozialen Medien geteilt wird.",
+                "Wenn zwei Quellen sie bestätigen."
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Die Fassade."
+              "answer": 1,
+              "explanation": "Richtige Antwort: Wenn sie oft in sozialen Medien geteilt wird."
             },
             {
               "id": "19_teil2_radiohaus_q3",
               "type": "multiple_choice",
-              "question": "Was braucht man für ein Schließfach?",
+              "question": "Was bedeutet der rote Hinweis am Studio?",
               "options": [
-                "Eine Ein-Euro-Münze.",
-                "Eine Zwei-Euro-Münze.",
-                "Eine Eintrittskarte als Pfand."
+                "Die Tür darf nicht geöffnet werden.",
+                "Besucher müssen das Gebäude verlassen.",
+                "Die Sendung ist bereits beendet."
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Eine Zwei-Euro-Münze."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Die Tür darf nicht geöffnet werden."
             },
             {
               "id": "19_teil2_radiohaus_q4",
               "type": "multiple_choice",
-              "question": "Wo trifft sich die Gruppe nach der Pause?",
+              "question": "Warum werden alte Bänder digitalisiert?",
               "options": [
-                "An der großen Treppe.",
-                "Vor dem Haupteingang.",
-                "Im Café."
+                "Weil das Archiv umzieht.",
+                "Weil alte Abspielgeräte schwer zu reparieren sind.",
+                "Weil die Aufnahmen verkauft werden."
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: An der großen Treppe."
+              "answer": 1,
+              "explanation": "Richtige Antwort: Weil alte Abspielgeräte schwer zu reparieren sind."
             },
             {
               "id": "19_teil2_radiohaus_q5",
               "type": "multiple_choice",
-              "question": "Was gilt für die Sonderausstellung?",
+              "question": "Was passiert mit der Wettermeldung der Besucher?",
               "options": [
-                "Sie kostet extra.",
-                "Sie ist nur für Schulklassen.",
-                "Sie ist mit der heutigen Eintrittskarte kostenlos."
+                "Sie wird am Nachmittag gesendet.",
+                "Sie bleibt dauerhaft im Archiv.",
+                "Sie wird nach dem Abspielen gelöscht."
               ],
               "answer": 2,
-              "explanation": "Richtige Antwort: Sie ist mit der heutigen Eintrittskarte kostenlos."
+              "explanation": "Richtige Antwort: Sie wird nach dem Abspielen gelöscht."
             }
           ]
         },
@@ -1005,62 +1005,62 @@
             {
               "id": "20_teil2_umweltzentrum_q1",
               "type": "multiple_choice",
-              "question": "Wie lange dauert der gemeinsame Teil?",
+              "question": "Wo müssen alte Batterien abgegeben werden?",
               "options": [
-                "Etwa eine Stunde.",
-                "Etwa zwei Stunden.",
-                "Etwa drei Stunden."
+                "Im Restmüll.",
+                "Im Handel oder an Sammelstellen.",
+                "Im Glascontainer."
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Etwa zwei Stunden."
+              "explanation": "Richtige Antwort: Im Handel oder an Sammelstellen."
             },
             {
               "id": "20_teil2_umweltzentrum_q2",
               "type": "multiple_choice",
-              "question": "Was blieb bei der Renovierung weitgehend unverändert?",
+              "question": "Wovon hängt die Umweltwirkung einer Mehrwegverpackung auch ab?",
               "options": [
-                "Die Fassade.",
-                "Alle Innenräume.",
-                "Das Café."
+                "Von Transportweg und Wiederverwendung.",
+                "Nur von ihrer Farbe.",
+                "Vom Mindesthaltbarkeitsdatum."
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Die Fassade."
+              "explanation": "Richtige Antwort: Von Transportweg und Wiederverwendung."
             },
             {
               "id": "20_teil2_umweltzentrum_q3",
               "type": "multiple_choice",
-              "question": "Was braucht man für ein Schließfach?",
+              "question": "Was sagt der Vortrag über Tomaten?",
               "options": [
-                "Eine Ein-Euro-Münze.",
-                "Eine Zwei-Euro-Münze.",
-                "Eine Eintrittskarte als Pfand."
+                "Sie müssen immer eingefroren werden.",
+                "Sie bleiben nur in Dosen frisch.",
+                "Sie verlieren im Kühlschrank Geschmack."
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Eine Zwei-Euro-Münze."
+              "answer": 2,
+              "explanation": "Richtige Antwort: Sie verlieren im Kühlschrank Geschmack."
             },
             {
               "id": "20_teil2_umweltzentrum_q4",
               "type": "multiple_choice",
-              "question": "Wo trifft sich die Gruppe nach der Pause?",
+              "question": "Was brauchen Workshop-Teilnehmende für den Abendvortrag?",
               "options": [
-                "An der großen Treppe.",
-                "Vor dem Haupteingang.",
-                "Im Café."
+                "Eine bezahlte Eintrittskarte.",
+                "Eine Platzkarte vom Empfang.",
+                "Eigene Nähkenntnisse."
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: An der großen Treppe."
+              "answer": 1,
+              "explanation": "Richtige Antwort: Eine Platzkarte vom Empfang."
             },
             {
               "id": "20_teil2_umweltzentrum_q5",
               "type": "multiple_choice",
-              "question": "Was gilt für die Sonderausstellung?",
+              "question": "Was wird an der Tauschstation nicht angenommen?",
               "options": [
-                "Sie kostet extra.",
-                "Sie ist nur für Schulklassen.",
-                "Sie ist mit der heutigen Eintrittskarte kostenlos."
+                "Bücher.",
+                "Kleine Haushaltsgegenstände.",
+                "Kleidung."
               ],
               "answer": 2,
-              "explanation": "Richtige Antwort: Sie ist mit der heutigen Eintrittskarte kostenlos."
+              "explanation": "Richtige Antwort: Kleidung."
             }
           ]
         },
