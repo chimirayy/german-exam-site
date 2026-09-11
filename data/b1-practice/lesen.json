@@ -1,1970 +1,1367 @@
 {
-  "levelName": "Deutsch B1 Intensivtraining",
+  "levelName": "Goethe-Zertifikat B1 · Lesetraining",
+  "format": "Goethe-style B1 (original practice material; not an official Goethe-Institut exam)",
+  "language": "de",
+  "recommendedTimeMinutes": 65,
   "sections": [
     {
       "title": "Lesen",
       "parts": [
         {
-          "id": "tf-neu-1",
-          "title": "Aufgabensatz 1 · Mobiles Bürgerbüro im Schwarzwald",
+          "id": "modell-1-teil-1",
+          "title": "Modellsatz 1 · Teil 1 · Alltag und Nachbarschaft",
           "type": "true_false",
-          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
-          "text": "In mehreren kleinen Gemeinden im Schwarzwald fährt seit April ein mobiles Bürgerbüro von Ort zu Ort. Der umgebaute Kleinbus hält dienstags und donnerstags vor Rathäusern, Supermärkten und Gemeindezentren. Dort können Einwohnerinnen und Einwohner Ausweise beantragen, Formulare abgeben und sich zu sozialen Leistungen beraten lassen. Bezahlt wird nur mit Karte; Bargeld nimmt das Team aus Sicherheitsgründen nicht an. Für einfache Auskünfte ist kein Termin nötig. Wer einen neuen Reisepass beantragen möchte, muss jedoch vorher online oder telefonisch einen Termin reservieren. Der Bus ist barrierefrei und besitzt einen kleinen Wartebereich. Während der Schulferien gilt ein verkürzter Fahrplan, der in den Gemeindeblättern veröffentlicht wird.",
+          "goethePart": 1,
+          "instructions": "Lesen Sie den persönlichen Text. Sind die Aussagen richtig oder falsch?",
+          "text": "Hallo zusammen, ich bin Nora und wohne seit einem Jahr in Leipzig. Vor zwei Monaten habe ich mich für den Nachbarschaftsgarten angemeldet. Wir treffen uns jeden Samstag um 10 Uhr. Mir gefällt besonders, dass ich dort Gemüse ernten und neue Leute kennenlernen kann. Beim ersten Termin gab es allerdings ein Problem: Werkzeuge fehlten. Zum Glück fand die Gruppe schnell eine Lösung: die Stadt lieh Geräte aus. Neue Teilnehmerinnen und Teilnehmer können zweimal kostenlos mitmachen. Danach kostet das Angebot 18 Euro pro Monat. Im August macht die Gruppe drei Wochen Pause. Ich bleibe dabei, denn inzwischen gehört der Termin fest zu meiner Woche.",
           "questions": [
             {
               "id": "1",
-              "statement": "Der Bus besucht mehrere kleinere Orte.",
+              "statement": "Nora lebt seit einem Jahr in Leipzig.",
               "answer": true
             },
             {
               "id": "2",
-              "statement": "Das Angebot gibt es erst seit April.",
+              "statement": "Die Gruppe trifft sich jeden Samstag.",
               "answer": true
             },
             {
               "id": "3",
-              "statement": "Im Bus kann man bar bezahlen.",
-              "answer": false
+              "statement": "Das Treffen beginnt um 10 Uhr.",
+              "answer": true
             },
             {
               "id": "4",
-              "statement": "Für jede Auskunft braucht man einen Termin.",
+              "statement": "Beim ersten Termin gab es überhaupt keine Schwierigkeiten.",
               "answer": false
             },
             {
               "id": "5",
-              "statement": "Der Bus ist auch für Menschen mit Rollstuhl zugänglich.",
+              "statement": "Man kann das Angebot zweimal gratis ausprobieren.",
               "answer": true
             },
             {
               "id": "6",
-              "statement": "In den Schulferien fährt der Bus nach dem normalen Plan.",
+              "statement": "Im August findet das Angebot ohne Pause statt.",
               "answer": false
             }
           ],
-          "categoryLabel": "Lesen · Richtig/Falsch"
+          "categoryLabel": "Goethe B1 · Lesen · Teil 1"
         },
         {
-          "id": "tf-neu-2",
-          "title": "Aufgabensatz 2 · Mehrwegbecher in Graz",
-          "type": "true_false",
-          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
-          "text": "Seit dem Sommer testen zwanzig Cafés in Graz ein gemeinsames Mehrwegsystem. Gäste zahlen beim ersten Getränk zwei Euro Pfand und können den Becher später in jedem teilnehmenden Betrieb zurückgeben. Eine App ist dafür nicht notwendig; auf Wunsch zeigt eine Internetseite die nächste Rückgabestelle. Die Becher werden zentral gesammelt, professionell gereinigt und anschließend neu verteilt. Nach Angaben der Stadt wurden in den ersten drei Monaten rund 18.000 Einwegbecher vermieden. Einige Kundinnen und Kunden kritisieren allerdings, dass noch nicht alle Stadtteile Rückgabestellen haben. Deshalb sollen im kommenden Jahr auch Bäckereien und Kantinen mitmachen. Das Projekt wird zunächst bis Ende nächsten Jahres finanziell unterstützt.",
+          "id": "modell-1-teil-2",
+          "title": "Modellsatz 1 · Teil 2 · Pressetext",
+          "type": "multiple_choice",
+          "goethePart": 2,
+          "instructions": "Lesen Sie den Text und wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+          "text": "Eine Leipziger Wohnungsgenossenschaft testet seit März einen gemeinsamen Werkzeugraum. Bewohner können Bohrmaschinen, Leitern und Gartengeräte kostenlos ausleihen. Reserviert wird online oder am Hausmeisterbüro. Nach drei Monaten waren besonders die Akkuschrauber gefragt. Wegen häufiger verspäteter Rückgaben gilt nun eine Leihfrist von drei Tagen.",
           "questions": [
             {
               "id": "7",
-              "statement": "An dem Test nehmen zwanzig Cafés teil.",
-              "answer": true
+              "prompt": "Was ist laut Text richtig?",
+              "options": [
+                "Die Ausleihe kostet für Bewohner nichts.",
+                "Das Angebot ist nur für Touristen bestimmt.",
+                "Das Projekt wurde bereits beendet."
+              ],
+              "answer": 0
             },
             {
               "id": "8",
-              "statement": "Für die Rückgabe braucht man zwingend eine App.",
-              "answer": false
+              "prompt": "Welche Angabe nennt der Text?",
+              "options": [
+                "Eine Teilnahme ist immer ohne Anmeldung möglich.",
+                "Die wichtige Angabe lautet: drei Tage.",
+                "Alle Angebote finden ausschließlich sonntags statt."
+              ],
+              "answer": 1
             },
             {
               "id": "9",
-              "statement": "Die Becher werden in jedem Café einzeln gereinigt.",
-              "answer": false
-            },
+              "prompt": "Was ist der Hauptzweck des Textes?",
+              "options": [
+                "Über ein lokales Angebot informieren.",
+                "Eine private Reise beschreiben.",
+                "Ein Produkt international verkaufen."
+              ],
+              "answer": 0
+            }
+          ],
+          "categoryLabel": "Goethe B1 · Lesen · Teil 2"
+        },
+        {
+          "id": "modell-1-teil-3",
+          "title": "Modellsatz 1 · Teil 3 · Situationen und Anzeigen",
+          "type": "matching_ads",
+          "goethePart": 3,
+          "instructions": "Lesen Sie die Situationen und die Anzeigen. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
             {
               "id": "10",
-              "statement": "Die Stadt nennt eine Einsparung von etwa 18.000 Einwegbechern.",
-              "answer": true
+              "text": "Sie möchten am Wochenende etwas unternehmen, ohne viel Geld auszugeben."
             },
             {
               "id": "11",
-              "statement": "In allen Stadtteilen gibt es bereits genügend Rückgabestellen.",
-              "answer": false
+              "text": "Sie brauchen ein Angebot, das auch für Anfänger geeignet ist."
             },
             {
               "id": "12",
-              "statement": "Künftig könnten auch Kantinen teilnehmen.",
-              "answer": true
-            }
-          ],
-          "categoryLabel": "Lesen · Richtig/Falsch"
-        },
-        {
-          "id": "tf-neu-3",
-          "title": "Aufgabensatz 3 · Betriebliche Ausbildung in Bremen",
-          "type": "true_false",
-          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
-          "text": "Ein Bremer Logistikunternehmen bietet ab August erstmals eine Teilzeitausbildung an. Das Modell richtet sich besonders an Eltern, pflegende Angehörige und Menschen, die nebenbei einen Sprachkurs besuchen. Die tägliche Arbeitszeit beträgt sechs statt acht Stunden; dadurch dauert die Ausbildung ein halbes Jahr länger als üblich. Der Unterricht in der Berufsschule findet weiterhin an zwei vollen Tagen pro Woche statt. Bewerberinnen und Bewerber müssen mindestens Deutschkenntnisse auf Niveau B1 nachweisen. Berufserfahrung wird begrüßt, ist aber keine Voraussetzung. Zusätzlich stellt die Firma allen Auszubildenden ein kostenloses Monatsticket zur Verfügung. Bewerbungen sind ausschließlich über das Onlineportal möglich und müssen bis zum 15. Mai eingehen.",
-          "questions": [
-            {
-              "id": "13",
-              "statement": "Die Teilzeitausbildung beginnt im August.",
-              "answer": true
+              "text": "Sie können nur am Abend teilnehmen."
             },
             {
+              "id": "13",
+              "text": "Sie möchten gemeinsam mit anderen praktisch arbeiten."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Leipzig aktiv: kostenloser Schnuppertag am Samstag, 11–16 Uhr. Material inklusive."
+            },
+            {
+              "key": "B",
+              "text": "Start leicht gemacht: Einführungskurs ohne Vorkenntnisse, kleine Gruppen."
+            },
+            {
+              "key": "C",
+              "text": "Feierabend-Treff: dienstags und donnerstags ab 19.30 Uhr."
+            },
+            {
+              "key": "D",
+              "text": "Offene Werkstatt: gemeinsam bauen, reparieren und Erfahrungen austauschen."
+            },
+            {
+              "key": "E",
+              "text": "Intensivwoche für Profis, Montag bis Freitag vormittags."
+            },
+            {
+              "key": "F",
+              "text": "Einzelunterricht zu Hause, keine Gruppentermine."
+            }
+          ],
+          "answer": {
+            "10": "A",
+            "11": "B",
+            "12": "C",
+            "13": "D"
+          },
+          "categoryLabel": "Goethe B1 · Lesen · Teil 3"
+        },
+        {
+          "id": "modell-1-teil-4",
+          "title": "Modellsatz 1 · Teil 4 · Meinungen",
+          "type": "opinion_yes_no",
+          "goethePart": 4,
+          "instructions": "Lesen Sie die Meinungen. Ist die Person für das Projekt? Wählen Sie Ja oder Nein.",
+          "topic": "Soll Leipzig mehr gemeinschaftliche Angebote zu „Alltag und Nachbarschaft“ fördern?",
+          "opinions": [
+            {
               "id": "14",
-              "statement": "Sie ist nur für Eltern gedacht.",
-              "answer": false
+              "name": "Anna",
+              "text": "Ich finde das Projekt sinnvoll. Man lernt Menschen aus der Umgebung kennen und teilt Dinge, die sonst selten benutzt werden.",
+              "stance": true
             },
             {
               "id": "15",
-              "statement": "Die Ausbildung dauert länger als das normale Modell.",
-              "answer": true
+              "name": "Boris",
+              "text": "Für mich ist das keine gute Idee. Die Organisation kostet Zeit, und ich möchte lieber unabhängig bleiben.",
+              "stance": false
             },
             {
               "id": "16",
-              "statement": "Die Berufsschule findet nur halbtags statt.",
-              "answer": false
+              "name": "Carla",
+              "text": "Ich unterstütze den Plan. Besonders Familien mit wenig Geld können davon profitieren.",
+              "stance": true
             },
             {
               "id": "17",
-              "statement": "Berufserfahrung ist unbedingt erforderlich.",
-              "answer": false
-            },
-            {
-              "id": "18",
-              "statement": "Die Firma bezahlt ein Monatsticket.",
-              "answer": true
+              "name": "Deniz",
+              "text": "Ich bin dagegen. Es fehlen klare Regeln, und bei Problemen weiß später niemand, wer verantwortlich ist.",
+              "stance": false
             }
           ],
-          "categoryLabel": "Lesen · Richtig/Falsch"
+          "categoryLabel": "Goethe B1 · Lesen · Teil 4"
         },
         {
-          "id": "tf-neu-4",
-          "title": "Aufgabensatz 4 · Neue Regeln am Zürichsee",
-          "type": "true_false",
-          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
-          "text": "An mehreren Badestellen am Zürichsee gelten ab diesem Jahr neue Regeln. Hunde dürfen zwischen Mai und September nur an speziell markierte Uferbereiche mitgenommen werden. Grillen ist weiterhin erlaubt, allerdings ausschließlich an den festen Feuerstellen. Wer Musik hören möchte, soll Kopfhörer benutzen, damit andere Gäste nicht gestört werden. Die Gemeinden haben außerdem zusätzliche Trinkwasserbrunnen und Sammelstellen für Abfall eingerichtet. Eine Eintrittsgebühr gibt es an den öffentlichen Badestellen nicht. Bei sehr hohem Besucheraufkommen können einzelne Parkplätze kurzfristig geschlossen werden. Die Behörden empfehlen deshalb die Anreise mit Bahn, Bus oder Fahrrad. Verstöße gegen die Regeln werden zunächst mit einem Hinweis, bei Wiederholung aber mit einer Geldstrafe geahndet.",
+          "id": "modell-1-teil-5",
+          "title": "Modellsatz 1 · Teil 5 · Regeln",
+          "type": "multiple_choice",
+          "goethePart": 5,
+          "instructions": "Lesen Sie die Regeln und wählen Sie die richtige Lösung a, b oder c.",
+          "text": "Hausordnung Gemeinschaftsraum\n1. Öffnungszeiten: Montag bis Freitag 8–20 Uhr, Samstag 9–16 Uhr. Sonntags bleibt die Einrichtung geschlossen.\n2. Taschen müssen in den Schließfächern am Eingang bleiben. Für die Fächer wird eine Zwei-Euro-Münze als Pfand benötigt.\n3. Essen ist nur im Pausenbereich erlaubt. Wasser darf in verschließbaren Flaschen mitgebracht werden.\n4. Reservierte Plätze werden nach 15 Minuten wieder freigegeben. Schäden sind sofort beim Personal zu melden.",
           "questions": [
             {
+              "id": "18",
+              "prompt": "Wann ist die Einrichtung geschlossen?",
+              "options": [
+                "Am Samstag",
+                "Am Sonntag",
+                "Am Freitag"
+              ],
+              "answer": 1
+            },
+            {
               "id": "19",
-              "statement": "Hunde sind im Sommer überall am Ufer erlaubt.",
-              "answer": false
+              "prompt": "Was braucht man für ein Schließfach?",
+              "options": [
+                "Eine Zwei-Euro-Münze",
+                "Einen Personalausweis",
+                "Eine Monatskarte"
+              ],
+              "answer": 0
             },
             {
               "id": "20",
-              "statement": "Gegrillt werden darf nur an bestimmten Stellen.",
-              "answer": true
+              "prompt": "Was darf man mit hineinnehmen?",
+              "options": [
+                "Ein warmes Mittagessen",
+                "Eine offene Tasse Kaffee",
+                "Wasser in einer verschlossenen Flasche"
+              ],
+              "answer": 2
             },
             {
               "id": "21",
-              "statement": "Lautsprecher sollen möglichst benutzt werden.",
-              "answer": false
-            },
+              "prompt": "Was passiert mit einem reservierten Platz nach 15 Minuten?",
+              "options": [
+                "Er wird wieder freigegeben.",
+                "Er kostet zusätzlich Geld.",
+                "Er bleibt den ganzen Tag frei."
+              ],
+              "answer": 0
+            }
+          ],
+          "categoryLabel": "Goethe B1 · Lesen · Teil 5"
+        },
+        {
+          "id": "modell-2-teil-1",
+          "title": "Modellsatz 2 · Teil 1 · Mobilität",
+          "type": "true_false",
+          "goethePart": 1,
+          "instructions": "Lesen Sie den persönlichen Text. Sind die Aussagen richtig oder falsch?",
+          "text": "Hallo zusammen, ich bin Emir und wohne seit einem Jahr in Bremen. Vor zwei Monaten habe ich mich für den Fahrradkurs angemeldet. Wir treffen uns jeden Mittwoch um 18 Uhr. Mir gefällt besonders, dass ich dort sicher durch den Stadtverkehr fahren kann. Beim ersten Termin gab es allerdings ein Problem: es regnete stark. Zum Glück fand die Gruppe schnell eine Lösung: der Unterricht fand in einer Halle statt. Neue Teilnehmerinnen und Teilnehmer können zweimal kostenlos mitmachen. Danach kostet das Angebot 18 Euro pro Monat. Im August macht die Gruppe drei Wochen Pause. Ich bleibe dabei, denn inzwischen gehört der Termin fest zu meiner Woche.",
+          "questions": [
             {
               "id": "22",
-              "statement": "Die öffentlichen Badestellen kosten keinen Eintritt.",
+              "statement": "Emir lebt seit einem Jahr in Bremen.",
               "answer": true
             },
             {
               "id": "23",
-              "statement": "Parkplätze können zeitweise geschlossen werden.",
+              "statement": "Die Gruppe trifft sich jeden Mittwoch.",
               "answer": true
             },
             {
               "id": "24",
-              "statement": "Jeder erste Verstoß führt sofort zu einer Geldstrafe.",
-              "answer": false
-            }
-          ],
-          "categoryLabel": "Lesen · Richtig/Falsch"
-        },
-        {
-          "id": "tf-neu-5",
-          "title": "Aufgabensatz 5 · Dorfladen in Brandenburg",
-          "type": "true_false",
-          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
-          "text": "Weil der letzte Supermarkt vor zwei Jahren geschlossen hat, betreiben Einwohner eines brandenburgischen Dorfes nun gemeinsam einen Laden. Rund 180 Personen haben Anteile an der Genossenschaft gekauft. Verkauft werden Lebensmittel, Haushaltswaren und Produkte von Höfen aus der Umgebung. Vormittags arbeitet eine fest angestellte Verkäuferin, nachmittags übernehmen Freiwillige jeweils zwei Stunden. Wer mithilft, erhält keinen Lohn, bekommt aber am Jahresende einen kleinen Einkaufsgutschein. Bestellungen können telefonisch aufgegeben und freitags zu älteren Menschen nach Hause gebracht werden. Der Laden macht bisher keinen großen Gewinn, deckt aber seine laufenden Kosten. Für den Winter ist ein kleines Café im Nebenraum geplant.",
-          "questions": [
+              "statement": "Das Treffen beginnt um 18 Uhr.",
+              "answer": true
+            },
             {
               "id": "25",
-              "statement": "Der frühere Supermarkt schloss vor zwei Jahren.",
-              "answer": true
+              "statement": "Beim ersten Termin gab es überhaupt keine Schwierigkeiten.",
+              "answer": false
             },
             {
               "id": "26",
-              "statement": "Der Dorfladen gehört nur einer Person.",
-              "answer": false
+              "statement": "Man kann das Angebot zweimal gratis ausprobieren.",
+              "answer": true
             },
             {
               "id": "27",
-              "statement": "Am Nachmittag helfen Freiwillige.",
-              "answer": true
-            },
+              "statement": "Im August findet das Angebot ohne Pause statt.",
+              "answer": false
+            }
+          ],
+          "categoryLabel": "Goethe B1 · Lesen · Teil 1"
+        },
+        {
+          "id": "modell-2-teil-2",
+          "title": "Modellsatz 2 · Teil 2 · Pressetext",
+          "type": "multiple_choice",
+          "goethePart": 2,
+          "instructions": "Lesen Sie den Text und wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+          "text": "Bremen erweitert sein Leihradsystem um 200 Fahrräder. Die neuen Stationen liegen vor allem an Bahnhöfen und Hochschulen. Eine halbe Stunde kostet einen Euro; Monatskunden erhalten täglich die ersten zwanzig Minuten kostenlos. Fahrräder dürfen an jeder offiziellen Station zurückgegeben werden. Für falsch abgestellte Räder wird eine Gebühr berechnet.",
+          "questions": [
             {
               "id": "28",
-              "statement": "Freiwillige bekommen einen normalen Stundenlohn.",
-              "answer": false
+              "prompt": "Was ist laut Text richtig?",
+              "options": [
+                "Die neuen Stationen stehen besonders an Bahnhöfen und Hochschulen.",
+                "Das Angebot ist nur für Touristen bestimmt.",
+                "Das Projekt wurde bereits beendet."
+              ],
+              "answer": 0
             },
             {
               "id": "29",
-              "statement": "Freitags gibt es einen Lieferdienst für ältere Menschen.",
-              "answer": true
+              "prompt": "Welche Angabe nennt der Text?",
+              "options": [
+                "Eine Teilnahme ist immer ohne Anmeldung möglich.",
+                "Die wichtige Angabe lautet: zwanzig Minuten.",
+                "Alle Angebote finden ausschließlich sonntags statt."
+              ],
+              "answer": 1
             },
             {
               "id": "30",
-              "statement": "Der Laden macht bereits einen hohen Gewinn.",
-              "answer": false
+              "prompt": "Was ist der Hauptzweck des Textes?",
+              "options": [
+                "Über ein lokales Angebot informieren.",
+                "Eine private Reise beschreiben.",
+                "Ein Produkt international verkaufen."
+              ],
+              "answer": 0
             }
           ],
-          "categoryLabel": "Lesen · Richtig/Falsch"
+          "categoryLabel": "Goethe B1 · Lesen · Teil 2"
         },
         {
-          "id": "tf-neu-6",
-          "title": "Aufgabensatz 6 · Kulturpass in Luxemburg",
-          "type": "true_false",
-          "instructions": "Lesen Sie den Text. Sind die sechs Aussagen richtig oder falsch?",
-          "text": "Die Stadt Luxemburg führt einen Kulturpass für neue Einwohnerinnen und Einwohner ein. Wer sich erstmals anmeldet, erhält ein Heft mit Gutscheinen für Museen, Theater und Stadtführungen. Vier Angebote sind kostenlos, weitere können zum halben Preis genutzt werden. Der Pass ist zwölf Monate gültig und nicht übertragbar. Er wird zusammen mit Informationsmaterial in Deutsch, Französisch, Englisch und Portugiesisch ausgegeben. Für Kinder gibt es eine eigene Version mit Workshops und Ferienangeboten. Die Stadt möchte damit nicht nur kulturelle Einrichtungen bekannter machen, sondern auch Begegnungen zwischen alten und neuen Bewohnern fördern. Nach einem Jahr wird ausgewertet, welche Angebote besonders häufig genutzt wurden.",
-          "questions": [
+          "id": "modell-2-teil-3",
+          "title": "Modellsatz 2 · Teil 3 · Situationen und Anzeigen",
+          "type": "matching_ads",
+          "goethePart": 3,
+          "instructions": "Lesen Sie die Situationen und die Anzeigen. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
             {
               "id": "31",
-              "statement": "Den Kulturpass bekommen Menschen bei ihrer ersten Anmeldung.",
-              "answer": true
+              "text": "Sie möchten am Wochenende etwas unternehmen, ohne viel Geld auszugeben."
             },
             {
               "id": "32",
-              "statement": "Alle Angebote sind kostenlos.",
-              "answer": false
+              "text": "Sie brauchen ein Angebot, das auch für Anfänger geeignet ist."
             },
             {
               "id": "33",
-              "statement": "Der Pass kann an Freunde weitergegeben werden.",
-              "answer": false
+              "text": "Sie können nur am Abend teilnehmen."
             },
             {
               "id": "34",
-              "statement": "Die Informationen erscheinen in vier Sprachen.",
-              "answer": true
+              "text": "Sie möchten gemeinsam mit anderen praktisch arbeiten."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Bremen aktiv: kostenloser Schnuppertag am Samstag, 11–16 Uhr. Material inklusive."
             },
             {
+              "key": "B",
+              "text": "Start leicht gemacht: Einführungskurs ohne Vorkenntnisse, kleine Gruppen."
+            },
+            {
+              "key": "C",
+              "text": "Feierabend-Treff: dienstags und donnerstags ab 19.30 Uhr."
+            },
+            {
+              "key": "D",
+              "text": "Offene Werkstatt: gemeinsam bauen, reparieren und Erfahrungen austauschen."
+            },
+            {
+              "key": "E",
+              "text": "Intensivwoche für Profis, Montag bis Freitag vormittags."
+            },
+            {
+              "key": "F",
+              "text": "Einzelunterricht zu Hause, keine Gruppentermine."
+            }
+          ],
+          "answer": {
+            "31": "A",
+            "32": "B",
+            "33": "C",
+            "34": "D"
+          },
+          "categoryLabel": "Goethe B1 · Lesen · Teil 3"
+        },
+        {
+          "id": "modell-2-teil-4",
+          "title": "Modellsatz 2 · Teil 4 · Meinungen",
+          "type": "opinion_yes_no",
+          "goethePart": 4,
+          "instructions": "Lesen Sie die Meinungen. Ist die Person für das Projekt? Wählen Sie Ja oder Nein.",
+          "topic": "Soll Bremen mehr gemeinschaftliche Angebote zu „Mobilität“ fördern?",
+          "opinions": [
+            {
               "id": "35",
-              "statement": "Für Kinder ist nichts Besonderes vorgesehen.",
-              "answer": false
+              "name": "Anna",
+              "text": "Ich finde das Projekt sinnvoll. Man lernt Menschen aus der Umgebung kennen und teilt Dinge, die sonst selten benutzt werden.",
+              "stance": true
             },
             {
               "id": "36",
-              "statement": "Die Stadt will nach einem Jahr Ergebnisse prüfen.",
-              "answer": true
-            }
-          ],
-          "categoryLabel": "Lesen · Richtig/Falsch"
-        },
-        {
-          "id": "clozemc-neu-1",
-          "title": "Aufgabensatz 1 · E-Mail an die Hausverwaltung",
-          "type": "cloze_mc",
-          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
-          "textBefore": "Sehr geehrte Damen und Herren, seit Montag funktioniert die Heizung in unserer Wohnung nicht mehr. Zunächst dachte ich,",
-          "blanks": [
+              "name": "Boris",
+              "text": "Für mich ist das keine gute Idee. Die Organisation kostet Zeit, und ich möchte lieber unabhängig bleiben.",
+              "stance": false
+            },
             {
               "id": "37",
-              "before": "",
-              "options": [
-                "dass",
-                "denn",
-                "ob"
-              ],
-              "answer": 0,
-              "after": " nur ein Heizkörper betroffen ist."
+              "name": "Carla",
+              "text": "Ich unterstütze den Plan. Besonders Familien mit wenig Geld können davon profitieren.",
+              "stance": true
             },
             {
               "id": "38",
-              "before": "",
-              "options": [
-                "Leider",
-                "Trotzdem",
-                "Sonst"
-              ],
-              "answer": 0,
-              "after": " bleiben inzwischen alle Zimmer kalt."
-            },
+              "name": "Deniz",
+              "text": "Ich bin dagegen. Es fehlen klare Regeln, und bei Problemen weiß später niemand, wer verantwortlich ist.",
+              "stance": false
+            }
+          ],
+          "categoryLabel": "Goethe B1 · Lesen · Teil 4"
+        },
+        {
+          "id": "modell-2-teil-5",
+          "title": "Modellsatz 2 · Teil 5 · Regeln",
+          "type": "multiple_choice",
+          "goethePart": 5,
+          "instructions": "Lesen Sie die Regeln und wählen Sie die richtige Lösung a, b oder c.",
+          "text": "Regeln im Fahrradparkhaus\n1. Öffnungszeiten: Montag bis Freitag 8–20 Uhr, Samstag 9–16 Uhr. Sonntags bleibt die Einrichtung geschlossen.\n2. Taschen müssen in den Schließfächern am Eingang bleiben. Für die Fächer wird eine Zwei-Euro-Münze als Pfand benötigt.\n3. Essen ist nur im Pausenbereich erlaubt. Wasser darf in verschließbaren Flaschen mitgebracht werden.\n4. Reservierte Plätze werden nach 15 Minuten wieder freigegeben. Schäden sind sofort beim Personal zu melden.",
+          "questions": [
             {
               "id": "39",
-              "before": "",
+              "prompt": "Wann ist die Einrichtung geschlossen?",
               "options": [
-                "Obwohl",
-                "Damit",
-                "Wegen"
+                "Am Samstag",
+                "Am Sonntag",
+                "Am Freitag"
               ],
-              "answer": 0,
-              "after": " ich gestern zweimal angerufen habe, konnte ich niemanden erreichen."
+              "answer": 1
             },
             {
               "id": "40",
-              "before": "",
+              "prompt": "Was braucht man für ein Schließfach?",
               "options": [
-                "Deshalb",
-                "Während",
-                "Seit"
+                "Eine Zwei-Euro-Münze",
+                "Einen Personalausweis",
+                "Eine Monatskarte"
               ],
-              "answer": 0,
-              "after": " bitte ich Sie schriftlich um einen Reparaturtermin."
+              "answer": 0
             },
             {
               "id": "41",
-              "before": "",
+              "prompt": "Was darf man mit hineinnehmen?",
               "options": [
-                "am",
-                "im",
-                "zum"
+                "Ein warmes Mittagessen",
+                "Eine offene Tasse Kaffee",
+                "Wasser in einer verschlossenen Flasche"
               ],
-              "answer": 0,
-              "after": " besten wäre Freitagvormittag."
+              "answer": 2
             },
             {
               "id": "42",
-              "before": "",
+              "prompt": "Was passiert mit einem reservierten Platz nach 15 Minuten?",
               "options": [
-                "Falls",
-                "Als",
-                "Bis"
+                "Er wird wieder freigegeben.",
+                "Er kostet zusätzlich Geld.",
+                "Er bleibt den ganzen Tag frei."
               ],
-              "answer": 0,
-              "after": " der Techniker früher kommen kann, informieren Sie mich bitte."
-            },
+              "answer": 0
+            }
+          ],
+          "categoryLabel": "Goethe B1 · Lesen · Teil 5"
+        },
+        {
+          "id": "modell-3-teil-1",
+          "title": "Modellsatz 3 · Teil 1 · Lernen und Beruf",
+          "type": "true_false",
+          "goethePart": 1,
+          "instructions": "Lesen Sie den persönlichen Text. Sind die Aussagen richtig oder falsch?",
+          "text": "Hallo zusammen, ich bin Sofia und wohne seit einem Jahr in Köln. Vor zwei Monaten habe ich mich für den Abendkurs Programmieren angemeldet. Wir treffen uns jeden Dienstag um 19 Uhr. Mir gefällt besonders, dass ich dort eine einfache Webseite erstellen kann. Beim ersten Termin gab es allerdings ein Problem: ihr Laptop war zu alt. Zum Glück fand die Gruppe schnell eine Lösung: die Schule stellte ein Gerät bereit. Neue Teilnehmerinnen und Teilnehmer können zweimal kostenlos mitmachen. Danach kostet das Angebot 18 Euro pro Monat. Im August macht die Gruppe drei Wochen Pause. Ich bleibe dabei, denn inzwischen gehört der Termin fest zu meiner Woche.",
+          "questions": [
             {
               "id": "43",
-              "before": "",
-              "options": [
-                "unter",
-                "gegen",
-                "durch"
-              ],
-              "answer": 0,
-              "after": " der unten genannten Nummer erreichen Sie mich jederzeit."
+              "statement": "Sofia lebt seit einem Jahr in Köln.",
+              "answer": true
             },
             {
               "id": "44",
-              "before": "",
-              "options": [
-                "für",
-                "über",
-                "an"
-              ],
-              "answer": 0,
-              "after": " Ihre schnelle Rückmeldung danke ich Ihnen im Voraus."
-            }
-          ],
-          "textAfter": "Mit freundlichen Grüßen\nMina Hadžić",
-          "categoryLabel": "Sprachbausteine · Multiple Choice"
-        },
-        {
-          "id": "clozemc-neu-2",
-          "title": "Aufgabensatz 2 · Nachricht aus der Berufsschule",
-          "type": "cloze_mc",
-          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
-          "textBefore": "Liebe Klasse, in der kommenden Woche besuchen wir das Technikmuseum. Wir treffen uns",
-          "blanks": [
+              "statement": "Die Gruppe trifft sich jeden Dienstag.",
+              "answer": true
+            },
             {
               "id": "45",
-              "before": "",
-              "options": [
-                "nicht",
-                "kein",
-                "nie"
-              ],
-              "answer": 0,
-              "after": " wie gewohnt im Unterrichtsraum,"
+              "statement": "Das Treffen beginnt um 19 Uhr.",
+              "answer": true
             },
             {
               "id": "46",
-              "before": "",
-              "options": [
-                "sondern",
-                "oder",
-                "denn"
-              ],
-              "answer": 0,
-              "after": " direkt am Haupteingang des Museums."
+              "statement": "Beim ersten Termin gab es überhaupt keine Schwierigkeiten.",
+              "answer": false
             },
             {
               "id": "47",
-              "before": "",
-              "options": [
-                "um",
-                "an",
-                "seit"
-              ],
-              "answer": 0,
-              "after": " 9.15 Uhr beginnt die Führung."
+              "statement": "Man kann das Angebot zweimal gratis ausprobieren.",
+              "answer": true
             },
             {
               "id": "48",
-              "before": "",
-              "options": [
-                "Wer",
-                "Wen",
-                "Wem"
-              ],
-              "answer": 0,
-              "after": " später kommt, muss selbst eine Eintrittskarte kaufen."
-            },
+              "statement": "Im August findet das Angebot ohne Pause statt.",
+              "answer": false
+            }
+          ],
+          "categoryLabel": "Goethe B1 · Lesen · Teil 1"
+        },
+        {
+          "id": "modell-3-teil-2",
+          "title": "Modellsatz 3 · Teil 2 · Pressetext",
+          "type": "multiple_choice",
+          "goethePart": 2,
+          "instructions": "Lesen Sie den Text und wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+          "text": "Eine Kölner Stadtbibliothek bietet kostenlose Bewerbungsberatung an. Jeden Donnerstag prüfen Fachleute Lebensläufe und üben Vorstellungsgespräche. Termine müssen spätestens zwei Tage vorher gebucht werden. Das Angebot richtet sich an Erwachsene aller Berufe; eine Bibliothekskarte ist nicht nötig. Unterlagen können digital oder auf Papier mitgebracht werden.",
+          "questions": [
             {
               "id": "49",
-              "before": "",
+              "prompt": "Was ist laut Text richtig?",
               "options": [
-                "Da",
-                "Trotz",
-                "Während"
+                "Für die Beratung braucht man keine Bibliothekskarte.",
+                "Das Angebot ist nur für Touristen bestimmt.",
+                "Das Projekt wurde bereits beendet."
               ],
-              "answer": 0,
-              "after": " wir auch draußen arbeiten, bringt bitte eine Jacke mit."
+              "answer": 0
             },
             {
               "id": "50",
-              "before": "",
+              "prompt": "Welche Angabe nennt der Text?",
               "options": [
-                "dürfen",
-                "müssen",
-                "sollen"
+                "Eine Teilnahme ist immer ohne Anmeldung möglich.",
+                "Die wichtige Angabe lautet: zwei Tage.",
+                "Alle Angebote finden ausschließlich sonntags statt."
               ],
-              "answer": 0,
-              "after": " wir im Museum fotografieren, aber ohne Blitz."
+              "answer": 1
             },
             {
               "id": "51",
-              "before": "",
+              "prompt": "Was ist der Hauptzweck des Textes?",
               "options": [
-                "nach",
-                "bei",
-                "von"
+                "Über ein lokales Angebot informieren.",
+                "Eine private Reise beschreiben.",
+                "Ein Produkt international verkaufen."
               ],
-              "answer": 0,
-              "after": " der Mittagspause bearbeiten wir Aufgaben in Gruppen."
-            },
-            {
-              "id": "52",
-              "before": "",
-              "options": [
-                "bis",
-                "gegen",
-                "aus"
-              ],
-              "answer": 0,
-              "after": " spätestens Freitag brauche ich eure Anmeldung."
+              "answer": 0
             }
           ],
-          "textAfter": "Viele Grüße\nFrau Keller",
-          "categoryLabel": "Sprachbausteine · Multiple Choice"
+          "categoryLabel": "Goethe B1 · Lesen · Teil 2"
         },
         {
-          "id": "clozemc-neu-3",
-          "title": "Aufgabensatz 3 · Reklamation beim Fahrradverleih",
-          "type": "cloze_mc",
-          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
-          "textBefore": "Guten Tag, am vergangenen Wochenende habe ich bei Ihnen ein E-Bike gemietet. Bei der Übergabe wurde mir erklärt,",
-          "blanks": [
+          "id": "modell-3-teil-3",
+          "title": "Modellsatz 3 · Teil 3 · Situationen und Anzeigen",
+          "type": "matching_ads",
+          "goethePart": 3,
+          "instructions": "Lesen Sie die Situationen und die Anzeigen. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
+            {
+              "id": "52",
+              "text": "Sie möchten am Wochenende etwas unternehmen, ohne viel Geld auszugeben."
+            },
             {
               "id": "53",
-              "before": "",
-              "options": [
-                "dass",
-                "ob",
-                "weil"
-              ],
-              "answer": 0,
-              "after": " der Akku vollständig geladen sei."
+              "text": "Sie brauchen ein Angebot, das auch für Anfänger geeignet ist."
             },
             {
               "id": "54",
-              "before": "",
-              "options": [
-                "Schon",
-                "Erst",
-                "Noch"
-              ],
-              "answer": 0,
-              "after": " nach zwölf Kilometern war er jedoch leer."
+              "text": "Sie können nur am Abend teilnehmen."
             },
             {
               "id": "55",
-              "before": "",
-              "options": [
-                "Außerdem",
-                "Dagegen",
-                "Dafür"
-              ],
-              "answer": 0,
-              "after": " funktionierte das Vorderlicht nicht zuverlässig."
+              "text": "Sie möchten gemeinsam mit anderen praktisch arbeiten."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Köln aktiv: kostenloser Schnuppertag am Samstag, 11–16 Uhr. Material inklusive."
             },
             {
+              "key": "B",
+              "text": "Start leicht gemacht: Einführungskurs ohne Vorkenntnisse, kleine Gruppen."
+            },
+            {
+              "key": "C",
+              "text": "Feierabend-Treff: dienstags und donnerstags ab 19.30 Uhr."
+            },
+            {
+              "key": "D",
+              "text": "Offene Werkstatt: gemeinsam bauen, reparieren und Erfahrungen austauschen."
+            },
+            {
+              "key": "E",
+              "text": "Intensivwoche für Profis, Montag bis Freitag vormittags."
+            },
+            {
+              "key": "F",
+              "text": "Einzelunterricht zu Hause, keine Gruppentermine."
+            }
+          ],
+          "answer": {
+            "52": "A",
+            "53": "B",
+            "54": "C",
+            "55": "D"
+          },
+          "categoryLabel": "Goethe B1 · Lesen · Teil 3"
+        },
+        {
+          "id": "modell-3-teil-4",
+          "title": "Modellsatz 3 · Teil 4 · Meinungen",
+          "type": "opinion_yes_no",
+          "goethePart": 4,
+          "instructions": "Lesen Sie die Meinungen. Ist die Person für das Projekt? Wählen Sie Ja oder Nein.",
+          "topic": "Soll Köln mehr gemeinschaftliche Angebote zu „Lernen und Beruf“ fördern?",
+          "opinions": [
+            {
               "id": "56",
-              "before": "",
-              "options": [
-                "Da",
-                "Trotzdem",
-                "Ob"
-              ],
-              "answer": 0,
-              "after": " es bereits dunkel wurde, musste ich die Tour abbrechen."
+              "name": "Anna",
+              "text": "Ich finde das Projekt sinnvoll. Man lernt Menschen aus der Umgebung kennen und teilt Dinge, die sonst selten benutzt werden.",
+              "stance": true
             },
             {
               "id": "57",
-              "before": "",
-              "options": [
-                "für",
-                "gegen",
-                "über"
-              ],
-              "answer": 0,
-              "after": " die Rückfahrt mit dem Taxi habe ich 36 Euro bezahlt."
+              "name": "Boris",
+              "text": "Für mich ist das keine gute Idee. Die Organisation kostet Zeit, und ich möchte lieber unabhängig bleiben.",
+              "stance": false
             },
             {
               "id": "58",
-              "before": "",
-              "options": [
-                "Bitte",
-                "Gern",
-                "Kaum"
-              ],
-              "answer": 0,
-              "after": " erstatten Sie mir diese zusätzlichen Kosten."
+              "name": "Carla",
+              "text": "Ich unterstütze den Plan. Besonders Familien mit wenig Geld können davon profitieren.",
+              "stance": true
             },
             {
               "id": "59",
-              "before": "",
-              "options": [
-                "Sollten",
-                "Würden",
-                "Hätten"
-              ],
-              "answer": 0,
-              "after": " Sie noch Fragen haben, sende ich Ihnen gern die Rechnung."
-            },
-            {
-              "id": "60",
-              "before": "",
-              "options": [
-                "innerhalb",
-                "zwischen",
-                "entlang"
-              ],
-              "answer": 0,
-              "after": " der nächsten sieben Tage erwarte ich Ihre Antwort."
+              "name": "Deniz",
+              "text": "Ich bin dagegen. Es fehlen klare Regeln, und bei Problemen weiß später niemand, wer verantwortlich ist.",
+              "stance": false
             }
           ],
-          "textAfter": "Freundliche Grüße\nJonas Richter",
-          "categoryLabel": "Sprachbausteine · Multiple Choice"
+          "categoryLabel": "Goethe B1 · Lesen · Teil 4"
         },
         {
-          "id": "clozemc-neu-4",
-          "title": "Aufgabensatz 4 · Einladung zum Nachbarschaftstreffen",
-          "type": "cloze_mc",
-          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
-          "textBefore": "Liebe Nachbarinnen und Nachbarn, unser Innenhof soll im Herbst neu gestaltet werden. Bevor die Arbeiten beginnen, möchten wir wissen,",
-          "blanks": [
+          "id": "modell-3-teil-5",
+          "title": "Modellsatz 3 · Teil 5 · Regeln",
+          "type": "multiple_choice",
+          "goethePart": 5,
+          "instructions": "Lesen Sie die Regeln und wählen Sie die richtige Lösung a, b oder c.",
+          "text": "Ordnung im Lernzentrum\n1. Öffnungszeiten: Montag bis Freitag 8–20 Uhr, Samstag 9–16 Uhr. Sonntags bleibt die Einrichtung geschlossen.\n2. Taschen müssen in den Schließfächern am Eingang bleiben. Für die Fächer wird eine Zwei-Euro-Münze als Pfand benötigt.\n3. Essen ist nur im Pausenbereich erlaubt. Wasser darf in verschließbaren Flaschen mitgebracht werden.\n4. Reservierte Plätze werden nach 15 Minuten wieder freigegeben. Schäden sind sofort beim Personal zu melden.",
+          "questions": [
+            {
+              "id": "60",
+              "prompt": "Wann ist die Einrichtung geschlossen?",
+              "options": [
+                "Am Samstag",
+                "Am Sonntag",
+                "Am Freitag"
+              ],
+              "answer": 1
+            },
             {
               "id": "61",
-              "before": "",
+              "prompt": "Was braucht man für ein Schließfach?",
               "options": [
-                "welche",
-                "diese",
-                "solche"
+                "Eine Zwei-Euro-Münze",
+                "Einen Personalausweis",
+                "Eine Monatskarte"
               ],
-              "answer": 0,
-              "after": " Wünsche Sie haben."
+              "answer": 0
             },
             {
               "id": "62",
-              "before": "",
+              "prompt": "Was darf man mit hineinnehmen?",
               "options": [
-                "Dazu",
-                "Davon",
-                "Darin"
+                "Ein warmes Mittagessen",
+                "Eine offene Tasse Kaffee",
+                "Wasser in einer verschlossenen Flasche"
               ],
-              "answer": 0,
-              "after": " laden wir Sie am Mittwoch zu einem Treffen ein."
+              "answer": 2
             },
             {
               "id": "63",
-              "before": "",
+              "prompt": "Was passiert mit einem reservierten Platz nach 15 Minuten?",
               "options": [
-                "Es",
-                "Das",
-                "Man"
+                "Er wird wieder freigegeben.",
+                "Er kostet zusätzlich Geld.",
+                "Er bleibt den ganzen Tag frei."
               ],
-              "answer": 0,
-              "after": " findet ab 18 Uhr im Gemeinschaftsraum statt."
-            },
+              "answer": 0
+            }
+          ],
+          "categoryLabel": "Goethe B1 · Lesen · Teil 5"
+        },
+        {
+          "id": "modell-4-teil-1",
+          "title": "Modellsatz 4 · Teil 1 · Gesundheit und Freizeit",
+          "type": "true_false",
+          "goethePart": 1,
+          "instructions": "Lesen Sie den persönlichen Text. Sind die Aussagen richtig oder falsch?",
+          "text": "Hallo zusammen, ich bin Jonas und wohne seit einem Jahr in Freiburg. Vor zwei Monaten habe ich mich für den Laufgruppe angemeldet. Wir treffen uns jeden Sonntag um 9 Uhr. Mir gefällt besonders, dass ich dort regelmäßig Sport treiben kann. Beim ersten Termin gab es allerdings ein Problem: die erste Strecke war zu lang. Zum Glück fand die Gruppe schnell eine Lösung: die Gruppe bildete zwei Leistungsstufen. Neue Teilnehmerinnen und Teilnehmer können zweimal kostenlos mitmachen. Danach kostet das Angebot 18 Euro pro Monat. Im August macht die Gruppe drei Wochen Pause. Ich bleibe dabei, denn inzwischen gehört der Termin fest zu meiner Woche.",
+          "questions": [
             {
               "id": "64",
-              "before": "",
-              "options": [
-                "Sowohl",
-                "Entweder",
-                "Weder"
-              ],
-              "answer": 0,
-              "after": " Erwachsene als auch Jugendliche können Vorschläge machen."
+              "statement": "Jonas lebt seit einem Jahr in Freiburg.",
+              "answer": true
             },
             {
               "id": "65",
-              "before": "",
-              "options": [
-                "damit",
-                "obwohl",
-                "während"
-              ],
-              "answer": 0,
-              "after": " Familien teilnehmen können, bieten wir eine Kinderbetreuung an."
+              "statement": "Die Gruppe trifft sich jeden Sonntag.",
+              "answer": true
             },
             {
               "id": "66",
-              "before": "",
-              "options": [
-                "Wer",
-                "Wem",
-                "Wen"
-              ],
-              "answer": 0,
-              "after": " nicht kommen kann, darf uns eine E-Mail schicken."
+              "statement": "Das Treffen beginnt um 9 Uhr.",
+              "answer": true
             },
             {
               "id": "67",
-              "before": "",
-              "options": [
-                "über",
-                "an",
-                "mit"
-              ],
-              "answer": 0,
-              "after": " Fotos oder kleine Skizzen freuen wir uns besonders."
+              "statement": "Beim ersten Termin gab es überhaupt keine Schwierigkeiten.",
+              "answer": false
             },
             {
               "id": "68",
-              "before": "",
-              "options": [
-                "bis",
-                "seit",
-                "ab"
-              ],
-              "answer": 0,
-              "after": " Montag sammeln wir alle Ideen."
-            }
-          ],
-          "textAfter": "Ihr Quartiersteam",
-          "categoryLabel": "Sprachbausteine · Multiple Choice"
-        },
-        {
-          "id": "clozemc-neu-5",
-          "title": "Aufgabensatz 5 · Anfrage für ein Praktikum",
-          "type": "cloze_mc",
-          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
-          "textBefore": "Sehr geehrte Frau Baumann, auf der Internetseite Ihrer Umweltorganisation habe ich gelesen,",
-          "blanks": [
-            {
-              "id": "69",
-              "before": "",
-              "options": [
-                "dass",
-                "weil",
-                "ob"
-              ],
-              "answer": 0,
-              "after": " Sie Praktikumsplätze anbieten."
+              "statement": "Man kann das Angebot zweimal gratis ausprobieren.",
+              "answer": true
             },
             {
+              "id": "69",
+              "statement": "Im August findet das Angebot ohne Pause statt.",
+              "answer": false
+            }
+          ],
+          "categoryLabel": "Goethe B1 · Lesen · Teil 1"
+        },
+        {
+          "id": "modell-4-teil-2",
+          "title": "Modellsatz 4 · Teil 2 · Pressetext",
+          "type": "multiple_choice",
+          "goethePart": 2,
+          "instructions": "Lesen Sie den Text und wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+          "text": "Freiburg öffnet im Sommer mehrere Schulhöfe am Wochenende für Sport und Spiel. Betreuer sind von 10 bis 17 Uhr anwesend und verleihen Bälle kostenlos. Kinder unter zwölf Jahren dürfen nur mit einer erwachsenen Begleitperson kommen. Bei starkem Regen bleiben die Höfe geschlossen. Die aktuellen Öffnungen stehen auf der Internetseite der Stadt.",
+          "questions": [
+            {
               "id": "70",
-              "before": "",
+              "prompt": "Was ist laut Text richtig?",
               "options": [
-                "Zurzeit",
-                "Damals",
-                "Früher"
+                "Bälle können ohne Gebühr ausgeliehen werden.",
+                "Das Angebot ist nur für Touristen bestimmt.",
+                "Das Projekt wurde bereits beendet."
               ],
-              "answer": 0,
-              "after": " besuche ich einen B1-Deutschkurs in Innsbruck."
+              "answer": 0
             },
             {
               "id": "71",
-              "before": "",
+              "prompt": "Welche Angabe nennt der Text?",
               "options": [
-                "Nach",
-                "Seit",
-                "Während"
+                "Eine Teilnahme ist immer ohne Anmeldung möglich.",
+                "Die wichtige Angabe lautet: 17 Uhr.",
+                "Alle Angebote finden ausschließlich sonntags statt."
               ],
-              "answer": 0,
-              "after": " dem Kurs möchte ich praktische Berufserfahrung sammeln."
+              "answer": 1
             },
             {
               "id": "72",
-              "before": "",
+              "prompt": "Was ist der Hauptzweck des Textes?",
               "options": [
-                "Besonders",
-                "Trotzdem",
-                "Kaum"
+                "Über ein lokales Angebot informieren.",
+                "Eine private Reise beschreiben.",
+                "Ein Produkt international verkaufen."
               ],
-              "answer": 0,
-              "after": " interessiere ich mich für Ihre Bildungsprojekte an Schulen."
-            },
+              "answer": 0
+            }
+          ],
+          "categoryLabel": "Goethe B1 · Lesen · Teil 2"
+        },
+        {
+          "id": "modell-4-teil-3",
+          "title": "Modellsatz 4 · Teil 3 · Situationen und Anzeigen",
+          "type": "matching_ads",
+          "goethePart": 3,
+          "instructions": "Lesen Sie die Situationen und die Anzeigen. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
             {
               "id": "73",
-              "before": "",
-              "options": [
-                "Obwohl",
-                "Damit",
-                "Deswegen"
-              ],
-              "answer": 0,
-              "after": " ich noch wenig Erfahrung habe, arbeite ich sehr zuverlässig."
+              "text": "Sie möchten am Wochenende etwas unternehmen, ohne viel Geld auszugeben."
             },
             {
               "id": "74",
-              "before": "",
-              "options": [
-                "könnte",
-                "musste",
-                "durfte"
-              ],
-              "answer": 0,
-              "after": " ich das Praktikum auch in Teilzeit machen?"
+              "text": "Sie brauchen ein Angebot, das auch für Anfänger geeignet ist."
             },
             {
               "id": "75",
-              "before": "",
-              "options": [
-                "Ab",
-                "Für",
-                "Bei"
-              ],
-              "answer": 0,
-              "after": " Anfang November wäre ich verfügbar."
+              "text": "Sie können nur am Abend teilnehmen."
             },
             {
               "id": "76",
-              "before": "",
-              "options": [
-                "über",
-                "auf",
-                "zu"
-              ],
-              "answer": 0,
-              "after": " eine Einladung zu einem Gespräch würde ich mich sehr freuen."
+              "text": "Sie möchten gemeinsam mit anderen praktisch arbeiten."
             }
           ],
-          "textAfter": "Mit freundlichen Grüßen\nSamuel Okafor",
-          "categoryLabel": "Sprachbausteine · Multiple Choice"
+          "ads": [
+            {
+              "key": "A",
+              "text": "Freiburg aktiv: kostenloser Schnuppertag am Samstag, 11–16 Uhr. Material inklusive."
+            },
+            {
+              "key": "B",
+              "text": "Start leicht gemacht: Einführungskurs ohne Vorkenntnisse, kleine Gruppen."
+            },
+            {
+              "key": "C",
+              "text": "Feierabend-Treff: dienstags und donnerstags ab 19.30 Uhr."
+            },
+            {
+              "key": "D",
+              "text": "Offene Werkstatt: gemeinsam bauen, reparieren und Erfahrungen austauschen."
+            },
+            {
+              "key": "E",
+              "text": "Intensivwoche für Profis, Montag bis Freitag vormittags."
+            },
+            {
+              "key": "F",
+              "text": "Einzelunterricht zu Hause, keine Gruppentermine."
+            }
+          ],
+          "answer": {
+            "73": "A",
+            "74": "B",
+            "75": "C",
+            "76": "D"
+          },
+          "categoryLabel": "Goethe B1 · Lesen · Teil 3"
         },
         {
-          "id": "clozemc-neu-6",
-          "title": "Aufgabensatz 6 · Information zum Elternabend",
-          "type": "cloze_mc",
-          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke die richtige Lösung a, b oder c.",
-          "textBefore": "Liebe Eltern, am 12. Oktober findet unser erster Elternabend statt. Wir beginnen pünktlich um 19 Uhr,",
-          "blanks": [
+          "id": "modell-4-teil-4",
+          "title": "Modellsatz 4 · Teil 4 · Meinungen",
+          "type": "opinion_yes_no",
+          "goethePart": 4,
+          "instructions": "Lesen Sie die Meinungen. Ist die Person für das Projekt? Wählen Sie Ja oder Nein.",
+          "topic": "Soll Freiburg mehr gemeinschaftliche Angebote zu „Gesundheit und Freizeit“ fördern?",
+          "opinions": [
             {
               "id": "77",
-              "before": "",
-              "options": [
-                "weil",
-                "obwohl",
-                "damit"
-              ],
-              "answer": 0,
-              "after": " wir mehrere wichtige Themen besprechen möchten."
+              "name": "Anna",
+              "text": "Ich finde das Projekt sinnvoll. Man lernt Menschen aus der Umgebung kennen und teilt Dinge, die sonst selten benutzt werden.",
+              "stance": true
             },
             {
               "id": "78",
-              "before": "",
-              "options": [
-                "Zuerst",
-                "Gestern",
-                "Selten"
-              ],
-              "answer": 0,
-              "after": " stellt sich die neue Klassenlehrerin vor."
+              "name": "Boris",
+              "text": "Für mich ist das keine gute Idee. Die Organisation kostet Zeit, und ich möchte lieber unabhängig bleiben.",
+              "stance": false
             },
             {
               "id": "79",
-              "before": "",
-              "options": [
-                "Danach",
-                "Dafür",
-                "Dagegen"
-              ],
-              "answer": 0,
-              "after": " informieren wir über die geplante Projektwoche."
+              "name": "Carla",
+              "text": "Ich unterstütze den Plan. Besonders Familien mit wenig Geld können davon profitieren.",
+              "stance": true
             },
             {
               "id": "80",
-              "before": "",
-              "options": [
-                "Für",
-                "Ohne",
-                "Gegen"
-              ],
-              "answer": 0,
-              "after": " diese Reise benötigen wir noch zwei Begleitpersonen."
-            },
+              "name": "Deniz",
+              "text": "Ich bin dagegen. Es fehlen klare Regeln, und bei Problemen weiß später niemand, wer verantwortlich ist.",
+              "stance": false
+            }
+          ],
+          "categoryLabel": "Goethe B1 · Lesen · Teil 4"
+        },
+        {
+          "id": "modell-4-teil-5",
+          "title": "Modellsatz 4 · Teil 5 · Regeln",
+          "type": "multiple_choice",
+          "goethePart": 5,
+          "instructions": "Lesen Sie die Regeln und wählen Sie die richtige Lösung a, b oder c.",
+          "text": "Hinweise für das Stadtbad\n1. Öffnungszeiten: Montag bis Freitag 8–20 Uhr, Samstag 9–16 Uhr. Sonntags bleibt die Einrichtung geschlossen.\n2. Taschen müssen in den Schließfächern am Eingang bleiben. Für die Fächer wird eine Zwei-Euro-Münze als Pfand benötigt.\n3. Essen ist nur im Pausenbereich erlaubt. Wasser darf in verschließbaren Flaschen mitgebracht werden.\n4. Reservierte Plätze werden nach 15 Minuten wieder freigegeben. Schäden sind sofort beim Personal zu melden.",
+          "questions": [
             {
               "id": "81",
-              "before": "",
+              "prompt": "Wann ist die Einrichtung geschlossen?",
               "options": [
-                "Wenn",
-                "Als",
-                "Seit"
+                "Am Samstag",
+                "Am Sonntag",
+                "Am Freitag"
               ],
-              "answer": 0,
-              "after": " Sie Interesse haben, melden Sie sich bitte im Sekretariat."
+              "answer": 1
             },
             {
               "id": "82",
-              "before": "",
+              "prompt": "Was braucht man für ein Schließfach?",
               "options": [
-                "Während",
-                "Trotz",
-                "Wegen"
+                "Eine Zwei-Euro-Münze",
+                "Einen Personalausweis",
+                "Eine Monatskarte"
               ],
-              "answer": 0,
-              "after": " des Elternabends können Kinder in der Bibliothek betreut werden."
+              "answer": 0
             },
             {
               "id": "83",
-              "before": "",
+              "prompt": "Was darf man mit hineinnehmen?",
               "options": [
-                "muss",
-                "darf",
-                "kann"
+                "Ein warmes Mittagessen",
+                "Eine offene Tasse Kaffee",
+                "Wasser in einer verschlossenen Flasche"
               ],
-              "answer": 0,
-              "after": " dafür vorher ein Platz reserviert werden."
+              "answer": 2
             },
             {
               "id": "84",
-              "before": "",
+              "prompt": "Was passiert mit einem reservierten Platz nach 15 Minuten?",
               "options": [
-                "bis",
-                "von",
-                "nach"
+                "Er wird wieder freigegeben.",
+                "Er kostet zusätzlich Geld.",
+                "Er bleibt den ganzen Tag frei."
               ],
-              "answer": 0,
-              "after": " spätestens 8. Oktober brauchen wir Ihre Rückmeldung."
+              "answer": 0
             }
           ],
-          "textAfter": "Herzliche Grüße\nDer Elternbeirat",
-          "categoryLabel": "Sprachbausteine · Multiple Choice"
+          "categoryLabel": "Goethe B1 · Lesen · Teil 5"
         },
         {
-          "id": "wordbank-neu-1",
-          "title": "Aufgabensatz 1 · Erster Arbeitstag im Pflegeheim",
-          "type": "cloze_wordbank",
-          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Zwei Wörter bleiben übrig.",
-          "wordbank": [
-            "weil",
-            "zunächst",
-            "danach",
-            "während",
-            "damit",
-            "schließlich",
-            "jedoch",
-            "trotzdem"
-          ],
-          "textBefore": "Am ersten Arbeitstag kam Leila besonders früh,",
-          "blanks": [
+          "id": "modell-5-teil-1",
+          "title": "Modellsatz 5 · Teil 1 · Umwelt und Konsum",
+          "type": "true_false",
+          "goethePart": 1,
+          "instructions": "Lesen Sie den persönlichen Text. Sind die Aussagen richtig oder falsch?",
+          "text": "Hallo zusammen, ich bin Mila und wohne seit einem Jahr in Mainz. Vor zwei Monaten habe ich mich für den Tauschmarkt angemeldet. Wir treffen uns jeden Freitag um 16 Uhr. Mir gefällt besonders, dass ich dort gut erhaltene Dinge weitergeben kann. Beim ersten Termin gab es allerdings ein Problem: zu viele Bücher wurden gebracht. Zum Glück fand die Gruppe schnell eine Lösung: ein zusätzlicher Tisch wurde aufgebaut. Neue Teilnehmerinnen und Teilnehmer können zweimal kostenlos mitmachen. Danach kostet das Angebot 18 Euro pro Monat. Im August macht die Gruppe drei Wochen Pause. Ich bleibe dabei, denn inzwischen gehört der Termin fest zu meiner Woche.",
+          "questions": [
             {
               "id": "85",
-              "before": "",
-              "answer": "weil",
-              "after": " sie den richtigen Eingang noch nicht kannte."
+              "statement": "Mila lebt seit einem Jahr in Mainz.",
+              "answer": true
             },
             {
               "id": "86",
-              "before": "",
-              "answer": "zunächst",
-              "after": " meldete sie sich an der Rezeption."
+              "statement": "Die Gruppe trifft sich jeden Freitag.",
+              "answer": true
             },
             {
               "id": "87",
-              "before": "",
-              "answer": "danach",
-              "after": " zeigte ihr eine Kollegin die Station und den Pausenraum."
+              "statement": "Das Treffen beginnt um 16 Uhr.",
+              "answer": true
             },
             {
               "id": "88",
-              "before": "",
-              "answer": "während",
-              "after": " des Rundgangs durfte sie viele Fragen stellen."
+              "statement": "Beim ersten Termin gab es überhaupt keine Schwierigkeiten.",
+              "answer": false
             },
             {
               "id": "89",
-              "before": "",
-              "answer": "damit",
-              "after": " sie keine Termine vergaß, notierte sie alles in einem Heft."
+              "statement": "Man kann das Angebot zweimal gratis ausprobieren.",
+              "answer": true
             },
             {
               "id": "90",
-              "before": "",
-              "answer": "schließlich",
-              "after": " lernte sie das gesamte Team bei einer Besprechung kennen."
+              "statement": "Im August findet das Angebot ohne Pause statt.",
+              "answer": false
             }
           ],
-          "categoryLabel": "Sprachbausteine · Wortkasten"
+          "categoryLabel": "Goethe B1 · Lesen · Teil 1"
         },
         {
-          "id": "wordbank-neu-2",
-          "title": "Aufgabensatz 2 · Mit dem Rad zur Arbeit",
-          "type": "cloze_wordbank",
-          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Zwei Wörter bleiben übrig.",
-          "wordbank": [
-            "deshalb",
-            "seitdem",
-            "obwohl",
-            "außerdem",
-            "wenn",
-            "dadurch",
-            "jedoch",
-            "trotzdem"
-          ],
-          "textBefore": "Karim wollte nicht mehr jeden Morgen im Stau stehen.",
-          "blanks": [
+          "id": "modell-5-teil-2",
+          "title": "Modellsatz 5 · Teil 2 · Pressetext",
+          "type": "multiple_choice",
+          "goethePart": 2,
+          "instructions": "Lesen Sie den Text und wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+          "text": "In Mainz sammeln fünf Supermärkte seit Januar Lebensmittel kurz vor dem Mindesthaltbarkeitsdatum. Ehrenamtliche holen sie abends ab und verteilen sie über öffentliche Kühlschränke. Geöffnete Packungen werden nicht angenommen. Laut Projektleitung wurden bereits acht Tonnen Lebensmittel gerettet. Weitere Helfer werden besonders für Montag und Donnerstag gesucht.",
+          "questions": [
             {
               "id": "91",
-              "before": "",
-              "answer": "deshalb",
-              "after": " kaufte er ein gebrauchtes Fahrrad."
+              "prompt": "Was ist laut Text richtig?",
+              "options": [
+                "Geöffnete Packungen sind von der Sammlung ausgeschlossen.",
+                "Das Angebot ist nur für Touristen bestimmt.",
+                "Das Projekt wurde bereits beendet."
+              ],
+              "answer": 0
             },
             {
               "id": "92",
-              "before": "",
-              "answer": "seitdem",
-              "after": " fährt er dreimal pro Woche damit ins Büro."
+              "prompt": "Welche Angabe nennt der Text?",
+              "options": [
+                "Eine Teilnahme ist immer ohne Anmeldung möglich.",
+                "Die wichtige Angabe lautet: acht Tonnen.",
+                "Alle Angebote finden ausschließlich sonntags statt."
+              ],
+              "answer": 1
             },
             {
               "id": "93",
-              "before": "",
-              "answer": "obwohl",
-              "after": " der Weg zwölf Kilometer lang ist, braucht er kaum länger als früher."
-            },
+              "prompt": "Was ist der Hauptzweck des Textes?",
+              "options": [
+                "Über ein lokales Angebot informieren.",
+                "Eine private Reise beschreiben.",
+                "Ein Produkt international verkaufen."
+              ],
+              "answer": 0
+            }
+          ],
+          "categoryLabel": "Goethe B1 · Lesen · Teil 2"
+        },
+        {
+          "id": "modell-5-teil-3",
+          "title": "Modellsatz 5 · Teil 3 · Situationen und Anzeigen",
+          "type": "matching_ads",
+          "goethePart": 3,
+          "instructions": "Lesen Sie die Situationen und die Anzeigen. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
             {
               "id": "94",
-              "before": "",
-              "answer": "außerdem",
-              "after": " beginnt er den Arbeitstag jetzt wacher."
+              "text": "Sie möchten am Wochenende etwas unternehmen, ohne viel Geld auszugeben."
             },
             {
               "id": "95",
-              "before": "",
-              "answer": "wenn",
-              "after": " es stark regnet, nimmt er weiterhin den Bus."
+              "text": "Sie brauchen ein Angebot, das auch für Anfänger geeignet ist."
             },
             {
               "id": "96",
-              "before": "",
-              "answer": "dadurch",
-              "after": " bleibt das neue Verkehrsmittel für ihn alltagstauglich."
-            }
-          ],
-          "categoryLabel": "Sprachbausteine · Wortkasten"
-        },
-        {
-          "id": "wordbank-neu-3",
-          "title": "Aufgabensatz 3 · Mehrsprachige Bibliothek",
-          "type": "cloze_wordbank",
-          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Zwei Wörter bleiben übrig.",
-          "wordbank": [
-            "weil",
-            "neben",
-            "sowohl",
-            "außerdem",
-            "damit",
-            "bisher",
-            "jedoch",
-            "trotzdem"
-          ],
-          "textBefore": "Die Stadtbibliothek hat ihr Angebot erweitert,",
-          "blanks": [
-            {
-              "id": "97",
-              "before": "",
-              "answer": "weil",
-              "after": " in der Stadt immer mehr Sprachen gesprochen werden."
+              "text": "Sie können nur am Abend teilnehmen."
             },
             {
+              "id": "97",
+              "text": "Sie möchten gemeinsam mit anderen praktisch arbeiten."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Mainz aktiv: kostenloser Schnuppertag am Samstag, 11–16 Uhr. Material inklusive."
+            },
+            {
+              "key": "B",
+              "text": "Start leicht gemacht: Einführungskurs ohne Vorkenntnisse, kleine Gruppen."
+            },
+            {
+              "key": "C",
+              "text": "Feierabend-Treff: dienstags und donnerstags ab 19.30 Uhr."
+            },
+            {
+              "key": "D",
+              "text": "Offene Werkstatt: gemeinsam bauen, reparieren und Erfahrungen austauschen."
+            },
+            {
+              "key": "E",
+              "text": "Intensivwoche für Profis, Montag bis Freitag vormittags."
+            },
+            {
+              "key": "F",
+              "text": "Einzelunterricht zu Hause, keine Gruppentermine."
+            }
+          ],
+          "answer": {
+            "94": "A",
+            "95": "B",
+            "96": "C",
+            "97": "D"
+          },
+          "categoryLabel": "Goethe B1 · Lesen · Teil 3"
+        },
+        {
+          "id": "modell-5-teil-4",
+          "title": "Modellsatz 5 · Teil 4 · Meinungen",
+          "type": "opinion_yes_no",
+          "goethePart": 4,
+          "instructions": "Lesen Sie die Meinungen. Ist die Person für das Projekt? Wählen Sie Ja oder Nein.",
+          "topic": "Soll Mainz mehr gemeinschaftliche Angebote zu „Umwelt und Konsum“ fördern?",
+          "opinions": [
+            {
               "id": "98",
-              "before": "",
-              "answer": "neben",
-              "after": " deutschen Romanen stehen nun Bücher in zwölf weiteren Sprachen."
+              "name": "Anna",
+              "text": "Ich finde das Projekt sinnvoll. Man lernt Menschen aus der Umgebung kennen und teilt Dinge, die sonst selten benutzt werden.",
+              "stance": true
             },
             {
               "id": "99",
-              "before": "",
-              "answer": "sowohl",
-              "after": " Kinder als auch Erwachsene finden passende Medien."
+              "name": "Boris",
+              "text": "Für mich ist das keine gute Idee. Die Organisation kostet Zeit, und ich möchte lieber unabhängig bleiben.",
+              "stance": false
             },
             {
               "id": "100",
-              "before": "",
-              "answer": "außerdem",
-              "after": " gibt es jeden Samstag ein mehrsprachiges Vorlesen."
+              "name": "Carla",
+              "text": "Ich unterstütze den Plan. Besonders Familien mit wenig Geld können davon profitieren.",
+              "stance": true
             },
             {
               "id": "101",
-              "before": "",
-              "answer": "damit",
-              "after": " auch Berufstätige teilnehmen können, beginnt es erst um 17 Uhr."
-            },
-            {
-              "id": "102",
-              "before": "",
-              "answer": "bisher",
-              "after": " wird das neue Angebot sehr gut angenommen."
+              "name": "Deniz",
+              "text": "Ich bin dagegen. Es fehlen klare Regeln, und bei Problemen weiß später niemand, wer verantwortlich ist.",
+              "stance": false
             }
           ],
-          "categoryLabel": "Sprachbausteine · Wortkasten"
+          "categoryLabel": "Goethe B1 · Lesen · Teil 4"
         },
         {
-          "id": "wordbank-neu-4",
-          "title": "Aufgabensatz 4 · Hochwasserhilfe am Rhein",
-          "type": "cloze_wordbank",
-          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Zwei Wörter bleiben übrig.",
-          "wordbank": [
-            "sofort",
-            "gemeinsam",
-            "während",
-            "außerdem",
-            "deshalb",
-            "inzwischen",
-            "jedoch",
-            "trotzdem"
-          ],
-          "textBefore": "Nach dem starken Regen waren mehrere Keller voll Wasser.",
-          "blanks": [
+          "id": "modell-5-teil-5",
+          "title": "Modellsatz 5 · Teil 5 · Regeln",
+          "type": "multiple_choice",
+          "goethePart": 5,
+          "instructions": "Lesen Sie die Regeln und wählen Sie die richtige Lösung a, b oder c.",
+          "text": "Regeln im Reparaturcafé\n1. Öffnungszeiten: Montag bis Freitag 8–20 Uhr, Samstag 9–16 Uhr. Sonntags bleibt die Einrichtung geschlossen.\n2. Taschen müssen in den Schließfächern am Eingang bleiben. Für die Fächer wird eine Zwei-Euro-Münze als Pfand benötigt.\n3. Essen ist nur im Pausenbereich erlaubt. Wasser darf in verschließbaren Flaschen mitgebracht werden.\n4. Reservierte Plätze werden nach 15 Minuten wieder freigegeben. Schäden sind sofort beim Personal zu melden.",
+          "questions": [
+            {
+              "id": "102",
+              "prompt": "Wann ist die Einrichtung geschlossen?",
+              "options": [
+                "Am Samstag",
+                "Am Sonntag",
+                "Am Freitag"
+              ],
+              "answer": 1
+            },
             {
               "id": "103",
-              "before": "",
-              "answer": "sofort",
-              "after": " richtete die Gemeinde eine Notrufnummer ein."
+              "prompt": "Was braucht man für ein Schließfach?",
+              "options": [
+                "Eine Zwei-Euro-Münze",
+                "Einen Personalausweis",
+                "Eine Monatskarte"
+              ],
+              "answer": 0
             },
             {
               "id": "104",
-              "before": "",
-              "answer": "gemeinsam",
-              "after": " pumpten Feuerwehr und Freiwillige das Wasser ab."
+              "prompt": "Was darf man mit hineinnehmen?",
+              "options": [
+                "Ein warmes Mittagessen",
+                "Eine offene Tasse Kaffee",
+                "Wasser in einer verschlossenen Flasche"
+              ],
+              "answer": 2
             },
             {
               "id": "105",
-              "before": "",
-              "answer": "während",
-              "after": " der Arbeiten blieb die Uferstraße gesperrt."
-            },
+              "prompt": "Was passiert mit einem reservierten Platz nach 15 Minuten?",
+              "options": [
+                "Er wird wieder freigegeben.",
+                "Er kostet zusätzlich Geld.",
+                "Er bleibt den ganzen Tag frei."
+              ],
+              "answer": 0
+            }
+          ],
+          "categoryLabel": "Goethe B1 · Lesen · Teil 5"
+        },
+        {
+          "id": "modell-6-teil-1",
+          "title": "Modellsatz 6 · Teil 1 · Kultur und Medien",
+          "type": "true_false",
+          "goethePart": 1,
+          "instructions": "Lesen Sie den persönlichen Text. Sind die Aussagen richtig oder falsch?",
+          "text": "Hallo zusammen, ich bin David und wohne seit einem Jahr in Dresden. Vor zwei Monaten habe ich mich für den Fotoworkshop angemeldet. Wir treffen uns jeden Samstag um 14 Uhr. Mir gefällt besonders, dass ich dort bessere Bilder mit dem Handy machen kann. Beim ersten Termin gab es allerdings ein Problem: der geplante Park war gesperrt. Zum Glück fand die Gruppe schnell eine Lösung: die Gruppe fotografierte im Museum. Neue Teilnehmerinnen und Teilnehmer können zweimal kostenlos mitmachen. Danach kostet das Angebot 18 Euro pro Monat. Im August macht die Gruppe drei Wochen Pause. Ich bleibe dabei, denn inzwischen gehört der Termin fest zu meiner Woche.",
+          "questions": [
             {
               "id": "106",
-              "before": "",
-              "answer": "außerdem",
-              "after": " wurden Sandsäcke an Haushalte verteilt."
+              "statement": "David lebt seit einem Jahr in Dresden.",
+              "answer": true
             },
             {
               "id": "107",
-              "before": "",
-              "answer": "deshalb",
-              "after": " konnten viele weitere Schäden verhindert werden."
+              "statement": "Die Gruppe trifft sich jeden Samstag.",
+              "answer": true
             },
             {
               "id": "108",
-              "before": "",
-              "answer": "inzwischen",
-              "after": " sind fast alle Straßen wieder geöffnet."
-            }
-          ],
-          "categoryLabel": "Sprachbausteine · Wortkasten"
-        },
-        {
-          "id": "wordbank-neu-5",
-          "title": "Aufgabensatz 5 · Wochenmarkt in Basel",
-          "type": "cloze_wordbank",
-          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Zwei Wörter bleiben übrig.",
-          "wordbank": [
-            "statt",
-            "künftig",
-            "weil",
-            "zusätzlich",
-            "wer",
-            "dagegen",
-            "jedoch",
-            "trotzdem"
-          ],
-          "textBefore": "Der Wochenmarkt auf dem Matthäusplatz verändert seine Öffnungszeiten.",
-          "blanks": [
+              "statement": "Das Treffen beginnt um 14 Uhr.",
+              "answer": true
+            },
             {
               "id": "109",
-              "before": "",
-              "answer": "statt",
-              "after": " nur samstags findet er nun auch am Donnerstag statt."
+              "statement": "Beim ersten Termin gab es überhaupt keine Schwierigkeiten.",
+              "answer": false
             },
             {
               "id": "110",
-              "before": "",
-              "answer": "künftig",
-              "after": " öffnen die Stände an beiden Tagen schon um sieben Uhr."
+              "statement": "Man kann das Angebot zweimal gratis ausprobieren.",
+              "answer": true
             },
             {
               "id": "111",
-              "before": "",
-              "answer": "weil",
-              "after": " viele Berufstätige später einkaufen, bleiben sie donnerstags bis 19 Uhr geöffnet."
-            },
+              "statement": "Im August findet das Angebot ohne Pause statt.",
+              "answer": false
+            }
+          ],
+          "categoryLabel": "Goethe B1 · Lesen · Teil 1"
+        },
+        {
+          "id": "modell-6-teil-2",
+          "title": "Modellsatz 6 · Teil 2 · Pressetext",
+          "type": "multiple_choice",
+          "goethePart": 2,
+          "instructions": "Lesen Sie den Text und wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+          "text": "Dresdner Museen führen einmal im Monat einen langen Donnerstag ein. An diesem Tag bleiben sechs Häuser bis 22 Uhr geöffnet. Ab 18 Uhr kostet der Eintritt die Hälfte; Personen unter 18 Jahren haben wie sonst freien Eintritt. Führungen müssen separat gebucht werden. Das Programm beginnt im Oktober und läuft zunächst ein Jahr.",
+          "questions": [
             {
               "id": "112",
-              "before": "",
-              "answer": "zusätzlich",
-              "after": " gibt es einmal im Monat einen Kochkurs."
+              "prompt": "Was ist laut Text richtig?",
+              "options": [
+                "Am langen Donnerstag sind sechs Museen beteiligt.",
+                "Das Angebot ist nur für Touristen bestimmt.",
+                "Das Projekt wurde bereits beendet."
+              ],
+              "answer": 0
             },
             {
               "id": "113",
-              "before": "",
-              "answer": "wer",
-              "after": " teilnehmen möchte, muss sich online anmelden."
+              "prompt": "Welche Angabe nennt der Text?",
+              "options": [
+                "Eine Teilnahme ist immer ohne Anmeldung möglich.",
+                "Die wichtige Angabe lautet: 22 Uhr.",
+                "Alle Angebote finden ausschließlich sonntags statt."
+              ],
+              "answer": 1
             },
             {
               "id": "114",
-              "before": "",
-              "answer": "dagegen",
-              "after": " bleibt der normale Marktbesuch weiterhin ohne Anmeldung möglich."
+              "prompt": "Was ist der Hauptzweck des Textes?",
+              "options": [
+                "Über ein lokales Angebot informieren.",
+                "Eine private Reise beschreiben.",
+                "Ein Produkt international verkaufen."
+              ],
+              "answer": 0
             }
           ],
-          "categoryLabel": "Sprachbausteine · Wortkasten"
+          "categoryLabel": "Goethe B1 · Lesen · Teil 2"
         },
         {
-          "id": "wordbank-neu-6",
-          "title": "Aufgabensatz 6 · Onlinekurs mit Lerngruppe",
-          "type": "cloze_wordbank",
-          "instructions": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Zwei Wörter bleiben übrig.",
-          "wordbank": [
-            "zwar",
-            "aber",
-            "deshalb",
-            "regelmäßig",
-            "wenn",
-            "dadurch",
-            "jedoch",
-            "trotzdem"
-          ],
-          "textBefore": "Marta lernt seit drei Monaten online Deutsch.",
-          "blanks": [
+          "id": "modell-6-teil-3",
+          "title": "Modellsatz 6 · Teil 3 · Situationen und Anzeigen",
+          "type": "matching_ads",
+          "goethePart": 3,
+          "instructions": "Lesen Sie die Situationen und die Anzeigen. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
+          "scenarios": [
             {
               "id": "115",
-              "before": "",
-              "answer": "zwar",
-              "after": " kann sie die Videos jederzeit ansehen,"
+              "text": "Sie möchten am Wochenende etwas unternehmen, ohne viel Geld auszugeben."
             },
             {
               "id": "116",
-              "before": "",
-              "answer": "aber",
-              "after": " manchmal fehlt ihr der Austausch mit anderen."
+              "text": "Sie brauchen ein Angebot, das auch für Anfänger geeignet ist."
             },
             {
               "id": "117",
-              "before": "",
-              "answer": "deshalb",
-              "after": " hat sie eine digitale Lerngruppe gegründet."
+              "text": "Sie können nur am Abend teilnehmen."
             },
             {
               "id": "118",
-              "before": "",
-              "answer": "regelmäßig",
-              "after": " treffen sich die Mitglieder am Dienstagabend."
+              "text": "Sie möchten gemeinsam mit anderen praktisch arbeiten."
+            }
+          ],
+          "ads": [
+            {
+              "key": "A",
+              "text": "Dresden aktiv: kostenloser Schnuppertag am Samstag, 11–16 Uhr. Material inklusive."
             },
             {
+              "key": "B",
+              "text": "Start leicht gemacht: Einführungskurs ohne Vorkenntnisse, kleine Gruppen."
+            },
+            {
+              "key": "C",
+              "text": "Feierabend-Treff: dienstags und donnerstags ab 19.30 Uhr."
+            },
+            {
+              "key": "D",
+              "text": "Offene Werkstatt: gemeinsam bauen, reparieren und Erfahrungen austauschen."
+            },
+            {
+              "key": "E",
+              "text": "Intensivwoche für Profis, Montag bis Freitag vormittags."
+            },
+            {
+              "key": "F",
+              "text": "Einzelunterricht zu Hause, keine Gruppentermine."
+            }
+          ],
+          "answer": {
+            "115": "A",
+            "116": "B",
+            "117": "C",
+            "118": "D"
+          },
+          "categoryLabel": "Goethe B1 · Lesen · Teil 3"
+        },
+        {
+          "id": "modell-6-teil-4",
+          "title": "Modellsatz 6 · Teil 4 · Meinungen",
+          "type": "opinion_yes_no",
+          "goethePart": 4,
+          "instructions": "Lesen Sie die Meinungen. Ist die Person für das Projekt? Wählen Sie Ja oder Nein.",
+          "topic": "Soll Dresden mehr gemeinschaftliche Angebote zu „Kultur und Medien“ fördern?",
+          "opinions": [
+            {
               "id": "119",
-              "before": "",
-              "answer": "wenn",
-              "after": " jemand eine Grammatikfrage hat, besprechen alle gemeinsam Beispiele."
+              "name": "Anna",
+              "text": "Ich finde das Projekt sinnvoll. Man lernt Menschen aus der Umgebung kennen und teilt Dinge, die sonst selten benutzt werden.",
+              "stance": true
             },
             {
               "id": "120",
-              "before": "",
-              "answer": "dadurch",
-              "after": " ist Marta beim Sprechen viel sicherer geworden."
-            }
-          ],
-          "categoryLabel": "Sprachbausteine · Wortkasten"
-        },
-        {
-          "id": "headings-neu-1",
-          "title": "Aufgabensatz 1 · Neue Wege zum Wohnen",
-          "type": "matching",
-          "instructions": "Lesen Sie die fünf Textabschnitte. Ordnen Sie jedem Abschnitt die passende Überschrift (A–G) zu. Zwei Überschriften bleiben übrig.",
-          "items": [
+              "name": "Boris",
+              "text": "Für mich ist das keine gute Idee. Die Organisation kostet Zeit, und ich möchte lieber unabhängig bleiben.",
+              "stance": false
+            },
             {
               "id": "121",
-              "text": "Eine Genossenschaft in Hamburg baut Wohnungen, in denen Studierende günstig wohnen. Dafür helfen sie älteren Nachbarn jede Woche zwei Stunden beim Einkaufen, mit dem Computer oder bei kleinen Wegen. Die Hilfe ersetzt keinen Pflegedienst, schafft aber regelmäßigen Kontakt."
+              "name": "Carla",
+              "text": "Ich unterstütze den Plan. Besonders Familien mit wenig Geld können davon profitieren.",
+              "stance": true
             },
             {
               "id": "122",
-              "text": "In Wien wurde ein früheres Bürohaus umgebaut. Die neuen Wohnungen haben kleine private Zimmer, während Küche, Werkstatt und Dachgarten gemeinsam genutzt werden. Bewohner entscheiden zusammen über Regeln und Veranstaltungen."
-            },
+              "name": "Deniz",
+              "text": "Ich bin dagegen. Es fehlen klare Regeln, und bei Problemen weiß später niemand, wer verantwortlich ist.",
+              "stance": false
+            }
+          ],
+          "categoryLabel": "Goethe B1 · Lesen · Teil 4"
+        },
+        {
+          "id": "modell-6-teil-5",
+          "title": "Modellsatz 6 · Teil 5 · Regeln",
+          "type": "multiple_choice",
+          "goethePart": 5,
+          "instructions": "Lesen Sie die Regeln und wählen Sie die richtige Lösung a, b oder c.",
+          "text": "Benutzungsordnung Mediathek\n1. Öffnungszeiten: Montag bis Freitag 8–20 Uhr, Samstag 9–16 Uhr. Sonntags bleibt die Einrichtung geschlossen.\n2. Taschen müssen in den Schließfächern am Eingang bleiben. Für die Fächer wird eine Zwei-Euro-Münze als Pfand benötigt.\n3. Essen ist nur im Pausenbereich erlaubt. Wasser darf in verschließbaren Flaschen mitgebracht werden.\n4. Reservierte Plätze werden nach 15 Minuten wieder freigegeben. Schäden sind sofort beim Personal zu melden.",
+          "questions": [
             {
               "id": "123",
-              "text": "Eine Gemeinde im Allgäu vergibt günstige Grundstücke bevorzugt an Familien, die schon lange im Ort leben oder dort arbeiten. So sollen Schule, Vereine und Geschäfte erhalten bleiben. Kritik gibt es von Menschen, die neu zuziehen möchten."
+              "prompt": "Wann ist die Einrichtung geschlossen?",
+              "options": [
+                "Am Samstag",
+                "Am Sonntag",
+                "Am Freitag"
+              ],
+              "answer": 1
             },
             {
               "id": "124",
-              "text": "In Köln vermittelt eine Plattform Wohnungen, die während längerer Reisen leer stehen. Mieter zahlen weniger, übernehmen dafür Pflanzenpflege und Post. Verträge und Versicherungen werden vorab geprüft."
+              "prompt": "Was braucht man für ein Schließfach?",
+              "options": [
+                "Eine Zwei-Euro-Münze",
+                "Einen Personalausweis",
+                "Eine Monatskarte"
+              ],
+              "answer": 0
             },
             {
               "id": "125",
-              "text": "Ein Schweizer Projekt bietet barrierefreie Wohnungen direkt neben einer Kita. Seniorinnen lesen Kindern vor, Eltern helfen gelegentlich beim Einkauf. Die Teilnahme ist freiwillig; niemand muss feste Stunden leisten."
-            }
-          ],
-          "options": [
-            {
-              "key": "A",
-              "text": "Luxuswohnungen ohne Gemeinschaft"
+              "prompt": "Was darf man mit hineinnehmen?",
+              "options": [
+                "Ein warmes Mittagessen",
+                "Eine offene Tasse Kaffee",
+                "Wasser in einer verschlossenen Flasche"
+              ],
+              "answer": 2
             },
-            {
-              "key": "B",
-              "text": "Hilfe gegen günstige Miete"
-            },
-            {
-              "key": "C",
-              "text": "Wohnen auf Zeit mit Aufgaben"
-            },
-            {
-              "key": "D",
-              "text": "Private Räume, gemeinsames Leben"
-            },
-            {
-              "key": "E",
-              "text": "Kostenloses Wohnen für alle"
-            },
-            {
-              "key": "F",
-              "text": "Nachbarschaft zwischen Jung und Alt"
-            },
-            {
-              "key": "G",
-              "text": "Vorrang für Menschen aus der Region"
-            }
-          ],
-          "answer": {
-            "121": "B",
-            "122": "D",
-            "123": "G",
-            "124": "C",
-            "125": "F"
-          },
-          "categoryLabel": "Lesen · Überschriften"
-        },
-        {
-          "id": "headings-neu-2",
-          "title": "Aufgabensatz 2 · Arbeiten im Wandel",
-          "type": "matching",
-          "instructions": "Lesen Sie die fünf Textabschnitte. Ordnen Sie jedem Abschnitt die passende Überschrift (A–G) zu. Zwei Überschriften bleiben übrig.",
-          "items": [
             {
               "id": "126",
-              "text": "Ein Handwerksbetrieb führt für Eltern flexible Anfangszeiten ein. Auf Baustellen bleibt die Teamplanung verbindlich, Büroaufgaben können teilweise von zu Hause erledigt werden. Seitdem gingen kurzfristige Kündigungen zurück."
-            },
-            {
-              "id": "127",
-              "text": "Eine Klinik in Leipzig testet Dienstpläne, die Beschäftigte sechs Wochen vorher gemeinsam erstellen. Wünsche werden berücksichtigt, doch Nacht- und Wochenenddienste müssen gerecht verteilt sein."
-            },
-            {
-              "id": "128",
-              "text": "Ein IT-Unternehmen erlaubt vier Wochen pro Jahr Arbeit aus einem anderen EU-Land. Vorher müssen Datenschutz, Versicherung und Steuern geprüft werden. Spontane Verlängerungen sind ausgeschlossen."
-            },
-            {
-              "id": "129",
-              "text": "In einer Bäckerei lernen neue Mitarbeitende Fachbegriffe zunächst mit Bildern und kurzen Videos. Ein erfahrener Kollege begleitet sie zusätzlich drei Monate im Alltag."
-            },
-            {
-              "id": "130",
-              "text": "Eine Behörde bietet ruhige Arbeitsplätze für Menschen, die sich in großen Büros schlecht konzentrieren können. Besprechungen finden weiterhin gemeinsam statt, viele Informationen gibt es zusätzlich schriftlich."
+              "prompt": "Was passiert mit einem reservierten Platz nach 15 Minuten?",
+              "options": [
+                "Er wird wieder freigegeben.",
+                "Er kostet zusätzlich Geld.",
+                "Er bleibt den ganzen Tag frei."
+              ],
+              "answer": 0
             }
           ],
-          "options": [
-            {
-              "key": "A",
-              "text": "Zeitweise aus dem Ausland arbeiten"
-            },
-            {
-              "key": "B",
-              "text": "Alle arbeiten nur noch nachts"
-            },
-            {
-              "key": "C",
-              "text": "Familienfreundlicher Beginn"
-            },
-            {
-              "key": "D",
-              "text": "Ruhige Räume und klare Informationen"
-            },
-            {
-              "key": "E",
-              "text": "Dienstplan im Team"
-            },
-            {
-              "key": "F",
-              "text": "Urlaub ohne Genehmigung"
-            },
-            {
-              "key": "G",
-              "text": "Sprache direkt am Arbeitsplatz lernen"
-            }
-          ],
-          "answer": {
-            "126": "C",
-            "127": "E",
-            "128": "A",
-            "129": "G",
-            "130": "D"
-          },
-          "categoryLabel": "Lesen · Überschriften"
-        },
-        {
-          "id": "headings-neu-3",
-          "title": "Aufgabensatz 3 · Nachhaltig unterwegs",
-          "type": "matching",
-          "instructions": "Lesen Sie die fünf Textabschnitte. Ordnen Sie jedem Abschnitt die passende Überschrift (A–G) zu. Zwei Überschriften bleiben übrig.",
-          "items": [
-            {
-              "id": "131",
-              "text": "In Utrecht können Pendler ihr Auto am Stadtrand abstellen und mit einem Leihfahrrad weiterfahren. Ein Ticket gilt für Parkplatz und Rad. Reparaturen übernimmt der Betreiber."
-            },
-            {
-              "id": "132",
-              "text": "Eine Gemeinde in Tirol organisiert an Schultagen einen begleiteten Fußweg. Erwachsene holen Kinder an festen Treffpunkten ab und gehen gemeinsam zur Schule."
-            },
-            {
-              "id": "133",
-              "text": "Auf einer Nordseeinsel bringt ein elektrischer Kleinbus Gäste vom Hafen zu ihren Unterkünften. Er fährt nach Ankunft der Fähren und muss am Vortag reserviert werden."
-            },
-            {
-              "id": "134",
-              "text": "Luxemburg bietet kostenlose Workshops an, in denen Erwachsene sicheres Radfahren im Stadtverkehr üben. Fahrräder und Helme können ausgeliehen werden."
-            },
-            {
-              "id": "135",
-              "text": "Ein Betrieb in Nürnberg zahlt Beschäftigten einen Bonus, wenn sie an mindestens 80 Tagen pro Jahr ohne Auto zur Arbeit kommen. Die Wege werden freiwillig in einer App dokumentiert."
-            }
-          ],
-          "options": [
-            {
-              "key": "A",
-              "text": "Belohnung für autofreie Wege"
-            },
-            {
-              "key": "B",
-              "text": "Gemeinsam zu Fuß zur Schule"
-            },
-            {
-              "key": "C",
-              "text": "Flüge zwischen Inseln"
-            },
-            {
-              "key": "D",
-              "text": "Parken und Rad kombinieren"
-            },
-            {
-              "key": "E",
-              "text": "Sicherer auf dem Rad"
-            },
-            {
-              "key": "F",
-              "text": "Anschluss an die Fähre"
-            },
-            {
-              "key": "G",
-              "text": "Kostenlose Autos für Pendler"
-            }
-          ],
-          "answer": {
-            "131": "D",
-            "132": "B",
-            "133": "F",
-            "134": "E",
-            "135": "A"
-          },
-          "categoryLabel": "Lesen · Überschriften"
-        },
-        {
-          "id": "headings-neu-4",
-          "title": "Aufgabensatz 4 · Lernen außerhalb des Klassenzimmers",
-          "type": "matching",
-          "instructions": "Lesen Sie die fünf Textabschnitte. Ordnen Sie jedem Abschnitt die passende Überschrift (A–G) zu. Zwei Überschriften bleiben übrig.",
-          "items": [
-            {
-              "id": "136",
-              "text": "Eine Berufsschule betreibt mit einem Restaurant einen Übungstag. Lernende nehmen echte Bestellungen auf und besprechen anschließend Fehler mit ihrer Lehrkraft."
-            },
-            {
-              "id": "137",
-              "text": "In einer Stadtbibliothek erklären Jugendliche älteren Menschen die Nutzung von Smartphone und Videotelefonie. Dafür erhalten sie Hilfe bei Bewerbungen."
-            },
-            {
-              "id": "138",
-              "text": "Ein Museum verschickt Materialboxen an Schulklassen auf dem Land. Erst wird im Unterricht gearbeitet, später folgt eine digitale Führung mit einer Expertin."
-            },
-            {
-              "id": "139",
-              "text": "Ein Sprachkurs besucht monatlich Ämter, Betriebe oder Vereine. Die Teilnehmenden sammeln typische Wörter und üben danach passende Gespräche."
-            },
-            {
-              "id": "140",
-              "text": "Ein Naturzentrum bietet Wochenendkurse an, bei denen Familien Tiere beobachten und Messungen durchführen. Ergebnisse werden in eine öffentliche Datenbank eingetragen."
-            }
-          ],
-          "options": [
-            {
-              "key": "A",
-              "text": "Wissen zwischen Generationen tauschen"
-            },
-            {
-              "key": "B",
-              "text": "Prüfung ohne Vorbereitung"
-            },
-            {
-              "key": "C",
-              "text": "Sprache an realen Orten"
-            },
-            {
-              "key": "D",
-              "text": "Nur Lernen aus Lehrbüchern"
-            },
-            {
-              "key": "E",
-              "text": "Üben mit echten Gästen"
-            },
-            {
-              "key": "F",
-              "text": "Museum kommt digital aufs Land"
-            },
-            {
-              "key": "G",
-              "text": "Familien forschen gemeinsam"
-            }
-          ],
-          "answer": {
-            "136": "E",
-            "137": "A",
-            "138": "F",
-            "139": "C",
-            "140": "G"
-          },
-          "categoryLabel": "Lesen · Überschriften"
-        },
-        {
-          "id": "headings-neu-5",
-          "title": "Aufgabensatz 5 · Gesund leben im Alltag",
-          "type": "matching",
-          "instructions": "Lesen Sie die fünf Textabschnitte. Ordnen Sie jedem Abschnitt die passende Überschrift (A–G) zu. Zwei Überschriften bleiben übrig.",
-          "items": [
-            {
-              "id": "141",
-              "text": "Ein Gesundheitszentrum bietet kurze Bewegungspausen per Video an. Die Übungen dauern zehn Minuten und können ohne Sportkleidung am Arbeitsplatz gemacht werden."
-            },
-            {
-              "id": "142",
-              "text": "In Bern begleiten freiwillige Spazierpartner Menschen, die nach einer Krankheit wieder aktiver werden möchten. Tempo und Strecke werden vorher gemeinsam gewählt."
-            },
-            {
-              "id": "143",
-              "text": "Eine Kantine kennzeichnet Gerichte nicht nur als vegetarisch, sondern erklärt auch Salzgehalt und Herkunft wichtiger Zutaten. Persönliche medizinische Empfehlungen gibt sie nicht."
-            },
-            {
-              "id": "144",
-              "text": "Ein Verein organisiert Schwimmzeiten nur für Anfängerinnen. Die Fenster sind geschützt, und weibliche Trainerinnen leiten die Kurse."
-            },
-            {
-              "id": "145",
-              "text": "Eine Apotheke veranstaltet kostenlose Abende zum sicheren Umgang mit Medikamenten. Individuelle Diagnosen werden nicht gestellt; dafür bleibt die Arztpraxis zuständig."
-            }
-          ],
-          "options": [
-            {
-              "key": "A",
-              "text": "Leistungssport für Kinder"
-            },
-            {
-              "key": "B",
-              "text": "Mehr Informationen auf dem Speiseplan"
-            },
-            {
-              "key": "C",
-              "text": "Allgemeine Hilfe zu Medikamenten"
-            },
-            {
-              "key": "D",
-              "text": "Begleitung beim Wiedereinstieg"
-            },
-            {
-              "key": "E",
-              "text": "Diagnose im Supermarkt"
-            },
-            {
-              "key": "F",
-              "text": "Kurze Bewegung im Büro"
-            },
-            {
-              "key": "G",
-              "text": "Geschützter Schwimmkurs"
-            }
-          ],
-          "answer": {
-            "141": "F",
-            "142": "D",
-            "143": "B",
-            "144": "G",
-            "145": "C"
-          },
-          "categoryLabel": "Lesen · Überschriften"
-        },
-        {
-          "id": "headings-neu-6",
-          "title": "Aufgabensatz 6 · Kultur für viele",
-          "type": "matching",
-          "instructions": "Lesen Sie die fünf Textabschnitte. Ordnen Sie jedem Abschnitt die passende Überschrift (A–G) zu. Zwei Überschriften bleiben übrig.",
-          "items": [
-            {
-              "id": "146",
-              "text": "Ein Theater in Dresden zeigt ausgewählte Vorstellungen mit Übertiteln in mehreren Sprachen. Die Handlung wird zusätzlich vor Beginn kurz erklärt."
-            },
-            {
-              "id": "147",
-              "text": "In einem Dorfkino bestimmen Besucher online über das Monatsprogramm. Mindestens ein Film wird am Nachmittag für Familien gezeigt."
-            },
-            {
-              "id": "148",
-              "text": "Ein Festival reserviert günstige Karten für Menschen mit niedrigem Einkommen. Ein Nachweis ist nötig, persönliche Daten werden danach nicht gespeichert."
-            },
-            {
-              "id": "149",
-              "text": "Eine Musikschule verleiht Instrumente für ein Jahr. Wer den Unterricht beendet, gibt sie zurück, damit andere Lernende sie nutzen können."
-            },
-            {
-              "id": "150",
-              "text": "Ein Kulturzentrum bietet ruhige Vorstellungen mit weniger Licht- und Toneffekten an. Besucher dürfen den Saal jederzeit verlassen und wiederkommen."
-            }
-          ],
-          "options": [
-            {
-              "key": "A",
-              "text": "Instrumente teilen"
-            },
-            {
-              "key": "B",
-              "text": "Theater in mehreren Sprachen"
-            },
-            {
-              "key": "C",
-              "text": "Kultur nur für Mitglieder"
-            },
-            {
-              "key": "D",
-              "text": "Ermäßigung mit Nachweis"
-            },
-            {
-              "key": "E",
-              "text": "Teure Geräte kaufen"
-            },
-            {
-              "key": "F",
-              "text": "Publikum wählt das Programm"
-            },
-            {
-              "key": "G",
-              "text": "Vorstellung mit weniger Reizen"
-            }
-          ],
-          "answer": {
-            "146": "B",
-            "147": "F",
-            "148": "D",
-            "149": "A",
-            "150": "G"
-          },
-          "categoryLabel": "Lesen · Überschriften"
-        },
-        {
-          "id": "ads-neu-1",
-          "title": "Aufgabensatz 1 · Wohnen und Nachbarschaft",
-          "type": "matching_ads",
-          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
-          "scenarios": [
-            {
-              "id": "151",
-              "text": "Sie suchen ein möbliertes Zimmer für drei Monate und möchten Ihr Haustier mitbringen."
-            },
-            {
-              "id": "152",
-              "text": "Ihre Nachbarin braucht zweimal pro Woche Hilfe beim Einkaufen."
-            },
-            {
-              "id": "153",
-              "text": "Sie möchten einen ruhigen Raum für eine private Feier mieten."
-            },
-            {
-              "id": "154",
-              "text": "Ein Freund sucht eine barrierefreie Zwei-Zimmer-Wohnung."
-            },
-            {
-              "id": "155",
-              "text": "Sie wollen kaputte Haushaltsgeräte gemeinsam mit Fachleuten reparieren."
-            }
-          ],
-          "ads": [
-            {
-              "key": "A",
-              "text": "Möbliertes Wohnen auf Zeit, 1–6 Monate; Katzen willkommen, Nebenkosten inklusive."
-            },
-            {
-              "key": "B",
-              "text": "Nachbarschaftshilfe: Freiwillige begleiten Einkäufe dienstags und freitags; Anmeldung telefonisch."
-            },
-            {
-              "key": "C",
-              "text": "Quartiershaus: heller Saal für private Feiern bis 22 Uhr, ruhige Wohnlage, Küche vorhanden."
-            },
-            {
-              "key": "D",
-              "text": "Barrierefreie 2-Zimmer-Wohnung: Aufzug, breite Türen, stufenloser Balkon."
-            },
-            {
-              "key": "E",
-              "text": "Reparaturcafé: Werkzeug und Fachleute helfen bei Toaster, Lampe und Mixer; keine Anmeldung."
-            },
-            {
-              "key": "F",
-              "text": "Unmöblierte Wohnung nur mit Zweijahresvertrag."
-            },
-            {
-              "key": "G",
-              "text": "Lauter Proberaum ausschließlich für Bands."
-            }
-          ],
-          "answer": {
-            "151": "A",
-            "152": "B",
-            "153": "C",
-            "154": "D",
-            "155": "E"
-          },
-          "categoryLabel": "Lesen · Anzeigen"
-        },
-        {
-          "id": "ads-neu-2",
-          "title": "Aufgabensatz 2 · Kurse und Weiterbildung",
-          "type": "matching_ads",
-          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
-          "scenarios": [
-            {
-              "id": "156",
-              "text": "Sie arbeiten tagsüber und suchen einen B1-Kurs am Abend."
-            },
-            {
-              "id": "157",
-              "text": "Sie möchten lernen, wie man berufliche E-Mails schreibt."
-            },
-            {
-              "id": "158",
-              "text": "Ihre Tochter braucht kostenlose Hilfe in Mathematik."
-            },
-            {
-              "id": "159",
-              "text": "Sie suchen einen Computerkurs mit Geräten vor Ort."
-            },
-            {
-              "id": "160",
-              "text": "Sie möchten Deutsch beim gemeinsamen Kochen üben."
-            }
-          ],
-          "ads": [
-            {
-              "key": "A",
-              "text": "Deutsch B1 am Abend: Mo/Do 18.30–20.45 Uhr, Einstufung kostenlos."
-            },
-            {
-              "key": "B",
-              "text": "Workshop Berufliche E-Mails: höflich formulieren, klar strukturieren, typische Fehler vermeiden."
-            },
-            {
-              "key": "C",
-              "text": "Lernpatinnen unterstützen Schülerinnen bis Klasse 7 kostenlos in Mathematik."
-            },
-            {
-              "key": "D",
-              "text": "PC-Grundkurs im Bildungszentrum; Laptops stehen allen Teilnehmenden zur Verfügung."
-            },
-            {
-              "key": "E",
-              "text": "Sprachküche: gemeinsam kochen, essen und Deutsch sprechen; Niveau A2–B2."
-            },
-            {
-              "key": "F",
-              "text": "Onlinekurs für Fortgeschrittene C2 am Vormittag."
-            },
-            {
-              "key": "G",
-              "text": "Gitarrenunterricht nur für Berufsmusiker."
-            }
-          ],
-          "answer": {
-            "156": "A",
-            "157": "B",
-            "158": "C",
-            "159": "D",
-            "160": "E"
-          },
-          "categoryLabel": "Lesen · Anzeigen"
-        },
-        {
-          "id": "ads-neu-3",
-          "title": "Aufgabensatz 3 · Reisen im DACH-Raum",
-          "type": "matching_ads",
-          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
-          "scenarios": [
-            {
-              "id": "161",
-              "text": "Sie möchten ohne Auto mit einem Nachtzug nach Wien reisen."
-            },
-            {
-              "id": "162",
-              "text": "Eine Familie sucht Ferien auf einem Bauernhof."
-            },
-            {
-              "id": "163",
-              "text": "Sie brauchen für eine Woche ein E-Bike."
-            },
-            {
-              "id": "164",
-              "text": "Ihre Eltern suchen ein Hotelzimmer ohne Treppen."
-            },
-            {
-              "id": "165",
-              "text": "Sie möchten eine Stadtführung auf Französisch machen."
-            }
-          ],
-          "ads": [
-            {
-              "key": "A",
-              "text": "Nachtzug nach Wien: Abfahrt 22.10 Uhr, Sitz-, Liege- und Schlafwagen."
-            },
-            {
-              "key": "B",
-              "text": "Bio-Ferienhof mit Tieren, Familienzimmern und Spielscheune."
-            },
-            {
-              "key": "C",
-              "text": "E-Bike-Verleih: Tages- und Wochenpreise, Schloss und Ladegerät inklusive."
-            },
-            {
-              "key": "D",
-              "text": "Hotel am Bahnhof: stufenloser Eingang, Aufzug und rollstuhlgerechte Zimmer."
-            },
-            {
-              "key": "E",
-              "text": "Visite de la vieille ville en français, samedi à 11 heures."
-            },
-            {
-              "key": "F",
-              "text": "Autovermietung: Mindestdauer vier Wochen."
-            },
-            {
-              "key": "G",
-              "text": "Stadtführung ausschließlich für Schulklassen auf Italienisch."
-            }
-          ],
-          "answer": {
-            "161": "A",
-            "162": "B",
-            "163": "C",
-            "164": "D",
-            "165": "E"
-          },
-          "categoryLabel": "Lesen · Anzeigen"
-        },
-        {
-          "id": "ads-neu-4",
-          "title": "Aufgabensatz 4 · Familie und Betreuung",
-          "type": "matching_ads",
-          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
-          "scenarios": [
-            {
-              "id": "166",
-              "text": "Sie brauchen Betreuung für ein dreijähriges Kind am Samstag."
-            },
-            {
-              "id": "167",
-              "text": "Ihr zehnjähriger Sohn möchte in den Ferien draußen forschen."
-            },
-            {
-              "id": "168",
-              "text": "Sie suchen gebrauchte Kinderkleidung zum Tauschen."
-            },
-            {
-              "id": "169",
-              "text": "Ihre Tochter möchte ein Musikinstrument ausprobieren, ohne es zu kaufen."
-            },
-            {
-              "id": "170",
-              "text": "Sie möchten andere Alleinerziehende kennenlernen."
-            }
-          ],
-          "ads": [
-            {
-              "key": "A",
-              "text": "Samstags-Kita für Kinder von 2 bis 5 Jahren, buchbar bis Mittwoch."
-            },
-            {
-              "key": "B",
-              "text": "Ferienforscher: Wald, Wasser und Tiere für Kinder von 9 bis 12 Jahren."
-            },
-            {
-              "key": "C",
-              "text": "Kinderkleidertausch: saubere Kleidung bringen und andere Größen mitnehmen."
-            },
-            {
-              "key": "D",
-              "text": "Musikschule: Instrumente vier Wochen kostenlos testen, Beratung inklusive."
-            },
-            {
-              "key": "E",
-              "text": "Treffpunkt für Alleinerziehende, jeden zweiten Freitag mit Kinderbetreuung."
-            },
-            {
-              "key": "F",
-              "text": "Babykurs nur für Kinder unter sechs Monaten."
-            },
-            {
-              "key": "G",
-              "text": "Fußballtraining für Erwachsene über 30."
-            }
-          ],
-          "answer": {
-            "166": "A",
-            "167": "B",
-            "168": "C",
-            "169": "D",
-            "170": "E"
-          },
-          "categoryLabel": "Lesen · Anzeigen"
-        },
-        {
-          "id": "ads-neu-5",
-          "title": "Aufgabensatz 5 · Arbeit und Beratung",
-          "type": "matching_ads",
-          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
-          "scenarios": [
-            {
-              "id": "171",
-              "text": "Sie möchten Ihren ausländischen Berufsabschluss prüfen lassen."
-            },
-            {
-              "id": "172",
-              "text": "Sie suchen eine Teilzeitstelle nur am Vormittag."
-            },
-            {
-              "id": "173",
-              "text": "Sie brauchen Hilfe bei einer digitalen Bewerbung."
-            },
-            {
-              "id": "174",
-              "text": "Sie wollen nach längerer Pause wieder in den Beruf einsteigen."
-            },
-            {
-              "id": "175",
-              "text": "Sie suchen eine vertrauliche Beratung zu Problemen am Arbeitsplatz."
-            }
-          ],
-          "ads": [
-            {
-              "key": "A",
-              "text": "Anerkennungsberatung für ausländische Abschlüsse, mehrsprachig und kostenlos."
-            },
-            {
-              "key": "B",
-              "text": "Bäckerei sucht Verkaufskraft Mo–Fr 7–12 Uhr, Teilzeitvertrag."
-            },
-            {
-              "key": "C",
-              "text": "Bewerbungswerkstatt: Lebenslauf, Onlineformular und Scan-Service."
-            },
-            {
-              "key": "D",
-              "text": "Wiedereinstiegsprogramm nach Familien- oder Pflegezeit, Coaching und Praktikum."
-            },
-            {
-              "key": "E",
-              "text": "Vertrauliche Arbeitnehmerberatung bei Konflikten, Mobbing und Kündigungsfragen."
-            },
-            {
-              "key": "F",
-              "text": "Vollzeitstelle ausschließlich im Nachtdienst."
-            },
-            {
-              "key": "G",
-              "text": "Steuerberatung nur für große Unternehmen."
-            }
-          ],
-          "answer": {
-            "171": "A",
-            "172": "B",
-            "173": "C",
-            "174": "D",
-            "175": "E"
-          },
-          "categoryLabel": "Lesen · Anzeigen"
-        },
-        {
-          "id": "ads-neu-6",
-          "title": "Aufgabensatz 6 · Freizeit und Kultur",
-          "type": "matching_ads",
-          "instructions": "Lesen Sie die fünf Situationen und die Anzeigen A–G. Welche Anzeige passt? Zwei Anzeigen bleiben übrig.",
-          "scenarios": [
-            {
-              "id": "176",
-              "text": "Sie möchten am Nachmittag einen Film mit Ihrem kleinen Kind sehen."
-            },
-            {
-              "id": "177",
-              "text": "Sie suchen eine Theateraufführung mit deutscher Übertitelung."
-            },
-            {
-              "id": "178",
-              "text": "Sie wollen in einem Chor mitsingen, haben aber keine Erfahrung."
-            },
-            {
-              "id": "179",
-              "text": "Sie suchen am Sonntag einen kostenlosen Museumsbesuch."
-            },
-            {
-              "id": "180",
-              "text": "Sie möchten Keramik herstellen und Material vor Ort bekommen."
-            }
-          ],
-          "ads": [
-            {
-              "key": "A",
-              "text": "Familienkino sonntags um 15 Uhr; Licht bleibt leicht an, Kinderwagenplätze vorhanden."
-            },
-            {
-              "key": "B",
-              "text": "Theater international: französisches Stück mit deutschen Übertiteln."
-            },
-            {
-              "key": "C",
-              "text": "Offener Stadtteilchor: keine Vorkenntnisse, erste Probe kostenlos."
-            },
-            {
-              "key": "D",
-              "text": "Museumssonntag: Eintritt in die Dauerausstellung frei, 10–18 Uhr."
-            },
-            {
-              "key": "E",
-              "text": "Keramikwerkstatt: Ton, Glasur und Brennen im Kurspreis enthalten."
-            },
-            {
-              "key": "F",
-              "text": "Konzert nur für Personen ab 18 Jahren um Mitternacht."
-            },
-            {
-              "key": "G",
-              "text": "Malkurs online; Material muss selbst gekauft werden."
-            }
-          ],
-          "answer": {
-            "176": "A",
-            "177": "B",
-            "178": "C",
-            "179": "D",
-            "180": "E"
-          },
-          "categoryLabel": "Lesen · Anzeigen"
+          "categoryLabel": "Goethe B1 · Lesen · Teil 5"
         }
       ]
     }
