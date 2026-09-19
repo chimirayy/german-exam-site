@@ -1076,43 +1076,43 @@
             {
               "id": "21_teil3_geburtstagsfest_q1",
               "type": "true_false",
-              "statement": "Die Hauptperson kommt wegen einer Zugverspätung später an.",
+              "statement": "Die Feier findet wegen des Regens im Wohnzimmer statt.",
               "answer": true
             },
             {
               "id": "21_teil3_geburtstagsfest_q2",
               "type": "true_false",
-              "statement": "Sie übernachtet schließlich in einem Hotel im Zentrum.",
+              "statement": "Zur Feier kommen fünfundzwanzig Gäste.",
               "answer": false
             },
             {
               "id": "21_teil3_geburtstagsfest_q3",
               "type": "true_false",
-              "statement": "Am Anfang kennt sie nur zwei Personen aus der Gruppe.",
-              "answer": true
+              "statement": "Nadia bereitet alle Speisen selbst zu.",
+              "answer": false
             },
             {
               "id": "21_teil3_geburtstagsfest_q4",
               "type": "true_false",
-              "statement": "Fast alle Speisen am Buffet enthalten Fleisch.",
-              "answer": false
+              "statement": "Das warme Essen wird verspätet geliefert.",
+              "answer": true
             },
             {
               "id": "21_teil3_geburtstagsfest_q5",
               "type": "true_false",
-              "statement": "Sie singt später vor anderen Leuten mit.",
+              "statement": "Nadias Onkel zeigt Fotos aus ihrer Kindheit.",
               "answer": true
             },
             {
               "id": "21_teil3_geburtstagsfest_q6",
               "type": "true_false",
-              "statement": "Die Stadtführung wird wegen des Regens abgesagt.",
+              "statement": "Die letzten Gäste gehen schon vor zehn Uhr.",
               "answer": false
             },
             {
               "id": "21_teil3_geburtstagsfest_q7",
               "type": "true_false",
-              "statement": "Der Zug auf der Rückfahrt ist pünktlich.",
+              "statement": "Nadia bekommt einen Kochkurs geschenkt.",
               "answer": true
             }
           ]
@@ -1129,43 +1129,43 @@
             {
               "id": "22_teil3_neue_wohnung_q1",
               "type": "true_false",
-              "statement": "Die Hauptperson kommt wegen einer Zugverspätung später an.",
-              "answer": true
+              "statement": "Maras neue Wohnung liegt beim Bahnhof.",
+              "answer": false
             },
             {
               "id": "22_teil3_neue_wohnung_q2",
               "type": "true_false",
-              "statement": "Sie übernachtet schließlich in einem Hotel im Zentrum.",
-              "answer": false
+              "statement": "Ihr Arbeitsweg ist jetzt deutlich kürzer.",
+              "answer": true
             },
             {
               "id": "22_teil3_neue_wohnung_q3",
               "type": "true_false",
-              "statement": "Am Anfang kennt sie nur zwei Personen aus der Gruppe.",
-              "answer": true
+              "statement": "Die Transportfirma bringt sofort ein Ersatzfahrzeug.",
+              "answer": false
             },
             {
               "id": "22_teil3_neue_wohnung_q4",
               "type": "true_false",
-              "statement": "Fast alle Speisen am Buffet enthalten Fleisch.",
-              "answer": false
+              "statement": "Am Umzugstag funktioniert der Aufzug nicht.",
+              "answer": true
             },
             {
               "id": "22_teil3_neue_wohnung_q5",
               "type": "true_false",
-              "statement": "Sie singt später vor anderen Leuten mit.",
+              "statement": "In der Küche muss noch eine Lampe angebracht werden.",
               "answer": true
             },
             {
               "id": "22_teil3_neue_wohnung_q6",
               "type": "true_false",
-              "statement": "Die Stadtführung wird wegen des Regens abgesagt.",
+              "statement": "Die neue Wohnung hat keinen Balkon.",
               "answer": false
             },
             {
               "id": "22_teil3_neue_wohnung_q7",
               "type": "true_false",
-              "statement": "Der Zug auf der Rückfahrt ist pünktlich.",
+              "statement": "Zur Einweihung sollen die Gäste Essen mitbringen.",
               "answer": true
             }
           ]
@@ -1182,43 +1182,43 @@
             {
               "id": "23_teil3_bergurlaub_q1",
               "type": "true_false",
-              "statement": "Die Hauptperson kommt wegen einer Zugverspätung später an.",
-              "answer": true
+              "statement": "Sophie übernachtet in einem Hotel im Tal.",
+              "answer": false
             },
             {
               "id": "23_teil3_bergurlaub_q2",
               "type": "true_false",
-              "statement": "Sie übernachtet schließlich in einem Hotel im Zentrum.",
-              "answer": false
+              "statement": "In der Berghütte gibt es kaum Handyempfang.",
+              "answer": true
             },
             {
               "id": "23_teil3_bergurlaub_q3",
               "type": "true_false",
-              "statement": "Am Anfang kennt sie nur zwei Personen aus der Gruppe.",
-              "answer": true
+              "statement": "Sophie wandert an jedem Urlaubstag.",
+              "answer": false
             },
             {
               "id": "23_teil3_bergurlaub_q4",
               "type": "true_false",
-              "statement": "Fast alle Speisen am Buffet enthalten Fleisch.",
-              "answer": false
+              "statement": "Die erste Wanderung dauert länger als geplant.",
+              "answer": true
             },
             {
               "id": "23_teil3_bergurlaub_q5",
               "type": "true_false",
-              "statement": "Sie singt später vor anderen Leuten mit.",
+              "statement": "Während des Gewitters ist die Gruppe in einem Gasthaus.",
               "answer": true
             },
             {
               "id": "23_teil3_bergurlaub_q6",
               "type": "true_false",
-              "statement": "Die Stadtführung wird wegen des Regens abgesagt.",
+              "statement": "Im Bergsee ist Schwimmen erlaubt.",
               "answer": false
             },
             {
               "id": "23_teil3_bergurlaub_q7",
               "type": "true_false",
-              "statement": "Der Zug auf der Rückfahrt ist pünktlich.",
+              "statement": "Sophie möchte im Herbst noch einmal hinfahren.",
               "answer": true
             }
           ]
@@ -1235,44 +1235,44 @@
             {
               "id": "24_teil3_neuer_job_q1",
               "type": "true_false",
-              "statement": "Die Hauptperson kommt wegen einer Zugverspätung später an.",
-              "answer": true
+              "statement": "Ninas Mitarbeiterausweis ist bei ihrer Ankunft fertig.",
+              "answer": false
             },
             {
               "id": "24_teil3_neuer_job_q2",
               "type": "true_false",
-              "statement": "Sie übernachtet schließlich in einem Hotel im Zentrum.",
-              "answer": false
+              "statement": "In Ninas neuem Team arbeiten sieben Personen.",
+              "answer": true
             },
             {
               "id": "24_teil3_neuer_job_q3",
               "type": "true_false",
-              "statement": "Am Anfang kennt sie nur zwei Personen aus der Gruppe.",
+              "statement": "Am ersten Tag frühstückt das ganze Team zusammen.",
               "answer": true
             },
             {
               "id": "24_teil3_neuer_job_q4",
               "type": "true_false",
-              "statement": "Fast alle Speisen am Buffet enthalten Fleisch.",
+              "statement": "Nina führt selbst ein Kundengespräch.",
               "answer": false
             },
             {
               "id": "24_teil3_neuer_job_q5",
               "type": "true_false",
-              "statement": "Sie singt später vor anderen Leuten mit.",
+              "statement": "Ihr neuer Arbeitsweg dauert fünfundvierzig Minuten.",
               "answer": true
             },
             {
               "id": "24_teil3_neuer_job_q6",
               "type": "true_false",
-              "statement": "Die Stadtführung wird wegen des Regens abgesagt.",
+              "statement": "Nina darf sofort zwei Tage zu Hause arbeiten.",
               "answer": false
             },
             {
               "id": "24_teil3_neuer_job_q7",
               "type": "true_false",
-              "statement": "Der Zug auf der Rückfahrt ist pünktlich.",
-              "answer": true
+              "statement": "Die Firma besitzt eine eigene Kantine.",
+              "answer": false
             }
           ]
         },
@@ -1288,44 +1288,44 @@
             {
               "id": "25_teil3_konzert_q1",
               "type": "true_false",
-              "statement": "Die Hauptperson kommt wegen einer Zugverspätung später an.",
+              "statement": "Laura besucht das Konzert mit ihrer Schwester.",
               "answer": true
             },
             {
               "id": "25_teil3_konzert_q2",
               "type": "true_false",
-              "statement": "Sie übernachtet schließlich in einem Hotel im Zentrum.",
-              "answer": false
+              "statement": "Das Konzert beginnt eine Stunde später als geplant.",
+              "answer": true
             },
             {
               "id": "25_teil3_konzert_q3",
               "type": "true_false",
-              "statement": "Am Anfang kennt sie nur zwei Personen aus der Gruppe.",
-              "answer": true
+              "statement": "Die Band verkürzt ihren Auftritt deutlich.",
+              "answer": false
             },
             {
               "id": "25_teil3_konzert_q4",
               "type": "true_false",
-              "statement": "Fast alle Speisen am Buffet enthalten Fleisch.",
-              "answer": false
+              "statement": "Die Band spielt ein noch unveröffentlichtes Lied.",
+              "answer": true
             },
             {
               "id": "25_teil3_konzert_q5",
               "type": "true_false",
-              "statement": "Sie singt später vor anderen Leuten mit.",
-              "answer": true
+              "statement": "Laura steht direkt vor der Bühne.",
+              "answer": false
             },
             {
               "id": "25_teil3_konzert_q6",
               "type": "true_false",
-              "statement": "Die Stadtführung wird wegen des Regens abgesagt.",
-              "answer": false
+              "statement": "Nach dem Konzert fahren kostenlose Busse zum Hauptbahnhof.",
+              "answer": true
             },
             {
               "id": "25_teil3_konzert_q7",
               "type": "true_false",
-              "statement": "Der Zug auf der Rückfahrt ist pünktlich.",
-              "answer": true
+              "statement": "Laura kauft ein T-Shirt für fünfundvierzig Euro.",
+              "answer": false
             }
           ]
         },
@@ -1341,43 +1341,43 @@
             {
               "id": "26_teil3_fahrradtour_q1",
               "type": "true_false",
-              "statement": "Die Hauptperson kommt wegen einer Zugverspätung später an.",
-              "answer": true
+              "statement": "Die Gruppe fährt genau fünfzig Kilometer.",
+              "answer": false
             },
             {
               "id": "26_teil3_fahrradtour_q2",
               "type": "true_false",
-              "statement": "Sie übernachtet schließlich in einem Hotel im Zentrum.",
-              "answer": false
+              "statement": "Eine gesperrte Brücke führt zu einem Umweg.",
+              "answer": true
             },
             {
               "id": "26_teil3_fahrradtour_q3",
               "type": "true_false",
-              "statement": "Am Anfang kennt sie nur zwei Personen aus der Gruppe.",
-              "answer": true
+              "statement": "Katrin fährt mit einem E-Bike.",
+              "answer": false
             },
             {
               "id": "26_teil3_fahrradtour_q4",
               "type": "true_false",
-              "statement": "Fast alle Speisen am Buffet enthalten Fleisch.",
+              "statement": "Der Kiosk am See ist geöffnet.",
               "answer": false
             },
             {
               "id": "26_teil3_fahrradtour_q5",
               "type": "true_false",
-              "statement": "Sie singt später vor anderen Leuten mit.",
+              "statement": "Ben kann Miris Reifen reparieren.",
               "answer": true
             },
             {
               "id": "26_teil3_fahrradtour_q6",
               "type": "true_false",
-              "statement": "Die Stadtführung wird wegen des Regens abgesagt.",
-              "answer": false
+              "statement": "Die Reparatur dauert zwanzig Minuten.",
+              "answer": true
             },
             {
               "id": "26_teil3_fahrradtour_q7",
               "type": "true_false",
-              "statement": "Der Zug auf der Rückfahrt ist pünktlich.",
+              "statement": "Auf den letzten Kilometern regnet es leicht.",
               "answer": true
             }
           ]
@@ -1394,43 +1394,43 @@
             {
               "id": "27_teil3_sprachkurs_q1",
               "type": "true_false",
-              "statement": "Die Hauptperson kommt wegen einer Zugverspätung später an.",
+              "statement": "Elena besucht einen Deutschkurs auf B2-Niveau.",
               "answer": true
             },
             {
               "id": "27_teil3_sprachkurs_q2",
               "type": "true_false",
-              "statement": "Sie übernachtet schließlich in einem Hotel im Zentrum.",
+              "statement": "Der Unterricht findet auch am Wochenende statt.",
               "answer": false
             },
             {
               "id": "27_teil3_sprachkurs_q3",
               "type": "true_false",
-              "statement": "Am Anfang kennt sie nur zwei Personen aus der Gruppe.",
+              "statement": "Im Kurs sind zwölf Personen aus acht Ländern.",
               "answer": true
             },
             {
               "id": "27_teil3_sprachkurs_q4",
               "type": "true_false",
-              "statement": "Fast alle Speisen am Buffet enthalten Fleisch.",
+              "statement": "Die Lehrerin spricht im Unterricht meistens Englisch.",
               "answer": false
             },
             {
               "id": "27_teil3_sprachkurs_q5",
               "type": "true_false",
-              "statement": "Sie singt später vor anderen Leuten mit.",
-              "answer": true
+              "statement": "Das Lehrbuch ist im Kurspreis enthalten.",
+              "answer": false
             },
             {
               "id": "27_teil3_sprachkurs_q6",
               "type": "true_false",
-              "statement": "Die Stadtführung wird wegen des Regens abgesagt.",
-              "answer": false
+              "statement": "Elena bevorzugt die gedruckte Ausgabe des Buches.",
+              "answer": true
             },
             {
               "id": "27_teil3_sprachkurs_q7",
               "type": "true_false",
-              "statement": "Der Zug auf der Rückfahrt ist pünktlich.",
+              "statement": "Elena findet das Hörverstehen besonders schwierig.",
               "answer": true
             }
           ]
@@ -1447,44 +1447,44 @@
             {
               "id": "28_teil3_familienfeier_q1",
               "type": "true_false",
-              "statement": "Die Hauptperson kommt wegen einer Zugverspätung später an.",
+              "statement": "Sarahs Großmutter feiert ihren achtzigsten Geburtstag.",
               "answer": true
             },
             {
               "id": "28_teil3_familienfeier_q2",
               "type": "true_false",
-              "statement": "Sie übernachtet schließlich in einem Hotel im Zentrum.",
+              "statement": "Der Onkel aus Kanada nimmt persönlich teil.",
               "answer": false
             },
             {
               "id": "28_teil3_familienfeier_q3",
               "type": "true_false",
-              "statement": "Am Anfang kennt sie nur zwei Personen aus der Gruppe.",
+              "statement": "Die Familie feiert mit zweiunddreißig Personen.",
               "answer": true
             },
             {
               "id": "28_teil3_familienfeier_q4",
               "type": "true_false",
-              "statement": "Fast alle Speisen am Buffet enthalten Fleisch.",
+              "statement": "Die gesamte Feier ist eine Überraschung für die Großmutter.",
               "answer": false
             },
             {
               "id": "28_teil3_familienfeier_q5",
               "type": "true_false",
-              "statement": "Sie singt später vor anderen Leuten mit.",
+              "statement": "Eine alte Schulfreundin kommt aus München.",
               "answer": true
             },
             {
               "id": "28_teil3_familienfeier_q6",
               "type": "true_false",
-              "statement": "Die Stadtführung wird wegen des Regens abgesagt.",
-              "answer": false
+              "statement": "Die Enkel führen ein Theaterstück auf.",
+              "answer": true
             },
             {
               "id": "28_teil3_familienfeier_q7",
               "type": "true_false",
-              "statement": "Der Zug auf der Rückfahrt ist pünktlich.",
-              "answer": true
+              "statement": "Die Großmutter wünscht sich eine Sahnetorte.",
+              "answer": false
             }
           ]
         },
@@ -1500,43 +1500,43 @@
             {
               "id": "29_teil3_sportverein_q1",
               "type": "true_false",
-              "statement": "Die Hauptperson kommt wegen einer Zugverspätung später an.",
-              "answer": true
+              "statement": "Der Sportverein ist Aylin zu teuer.",
+              "answer": false
             },
             {
               "id": "29_teil3_sportverein_q2",
               "type": "true_false",
-              "statement": "Sie übernachtet schließlich in einem Hotel im Zentrum.",
-              "answer": false
+              "statement": "Aylin zahlt achtzehn Euro im Monat.",
+              "answer": true
             },
             {
               "id": "29_teil3_sportverein_q3",
               "type": "true_false",
-              "statement": "Am Anfang kennt sie nur zwei Personen aus der Gruppe.",
-              "answer": true
+              "statement": "Das Badmintontraining ist samstags.",
+              "answer": false
             },
             {
               "id": "29_teil3_sportverein_q4",
               "type": "true_false",
-              "statement": "Fast alle Speisen am Buffet enthalten Fleisch.",
-              "answer": false
+              "statement": "Aylin hat inzwischen einen gebrauchten Schläger.",
+              "answer": true
             },
             {
               "id": "29_teil3_sportverein_q5",
               "type": "true_false",
-              "statement": "Sie singt später vor anderen Leuten mit.",
-              "answer": true
+              "statement": "Alle Mitglieder ihrer Gruppe sind Anfänger.",
+              "answer": false
             },
             {
               "id": "29_teil3_sportverein_q6",
               "type": "true_false",
-              "statement": "Die Stadtführung wird wegen des Regens abgesagt.",
-              "answer": false
+              "statement": "Die Teilnahme an Wettkämpfen ist freiwillig.",
+              "answer": true
             },
             {
               "id": "29_teil3_sportverein_q7",
               "type": "true_false",
-              "statement": "Der Zug auf der Rückfahrt ist pünktlich.",
+              "statement": "Aylin hilft beim Sommerfest des Vereins.",
               "answer": true
             }
           ]
@@ -1553,43 +1553,43 @@
             {
               "id": "30_teil3_wochenendtrip_q1",
               "type": "true_false",
-              "statement": "Die Hauptperson kommt wegen einer Zugverspätung später an.",
+              "statement": "Julia fährt mit dem Fernbus nach Straßburg.",
               "answer": true
             },
             {
               "id": "30_teil3_wochenendtrip_q2",
               "type": "true_false",
-              "statement": "Sie übernachtet schließlich in einem Hotel im Zentrum.",
+              "statement": "Der Bus kommt pünktlich an.",
               "answer": false
             },
             {
               "id": "30_teil3_wochenendtrip_q3",
               "type": "true_false",
-              "statement": "Am Anfang kennt sie nur zwei Personen aus der Gruppe.",
-              "answer": true
+              "statement": "Die Hotelrezeption schließt am Abend.",
+              "answer": false
             },
             {
               "id": "30_teil3_wochenendtrip_q4",
               "type": "true_false",
-              "statement": "Fast alle Speisen am Buffet enthalten Fleisch.",
-              "answer": false
+              "statement": "Julia besichtigt das Münster.",
+              "answer": true
             },
             {
               "id": "30_teil3_wochenendtrip_q5",
               "type": "true_false",
-              "statement": "Sie singt später vor anderen Leuten mit.",
-              "answer": true
+              "statement": "Für das Europaviertel hat die Gruppe eine Führung gebucht.",
+              "answer": false
             },
             {
               "id": "30_teil3_wochenendtrip_q6",
               "type": "true_false",
-              "statement": "Die Stadtführung wird wegen des Regens abgesagt.",
+              "statement": "Am Sonntag besuchen sie ein Kunstmuseum.",
               "answer": false
             },
             {
               "id": "30_teil3_wochenendtrip_q7",
               "type": "true_false",
-              "statement": "Der Zug auf der Rückfahrt ist pünktlich.",
+              "statement": "Der Regionalzug auf der Rückfahrt ist pünktlich.",
               "answer": true
             }
           ]
