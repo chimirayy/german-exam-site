@@ -5,7 +5,7 @@
   const root = document.getElementById("exam-root");
   if (!cfg || !root) return;
 
-  const STORAGE_KEY = `telc-b1-task-${cfg.level}-${cfg.practiceId}`;
+  const STORAGE_KEY = `pruefung-task-${cfg.level}-${cfg.practiceId}`;
   let DATA = null;
   let state = loadState();
   let tickHandle = null;
@@ -50,6 +50,8 @@
   // enough to hear the file twice plus a minute to answer. Every other
   // task type keeps a fixed per-practice limit.
   function taskLimitSeconds(part) {
+    // A task may carry its own limit (Goethe B2 Lesen: 18/12/12/17/6 Min.).
+    if (typeof part.timeLimit === "number" && part.timeLimit > 0) return part.timeLimit;
     if (part.type === "listening") {
       const dur = metaFor(part).audioDurationSeconds;
       const seconds = (typeof dur === "number" && isFinite(dur) && dur > 0) ? dur : FALLBACK_AUDIO_SECONDS;
@@ -154,15 +156,18 @@
     const total = tasks().length;
     const category = DATA.sections[0].title;
     const isListening = tasks().every(p => p.type === "listening");
+    const limits = tasks().map(p => Math.round(taskLimitSeconds(p) / 60));
+    const lo = Math.min(...limits), hi = Math.max(...limits);
+    const span = lo === hi ? `${lo} Minuten` : `${lo}–${hi} Minuten`;
     const timeLead = isListening
       ? "Zeit pro Aufgabe: Audiolänge × 2 + 1 Minute"
-      : `${Math.round(taskLimitSeconds(tasks()[0]) / 60)} Minuten pro Aufgabe`;
+      : `${span} pro Aufgabe`;
     const timeMeta = isListening
       ? "<span>⏱ Audiolänge × 2 + 1 Min. je Aufgabe</span>"
-      : `<span>⏱ ${Math.round(taskLimitSeconds(tasks()[0]) / 60)}:00 je Aufgabe</span>`;
+      : `<span>⏱ ${span} je Aufgabe</span>`;
     root.innerHTML = `
       <main class="page intro-page">
-        <div class="intro-kicker">${escapeHtml(DATA.levelName)} · B1</div>
+        <div class="intro-kicker">${escapeHtml(DATA.levelName)}</div>
         <h1>${escapeHtml(category)}</h1>
         <p class="intro-lead">${total} Aufgaben · ${timeLead}</p>
         <div class="intro-meta"><span>${total} Einzelaufgaben</span>${timeMeta}<span>Automatische Abgabe bei 0:00</span></div>
@@ -216,7 +221,7 @@
     root.innerHTML = `
       <div class="exam-bar">
         <div class="exam-bar-inner">
-          <div class="section-name"><span class="lvl">B1</span> · ${escapeHtml(DATA.sections[0].title)}</div>
+          <div class="section-name"><span class="lvl">${escapeHtml(cfg.level || "")}</span> · ${escapeHtml(DATA.sections[0].title)}</div>
           <div class="task-counter">Aufgabe ${state.currentTaskIndex + 1} / ${n}</div>
           <div class="timer" id="timer">--:--</div>
         </div>
@@ -308,7 +313,7 @@
     root.innerHTML = `
       <div class="exam-bar review-bar">
         <div class="exam-bar-inner">
-          <div class="section-name"><span class="lvl">B1</span> · ${escapeHtml(DATA.sections[0].title)}</div>
+          <div class="section-name"><span class="lvl">${escapeHtml(cfg.level || "")}</span> · ${escapeHtml(DATA.sections[0].title)}</div>
           <div class="task-counter">Aufgabe ${idx + 1} / ${tasks().length}</div>
           <div class="timer review-timer">${meta.timedOut ? "00:00" : formatSeconds(meta.spentSeconds)}</div>
         </div>
@@ -340,6 +345,11 @@
       case "speaker_matching": renderSpeakerMatching(wrap, part); break;
       case "cloze_mc": renderClozeMc(wrap, part); break;
       case "cloze_wordbank": renderClozeWordbank(wrap, part); break;
+      case "person_matching": renderPersonMatching(wrap, part); break;
+      case "gap_sentences": renderGapSentences(wrap, part); break;
+      case "text_mc": renderTextMc(wrap, part); break;
+      case "opinion_matching": renderOpinionMatching(wrap, part); break;
+      case "heading_matching": renderHeadingMatching(wrap, part); break;
       case "writing": renderWriting(wrap, part); break;
       case "listening": renderListening(wrap, part); break;
       default: wrap.innerHTML += `<p>Unbekannter Aufgabentyp: ${escapeHtml(part.type)}</p>`;
@@ -459,7 +469,147 @@
   function renderClozeWordbank(wrap,part){const words = part.wordBank || part.wordbank || []; if(words.length){const d=document.createElement("div");d.className="wordbank";d.innerHTML=words.map(w=>`<span>${escapeHtml(w)}</span>`).join("");wrap.appendChild(d);}const p=document.createElement("p");p.className="cloze-text";let html=escapeHtml(part.textBefore||"");part.blanks.forEach(b=>{html+=escapeHtml(b.before||"");html+=`<select class="cloze-blank-select" data-blank="${escapeAttr(b.id)}"><option value="">${escapeHtml(b.id)}</option>${words.map(w=>`<option value="${escapeAttr(w)}" ${state.answers[part.id][b.id]===w?"selected":""}>${escapeHtml(w)}</option>`).join("")}</select>`;html+=escapeHtml(b.after||"");});html+=escapeHtml(part.textAfter||"");p.innerHTML=html;wrap.appendChild(p);p.querySelectorAll("select").forEach(s=>s.addEventListener("change",e=>{state.answers[part.id][e.target.dataset.blank]=e.target.value;saveState();updateAnsweredCount(part);}));}
   function renderWriting(wrap,part){const p=document.createElement("p");p.className="writing-prompt";p.textContent=part.prompt;wrap.appendChild(p);const ul=document.createElement("ul");ul.className="writing-points";ul.innerHTML=(part.points||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join("");wrap.appendChild(ul);const ta=document.createElement("textarea");ta.className="writing-area";ta.placeholder=`Mindestens ca. ${part.minWords||80} Wörter …`;ta.value=state.writing[part.id]||"";wrap.appendChild(ta);const wc=document.createElement("div");wc.className="wordcount";wrap.appendChild(wc);function update(){const words=ta.value.trim()?ta.value.trim().split(/\s+/).length:0;wc.textContent=`${words} Wörter · Ziel: ca. ${part.minWords||80}+`;wc.classList.toggle("ok",words>=(part.minWords||80));state.answers[part.id][part.id]=words?"written":"";}update();ta.addEventListener("input",()=>{state.writing[part.id]=ta.value;update();saveState();updateAnsweredCount(part);});}
 
-  function questionIds(part){switch(part.type){case"true_false":case"multiple_choice":case"listening":return part.questions.map(q=>q.id);case"matching":return part.items.map(i=>i.id);case"matching_ads":return part.scenarios.map(s=>s.id);case"speaker_matching":return part.speakers;case"cloze_mc":case"cloze_wordbank":return part.blanks.map(b=>b.id);case"writing":return [part.id];default:return[];}}
+  /* ---------------- Goethe B2 · Lesen ----------------
+     person_matching (Teil 1) · gap_sentences (Teil 2) · text_mc (Teil 3)
+     opinion_matching (Teil 4) · heading_matching (Teil 5)
+     Antworten werden als Buchstabe gespeichert, bei text_mc als Index. */
+
+  function letterOptions(part) {
+    switch (part.type) {
+      case "person_matching": return part.persons;
+      case "gap_sentences": return part.options;
+      case "opinion_matching": return part.comments;
+      case "heading_matching": return part.headings;
+      default: return [];
+    }
+  }
+  function letterLabel(part, key) {
+    if (key === undefined || key === null || key === "") return "–";
+    const o = letterOptions(part).filter(x => x.key === key)[0];
+    if (!o) return String(key);
+    const txt = o.name || o.text || "";
+    return txt ? `${key} – ${txt}` : String(key);
+  }
+  function letterSelectHtml(part, itemId) {
+    const stored = state.answers[part.id][itemId];
+    return `<select class="match-select" data-item="${escapeAttr(itemId)}"><option value="">—</option>` +
+      letterOptions(part).map(o => `<option value="${escapeAttr(o.key)}" ${stored === o.key ? "selected" : ""}>${escapeHtml(o.key)}</option>`).join("") +
+      `</select>`;
+  }
+  function bindLetterSelects(scope, part) {
+    scope.querySelectorAll("select[data-item]").forEach(sel => sel.addEventListener("change", e => {
+      const v = e.target.value;
+      if (v) state.answers[part.id][e.target.dataset.item] = v;
+      else delete state.answers[part.id][e.target.dataset.item];
+      saveState();
+      updateAnsweredCount(part);
+    }));
+  }
+  function exampleRow(num, text, key) {
+    return `<div class="match-row example"><div><span class="q-num">${escapeHtml(String(num))}</span><span class="q-statement">${escapeHtml(text)}</span></div><div class="row-control"><span class="answer-chip solution">${escapeHtml(key)}</span> <em>Beispiel</em></div></div>`;
+  }
+  function itemsHead(wrap) {
+    const h = document.createElement("h3");
+    h.className = "block-head";
+    h.textContent = "Aufgaben";
+    wrap.appendChild(h);
+  }
+
+  function renderPersonMatching(wrap, part) {
+    const grid = document.createElement("div");
+    grid.className = "person-grid";
+    grid.innerHTML = part.persons.map(p =>
+      `<div class="person-card"><h3><span class="letter">${escapeHtml(p.key)}</span>${escapeHtml(p.name)}</h3><p>${escapeHtml(p.text)}</p></div>`).join("");
+    wrap.appendChild(grid);
+    itemsHead(wrap);
+    const box = document.createElement("div");
+    box.className = "items-block";
+    box.innerHTML = (part.example ? exampleRow(part.example.id, part.example.statement, part.example.answer) : "") +
+      part.items.map(i => `<div class="match-row"><div><span class="q-num">${escapeHtml(i.id)}</span><span class="q-statement">${escapeHtml(i.statement)}</span></div><div class="row-control">${letterSelectHtml(part, i.id)}</div></div>`).join("");
+    wrap.appendChild(box);
+    bindLetterSelects(box, part);
+  }
+
+  function renderGapSentences(wrap, part) {
+    const art = document.createElement("article");
+    art.className = "article";
+    const body = part.paragraphs.map(par => {
+      const html = escapeHtml(par).replace(/\[\[(\d+)\]\]/g, (m, id) =>
+        id === "0"
+          ? `<span class="gap example-gap"><b>0</b> ${escapeHtml(part.exampleText || "")}</span>`
+          : `<span class="gap"><b>${id}</b> ${letterSelectHtml(part, id)}</span>`);
+      return `<p>${html}</p>`;
+    }).join("");
+    art.innerHTML = `<h2 class="article-title">${escapeHtml(part.articleTitle)}</h2>` +
+      (part.articleSubtitle ? `<p class="article-sub">${escapeHtml(part.articleSubtitle)}</p>` : "") + body;
+    wrap.appendChild(art);
+    bindLetterSelects(art, part);
+    const legend = document.createElement("div");
+    legend.className = "options-legend";
+    legend.innerHTML = `<strong>Sätze a–h</strong><ol class="letter-list">` +
+      part.options.map(o => `<li><span class="letter">${escapeHtml(o.key)}</span>${escapeHtml(o.text)}</li>`).join("") + `</ol>`;
+    wrap.appendChild(legend);
+  }
+
+  function renderTextMc(wrap, part) {
+    const art = document.createElement("article");
+    art.className = "article";
+    art.innerHTML = `<h2 class="article-title">${escapeHtml(part.articleTitle)}</h2>` +
+      (part.lead ? `<p class="article-lead">${escapeHtml(part.lead)}</p>` : "") +
+      part.paragraphs.map(t => `<p>${escapeHtml(t)}</p>`).join("");
+    wrap.appendChild(art);
+    itemsHead(wrap);
+    part.questions.forEach(q => {
+      const row = document.createElement("div");
+      row.className = "q-item";
+      row.innerHTML = `<div><span class="q-num">${escapeHtml(q.id)}</span><span class="q-statement">${escapeHtml(q.prompt)}</span></div><div class="mc-options">` +
+        q.options.map((o, i) => `<label class="mc-option ${state.answers[part.id][q.id] === i ? "selected" : ""}" data-idx="${i}"><input type="radio" name="${escapeAttr(part.id + "-" + q.id)}" ${state.answers[part.id][q.id] === i ? "checked" : ""}><span class="letter">${String.fromCharCode(97 + i)}</span><span>${escapeHtml(o)}</span></label>`).join("") + `</div>`;
+      row.querySelectorAll(".mc-option").forEach(l => l.addEventListener("click", () => {
+        state.answers[part.id][q.id] = Number(l.dataset.idx);
+        row.querySelectorAll(".mc-option").forEach(x => x.classList.remove("selected"));
+        l.classList.add("selected");
+        saveState();
+        updateAnsweredCount(part);
+      }));
+      wrap.appendChild(row);
+    });
+  }
+
+  function renderOpinionMatching(wrap, part) {
+    const grid = document.createElement("div");
+    grid.className = "comment-grid";
+    grid.innerHTML = part.comments.map(c =>
+      `<div class="comment-card"><span class="letter">${escapeHtml(c.key)}</span><p>${escapeHtml(c.text)}</p><span class="comment-author">${escapeHtml(c.author)}</span></div>`).join("");
+    wrap.appendChild(grid);
+    itemsHead(wrap);
+    const box = document.createElement("div");
+    box.className = "items-block";
+    box.innerHTML = (part.example ? exampleRow(part.example.id, part.example.statement, part.example.answer) : "") +
+      part.items.map(i => `<div class="match-row"><div><span class="q-num">${escapeHtml(i.id)}</span><span class="q-statement">${escapeHtml(i.statement)}</span></div><div class="row-control">${letterSelectHtml(part, i.id)}</div></div>`).join("");
+    wrap.appendChild(box);
+    bindLetterSelects(box, part);
+  }
+
+  function renderHeadingMatching(wrap, part) {
+    const head = document.createElement("h2");
+    head.className = "article-title";
+    head.textContent = part.docTitle;
+    wrap.appendChild(head);
+    const legend = document.createElement("div");
+    legend.className = "options-legend";
+    legend.innerHTML = `<strong>Inhaltsverzeichnis</strong><ol class="letter-list">` +
+      part.headings.map(h => `<li><span class="letter">${escapeHtml(h.key)}</span>${escapeHtml(h.text)}</li>`).join("") + `</ol>`;
+    wrap.appendChild(legend);
+    const box = document.createElement("div");
+    box.innerHTML = (part.example
+      ? `<div class="law-block example"><div class="law-head"><b>${escapeHtml(part.example.label)}</b><span class="answer-chip solution">${escapeHtml(part.example.answer)}</span> <em>Beispiel</em></div><p>${escapeHtml(part.example.text)}</p></div>`
+      : "") +
+      part.items.map(i => `<div class="law-block"><div class="law-head"><b>${escapeHtml(i.label)}</b><span class="q-num">${escapeHtml(i.id)}</span>${letterSelectHtml(part, i.id)}</div><p>${escapeHtml(i.text)}</p></div>`).join("");
+    wrap.appendChild(box);
+    bindLetterSelects(box, part);
+  }
+
+  function questionIds(part){switch(part.type){case"true_false":case"multiple_choice":case"listening":return part.questions.map(q=>q.id);case"matching":return part.items.map(i=>i.id);case"matching_ads":return part.scenarios.map(s=>s.id);case"speaker_matching":return part.speakers;case"cloze_mc":case"cloze_wordbank":return part.blanks.map(b=>b.id);case"text_mc":return part.questions.map(q=>q.id);case"person_matching":case"opinion_matching":case"heading_matching":return part.items.map(i=>i.id);case"gap_sentences":return part.items.map(i=>i.id);case"writing":return [part.id];default:return[];}}
   function updateAnsweredCount(part){const ids=questionIds(part);const stored=state.answers[part.id]||{};const n=ids.filter(id=>stored[id]!==undefined&&stored[id]!==null&&stored[id]!=="").length;const el=document.getElementById("answered-count");if(el)el.textContent=`${n} / ${ids.length} beantwortet`;}
 
   function renderFinished(){
@@ -472,21 +622,21 @@
     let total=0,correct=0;
     const rows=tasks().map((p,i)=>{const s=scorePart(p);total+=s.total;correct+=s.correct;return {p,i,s,m:metaFor(p)};});
     const pct=total?Math.round(correct/total*100):0;
-    root.innerHTML=`<main class="page result-page"><div class="result-kicker">B1 · separate Auswertung</div><h1>Auswertung</h1><div class="score-summary"><div class="score-box"><div class="num">${correct}/${total}</div><div class="lbl">Richtige Antworten</div></div><div class="score-box"><div class="num">${pct}%</div><div class="lbl">Gesamtergebnis</div></div><div class="score-box"><div class="num">${formatSeconds(totalSpent())}</div><div class="lbl">Gesamtzeit</div></div></div><div class="task-results">${rows.map(r=>`<div class="task-result"><div class="task-result-head"><strong>Aufgabe ${r.i+1}</strong><span>${r.s.total?r.s.correct+"/"+r.s.total+" · ":""}${formatSeconds(r.m.spentSeconds)}${r.m.timedOut?" · Zeit abgelaufen":""}</span></div><div class="task-result-title">${escapeHtml(r.p.title)}</div></div>`).join("")}</div><div id="answer-sections"></div><button class="btn ghost" id="btn-restart2">Neuen Versuch starten</button></main>`;
+    root.innerHTML=`<main class="page result-page"><div class="result-kicker">${escapeHtml(cfg.level || "")} · separate Auswertung</div><h1>Auswertung</h1><div class="score-summary"><div class="score-box"><div class="num">${correct}/${total}</div><div class="lbl">Richtige Antworten</div></div><div class="score-box"><div class="num">${pct}%</div><div class="lbl">Gesamtergebnis</div></div><div class="score-box"><div class="num">${formatSeconds(totalSpent())}</div><div class="lbl">Gesamtzeit</div></div></div><div class="task-results">${rows.map(r=>`<div class="task-result"><div class="task-result-head"><strong>Aufgabe ${r.i+1}</strong><span>${r.s.total?r.s.correct+"/"+r.s.total+" · ":""}${formatSeconds(r.m.spentSeconds)}${r.m.timedOut?" · Zeit abgelaufen":""}</span></div><div class="task-result-title">${escapeHtml(r.p.title)}</div></div>`).join("")}</div><div id="answer-sections"></div><button class="btn ghost" id="btn-restart2">Neuen Versuch starten</button></main>`;
     const c=document.getElementById("answer-sections");tasks().forEach((p,i)=>{const block=document.createElement("section");block.className="answer-task";block.innerHTML=`<h2>Aufgabe ${i+1} · ${escapeHtml(p.title)}</h2>`;block.appendChild(renderPartAnswers(p));c.appendChild(block);});
     document.getElementById("btn-restart2").addEventListener("click",restart);
   }
 
   function totalSpent(){return tasks().reduce((s,p)=>s+(metaFor(p).spentSeconds||0),0);}
   function formatSeconds(s){const mm=Math.floor((s||0)/60).toString().padStart(2,"0");const ss=Math.floor((s||0)%60).toString().padStart(2,"0");return `${mm}:${ss}`;}
-  function scorePart(part){const a=state.answers[part.id]||{};let total=0,correct=0;switch(part.type){case"true_false":part.questions.forEach(q=>{total++;if(a[q.id]===q.answer)correct++;});break;case"multiple_choice":part.questions.forEach(q=>{total++;if(a[q.id]===q.answer)correct++;});break;case"matching":part.items.forEach(i=>{total++;if(a[i.id]===part.answer[i.id])correct++;});break;case"matching_ads":part.scenarios.forEach(s=>{total++;if(a[s.id]===part.answer[s.id])correct++;});break;case"speaker_matching":part.speakers.forEach(id=>{total++;if(a[id]===part.answer[id])correct++;});break;case"cloze_mc":case"cloze_wordbank":part.blanks.forEach(b=>{total++;if(a[b.id]===b.answer)correct++;});break;case"listening":part.questions.forEach(q=>{total++;if(a[q.id]===q.answer)correct++;});break;}return{total,correct};}
+  function scorePart(part){const a=state.answers[part.id]||{};let total=0,correct=0;switch(part.type){case"true_false":part.questions.forEach(q=>{total++;if(a[q.id]===q.answer)correct++;});break;case"multiple_choice":part.questions.forEach(q=>{total++;if(a[q.id]===q.answer)correct++;});break;case"matching":part.items.forEach(i=>{total++;if(a[i.id]===part.answer[i.id])correct++;});break;case"matching_ads":part.scenarios.forEach(s=>{total++;if(a[s.id]===part.answer[s.id])correct++;});break;case"speaker_matching":part.speakers.forEach(id=>{total++;if(a[id]===part.answer[id])correct++;});break;case"cloze_mc":case"cloze_wordbank":part.blanks.forEach(b=>{total++;if(a[b.id]===b.answer)correct++;});break;case"text_mc":part.questions.forEach(q=>{total++;if(a[q.id]===q.answer)correct++;});break;case"person_matching":case"gap_sentences":case"opinion_matching":case"heading_matching":part.items.forEach(i=>{total++;if(a[i.id]===i.answer)correct++;});break;case"listening":part.questions.forEach(q=>{total++;if(a[q.id]===q.answer)correct++;});break;}return{total,correct};}
   function renderPartAnswers(part){const w=document.createElement("div");w.className="answer-part";const a=state.answers[part.id]||{};if(part.type==="writing"){const text=state.writing[part.id]||"";w.innerHTML=`<p><strong>Ihr Text</strong></p><div class="model-answer">${escapeHtml(text||"— kein Text eingegeben —")}</div><p><strong>Musterlösung</strong></p><div class="model-answer">${escapeHtml(part.modelAnswer||"")}</div>`;return w;}
     let prefixHtml="";
     if(part.type==="listening"){
       prefixHtml+=`<div class="audio-block review-audio"><audio controls preload="none" src="${escapeAttr(resolveAudioPath(part.audio))}"></audio><span class="play-counter">Unbegrenztes Nachhören in der Auswertung</span></div>`;
       if(part.transcript)prefixHtml+=`<button class="transcript-toggle" type="button">Transkript anzeigen</button><div class="transcript-box">${escapeHtml(part.transcript)}</div>`;
     }
-    const arr=[];const add=(id,label,y,c)=>arr.push(answerRow(y===c,id,label,y,c));if(part.type==="true_false")part.questions.forEach(q=>add(q.id,q.statement,fmtBool(a[q.id]),fmtBool(q.answer)));else if(part.type==="multiple_choice")part.questions.forEach(q=>add(q.id,q.question,optLabel(q.options,a[q.id]),optLabel(q.options,q.answer)));else if(part.type==="matching")part.items.forEach(i=>add(i.id,i.text,a[i.id]||"–",part.answer[i.id]));else if(part.type==="matching_ads")part.scenarios.forEach(s=>add(s.id,s.text,a[s.id]||"–",part.answer[s.id]));else if(part.type==="speaker_matching")part.speakers.forEach(id=>add(id,"Person",a[id]||"–",part.answer[id]));else if(part.type==="cloze_mc")part.blanks.forEach(b=>add(b.id,"Lücke",optLabel(b.options,a[b.id]),optLabel(b.options,b.answer)));else if(part.type==="cloze_wordbank")part.blanks.forEach(b=>add(b.id,"Lücke",a[b.id]||"–",b.answer));else if(part.type==="listening")part.questions.forEach(q=>{if(q.type==="true_false")add(q.id,q.statement,fmtBool(a[q.id]),fmtBool(q.answer));else if(q.type==="multiple_choice")add(q.id,q.question,optLabel(q.options,a[q.id]),optLabel(q.options,q.answer));});
+    const arr=[];const add=(id,label,y,c)=>arr.push(answerRow(y===c,id,label,y,c));if(part.type==="true_false")part.questions.forEach(q=>add(q.id,q.statement,fmtBool(a[q.id]),fmtBool(q.answer)));else if(part.type==="multiple_choice")part.questions.forEach(q=>add(q.id,q.question,optLabel(q.options,a[q.id]),optLabel(q.options,q.answer)));else if(part.type==="matching")part.items.forEach(i=>add(i.id,i.text,a[i.id]||"–",part.answer[i.id]));else if(part.type==="matching_ads")part.scenarios.forEach(s=>add(s.id,s.text,a[s.id]||"–",part.answer[s.id]));else if(part.type==="speaker_matching")part.speakers.forEach(id=>add(id,"Person",a[id]||"–",part.answer[id]));else if(part.type==="cloze_mc")part.blanks.forEach(b=>add(b.id,"Lücke",optLabel(b.options,a[b.id]),optLabel(b.options,b.answer)));else if(part.type==="cloze_wordbank")part.blanks.forEach(b=>add(b.id,"Lücke",a[b.id]||"–",b.answer));else if(part.type==="text_mc")part.questions.forEach(q=>add(q.id,q.prompt,optLabel(q.options,a[q.id]),optLabel(q.options,q.answer)));else if(part.type==="person_matching"||part.type==="opinion_matching")part.items.forEach(i=>add(i.id,i.statement,letterLabel(part,a[i.id]),letterLabel(part,i.answer)));else if(part.type==="gap_sentences")part.items.forEach(i=>add(i.id,"Lücke "+i.id,letterLabel(part,a[i.id]),letterLabel(part,i.answer)));else if(part.type==="heading_matching")part.items.forEach(i=>add(i.id,i.label,letterLabel(part,a[i.id]),letterLabel(part,i.answer)));else if(part.type==="listening")part.questions.forEach(q=>{if(q.type==="true_false")add(q.id,q.statement,fmtBool(a[q.id]),fmtBool(q.answer));else if(q.type==="multiple_choice")add(q.id,q.question,optLabel(q.options,a[q.id]),optLabel(q.options,q.answer));});
     w.innerHTML=prefixHtml+arr.join("");
     if(part.type==="listening"&&part.transcript){const t=w.querySelector(".transcript-box");const btn=w.querySelector(".transcript-toggle");if(btn&&t)btn.addEventListener("click",()=>t.classList.toggle("open"));}
     return w;}

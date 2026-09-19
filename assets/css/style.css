@@ -752,3 +752,106 @@ body[data-practice="hoeren"]{--type-color:#C24A3B;--type-soft:#FBEAE7}
 .review-score strong { color: var(--type-color); font: 700 1.5rem 'IBM Plex Mono',monospace; }
 .review-answer .answer-part { margin-top: 0; }
 .review-bar .review-timer { font-size: .82rem; }
+
+/* ==========================================================================
+   Goethe B2 · Lesen — task types (Teil 1–5)
+   ========================================================================== */
+
+body[data-level="B2"][data-practice="lesen"]{ --type-color:#8C3A3A; --type-soft:#F5EAEA; }
+
+/* ---------- task list ---------- */
+.task-list-page{ padding-top: 0; }
+.filter-tabs{ display:flex; gap:8px; flex-wrap:wrap; margin-bottom:20px; }
+.filter-tab{
+  border:1px solid var(--rule-strong); background:var(--paper-raised); color:var(--ink-soft);
+  border-radius:999px; padding:7px 16px; font:600 .84rem 'IBM Plex Sans',sans-serif; cursor:pointer;
+}
+.filter-tab:hover{ border-color:var(--type-color); color:var(--type-color); }
+.filter-tab.active{ background:var(--type-color); border-color:var(--type-color); color:#fff; }
+
+.task-list{ border:1px solid var(--rule); border-radius:var(--radius); background:var(--paper-raised); overflow:hidden; }
+.task-row{
+  display:grid; grid-template-columns:auto 1fr auto; gap:16px; align-items:center; width:100%;
+  padding:15px 18px; border:0; border-bottom:1px solid var(--rule); background:none;
+  text-align:left; cursor:pointer; font-family:inherit; color:inherit;
+}
+.task-row:last-child{ border-bottom:0; }
+.task-row:hover{ background:var(--type-soft); }
+.task-row-num{
+  width:30px; height:30px; border-radius:50%; display:grid; place-items:center;
+  background:var(--type-soft); color:var(--type-color); font:700 .9rem 'IBM Plex Mono',monospace;
+}
+.task-row-main{ display:block; }
+.task-row-title{ display:block; font-weight:600; font-size:1rem; }
+.task-row-sub{ display:block; font-size:.82rem; color:var(--ink-soft); }
+.task-row-time{ font:600 .8rem 'IBM Plex Mono',monospace; color:var(--ink-soft); white-space:nowrap; }
+
+/* ---------- shared bits ---------- */
+.letter{
+  display:inline-grid; place-items:center; width:1.5em; height:1.5em; margin-right:8px;
+  border-radius:4px; background:var(--type-soft); color:var(--type-color);
+  font:700 .8rem 'IBM Plex Mono',monospace; flex:0 0 auto;
+}
+.block-head{ font-size:1.05rem; border-bottom:2px solid var(--type-color); padding-bottom:6px; margin:30px 0 4px; }
+.items-block .match-row:first-of-type{ border-top:none; }
+.row-control{ display:flex; align-items:center; gap:8px; }
+.row-control em{ font-size:.76rem; color:var(--ink-soft); }
+.match-row.example{ opacity:.72; }
+
+.answer-chip{
+  display:inline-grid; place-items:center; min-width:2em; padding:3px 8px; border-radius:4px;
+  font:700 .85rem 'IBM Plex Mono',monospace; border:1px solid var(--rule-strong); background:var(--paper);
+}
+.answer-chip.correct{ background:#E6F0E9; color:var(--good); border-color:#A9C9B5; }
+.answer-chip.incorrect{ background:#F7E6E4; color:var(--bad); border-color:#DDB3AE; }
+.answer-chip.solution{ background:var(--type-soft); color:var(--type-color); border-color:color-mix(in srgb,var(--type-color) 30%,white); }
+
+/* ---------- article (Teil 2 / Teil 3) ---------- */
+.article{ border:1px solid var(--rule-strong); border-radius:var(--radius); padding:22px 26px; background:var(--paper); }
+.article-title{ text-align:center; font-size:1.5rem; margin-bottom:6px; }
+.article-sub{ text-align:center; font-weight:600; color:var(--ink-soft); margin:0 0 20px; font-size:.95rem; }
+.article-lead{ font-weight:600; margin:0 0 18px; }
+.article p{ font-size:.97rem; line-height:1.75; margin:0 0 15px; text-align:justify; hyphens:auto; }
+
+.gap{ display:inline; white-space:nowrap; }
+.gap b{ font-family:'IBM Plex Mono',monospace; color:var(--type-color); }
+.example-gap{ white-space:normal; font-style:italic; color:var(--ink-soft); }
+.letter-list{ list-style:none; margin:10px 0 0; padding:0; }
+.letter-list li{ display:flex; align-items:flex-start; gap:2px; padding:6px 0; border-top:1px dashed var(--rule); color:var(--ink); }
+.letter-list li:first-child{ border-top:0; }
+.letter-list li.unused{ opacity:.5; }
+
+/* ---------- Teil 1 persons ---------- */
+.person-grid{ display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+.person-card{ border:1px solid var(--rule); border-top:3px solid var(--type-color); border-radius:var(--radius); padding:16px 18px; background:var(--paper); }
+.person-card h3{ display:flex; align-items:center; font-size:1rem; margin-bottom:8px; }
+.person-card p{ margin:0; font-size:.93rem; line-height:1.65; text-align:justify; hyphens:auto; }
+
+/* ---------- Teil 4 comments ---------- */
+.comment-grid{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+.comment-card{ border:1px solid var(--rule-strong); border-radius:10px; padding:14px 16px; background:var(--paper); }
+.comment-card p{ margin:6px 0 8px; font-size:.92rem; line-height:1.6; }
+.comment-author{ display:block; text-align:right; font-size:.8rem; font-style:italic; color:var(--ink-soft); }
+
+/* ---------- Teil 5 paragraphs ---------- */
+.law-block{ border:1px solid var(--rule); border-radius:var(--radius); padding:14px 18px; margin-bottom:14px; background:var(--paper); }
+.law-block.example{ opacity:.75; }
+.law-head{ display:flex; align-items:center; gap:10px; margin-bottom:8px; }
+.law-head b{ font-family:'IBM Plex Mono',monospace; color:var(--type-color); font-size:1rem; }
+.law-head em{ font-size:.76rem; color:var(--ink-soft); font-style:italic; }
+.law-block p{ margin:0; font-size:.93rem; line-height:1.65; }
+
+/* ---------- Teil 3 review states ---------- */
+.mc-option .letter{ margin-right:4px; }
+.mc-option.correct-option{ border-color:var(--good); background:#EFF6F1; }
+.mc-option.wrong-option{ border-color:var(--bad); background:#FAEDEB; }
+
+.answer-row .q-num{ min-width:2ch; }
+
+@media (max-width:760px){
+  .person-grid,.comment-grid{ grid-template-columns:1fr; }
+  .article{ padding:18px 16px; }
+  .article p{ text-align:left; }
+  .task-row{ grid-template-columns:auto 1fr; }
+  .task-row-time{ grid-column:2; }
+}
