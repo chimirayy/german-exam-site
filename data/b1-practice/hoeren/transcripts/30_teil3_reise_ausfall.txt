@@ -1,0 +1,35 @@
+[Male / Oliver]
+Hallo Steffi! Wie war eure Reise nach Island? Ihr wolltet doch die Nordlichter sehen.
+
+[Female / Steffi]
+Es war ein Abenteuer, aber leider nicht so, wie wir es geplant hatten. Gleich am ersten Tag wurde unser Anschlussflug wegen eines Sturms gestrichen.
+
+[Male / Oliver]
+Oh nein, wie seid ihr dann trotzdem nach Reykjavik gekommen?
+
+[Female / Steffi]
+Die Fluggesellschaft hat uns auf einen Flug am nächsten Morgen umgebucht und zusätzlich eine Übernachtung im Hotel bezahlt, das lief zum Glück reibungslos.
+
+[Male / Oliver]
+Habt ihr die Nordlichter dann trotzdem noch gesehen?
+
+[Female / Steffi]
+Ja, sogar besser als erwartet, an insgesamt drei von sieben Nächten. Allerdings mussten wir dafür jedes Mal fast zwei Stunden mit dem Auto aus der Stadt herausfahren.
+
+[Male / Oliver]
+Hattet ihr euch ein Auto gemietet?
+
+[Female / Steffi]
+Ja, das hatten wir schon von Deutschland aus gebucht, allerdings war das Auto bei Abholung kleiner als das ursprünglich reservierte Modell, weshalb wir eine kleine Erstattung erhalten haben.
+
+[Male / Oliver]
+Was war neben den Nordlichtern euer persönliches Highlight?
+
+[Female / Steffi]
+Ein Bad in einer wenig bekannten heißen Quelle abseits der üblichen Touristenrouten, die uns eine Einheimische empfohlen hat.
+
+[Male / Oliver]
+Würdet ihr trotz der Probleme am Anfang wieder nach Island reisen?
+
+[Female / Steffi]
+Auf jeden Fall, die Probleme waren am Ende nur eine Randnotiz im Vergleich zu allem Schönen, das wir erlebt haben.
