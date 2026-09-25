@@ -1,0 +1,29 @@
+[Male / Simon]
+Hallo Denise! Du bereitest dich doch gerade auf deinen ersten Marathon vor. Wie läuft das Training?
+
+[Female / Denise]
+Hallo Simon! Fordernder als gedacht, ich trainiere inzwischen viermal pro Woche nach einem festen Plan.
+
+[Male / Simon]
+Bist du vorher schon längere Strecken gelaufen?
+
+[Female / Denise]
+Mein längster Lauf bisher waren 15 Kilometer, deshalb ist der Sprung auf 42 Kilometer für mich schon eine echte Herausforderung.
+
+[Male / Simon]
+Hast du dir einen Trainer geholt, oder trainierst du komplett allein?
+
+[Female / Denise]
+Ich nutze eine App, die meinen Trainingsplan individuell anpasst, ein persönlicher Trainer wäre mir aktuell zu teuer.
+
+[Male / Simon]
+Musstest du wegen des Trainings etwas an deiner Ernährung ändern?
+
+[Female / Denise]
+Ja, ich achte inzwischen viel bewusster auf ausreichend Kohlenhydrate vor den langen Läufen, das hat mir am Anfang tatsächlich gefehlt.
+
+[Male / Simon]
+Wie geht es deinen Knien bei der hohen Belastung?
+
+[Female / Denise]
+Bisher zum Glück gut, allerdings mache ich nach jedem langen Lauf konsequent Dehnübungen, um Verletzungen möglichst zu vermeiden.

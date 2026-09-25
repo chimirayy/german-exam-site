@@ -1,0 +1,29 @@
+[Male / David]
+Hallo Sarah! Du hattest doch gestern dein erstes Bewerbungsgespräch per Videoanruf. Wie ist es gelaufen?
+
+[Female / Sarah]
+Hallo David! Eigentlich ganz gut, auch wenn ich vorher ziemlich nervös war, weil ich noch nie ein Gespräch auf diese Weise geführt hatte.
+
+[Male / David]
+Gab es technische Probleme während des Gesprächs?
+
+[Female / Sarah]
+Kurz schon, meine Internetverbindung ist einmal für etwa zehn Sekunden abgebrochen, zum Glück konnten wir danach aber problemlos weitermachen.
+
+[Male / David]
+Wie viele Personen waren auf der anderen Seite dabei?
+
+[Female / Sarah]
+Insgesamt drei, die Personalleiterin sowie zwei zukünftige Kolleginnen aus meinem möglichen Team, was mich zunächst etwas eingeschüchtert hat.
+
+[Male / David]
+Musstest du eine Aufgabe während des Gesprächs lösen?
+
+[Female / Sarah]
+Ja, ich musste live am Bildschirm eine kurze Präsentation zu einem vorgegebenen Thema halten, dafür hatte ich allerdings vorher genug Zeit zur Vorbereitung.
+
+[Male / David]
+Weißt du schon, wann du eine Rückmeldung bekommst?
+
+[Female / Sarah]
+Sie haben mir versprochen, sich innerhalb der nächsten Woche zu melden, egal wie die Entscheidung ausfällt.

@@ -1,0 +1,29 @@
+[Female / Carolin]
+Hallo Matti! Ich habe gehört, ihr renoviert gerade eure Wohnung komplett. Wie weit seid ihr?
+
+[Male / Matti]
+Hallo Carolin! Wir sind ungefähr zur Hälfte fertig, das Wohnzimmer und die Küche sind bereits neu gestrichen.
+
+[Female / Carolin]
+Macht ihr alles selbst, oder habt ihr Handwerker beauftragt?
+
+[Male / Matti]
+Streichen und kleinere Reparaturen machen wir selbst, für die neuen Elektroleitungen im Bad haben wir aber unbedingt einen Elektriker geholt.
+
+[Female / Carolin]
+Wie lange plant ihr insgesamt für die Renovierung ein?
+
+[Male / Matti]
+Ursprünglich hatten wir sechs Wochen eingeplant, mittlerweile rechnen wir aber eher mit zehn Wochen, weil einige Materialien länger geliefert wurden als gedacht.
+
+[Female / Carolin]
+Wohnt ihr während der Renovierung trotzdem in der Wohnung?
+
+[Male / Matti]
+Ja, was manchmal anstrengend ist, vor allem wegen des Staubs, aber eine zweite Wohnung wäre uns finanziell einfach zu teuer gewesen.
+
+[Female / Carolin]
+Was war bisher die größte Überraschung bei der Renovierung?
+
+[Male / Matti]
+Dass wir hinter der alten Tapete im Flur eine alte, aber gut erhaltene Holzwand entdeckt haben, die wir jetzt einfach sichtbar lassen wollen.

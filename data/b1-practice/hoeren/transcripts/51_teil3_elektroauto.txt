@@ -1,0 +1,29 @@
+[Male / Finn]
+Hallo Meike! Du hast dir doch letzten Monat ein Elektroauto gekauft. Wie zufrieden bist du bisher?
+
+[Female / Meike]
+Hallo Finn! Insgesamt sehr zufrieden, auch wenn ich am Anfang unsicher war, ob die Reichweite für meinen Alltag überhaupt ausreicht.
+
+[Male / Finn]
+Und, reicht sie aus?
+
+[Female / Meike]
+Ja, problemlos. Für meinen täglichen Arbeitsweg von etwa 30 Kilometern muss ich das Auto höchstens einmal pro Woche aufladen.
+
+[Male / Finn]
+Lädst du zu Hause oder unterwegs?
+
+[Female / Meike]
+Hauptsächlich zu Hause an einer eigenen Wallbox, die ich mir extra installieren lassen musste. Das hat zwar zunächst zusätzliche Kosten verursacht, spart mir aber langfristig viel Zeit.
+
+[Male / Finn]
+Wie sieht es mit längeren Fahrten aus, zum Beispiel im Urlaub?
+
+[Female / Meike]
+Da wird es tatsächlich etwas umständlicher, weil ich alle zwei bis drei Stunden eine Ladepause einplanen muss, was die Fahrzeit insgesamt verlängert.
+
+[Male / Finn]
+Bereust du den Kauf trotzdem nicht?
+
+[Female / Meike]
+Überhaupt nicht, die niedrigeren Betriebskosten und der leise Motor überzeugen mich jeden Tag aufs Neue.

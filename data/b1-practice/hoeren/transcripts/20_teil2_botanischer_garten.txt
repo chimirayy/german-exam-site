@@ -1,8 +1,0 @@
-[Male / Forscher]
-In unserem Bürgerlabor untersuchen Freiwillige gemeinsam mit Wissenschaftlern die Luftqualität. Kleine Messgeräte hängen auf Balkonen oder an Fahrrädern und erfassen Feinstaubwerte. Sie ersetzen amtliche Messstationen nicht, zeigen aber Unterschiede zwischen einzelnen Straßen.
-
-Vor dem Einsatz erhalten Teilnehmende eine Schulung. Sie lernen, wie Geräte befestigt und Messfehler erkannt werden. Besonders wichtig ist, die Geräte nicht direkt neben einem Küchenfenster oder einer Raucherzone zu platzieren: Solche lokalen Quellen würden die Daten verzerren. Die Teilnahme dauert mindestens vier Wochen; anschließend kann man das Gerät zurückgeben oder eine weitere Runde übernehmen.
-
-Die Messwerte erscheinen mit Verzögerung auf einer öffentlichen Karte. Genaue Wohnadressen werden aus Datenschutzgründen nicht angezeigt. Bei ungewöhnlichen Werten prüfen wir zunächst das Gerät und die Wetterlage, bevor wir Schlüsse ziehen. Ein hoher Einzelwert beweist noch keine dauerhafte Belastung.
-
-Das Projekt begann an einer Hochschule, inzwischen finanziert auch die Kommune zusätzliche Geräte. Am Ende des Jahres besprechen wir die Ergebnisse in einer öffentlichen Veranstaltung. Dort können Anwohner Vorschläge machen, welche Straßen im nächsten Durchgang genauer untersucht werden.

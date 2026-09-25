@@ -1,0 +1,29 @@
+[Male / Jan]
+Hallo Wiebke! Ich habe gehört, du hast dir einen Couchtisch selbst gebaut, statt einen zu kaufen.
+
+[Female / Wiebke]
+Stimmt, das Projekt hat mich schon lange gereizt, und mein alter Tisch war sowieso kaputt.
+
+[Male / Jan]
+Wie lange hat der Bau insgesamt gedauert?
+
+[Female / Wiebke]
+Ungefähr drei Wochenenden, wobei ein Großteil der Zeit für das Schleifen und Ölen des Holzes draufging, nicht für den eigentlichen Zusammenbau.
+
+[Male / Jan]
+Musstest du dir dafür extra Werkzeug kaufen?
+
+[Female / Wiebke]
+Ja, eine elektrische Handkreissäge und eine Schleifmaschine musste ich mir leihen, den Rest an Werkzeug hatte ich zum Glück schon.
+
+[Male / Jan]
+War es am Ende günstiger als ein fertiger Tisch aus dem Geschäft?
+
+[Female / Wiebke]
+Preislich ungefähr gleich, wenn man das geliehene Werkzeug mit einrechnet, aber ich habe jetzt einen Tisch, den es so kein zweites Mal gibt.
+
+[Male / Jan]
+Ist beim Bauen etwas schiefgegangen?
+
+[Female / Wiebke]
+Ich habe eine Tischplatte falsch zugesägt und musste neues Holz nachkaufen, das war ärgerlich, aber kein wirkliches Drama.
