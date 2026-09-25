@@ -1,29 +1,18 @@
-[Female / Carla]
-Hallo Ben! Seit letzter Woche darf ich zwei Tage pro Woche im Homeoffice arbeiten. Mein Chef hat endlich zugestimmt.
-
-[Male / Ben]
-Das ist doch super. Hattest du davor Probleme, das durchzusetzen?
-
-[Female / Carla]
-Ja, mein Chef war lange skeptisch, weil er dachte, im Homeoffice würde weniger gearbeitet. Erst nachdem ich ihm eine Statistik unseres Teams gezeigt habe, hat er eingelenkt.
-
-[Male / Ben]
-Und an welchen Tagen arbeitest du jetzt von zu Hause?
-
-[Female / Carla]
-Montags und donnerstags. Die restlichen drei Tage bin ich im Büro, weil dort wichtige Teambesprechungen stattfinden, an denen ich persönlich teilnehmen möchte.
-
-[Male / Ben]
-Musstest du dir extra einen Schreibtisch kaufen?
-
-[Female / Carla]
-Nein, einen Schreibtisch hatte ich schon. Aber einen ordentlichen Bürostuhl habe ich mir angeschafft, weil mir nach ein paar Stunden am Küchentisch immer der Rücken wehtat.
-
-[Male / Ben]
-Findest du es schwieriger, dich zu Hause zu konzentrieren?
-
-[Female / Carla]
-Anfangs schon, vor allem wegen der Waschmaschine, die ich ständig laufen hörte. Mittlerweile habe ich mir aber feste Arbeitszeiten gesetzt, an die ich mich strikt halte, und das funktioniert inzwischen richtig gut.
-
-[Male / Ben]
-Klingt, als hättest du das gut gelöst.
+[Female / Mila]
+Unsere Firma testet ab Oktober eine Vier-Tage-Woche. Das Gehalt bleibt gleich, aber die Arbeitszeit sinkt auf 34 Stunden.
+[Male / Jonas]
+Für alle Teams gleichzeitig?
+[Female / Mila]
+Nein, zuerst nur in der Verwaltung. Im Kundendienst muss noch geklärt werden, wie die Öffnungszeiten abgedeckt werden.
+[Male / Jonas]
+Und welcher Tag ist frei?
+[Female / Mila]
+Das entscheidet jedes Team. Bei uns wechseln sich Freitag und Montag ab, damit immer jemand erreichbar ist.
+[Male / Jonas]
+Klingt nach einer dauerhaften Regelung.
+[Female / Mila]
+Noch nicht. Nach sechs Monaten prüft die Geschäftsführung Arbeitsbelastung und Kundenzufriedenheit. Erst dann wird entschieden.
+[Male / Jonas]
+Kann man trotzdem Überstunden machen?
+[Female / Mila]
+Ja, aber sie sollen die Ausnahme bleiben und wie bisher erfasst werden.

@@ -1,29 +1,18 @@
-[Male / Paul]
-Hallo Lea! Du hast doch vor zwei Monaten angefangen, dich vegan zu ernähren. Wie läuft es?
-
-[Female / Lea]
-Besser als erwartet, ehrlich gesagt. Am schwierigsten war für mich nicht der Verzicht auf Fleisch, sondern auf Käse, den ich früher fast täglich gegessen habe.
-
-[Male / Paul]
-Kochst du jetzt komplett anders als vorher?
-
-[Female / Lea]
-Nicht komplett, viele meiner alten Rezepte lassen sich mit ein paar Anpassungen leicht vegan zubereiten. Nur bei Backrezepten musste ich wirklich neu anfangen, weil Eier dort eine wichtigere Rolle spielen als gedacht.
-
-[Male / Paul]
-Nimmst du irgendwelche Nahrungsergänzungsmittel?
-
-[Female / Lea]
-Nur Vitamin B12, das habe ich mit meiner Hausärztin besprochen, bevor ich umgestellt habe. Alle anderen Nährstoffe bekomme ich nach ihrer Aussage über eine ausgewogene Ernährung ausreichend.
-
-[Male / Paul]
-Wie reagiert deine Familie darauf?
-
-[Female / Lea]
-Meine Eltern waren zuerst skeptisch und dachten, ich würde mich einseitig ernähren, aber nachdem sie ein paar vegane Gerichte bei mir probiert haben, sind sie deutlich aufgeschlossener geworden.
-
-[Male / Paul]
-Isst du auswärts trotzdem manchmal etwas Nicht-Veganes?
-
-[Female / Lea]
-Nein, seit der Umstellung halte ich mich konsequent daran, auch wenn es unterwegs manchmal etwas umständlicher ist, ein passendes Gericht zu finden.
+[Male / Tom]
+Seit unserem Umzug ins Dorf brauche ich morgens länger zur Arbeit. Mit dem Zug dauert es 45 Minuten.
+[Female / Sina]
+Dafür habt ihr jetzt einen Garten, oder?
+[Male / Tom]
+Ja, aber der war nicht der Hauptgrund. Wir wollten näher bei meinen Eltern wohnen, die gelegentlich Hilfe brauchen.
+[Female / Sina]
+Arbeitest du öfter von zu Hause?
+[Male / Tom]
+Zwei Tage pro Woche. Mehr geht gerade nicht, weil ich die neue Kollegin im Büro einarbeite.
+[Female / Sina]
+Und wie klappt es für eure Tochter?
+[Male / Tom]
+Sie fährt mit dem Schulbus. Anfangs war sie skeptisch, inzwischen trifft sie sich nachmittags gern mit Kindern aus der Nachbarschaft.
+[Female / Sina]
+Bereut ihr den Umzug?
+[Male / Tom]
+Nein, auch wenn wir den langen Arbeitsweg unterschätzt haben.

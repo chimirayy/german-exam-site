@@ -1,5 +1,5 @@
 {
-  "levelName": "German B2 Listening – 30-task set",
+  "levelName": "German B2 Listening – 30 original tasks",
   "sections": [
     {
       "title": "Hören",
@@ -9,33 +9,33 @@
           "type": "listening",
           "category": "teil1",
           "categoryLabel": "Hören · Teil 1 · Kurze Texte",
-          "title": "Zahnarzt Termin",
-          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Stadtbibliothek verlängert Frist",
+          "instructions": "Sie hören einen kurzen Text. Wählen Sie jeweils die richtige Antwort (a, b oder c). Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "01_teil1_zahnarzt_q1",
               "type": "multiple_choice",
-              "question": "Warum wird der Termin von Herrn Brandt verschoben?",
+              "question": "Welche Funktion ist am Dienstag nicht verfügbar?",
               "options": [
-                "Weil die Praxis einen Notfall behandeln muss.",
-                "Weil Herr Brandt abgesagt hat.",
-                "Weil Dr. Solberg im Urlaub ist."
+                "Die Onlineverlängerung",
+                "Die Rückgabe über die Box",
+                "Die telefonische Vormerkung"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Weil die Praxis einen Notfall behandeln muss."
+              "explanation": "Richtige Antwort: Die Onlineverlängerung."
             },
             {
               "id": "01_teil1_zahnarzt_q2",
               "type": "multiple_choice",
-              "question": "Was soll Herr Brandt tun, wenn die Schmerzen anhalten?",
+              "question": "Für welche Bücher entfallen vorübergehend Mahngebühren?",
               "options": [
-                "Bis Montag warten.",
-                "Sich noch heute in der Praxis melden.",
-                "Eine andere Praxis aufsuchen."
+                "Für alle Medien des Monats",
+                "Für Bücher mit Fristende am Dienstag",
+                "Nur für bereits vorgemerkte Bücher"
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Sich noch heute in der Praxis melden."
+              "explanation": "Richtige Antwort: Für Bücher mit Fristende am Dienstag."
             }
           ]
         },
@@ -44,33 +44,33 @@
           "type": "listening",
           "category": "teil1",
           "categoryLabel": "Hören · Teil 1 · Kurze Texte",
-          "title": "Stau A5",
-          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Umleitung am Bahnhof",
+          "instructions": "Sie hören einen kurzen Text. Wählen Sie jeweils die richtige Antwort (a, b oder c). Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "02_teil1_stau_a5_q1",
               "type": "multiple_choice",
-              "question": "Wie lange dauern die Bauarbeiten mindestens noch?",
+              "question": "Wie gelangt man heute zu den Gleisen vier bis sieben?",
               "options": [
-                "Bis einschließlich Freitag.",
-                "Bis Ende des Monats.",
-                "Nur noch heute."
+                "Über die Nordhalle",
+                "Über den südlichen Zugang",
+                "Nur mit einem Begleitdienst"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Bis einschließlich Freitag."
+              "explanation": "Richtige Antwort: Über die Nordhalle."
             },
             {
               "id": "02_teil1_stau_a5_q2",
               "type": "multiple_choice",
-              "question": "Was wird den Autofahrern empfohlen?",
+              "question": "Was ändert sich beim Regionalexpress?",
               "options": [
-                "Auf der A5 zu bleiben.",
-                "Auf die B3 auszuweichen.",
-                "Die Fahrt zu verschieben."
+                "Sein Ziel",
+                "Sein Abfahrtsgleis",
+                "Seine Abfahrtszeit"
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Auf die B3 auszuweichen."
+              "explanation": "Richtige Antwort: Sein Abfahrtsgleis."
             }
           ]
         },
@@ -79,33 +79,33 @@
           "type": "listening",
           "category": "teil1",
           "categoryLabel": "Hören · Teil 1 · Kurze Texte",
-          "title": "ICE Ausfall",
-          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Anmeldung zur Bürgersprechstunde",
+          "instructions": "Sie hören einen kurzen Text. Wählen Sie jeweils die richtige Antwort (a, b oder c). Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "03_teil1_ice_ausfall_q1",
               "type": "multiple_choice",
-              "question": "Warum entfällt der ICE 785?",
+              "question": "Warum findet die Sprechstunde im Kulturhaus statt?",
               "options": [
-                "Wegen einer defekten Weiche.",
-                "Wegen eines Streiks.",
-                "Wegen zu weniger Fahrgäste."
+                "Weil das Rathaus zu wenig Platz bietet",
+                "Weil das Kulturhaus renoviert wird",
+                "Weil die Sprechstunde verschoben wurde"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Wegen einer defekten Weiche."
+              "explanation": "Richtige Antwort: Weil das Rathaus zu wenig Platz bietet."
             },
             {
               "id": "03_teil1_ice_ausfall_q2",
               "type": "multiple_choice",
-              "question": "Was gilt für den Intercity um 16 Uhr 10?",
+              "question": "Wie können Menschen ohne Internet eine Gesprächszeit bekommen?",
               "options": [
-                "Er fährt nur bis Hannover.",
-                "Für ihn ist ausnahmsweise keine Reservierung nötig.",
-                "Er hält nicht in Hamburg."
+                "Per Brief",
+                "Telefonisch",
+                "Nur vor Ort am Donnerstag"
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Für ihn ist ausnahmsweise keine Reservierung nötig."
+              "explanation": "Richtige Antwort: Telefonisch."
             }
           ]
         },
@@ -114,33 +114,33 @@
           "type": "listening",
           "category": "teil1",
           "categoryLabel": "Hören · Teil 1 · Kurze Texte",
-          "title": "Sturmwarnung",
-          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Reparatur im Schwimmbad",
+          "instructions": "Sie hören einen kurzen Text. Wählen Sie jeweils die richtige Antwort (a, b oder c). Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "04_teil1_sturmwarnung_q1",
               "type": "multiple_choice",
-              "question": "Was sollen die Hörer laut Wetterbericht tun?",
+              "question": "Welches Angebot wird an einen anderen Ort verlegt?",
               "options": [
-                "Lose Gegenstände sichern.",
-                "Die Fenster öffnen.",
-                "Das Auto in die Garage stellen."
+                "Der Kinderkurs",
+                "Der Erwachsenenkurs",
+                "Die Sauna"
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Lose Gegenstände sichern."
+              "answer": 1,
+              "explanation": "Richtige Antwort: Der Erwachsenenkurs."
             },
             {
               "id": "04_teil1_sturmwarnung_q2",
               "type": "multiple_choice",
-              "question": "Wovon wird im Wald abgeraten?",
+              "question": "Was braucht man für eine Rückzahlung?",
               "options": [
-                "Vom Radfahren.",
-                "Von Spaziergängen nach Einbruch der Dunkelheit.",
-                "Vom Joggen am Morgen."
+                "Einen Ausweis",
+                "Eine ärztliche Bescheinigung",
+                "Die Buchungsnummer"
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Von Spaziergängen nach Einbruch der Dunkelheit."
+              "answer": 2,
+              "explanation": "Richtige Antwort: Die Buchungsnummer."
             }
           ]
         },
@@ -149,33 +149,33 @@
           "type": "listening",
           "category": "teil1",
           "categoryLabel": "Hören · Teil 1 · Kurze Texte",
-          "title": "Produktrückruf",
-          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Änderung der Abholung",
+          "instructions": "Sie hören einen kurzen Text. Wählen Sie jeweils die richtige Antwort (a, b oder c). Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "05_teil1_produktrueckruf_q1",
               "type": "multiple_choice",
-              "question": "Welches Problem betrifft die Staubsauger?",
+              "question": "Warum verschiebt sich die Lieferung?",
               "options": [
-                "Der Akku kann sich überhitzen.",
-                "Das Gehäuse bricht leicht.",
-                "Der Motor ist zu laut."
+                "Wegen eines Transportunternehmens",
+                "Wegen fehlender Möbelteile",
+                "Wegen einer falschen Adresse"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Der Akku kann sich überhitzen."
+              "explanation": "Richtige Antwort: Wegen eines Transportunternehmens."
             },
             {
               "id": "05_teil1_produktrueckruf_q2",
               "type": "multiple_choice",
-              "question": "Was sollen betroffene Kunden tun?",
+              "question": "Was wird bei eigener Abholung erstattet?",
               "options": [
-                "Das Gerät reparieren lassen.",
-                "Den Staubsauger weiter benutzen, aber vorsichtig.",
-                "Das Gerät an einer Servicestation abgeben."
+                "Der Kaufpreis",
+                "Die Aufbaukosten",
+                "Die Lieferkosten"
               ],
               "answer": 2,
-              "explanation": "Richtige Antwort: Das Gerät an einer Servicestation abgeben."
+              "explanation": "Richtige Antwort: Die Lieferkosten."
             }
           ]
         },
@@ -184,33 +184,33 @@
           "type": "listening",
           "category": "teil1",
           "categoryLabel": "Hören · Teil 1 · Kurze Texte",
-          "title": "Flugverspätung",
-          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Fährverkehr bei Nebel",
+          "instructions": "Sie hören einen kurzen Text. Wählen Sie jeweils die richtige Antwort (a, b oder c). Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "06_teil1_flugverspaetung_q1",
               "type": "multiple_choice",
-              "question": "Warum verspätet sich der Flug LH 442?",
+              "question": "Was ist bei der Fähre um acht Uhr zu erwarten?",
               "options": [
-                "Wegen schlechten Wetters.",
-                "Wegen einer technischen Überprüfung.",
-                "Wegen eines Streiks des Personals."
+                "Sie fällt aus",
+                "Sie kommt später an",
+                "Sie nimmt keine Fahrräder mit"
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Wegen einer technischen Überprüfung."
+              "explanation": "Richtige Antwort: Sie kommt später an."
             },
             {
               "id": "06_teil1_flugverspaetung_q2",
               "type": "multiple_choice",
-              "question": "Was können Fluggäste mit einem verpassten Anschlussflug tun?",
+              "question": "Wo stehen die aktuellen Abfahrtszeiten?",
               "options": [
-                "Sich am Transferschalter melden.",
-                "Am Gate warten.",
-                "Ein neues Ticket online kaufen."
+                "Am Terminal",
+                "Nur in der App",
+                "Beim Busfahrer"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Sich am Transferschalter melden."
+              "explanation": "Richtige Antwort: Am Terminal."
             }
           ]
         },
@@ -219,33 +219,33 @@
           "type": "listening",
           "category": "teil1",
           "categoryLabel": "Hören · Teil 1 · Kurze Texte",
-          "title": "Fahrradverleih",
-          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Neue Regelung im Coworkingraum",
+          "instructions": "Sie hören einen kurzen Text. Wählen Sie jeweils die richtige Antwort (a, b oder c). Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "07_teil1_fahrradverleih_q1",
               "type": "multiple_choice",
-              "question": "Was ändert sich ab Montag?",
+              "question": "Was muss künftig reserviert werden?",
               "options": [
-                "Die Räder dürfen nur noch an Sammelstationen abgestellt werden.",
-                "Es gibt keine App mehr.",
-                "Die Leihgebühr wird erhöht."
+                "Jeder Zugang zum Gebäude",
+                "Ein Platz im ruhigen Bereich",
+                "Eine Telefonkabine"
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Die Räder dürfen nur noch an Sammelstationen abgestellt werden."
+              "answer": 1,
+              "explanation": "Richtige Antwort: Ein Platz im ruhigen Bereich."
             },
             {
               "id": "07_teil1_fahrradverleih_q2",
               "type": "multiple_choice",
-              "question": "Was passiert, wenn man ein Rad außerhalb einer Station abstellt?",
+              "question": "Wann verfällt eine Reservierung?",
               "options": [
-                "Man erhält eine Erinnerungs-Mail.",
-                "Man muss eine zusätzliche Gebühr zahlen.",
-                "Das Konto wird gesperrt."
+                "Nach fünfzehn Minuten Verspätung",
+                "Nach einer Stunde Arbeit",
+                "Am Vortag"
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Man muss eine zusätzliche Gebühr zahlen."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Nach fünfzehn Minuten Verspätung."
             }
           ]
         },
@@ -254,33 +254,33 @@
           "type": "listening",
           "category": "teil1",
           "categoryLabel": "Hören · Teil 1 · Kurze Texte",
-          "title": "VHS Raumwechsel",
-          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Termin beim Energieberater",
+          "instructions": "Sie hören einen kurzen Text. Wählen Sie jeweils die richtige Antwort (a, b oder c). Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "08_teil1_vhs_raumwechsel_q1",
               "type": "multiple_choice",
-              "question": "Warum ändert sich der Unterrichtsraum?",
+              "question": "Was soll man zum ersten Gespräch bereithalten?",
               "options": [
-                "Wegen Renovierungsarbeiten.",
-                "Wegen zu weniger Teilnehmer.",
-                "Wegen eines neuen Dozenten."
+                "Fotos der Anlage",
+                "Die letzte Jahresabrechnung",
+                "Einen Mietvertrag"
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Wegen Renovierungsarbeiten."
+              "answer": 1,
+              "explanation": "Richtige Antwort: Die letzte Jahresabrechnung."
             },
             {
               "id": "08_teil1_vhs_raumwechsel_q2",
               "type": "multiple_choice",
-              "question": "Was bleibt gleich?",
+              "question": "Wie können Fotos später eingereicht werden?",
               "options": [
-                "Der Eingang.",
-                "Zeit und Wochentag.",
-                "Die Raumnummer."
+                "Über ein geschütztes Portal",
+                "Per E-Mail",
+                "Per Post an die Zentrale"
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Zeit und Wochentag."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Über ein geschütztes Portal."
             }
           ]
         },
@@ -289,33 +289,33 @@
           "type": "listening",
           "category": "teil1",
           "categoryLabel": "Hören · Teil 1 · Kurze Texte",
-          "title": "Fitnessstudio Sauna",
-          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Museum am Abend",
+          "instructions": "Sie hören einen kurzen Text. Wählen Sie jeweils die richtige Antwort (a, b oder c). Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "09_teil1_fitnessstudio_q1",
               "type": "multiple_choice",
-              "question": "Was ist der Grund für die Schließung der Sauna?",
+              "question": "Was ist ab 18 Uhr kostenlos?",
               "options": [
-                "Wartungsarbeiten an der Lüftungsanlage.",
-                "Ein Wasserschaden.",
-                "Zu wenig Personal."
+                "Das gesamte Museum",
+                "Die Sonderausstellung",
+                "Die Führung"
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Wartungsarbeiten an der Lüftungsanlage."
+              "answer": 1,
+              "explanation": "Richtige Antwort: Die Sonderausstellung."
             },
             {
               "id": "09_teil1_fitnessstudio_q2",
               "type": "multiple_choice",
-              "question": "Was passiert mit Mitgliedern, die einen Sauna-Vertrag haben?",
+              "question": "Wofür muss man sich anmelden?",
               "options": [
-                "Sie müssen sich melden, um eine Gutschrift zu erhalten.",
-                "Ihnen wird die ausgefallene Zeit automatisch gutgeschrieben.",
-                "Sie erhalten keinen Ausgleich."
+                "Für den Cafébesuch",
+                "Für die Sonderausstellung",
+                "Für die Führung"
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Ihnen wird die ausgefallene Zeit automatisch gutgeschrieben."
+              "answer": 2,
+              "explanation": "Richtige Antwort: Für die Führung."
             }
           ]
         },
@@ -324,33 +324,33 @@
           "type": "listening",
           "category": "teil1",
           "categoryLabel": "Hören · Teil 1 · Kurze Texte",
-          "title": "Rathaus Terminvergabe",
-          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Abgabe von Elektroschrott",
+          "instructions": "Sie hören einen kurzen Text. Wählen Sie jeweils die richtige Antwort (a, b oder c). Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "10_teil1_rathaus_termin_q1",
               "type": "multiple_choice",
-              "question": "Wie können Termine ab sofort hauptsächlich gebucht werden?",
+              "question": "Welche Geräte nimmt die Marktstelle an?",
               "options": [
-                "Nur online.",
-                "Nur telefonisch.",
-                "Nur persönlich vor Ort."
+                "Kleine Elektrogeräte",
+                "Nur Kühlschränke",
+                "Ausschließlich Batterien"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Nur online."
+              "explanation": "Richtige Antwort: Kleine Elektrogeräte."
             },
             {
               "id": "10_teil1_rathaus_termin_q2",
               "type": "multiple_choice",
-              "question": "Was muss man zum Termin unbedingt mitbringen?",
+              "question": "Wer ist für das Löschen persönlicher Daten zuständig?",
               "options": [
-                "Nur den alten Ausweis.",
-                "Ein biometrisches Passfoto und den bisherigen Ausweis.",
-                "Eine Meldebescheinigung."
+                "Die Mitarbeiter",
+                "Die Eigentümer selbst",
+                "Der Hersteller"
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Ein biometrisches Passfoto und den bisherigen Ausweis."
+              "explanation": "Richtige Antwort: Die Eigentümer selbst."
             }
           ]
         },
@@ -359,69 +359,69 @@
           "type": "listening",
           "category": "teil2",
           "categoryLabel": "Hören · Teil 2 · Vorträge",
-          "title": "Weinberg",
-          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Gemeinschaftsgarten",
+          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie jeweils die richtige Antwort (a, b oder c). Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "11_teil2_weinberg_q1",
               "type": "multiple_choice",
-              "question": "Seit wann wird der Betrieb biologisch bewirtschaftet?",
+              "question": "Warum wächst Gemüse in erhöhten Beeten?",
               "options": [
-                "Seit drei Jahren.",
-                "Seit sechzig Jahren.",
-                "Seit acht Jahren."
+                "Wegen belasteter Erde",
+                "Wegen fehlenden Sonnenlichts",
+                "Wegen der Schulklassen"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Seit drei Jahren."
+              "explanation": "Richtige Antwort: Wegen belasteter Erde."
             },
             {
               "id": "11_teil2_weinberg_q2",
               "type": "multiple_choice",
-              "question": "Wie hält man Schädlinge fern?",
+              "question": "Wie lange ist die Nutzung der Fläche vertraglich gesichert?",
               "options": [
-                "Mit chemischen Spritzmitteln.",
-                "Mit natürlichen Nützlingen.",
-                "Mit speziellen Netzen."
+                "Vier Jahre",
+                "Zehn Jahre",
+                "Unbegrenzt"
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Mit natürlichen Nützlingen."
+              "explanation": "Richtige Antwort: Zehn Jahre."
             },
             {
               "id": "11_teil2_weinberg_q3",
               "type": "multiple_choice",
-              "question": "Was zeichnet die neu gepflanzte Rebsorte aus?",
+              "question": "Warum gibt es keine privaten Beete?",
               "options": [
-                "Sie benötigt mehr Wasser.",
-                "Sie ist hitzeresistent und benötigt weniger Wasser.",
-                "Sie wächst schneller als andere Sorten."
+                "Damit Arbeit und Wissen geteilt werden",
+                "Weil keine Ernte erlaubt ist",
+                "Weil ausschließlich Kinder mitarbeiten"
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Sie ist hitzeresistent und benötigt weniger Wasser."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Damit Arbeit und Wissen geteilt werden."
             },
             {
               "id": "11_teil2_weinberg_q4",
               "type": "multiple_choice",
-              "question": "Wie oft werden die Holzfässer ausgetauscht?",
+              "question": "Wohin geht ein Teil der Ernte?",
               "options": [
-                "Jedes Jahr.",
-                "Alle acht bis zehn Jahre.",
-                "Nie."
+                "An die Nachbarschaftsküche",
+                "An einen Supermarkt",
+                "An den Pflanzenmarkt"
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Alle acht bis zehn Jahre."
+              "answer": 0,
+              "explanation": "Richtige Antwort: An die Nachbarschaftsküche."
             },
             {
               "id": "11_teil2_weinberg_q5",
               "type": "multiple_choice",
-              "question": "Was gilt für Kinder unter zwölf Jahren?",
+              "question": "Was sollten neue Helfer mitbringen?",
               "options": [
-                "Sie dürfen den Kellerbereich nicht betreten.",
-                "Sie zahlen keinen Eintritt.",
-                "Sie dürfen nicht fotografieren."
+                "Eigenes Werkzeug",
+                "Feste Schuhe",
+                "Gartenerfahrung"
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Sie dürfen den Kellerbereich nicht betreten."
+              "answer": 1,
+              "explanation": "Richtige Antwort: Feste Schuhe."
             }
           ]
         },
@@ -430,69 +430,69 @@
           "type": "listening",
           "category": "teil2",
           "categoryLabel": "Hören · Teil 2 · Vorträge",
-          "title": "Recyclinghof",
-          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Digitale Sprechstunde",
+          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie jeweils die richtige Antwort (a, b oder c). Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "12_teil2_recyclinghof_q1",
               "type": "multiple_choice",
-              "question": "Was passiert in der Sortierhalle?",
+              "question": "Wobei hilft die Sprechstunde?",
               "options": [
-                "Materialien werden automatisch getrennt.",
-                "Materialien werden verbrannt.",
-                "Materialien werden gewaschen."
+                "Bei alltäglichen digitalen Aufgaben",
+                "Bei Hardware-Reparaturen",
+                "Beim Verkauf neuer Geräte"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Materialien werden automatisch getrennt."
+              "explanation": "Richtige Antwort: Bei alltäglichen digitalen Aufgaben."
             },
             {
               "id": "12_teil2_recyclinghof_q2",
               "type": "multiple_choice",
-              "question": "Wie viel wiegt ein Ballen aus Kunststoffflaschen ungefähr?",
+              "question": "Warum gibt es jetzt Termine?",
               "options": [
-                "200 Kilogramm.",
-                "350 Kilogramm.",
-                "500 Kilogramm."
+                "Wegen langer Wartezeiten",
+                "Wegen einer neuen Gebühr",
+                "Wegen weniger Computer"
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: 350 Kilogramm."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Wegen langer Wartezeiten."
             },
             {
               "id": "12_teil2_recyclinghof_q3",
               "type": "multiple_choice",
-              "question": "Was sind „Fehlwürfe“?",
+              "question": "Wie lange dauert ein Termin?",
               "options": [
-                "Beschädigte Maschinen.",
-                "Gegenstände, die nicht in den gelben Sack gehören.",
-                "Falsch sortierte Ballen."
+                "15 Minuten",
+                "30 Minuten",
+                "Eine Stunde"
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Gegenstände, die nicht in den gelben Sack gehören."
+              "explanation": "Richtige Antwort: 30 Minuten."
             },
             {
               "id": "12_teil2_recyclinghof_q4",
               "type": "multiple_choice",
-              "question": "Woran wird in der Versuchsanlage gearbeitet?",
+              "question": "Wer gibt Passwörter ein?",
               "options": [
-                "An der chemischen Zerlegung von Kunststoffen.",
-                "An neuen Sortiermaschinen.",
-                "An der Verbrennung von Restmüll."
+                "Die Besucher selbst",
+                "Die Begleiter",
+                "Die Bibliothek"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: An der chemischen Zerlegung von Kunststoffen."
+              "explanation": "Richtige Antwort: Die Besucher selbst."
             },
             {
               "id": "12_teil2_recyclinghof_q5",
               "type": "multiple_choice",
-              "question": "Wo ist das Fotografieren nicht erlaubt?",
+              "question": "Wo kann man ein Leihgerät ausprobieren?",
               "options": [
-                "In der Sortierhalle.",
-                "In der Presshalle.",
-                "In der Versuchsanlage."
+                "Im Einführungskurs",
+                "In der Sprechstunde",
+                "Bei jedem Abendvortrag"
               ],
-              "answer": 2,
-              "explanation": "Richtige Antwort: In der Versuchsanlage."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Im Einführungskurs."
             }
           ]
         },
@@ -501,69 +501,69 @@
           "type": "listening",
           "category": "teil2",
           "categoryLabel": "Hören · Teil 2 · Vorträge",
-          "title": "Universitätsbibliothek",
-          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Renaturierung des Stadtbachs",
+          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie jeweils die richtige Antwort (a, b oder c). Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "13_teil2_unibibliothek_q1",
               "type": "multiple_choice",
-              "question": "Was kann man im Online-Katalog erkennen?",
+              "question": "Warum wird der Bach freigelegt?",
               "options": [
-                "Nur den Standort der Bücher.",
-                "Ob ein E-Book sofort verfügbar ist.",
-                "Den Preis der Bücher."
+                "Das Rohr ist bei Starkregen überlastet",
+                "Die Buslinie soll verlegt werden",
+                "Der Bach ist vollständig ausgetrocknet"
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Ob ein E-Book sofort verfügbar ist."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Das Rohr ist bei Starkregen überlastet."
             },
             {
               "id": "13_teil2_unibibliothek_q2",
               "type": "multiple_choice",
-              "question": "Was braucht man für den Datenbankzugang?",
+              "question": "Wann werden die Ufer neu gestaltet?",
               "options": [
-                "Eine zusätzliche Registrierung.",
-                "Nur den Universitätsaccount.",
-                "Eine Bezahlung pro Artikel."
+                "Im Herbst",
+                "Im folgenden Frühjahr",
+                "Erst nach mehreren Jahren"
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Nur den Universitätsaccount."
+              "explanation": "Richtige Antwort: Im folgenden Frühjahr."
             },
             {
               "id": "13_teil2_unibibliothek_q3",
               "type": "multiple_choice",
-              "question": "Wozu dient der Kurs zur Literaturverwaltungssoftware?",
+              "question": "Welcher Weg bleibt offen?",
               "options": [
-                "Zum automatischen Formatieren von Quellenangaben.",
-                "Zum Drucken von Hausarbeiten.",
-                "Zum Scannen von Büchern."
+                "Der Radweg am Ostufer",
+                "Der Fußweg auf der Westseite",
+                "Die Straße über dem Bach"
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Zum automatischen Formatieren von Quellenangaben."
+              "answer": 1,
+              "explanation": "Richtige Antwort: Der Fußweg auf der Westseite."
             },
             {
               "id": "13_teil2_unibibliothek_q4",
               "type": "multiple_choice",
-              "question": "Was passiert mit E-Books nach 21 Tagen?",
+              "question": "Warum gibt es keine Beleuchtung direkt am Bach?",
               "options": [
-                "Sie werden automatisch zurückgegeben.",
-                "Es fällt eine Mahngebühr an.",
-                "Das Nutzerkonto wird gesperrt."
+                "Zum Schutz nachtaktiver Tiere",
+                "Wegen fehlender Stromleitungen",
+                "Wegen der Kosten für Geländer"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Sie werden automatisch zurückgegeben."
+              "explanation": "Richtige Antwort: Zum Schutz nachtaktiver Tiere."
             },
             {
               "id": "13_teil2_unibibliothek_q5",
               "type": "multiple_choice",
-              "question": "Wofür ist die App der Bibliothek besonders hilfreich?",
+              "question": "Was wird nach Fertigstellung gemessen?",
               "options": [
-                "Zum Reservieren von Lesesälen.",
-                "Zum Drucken von Dokumenten.",
-                "Zum Bestellen von Büchern aus anderen Städten."
+                "Die Fahrgastzahlen",
+                "Die Wasserstände",
+                "Die Zahl der Straßenlampen"
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Zum Reservieren von Lesesälen."
+              "answer": 1,
+              "explanation": "Richtige Antwort: Die Wasserstände."
             }
           ]
         },
@@ -572,69 +572,69 @@
           "type": "listening",
           "category": "teil2",
           "categoryLabel": "Hören · Teil 2 · Vorträge",
-          "title": "Segelschule",
-          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Mobiles Repair-Café",
+          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie jeweils die richtige Antwort (a, b oder c). Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "14_teil2_segelschule_q1",
               "type": "multiple_choice",
-              "question": "Für wen ist der Kurs geeignet?",
+              "question": "Was ist das Ziel des Projekts?",
               "options": [
-                "Nur für erfahrene Segler.",
-                "Für Personen ohne Segelerfahrung.",
-                "Nur für Kinder."
+                "Reparaturwissen gemeinsam vermitteln",
+                "Neue Geräte verkaufen",
+                "Professionelle Werkstätten ersetzen"
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Für Personen ohne Segelerfahrung."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Reparaturwissen gemeinsam vermitteln."
             },
             {
               "id": "14_teil2_segelschule_q2",
               "type": "multiple_choice",
-              "question": "Was ist an Bord verpflichtend?",
+              "question": "Welche Geräte werden abgelehnt?",
               "options": [
-                "Eine Rettungsweste.",
-                "Ein eigenes Boot.",
-                "Ein wasserdichtes Handy."
+                "Lampen",
+                "Geräte mit beschädigten Akkus",
+                "Kleine Küchengeräte"
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Eine Rettungsweste."
+              "answer": 1,
+              "explanation": "Richtige Antwort: Geräte mit beschädigten Akkus."
             },
             {
               "id": "14_teil2_segelschule_q3",
               "type": "multiple_choice",
-              "question": "Was passiert, wenn der Wind am zweiten Tag zu stark wird?",
+              "question": "Wofür dienen freiwillige Spenden?",
               "options": [
-                "Der Kurs wird abgesagt.",
-                "Man bleibt länger in der Hafenbucht.",
-                "Man fährt trotzdem hinaus."
+                "Für Verbrauchsmaterial",
+                "Für die Fahrzeugmiete allein",
+                "Für Eintrittskarten"
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Man bleibt länger in der Hafenbucht."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Für Verbrauchsmaterial."
             },
             {
               "id": "14_teil2_segelschule_q4",
               "type": "multiple_choice",
-              "question": "Was erhält man am Ende des Kurses?",
+              "question": "Wie viele Gegenstände werden zunächst pro Person bearbeitet?",
               "options": [
-                "Einen offiziellen Segelschein.",
-                "Eine Teilnahmebescheinigung.",
-                "Eine Einladung zum nächsten Kurs."
+                "Einer",
+                "Zwei",
+                "Beliebig viele"
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Eine Teilnahmebescheinigung."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Einer."
             },
             {
               "id": "14_teil2_segelschule_q5",
               "type": "multiple_choice",
-              "question": "Was passiert bei starkem Regen oder Gewitter?",
+              "question": "Wie viele Dinge konnten zuletzt sofort repariert werden?",
               "options": [
-                "Der Kurs wird verschoben, ohne dass Zusatzkosten entstehen.",
-                "Der Kurs findet trotzdem statt.",
-                "Die Teilnehmer erhalten ihr Geld zurück."
+                "Alle",
+                "Etwas mehr als die Hälfte",
+                "Weniger als ein Zehntel"
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Der Kurs wird verschoben, ohne dass Zusatzkosten entstehen."
+              "answer": 1,
+              "explanation": "Richtige Antwort: Etwas mehr als die Hälfte."
             }
           ]
         },
@@ -643,69 +643,69 @@
           "type": "listening",
           "category": "teil2",
           "categoryLabel": "Hören · Teil 2 · Vorträge",
-          "title": "Stadtarchiv",
-          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Ausstellung zur Stadtgeschichte",
+          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie jeweils die richtige Antwort (a, b oder c). Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "15_teil2_stadtarchiv_q1",
               "type": "multiple_choice",
-              "question": "Warum herrschen im Magazin bestimmte Temperatur- und Feuchtigkeitswerte?",
+              "question": "Von wem stammen viele Ausstellungsstücke?",
               "options": [
-                "Damit das Papier möglichst lange erhalten bleibt.",
-                "Damit die Besucher es angenehmer haben.",
-                "Wegen der Klimaanlage."
+                "Von Familien als Leihgabe",
+                "Aus einem Verkauf des Museums",
+                "Ausschließlich von Politikern"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Damit das Papier möglichst lange erhalten bleibt."
+              "explanation": "Richtige Antwort: Von Familien als Leihgabe."
             },
             {
               "id": "15_teil2_stadtarchiv_q2",
               "type": "multiple_choice",
-              "question": "Aus welchem Jahr stammt der älteste Stadtplan?",
+              "question": "Wie sind die Räume geordnet?",
               "options": [
-                "1423.",
-                "1687.",
-                "1900."
+                "Nach Themen",
+                "Streng chronologisch",
+                "Nach dem Alter der Besucher"
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: 1687."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Nach Themen."
             },
             {
               "id": "15_teil2_stadtarchiv_q3",
               "type": "multiple_choice",
-              "question": "Was kann man im zweiten Raum tun?",
+              "question": "Was ist am Eingang kostenlos erhältlich?",
               "options": [
-                "Selbst zur eigenen Familiengeschichte forschen.",
-                "Bücher ausleihen.",
-                "Das Originalmanuskript berühren."
+                "Ein gedrucktes Tagebuch",
+                "Kopfhörer",
+                "Ein Koffer"
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Selbst zur eigenen Familiengeschichte forschen."
+              "answer": 1,
+              "explanation": "Richtige Antwort: Kopfhörer."
             },
             {
               "id": "15_teil2_stadtarchiv_q4",
               "type": "multiple_choice",
-              "question": "Wann wird das Originalmanuskript öffentlich gezeigt?",
+              "question": "Wo bleiben die Originaltagebücher?",
               "options": [
-                "Jeden Monat.",
-                "Einmal jährlich, am Tag der Stadtgeschichte.",
-                "Nie, es ist nicht öffentlich."
+                "Im Archiv",
+                "Beim Eingang",
+                "In der Ausstellungsvitrine"
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Einmal jährlich, am Tag der Stadtgeschichte."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Im Archiv."
             },
             {
               "id": "15_teil2_stadtarchiv_q5",
               "type": "multiple_choice",
-              "question": "Wo ist Fotografieren grundsätzlich untersagt?",
+              "question": "Unter welcher Bedingung werden Gespräche aufgezeichnet?",
               "options": [
-                "Im Lesesaal.",
-                "Im Magazin.",
-                "Im Ausstellungsraum."
+                "Mit ausdrücklicher Einwilligung",
+                "Immer automatisch",
+                "Nur gegen eine Gebühr"
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Im Magazin."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Mit ausdrücklicher Einwilligung."
             }
           ]
         },
@@ -714,69 +714,69 @@
           "type": "listening",
           "category": "teil2",
           "categoryLabel": "Hören · Teil 2 · Vorträge",
-          "title": "Brauerei",
-          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Regionaler Lieferdienst",
+          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie jeweils die richtige Antwort (a, b oder c). Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "16_teil2_brauerei_q1",
               "type": "multiple_choice",
-              "question": "Was passiert beim Maischen?",
+              "question": "Wann müssen Bestellungen spätestens eingehen?",
               "options": [
-                "Stärke wird in Zucker umgewandelt.",
-                "Der Hopfen wird hinzugefügt.",
-                "Das Bier wird abgefüllt."
+                "Dienstagabend",
+                "Donnerstagabend",
+                "Freitagmorgen"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Stärke wird in Zucker umgewandelt."
+              "explanation": "Richtige Antwort: Dienstagabend."
             },
             {
               "id": "16_teil2_brauerei_q2",
               "type": "multiple_choice",
-              "question": "Was bestimmt vor allem die Farbe des Bieres?",
+              "question": "Wer legt die Produktpreise fest?",
               "options": [
-                "Der Hopfen.",
-                "Die Röstung des Malzes.",
-                "Die Gärtemperatur."
+                "Die Erzeuger",
+                "Die Fahrer",
+                "Die Stadtverwaltung"
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Die Röstung des Malzes."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Die Erzeuger."
             },
             {
               "id": "16_teil2_brauerei_q3",
               "type": "multiple_choice",
-              "question": "Woran wird im Versuchslabor gearbeitet?",
+              "question": "Warum wird kein frischer Fisch angeboten?",
               "options": [
-                "An einer alkoholfreien Variante.",
-                "An einer neuen Verpackung.",
-                "An einem stärkeren Bier."
+                "Es fehlen eigene Kühlräume",
+                "Es fehlen Abholpunkte",
+                "Er ist gesetzlich verboten"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: An einer alkoholfreien Variante."
+              "explanation": "Richtige Antwort: Es fehlen eigene Kühlräume."
             },
             {
               "id": "16_teil2_brauerei_q4",
               "type": "multiple_choice",
-              "question": "Warum verzichtet die Brauerei auf Pasteurisierung?",
+              "question": "Was geschieht bei gefährlichem Schnee?",
               "options": [
-                "Weil es zu teuer wäre.",
-                "Damit das Bier geschmacklich intensiver bleibt.",
-                "Weil es gesetzlich verboten ist."
+                "Die Liefergebühr wird erstattet",
+                "Alle Produkte werden vernichtet",
+                "Die Fahrer müssen trotzdem fahren"
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Damit das Bier geschmacklich intensiver bleibt."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Die Liefergebühr wird erstattet."
             },
             {
               "id": "16_teil2_brauerei_q5",
               "type": "multiple_choice",
-              "question": "Was dürfen Besucher in den Produktionsbereichen nicht tragen?",
+              "question": "Was zählt neben Bestellzahlen als Erfolg?",
               "options": [
-                "Offene Sandalen.",
-                "Jacken.",
-                "Taschen."
+                "Faire Einnahmen der Betriebe",
+                "Die Zahl neuer Stadtteile",
+                "Die Größe der Lieferwagen"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Offene Sandalen."
+              "explanation": "Richtige Antwort: Faire Einnahmen der Betriebe."
             }
           ]
         },
@@ -785,69 +785,69 @@
           "type": "listening",
           "category": "teil2",
           "categoryLabel": "Hören · Teil 2 · Vorträge",
-          "title": "Planetarium",
-          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Lärm und Stadtplanung",
+          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie jeweils die richtige Antwort (a, b oder c). Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "17_teil2_planetarium_q1",
               "type": "multiple_choice",
-              "question": "Was ist die Transitmethode?",
+              "question": "Wann ist es vor der Schule besonders laut?",
               "options": [
-                "Eine Methode, um Helligkeitsschwankungen eines Sterns zu messen.",
-                "Eine Methode, um Planeten direkt zu fotografieren.",
-                "Eine Reise mit dem Raumschiff."
+                "Morgens",
+                "Mittags",
+                "Nachts"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Eine Methode, um Helligkeitsschwankungen eines Sterns zu messen."
+              "explanation": "Richtige Antwort: Morgens."
             },
             {
               "id": "17_teil2_planetarium_q2",
               "type": "multiple_choice",
-              "question": "Woraus bestehen die Ringe des Saturn hauptsächlich?",
+              "question": "Wo soll die neue Haltezone liegen?",
               "options": [
-                "Aus massivem Gestein.",
-                "Aus Eis- und Staubteilchen.",
-                "Aus Metall."
+                "Direkt am Eingang",
+                "Zwei Straßen weiter",
+                "Auf dem Schulhof"
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Aus Eis- und Staubteilchen."
+              "explanation": "Richtige Antwort: Zwei Straßen weiter."
             },
             {
               "id": "17_teil2_planetarium_q3",
               "type": "multiple_choice",
-              "question": "Was zeigt die Computersimulation?",
+              "question": "Wann sollen Lieferungen erfolgen?",
               "options": [
-                "Die Verschmelzung der Milchstraße mit der Andromedagalaxie.",
-                "Die Entstehung des Sonnensystems.",
-                "Eine Reise zum Mars."
+                "Vor sieben Uhr",
+                "Nach neun Uhr",
+                "Während der Pause"
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Die Verschmelzung der Milchstraße mit der Andromedagalaxie."
+              "answer": 1,
+              "explanation": "Richtige Antwort: Nach neun Uhr."
             },
             {
               "id": "17_teil2_planetarium_q4",
               "type": "multiple_choice",
-              "question": "Warum sollen Handys ausgeschaltet werden?",
+              "question": "Wie lange läuft der Test?",
               "options": [
-                "Wegen der Strahlung.",
-                "Weil jedes Leuchten andere Besucher stören würde.",
-                "Wegen der Technik im Raum."
+                "Drei Monate",
+                "Ein Jahr",
+                "Zwei Wochen"
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Weil jedes Leuchten andere Besucher stören würde."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Drei Monate."
             },
             {
               "id": "17_teil2_planetarium_q5",
               "type": "multiple_choice",
-              "question": "Was passiert bei bewölktem Himmel nach der Vorführung?",
+              "question": "Wer entscheidet danach über den Umbau?",
               "options": [
-                "Die Teleskope werden trotzdem benutzt.",
-                "Aufnahmen eines Partnerobservatoriums werden gezeigt.",
-                "Die Veranstaltung endet sofort."
+                "Der Gemeinderat",
+                "Die Schulleitung allein",
+                "Der Lieferdienst"
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Aufnahmen eines Partnerobservatoriums werden gezeigt."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Der Gemeinderat."
             }
           ]
         },
@@ -856,69 +856,69 @@
           "type": "listening",
           "category": "teil2",
           "categoryLabel": "Hören · Teil 2 · Vorträge",
-          "title": "Handwerksmesse",
-          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Mehrweg in der Gastronomie",
+          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie jeweils die richtige Antwort (a, b oder c). Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "18_teil2_handwerksmesse_q1",
               "type": "multiple_choice",
-              "question": "Was ist laut dem Berater ein verbreiteter Irrtum?",
+              "question": "Wo kann ein Behälter zurückgegeben werden?",
               "options": [
-                "Dass eine Ausbildung weniger Aufstiegschancen als ein Studium biete.",
-                "Dass es zu wenige Ausbildungsberufe gebe.",
-                "Dass die Ausbildung zu lange dauere."
+                "Bei jedem teilnehmenden Betrieb",
+                "Nur im ursprünglichen Restaurant",
+                "Nur bei der Hochschule"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Dass eine Ausbildung weniger Aufstiegschancen als ein Studium biete."
+              "explanation": "Richtige Antwort: Bei jedem teilnehmenden Betrieb."
             },
             {
               "id": "18_teil2_handwerksmesse_q2",
               "type": "multiple_choice",
-              "question": "Was kann man am Stand der Dachdeckerinnung tun?",
+              "question": "Welches Problem trat bei der Reinigung auf?",
               "options": [
-                "Selbst eine kleine Dachfläche eindecken.",
-                "Einen Meistertitel erwerben.",
-                "Sich für ein Studium anmelden."
+                "Zu wenig Platz in manchen Küchen",
+                "Zu wenig Kundschaft",
+                "Zu wenig Pfandgeld"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Selbst eine kleine Dachfläche eindecken."
+              "explanation": "Richtige Antwort: Zu wenig Platz in manchen Küchen."
             },
             {
               "id": "18_teil2_handwerksmesse_q3",
               "type": "multiple_choice",
-              "question": "Wie sind Schnupperpraktika meistens bezahlt?",
+              "question": "Wer reinigt die Behälter inzwischen?",
               "options": [
-                "Sehr gut bezahlt.",
-                "Unentgeltlich.",
-                "Nur bei guter Leistung bezahlt."
+                "Ein gemeinsamer Spüldienst",
+                "Die Kundschaft selbst",
+                "Die Hochschule"
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Unentgeltlich."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Ein gemeinsamer Spüldienst."
             },
             {
               "id": "18_teil2_handwerksmesse_q4",
               "type": "multiple_choice",
-              "question": "Wie hoch ist die Ausbildungsvergütung ungefähr?",
+              "question": "Was gilt für Einwegverpackungen?",
               "options": [
-                "Zwischen 700 und 1300 Euro monatlich.",
-                "Immer genau 1000 Euro monatlich.",
-                "Über 2000 Euro monatlich."
+                "Sie sind weiter erhältlich",
+                "Sie sind verboten",
+                "Sie sind grundsätzlich kostenlos"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Zwischen 700 und 1300 Euro monatlich."
+              "explanation": "Richtige Antwort: Sie sind weiter erhältlich."
             },
             {
               "id": "18_teil2_handwerksmesse_q5",
               "type": "multiple_choice",
-              "question": "Was bietet der Stand für Berufsorientierung an?",
+              "question": "Wann erscheint die ökologische Bilanz?",
               "options": [
-                "Ein Bewerbungstraining.",
-                "Einen kurzen Eignungstest.",
-                "Ein Vorstellungsgespräch."
+                "Nach zwei Jahren",
+                "Nach zwei Wochen",
+                "Nach einem Monat"
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Einen kurzen Eignungstest."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Nach zwei Jahren."
             }
           ]
         },
@@ -927,69 +927,69 @@
           "type": "listening",
           "category": "teil2",
           "categoryLabel": "Hören · Teil 2 · Vorträge",
-          "title": "Podcast-Produktion",
-          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Kulturfestival ohne Bühne",
+          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie jeweils die richtige Antwort (a, b oder c). Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "19_teil2_podcast_q1",
               "type": "multiple_choice",
-              "question": "Was unterscheidet den Podcast laut der Redakteurin vom klassischen Radio?",
+              "question": "Warum gibt es keine zentrale Bühne?",
               "options": [
-                "Es gibt mehr Zeit für Hintergrundrecherchen.",
-                "Es gibt keine Redaktionskonferenz.",
-                "Es werden keine Themen ausgewählt."
+                "Kunst soll an Alltagsorten stattfinden",
+                "Die Konzerte sind abgesagt",
+                "Alle Räume sind dauerhaft angemietet"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Es gibt mehr Zeit für Hintergrundrecherchen."
+              "explanation": "Richtige Antwort: Kunst soll an Alltagsorten stattfinden."
             },
             {
               "id": "19_teil2_podcast_q2",
               "type": "multiple_choice",
-              "question": "Warum wird das Skript nicht Wort für Wort ausformuliert?",
+              "question": "Für welche Veranstaltungen braucht man Tickets?",
               "options": [
-                "Damit das Gespräch natürlich klingt.",
-                "Weil dafür keine Zeit ist.",
-                "Weil die Moderatoren das nicht mögen."
+                "Für Konzerte",
+                "Für Lesungen",
+                "Für alle Workshops"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Damit das Gespräch natürlich klingt."
+              "explanation": "Richtige Antwort: Für Konzerte."
             },
             {
               "id": "19_teil2_podcast_q3",
               "type": "multiple_choice",
-              "question": "Worauf wird im Studio besonders geachtet?",
+              "question": "Wie lange stehen die Geschäfte zur Verfügung?",
               "options": [
-                "Auf die richtige Beleuchtung.",
-                "Auf das Vermeiden störender Nebengeräusche.",
-                "Auf die Kleidung der Gäste."
+                "Drei Wochen",
+                "Drei Monate",
+                "Ein Jahr"
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Auf das Vermeiden störender Nebengeräusche."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Drei Wochen."
             },
             {
               "id": "19_teil2_podcast_q4",
               "type": "multiple_choice",
-              "question": "Was passiert beim Schnitt?",
+              "question": "Was geschieht mit mitgebrachten Originalfotos?",
               "options": [
-                "Versprecher und lange Pausen werden entfernt.",
-                "Die Aufnahme wird komplett neu gemacht.",
-                "Neue Themen werden hinzugefügt."
+                "Die Teilnehmer nehmen sie wieder mit",
+                "Sie bleiben im Archiv",
+                "Sie werden verkauft"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Versprecher und lange Pausen werden entfernt."
+              "explanation": "Richtige Antwort: Die Teilnehmer nehmen sie wieder mit."
             },
             {
               "id": "19_teil2_podcast_q5",
               "type": "multiple_choice",
-              "question": "Wer hört die fertige Folge vor der Veröffentlichung noch einmal an?",
+              "question": "Wie wird die Reichweite des Festivals untersucht?",
               "options": [
-                "Niemand mehr.",
-                "Mindestens eine weitere Person aus der Redaktion.",
-                "Nur die Moderatorin selbst."
+                "Mit freiwilligen Fragebögen",
+                "Durch Pflichtregistrierung",
+                "Nur anhand der Ticketpreise"
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Mindestens eine weitere Person aus der Redaktion."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Mit freiwilligen Fragebögen."
             }
           ]
         },
@@ -998,69 +998,69 @@
           "type": "listening",
           "category": "teil2",
           "categoryLabel": "Hören · Teil 2 · Vorträge",
-          "title": "Botanischer Garten",
-          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Wissenschaft im Bürgerlabor",
+          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie jeweils die richtige Antwort (a, b oder c). Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "20_teil2_botanischer_garten_q1",
               "type": "multiple_choice",
-              "question": "Warum müssen die Pflanzen im Alpinum künstlich gekühlt werden?",
+              "question": "Was zeigen die kleinen Geräte zusätzlich?",
               "options": [
-                "Wegen steigender Durchschnittstemperaturen.",
-                "Wegen eines technischen Defekts.",
-                "Wegen zu viel Regen."
+                "Unterschiede zwischen Straßen",
+                "Die exakte Ursache jeder Krankheit",
+                "Den Energieverbrauch der Häuser"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Wegen steigender Durchschnittstemperaturen."
+              "explanation": "Richtige Antwort: Unterschiede zwischen Straßen."
             },
             {
               "id": "20_teil2_botanischer_garten_q2",
               "type": "multiple_choice",
-              "question": "Was zeigt sich im Mediterranengarten?",
+              "question": "Was erhalten Freiwillige vor dem Einsatz?",
               "options": [
-                "Die Pflanzen sterben ab.",
-                "Pflanzen wachsen inzwischen ganzjährig im Freien.",
-                "Es werden keine neuen Pflanzen mehr gepflanzt."
+                "Eine Schulung",
+                "Eine Geldprämie",
+                "Ein Fahrrad"
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Pflanzen wachsen inzwischen ganzjährig im Freien."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Eine Schulung."
             },
             {
               "id": "20_teil2_botanischer_garten_q3",
               "type": "multiple_choice",
-              "question": "Welcher Baum zeigt bei Trockenheit mehr Schäden?",
+              "question": "Wo soll man ein Gerät nicht platzieren?",
               "options": [
-                "Die Traubeneiche.",
-                "Die Rotbuche.",
-                "Der Olivenbaum."
+                "Direkt neben einem Küchenfenster",
+                "Auf einem Balkon",
+                "An einem Fahrrad"
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Die Rotbuche."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Direkt neben einem Küchenfenster."
             },
             {
               "id": "20_teil2_botanischer_garten_q4",
               "type": "multiple_choice",
-              "question": "Was ist ein Problem bei der veränderten Blütezeit?",
+              "question": "Warum fehlen genaue Wohnadressen auf der Karte?",
               "options": [
-                "Insekten passen ihren Rhythmus nicht immer im gleichen Maße an.",
-                "Die Blüten werden kleiner.",
-                "Es blühen zu viele Pflanzen gleichzeitig."
+                "Aus Datenschutzgründen",
+                "Weil alle Geräte anonym verkauft werden",
+                "Wegen der Wetterlage"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Insekten passen ihren Rhythmus nicht immer im gleichen Maße an."
+              "explanation": "Richtige Antwort: Aus Datenschutzgründen."
             },
             {
               "id": "20_teil2_botanischer_garten_q5",
               "type": "multiple_choice",
-              "question": "Was passiert im praktischen Teil des Workshops?",
+              "question": "Wie werden auffällige Einzelwerte behandelt?",
               "options": [
-                "Teilnehmer pflanzen selbst Setzlinge.",
-                "Teilnehmer bekommen nur einen Vortrag.",
-                "Teilnehmer sammeln Samen im Wald."
+                "Zunächst werden Gerät und Wetter geprüft",
+                "Sie gelten sofort als Beweis",
+                "Sie werden grundsätzlich gelöscht"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Teilnehmer pflanzen selbst Setzlinge."
+              "explanation": "Richtige Antwort: Zunächst werden Gerät und Wetter geprüft."
             }
           ]
         },
@@ -1069,51 +1069,51 @@
           "type": "listening",
           "category": "teil3",
           "categoryLabel": "Hören · Teil 3 · Gespräche",
-          "title": "Homeoffice",
-          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Vier-Tage-Woche",
+          "instructions": "Sie hören ein Gespräch. Entscheiden Sie, ob die Aussagen richtig oder falsch sind. Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "21_teil3_homeoffice_q1",
               "type": "true_false",
-              "statement": "Carla darf zwei Tage pro Woche im Homeoffice arbeiten.",
+              "statement": "Der Versuch beginnt im Oktober.",
               "answer": true
             },
             {
               "id": "21_teil3_homeoffice_q2",
               "type": "true_false",
-              "statement": "Ihr Chef war von Anfang an begeistert von der Idee.",
+              "statement": "Die Beschäftigten bekommen während des Versuchs weniger Gehalt.",
               "answer": false
             },
             {
               "id": "21_teil3_homeoffice_q3",
               "type": "true_false",
-              "statement": "Eine Statistik des Teams hat den Chef überzeugt.",
-              "answer": true
+              "statement": "Der Kundendienst nimmt sofort am Versuch teil.",
+              "answer": false
             },
             {
               "id": "21_teil3_homeoffice_q4",
               "type": "true_false",
-              "statement": "Carla arbeitet montags und dienstags von zu Hause.",
+              "statement": "In Milas Team ist immer derselbe Wochentag frei.",
               "answer": false
             },
             {
               "id": "21_teil3_homeoffice_q5",
               "type": "true_false",
-              "statement": "Sie hat sich extra einen neuen Schreibtisch gekauft.",
-              "answer": false
+              "statement": "Die Verwaltung soll weiterhin erreichbar sein.",
+              "answer": true
             },
             {
               "id": "21_teil3_homeoffice_q6",
               "type": "true_false",
-              "statement": "Sie hat sich einen neuen Bürostuhl angeschafft.",
+              "statement": "Nach sechs Monaten wird der Versuch ausgewertet.",
               "answer": true
             },
             {
               "id": "21_teil3_homeoffice_q7",
               "type": "true_false",
-              "statement": "Carla hat inzwischen feste Arbeitszeiten für das Homeoffice.",
-              "answer": true
+              "statement": "Überstunden werden künftig nicht mehr dokumentiert.",
+              "answer": false
             }
           ]
         },
@@ -1122,50 +1122,50 @@
           "type": "listening",
           "category": "teil3",
           "categoryLabel": "Hören · Teil 3 · Gespräche",
-          "title": "Auslandssemester",
-          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Studium und Nebenjob",
+          "instructions": "Sie hören ein Gespräch. Entscheiden Sie, ob die Aussagen richtig oder falsch sind. Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "22_teil3_auslandssemester_q1",
               "type": "true_false",
-              "statement": "Vera war für ein Semester in Lyon.",
+              "statement": "Karim arbeitet derzeit nur samstags im Café.",
               "answer": true
             },
             {
               "id": "22_teil3_auslandssemester_q2",
               "type": "true_false",
-              "statement": "Sie fand das Auslandssemester von Anfang an einfach.",
+              "statement": "Die längeren Vorlesungen sind der Hauptgrund für die Änderung.",
               "answer": false
             },
             {
               "id": "22_teil3_auslandssemester_q3",
               "type": "true_false",
-              "statement": "Die Vorlesungen waren auf Englisch.",
-              "answer": false
+              "statement": "Im Seminar wertet Karim regelmäßig Interviews aus.",
+              "answer": true
             },
             {
               "id": "22_teil3_auslandssemester_q4",
               "type": "true_false",
-              "statement": "Vera hat in einer WG mit Franzosen gewohnt.",
-              "answer": true
+              "statement": "Das Stipendium bezahlt seine ganze Miete.",
+              "answer": false
             },
             {
               "id": "22_teil3_auslandssemester_q5",
               "type": "true_false",
-              "statement": "Alle Kurse werden ihr für ihr Studium angerechnet.",
+              "statement": "Karim möchte den Job sofort kündigen.",
               "answer": false
             },
             {
               "id": "22_teil3_auslandssemester_q6",
               "type": "true_false",
-              "statement": "Ein Seminar muss sie noch nachholen.",
+              "statement": "Vor den Prüfungen plant Karim unbezahlten Urlaub.",
               "answer": true
             },
             {
               "id": "22_teil3_auslandssemester_q7",
               "type": "true_false",
-              "statement": "Vera würde das Auslandssemester nicht noch einmal machen.",
+              "statement": "Karim hat eine zweite Schicht nach den Prüfungen ausgeschlossen.",
               "answer": false
             }
           ]
@@ -1175,51 +1175,51 @@
           "type": "listening",
           "category": "teil3",
           "categoryLabel": "Hören · Teil 3 · Gespräche",
-          "title": "Wohnungstausch",
-          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Mietshaus mit Solaranlage",
+          "instructions": "Sie hören ein Gespräch. Entscheiden Sie, ob die Aussagen richtig oder falsch sind. Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "23_teil3_wohnungstausch_q1",
               "type": "true_false",
-              "statement": "Mira hat drei Wochen lang ihre Wohnung mit einer Familie aus Kanada getauscht.",
+              "statement": "Im Haus ist eine Solaranlage geplant.",
               "answer": true
             },
             {
               "id": "23_teil3_wohnungstausch_q2",
               "type": "true_false",
-              "statement": "Sie hatte von Anfang an keinerlei Bedenken.",
+              "statement": "Alle Bewohner müssen den neuen Stromvertrag unterschreiben.",
               "answer": false
             },
             {
               "id": "23_teil3_wohnungstausch_q3",
               "type": "true_false",
-              "statement": "Die Plattform verlangt Bewertungen früherer Tauschpartner.",
+              "statement": "Ein Gutachten zum Dach steht noch aus.",
               "answer": true
             },
             {
               "id": "23_teil3_wohnungstausch_q4",
               "type": "true_false",
-              "statement": "In der Nähe des Hauses in Kanada gab es gute öffentliche Verkehrsmittel.",
+              "statement": "Der Genehmigungsantrag wurde bereits bewilligt.",
               "answer": false
             },
             {
               "id": "23_teil3_wohnungstausch_q5",
               "type": "true_false",
-              "statement": "Mira musste einen Schrank mit persönlichen Sachen abschließen.",
+              "statement": "Nina hat eine schriftliche Aussage zur Miete erbeten.",
               "answer": true
             },
             {
               "id": "23_teil3_wohnungstausch_q6",
               "type": "true_false",
-              "statement": "Während des Tauschs ist nichts kaputtgegangen.",
+              "statement": "Paul kennt bereits den endgültigen Strompreis.",
               "answer": false
             },
             {
               "id": "23_teil3_wohnungstausch_q7",
               "type": "true_false",
-              "statement": "Mira würde einen Wohnungstausch nicht noch einmal machen.",
-              "answer": false
+              "statement": "Nina will das Angebot vor einer Entscheidung prüfen.",
+              "answer": true
             }
           ]
         },
@@ -1228,51 +1228,51 @@
           "type": "listening",
           "category": "teil3",
           "categoryLabel": "Hören · Teil 3 · Gespräche",
-          "title": "Vegane Ernährung",
-          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Umzug aufs Land",
+          "instructions": "Sie hören ein Gespräch. Entscheiden Sie, ob die Aussagen richtig oder falsch sind. Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "24_teil3_vegan_q1",
               "type": "true_false",
-              "statement": "Lea ernährt sich seit zwei Monaten vegan.",
+              "statement": "Toms Zugfahrt zur Arbeit dauert 45 Minuten.",
               "answer": true
             },
             {
               "id": "24_teil3_vegan_q2",
               "type": "true_false",
-              "statement": "Der Verzicht auf Fleisch fiel ihr am schwersten.",
+              "statement": "Der Garten war der wichtigste Umzugsgrund.",
               "answer": false
             },
             {
               "id": "24_teil3_vegan_q3",
               "type": "true_false",
-              "statement": "Bei Backrezepten musste Lea vieles neu lernen.",
+              "statement": "Toms Eltern wohnen nun näher bei ihm.",
               "answer": true
             },
             {
               "id": "24_teil3_vegan_q4",
               "type": "true_false",
-              "statement": "Lea nimmt mehrere verschiedene Nahrungsergänzungsmittel.",
+              "statement": "Tom arbeitet jeden Tag von zu Hause.",
               "answer": false
             },
             {
               "id": "24_teil3_vegan_q5",
               "type": "true_false",
-              "statement": "Sie hat vor der Umstellung mit ihrer Hausärztin gesprochen.",
+              "statement": "Tom arbeitet eine neue Kollegin ein.",
               "answer": true
             },
             {
               "id": "24_teil3_vegan_q6",
               "type": "true_false",
-              "statement": "Leas Eltern waren von Anfang an begeistert.",
+              "statement": "Die Tochter geht zu Fuß zur Schule.",
               "answer": false
             },
             {
               "id": "24_teil3_vegan_q7",
               "type": "true_false",
-              "statement": "Lea macht auswärts manchmal eine Ausnahme.",
-              "answer": false
+              "statement": "Tom hält den Arbeitsweg für länger als erwartet.",
+              "answer": true
             }
           ]
         },
@@ -1281,50 +1281,50 @@
           "type": "listening",
           "category": "teil3",
           "categoryLabel": "Hören · Teil 3 · Gespräche",
-          "title": "Ehrenamt",
-          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Nachbarschaftsküche",
+          "instructions": "Sie hören ein Gespräch. Entscheiden Sie, ob die Aussagen richtig oder falsch sind. Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "25_teil3_ehrenamt_q1",
               "type": "true_false",
-              "statement": "Nora engagiert sich seit einem halben Jahr ehrenamtlich.",
+              "statement": "Die Küche bietet seit einem Monat sonntags Essen an.",
               "answer": true
             },
             {
               "id": "25_teil3_ehrenamt_q2",
               "type": "true_false",
-              "statement": "Sie ist selbst auf die Idee gekommen, ohne dass jemand sie darauf angesprochen hat.",
+              "statement": "Für die Vorbereitung gibt es bereits genug Helfer.",
               "answer": false
             },
             {
               "id": "25_teil3_ehrenamt_q3",
               "type": "true_false",
-              "statement": "Sie investiert im Schnitt etwa drei Stunden pro Woche.",
-              "answer": true
+              "statement": "David braucht eine Kochausbildung, um mitzuhelfen.",
+              "answer": false
             },
             {
               "id": "25_teil3_ehrenamt_q4",
               "type": "true_false",
-              "statement": "Nora erhält eine Aufwandsentschädigung für ihre Arbeit.",
-              "answer": false
+              "statement": "Eine Köchin erklärt die Hygienevorschriften.",
+              "answer": true
             },
             {
               "id": "25_teil3_ehrenamt_q5",
               "type": "true_false",
-              "statement": "Fahrtkosten werden ihr erstattet.",
+              "statement": "Ein Supermarkt liefert einen Teil der Lebensmittel.",
               "answer": true
             },
             {
               "id": "25_teil3_ehrenamt_q6",
               "type": "true_false",
-              "statement": "Eine Schulung war vor Beginn des Engagements nicht nötig.",
+              "statement": "Alle Gäste müssen einen festen Preis bezahlen.",
               "answer": false
             },
             {
               "id": "25_teil3_ehrenamt_q7",
               "type": "true_false",
-              "statement": "Nora würde anderen empfehlen, sich ebenfalls zu engagieren.",
+              "statement": "David möchte nächsten Sonntag helfen.",
               "answer": true
             }
           ]
@@ -1334,50 +1334,50 @@
           "type": "listening",
           "category": "teil3",
           "categoryLabel": "Hören · Teil 3 · Gespräche",
-          "title": "Jobwechsel",
-          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Fortbildung im Beruf",
+          "instructions": "Sie hören ein Gespräch. Entscheiden Sie, ob die Aussagen richtig oder falsch sind. Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "26_teil3_jobwechsel_q1",
               "type": "true_false",
-              "statement": "Sina beginnt in drei Wochen bei einer neuen Firma.",
+              "statement": "Der Kurs beginnt im November.",
               "answer": true
             },
             {
               "id": "26_teil3_jobwechsel_q2",
               "type": "true_false",
-              "statement": "Die neue Firma spezialisiert sich auf nachhaltige Verpackungen.",
-              "answer": true
+              "statement": "Alle Kursstunden liegen in Felix’ Arbeitszeit.",
+              "answer": false
             },
             {
               "id": "26_teil3_jobwechsel_q3",
               "type": "true_false",
-              "statement": "Sina fand ihren alten Job grundsätzlich schlecht.",
-              "answer": false
+              "statement": "Für das Zertifikat ist eine Prüfung nötig.",
+              "answer": true
             },
             {
               "id": "26_teil3_jobwechsel_q4",
               "type": "true_false",
-              "statement": "In der neuen Stelle verdient sie mehr Geld.",
-              "answer": false
+              "statement": "Felix erhält die Prüfungsgebühr bei bestandener Prüfung zurück.",
+              "answer": true
             },
             {
               "id": "26_teil3_jobwechsel_q5",
               "type": "true_false",
-              "statement": "Die neue Stelle bietet ihr mehr Verantwortung.",
+              "statement": "Im Kurs werden eigene Projekte besprochen.",
               "answer": true
             },
             {
               "id": "26_teil3_jobwechsel_q6",
               "type": "true_false",
-              "statement": "Ihre Kündigungsfrist betrug einen Monat.",
+              "statement": "Eine neue Stelle wurde Felix bereits zugesagt.",
               "answer": false
             },
             {
               "id": "26_teil3_jobwechsel_q7",
               "type": "true_false",
-              "statement": "Sina möchte den Kontakt zu ihrer ehemaligen Teamkollegin nicht mehr pflegen.",
+              "statement": "Die Firma zahlt überhaupt keine Kurskosten.",
               "answer": false
             }
           ]
@@ -1387,50 +1387,50 @@
           "type": "listening",
           "category": "teil3",
           "categoryLabel": "Hören · Teil 3 · Gespräche",
-          "title": "Elternzeit",
-          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Stadtteilfest",
+          "instructions": "Sie hören ein Gespräch. Entscheiden Sie, ob die Aussagen richtig oder falsch sind. Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "27_teil3_elternzeit_q1",
               "type": "true_false",
-              "statement": "Julias Mann nimmt sechs Monate Elternzeit.",
+              "statement": "Das Fest findet am Samstag statt.",
               "answer": true
             },
             {
               "id": "27_teil3_elternzeit_q2",
               "type": "true_false",
-              "statement": "Julia hört in dieser Zeit vollständig auf zu arbeiten.",
+              "statement": "Der Infostand wird erst um elf aufgebaut.",
               "answer": false
             },
             {
               "id": "27_teil3_elternzeit_q3",
               "type": "true_false",
-              "statement": "Julia reduziert ihre Arbeitszeit auf eine Vier-Tage-Woche.",
+              "statement": "Eine Schicht dauert zwei Stunden.",
               "answer": true
             },
             {
               "id": "27_teil3_elternzeit_q4",
               "type": "true_false",
-              "statement": "Der Arbeitgeber ihres Mannes hat den Antrag abgelehnt.",
+              "statement": "Luis muss alle schwierigen Fragen allein beantworten.",
               "answer": false
             },
             {
               "id": "27_teil3_elternzeit_q5",
               "type": "true_false",
-              "statement": "Ihr Mann erhält in dieser Zeit Elterngeld.",
+              "statement": "Bei Regen finden die Konzerte in der Turnhalle statt.",
               "answer": true
             },
             {
               "id": "27_teil3_elternzeit_q6",
               "type": "true_false",
-              "statement": "Das Elterngeld ersetzt das komplette bisherige Nettoeinkommen.",
+              "statement": "Der Flohmarkt findet auch bei Regen im Freien statt.",
               "answer": false
             },
             {
               "id": "27_teil3_elternzeit_q7",
               "type": "true_false",
-              "statement": "Der Vater möchte regelmäßig mit der Tochter zum Babyschwimmen gehen.",
+              "statement": "Luis übernimmt die erste Schicht.",
               "answer": true
             }
           ]
@@ -1440,50 +1440,50 @@
           "type": "listening",
           "category": "teil3",
           "categoryLabel": "Hören · Teil 3 · Gespräche",
-          "title": "Umzug in andere Stadt",
-          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "E-Bike teilen",
+          "instructions": "Sie hören ein Gespräch. Entscheiden Sie, ob die Aussagen richtig oder falsch sind. Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "28_teil3_umzug_stadt_q1",
               "type": "true_false",
-              "statement": "Annika zieht wegen der hohen Mieten in Berlin nach Leipzig.",
+              "statement": "Das E-Bike steht in einem abgeschlossenen Raum.",
               "answer": true
             },
             {
               "id": "28_teil3_umzug_stadt_q2",
               "type": "true_false",
-              "statement": "In Leipzig bekommt sie für dasselbe Geld eine kleinere Wohnung.",
+              "statement": "Eine Reservierung darf mehrere Tage dauern.",
               "answer": false
             },
             {
               "id": "28_teil3_umzug_stadt_q3",
               "type": "true_false",
-              "statement": "Ihr Arbeitgeber erlaubt ihr, komplett remote zu arbeiten.",
+              "statement": "Eine Werkstatt kontrolliert das Rad zweimal jährlich.",
               "answer": true
             },
             {
               "id": "28_teil3_umzug_stadt_q4",
               "type": "true_false",
-              "statement": "Annika kennt in Leipzig noch niemanden.",
+              "statement": "Für das Aufpumpen ist ausschließlich die Werkstatt zuständig.",
               "answer": false
             },
             {
               "id": "28_teil3_umzug_stadt_q5",
               "type": "true_false",
-              "statement": "Sie sagt, dass ihr Berlin überhaupt nicht fehlen wird.",
+              "statement": "Alle Hausbewohner zahlen automatisch mit.",
               "answer": false
             },
             {
               "id": "28_teil3_umzug_stadt_q6",
               "type": "true_false",
-              "statement": "Sie hat die neue Wohnung bereits zweimal besichtigt.",
+              "statement": "Die Beiträge decken auch die Versicherung.",
               "answer": true
             },
             {
               "id": "28_teil3_umzug_stadt_q7",
               "type": "true_false",
-              "statement": "Ihr Bruder hat sie bei einer Besichtigung begleitet.",
+              "statement": "Für neue Mitglieder gibt es eine Akku-Einführung.",
               "answer": true
             }
           ]
@@ -1493,50 +1493,50 @@
           "type": "listening",
           "category": "teil3",
           "categoryLabel": "Hören · Teil 3 · Gespräche",
-          "title": "Weiterbildung",
-          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Kulturpass für Jugendliche",
+          "instructions": "Sie hören ein Gespräch. Entscheiden Sie, ob die Aussagen richtig oder falsch sind. Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "29_teil3_weiterbildung_q1",
               "type": "true_false",
-              "statement": "Katharina hat sich für eine berufsbegleitende Weiterbildung angemeldet.",
+              "statement": "Amiras Schwester hat sich angemeldet.",
               "answer": true
             },
             {
               "id": "29_teil3_weiterbildung_q2",
               "type": "true_false",
-              "statement": "Die Weiterbildung dauert insgesamt drei Jahre.",
+              "statement": "Die Karte wird per Post zugeschickt.",
               "answer": false
             },
             {
               "id": "29_teil3_weiterbildung_q3",
               "type": "true_false",
-              "statement": "Ihr Arbeitgeber übernimmt die kompletten Kosten.",
-              "answer": false
+              "statement": "Zur Abholung braucht man einen Ausweis.",
+              "answer": true
             },
             {
               "id": "29_teil3_weiterbildung_q4",
               "type": "true_false",
-              "statement": "Mindestens zwei Jahre Berufserfahrung waren Voraussetzung.",
-              "answer": true
+              "statement": "Jedes Kino akzeptiert den Pass.",
+              "answer": false
             },
             {
               "id": "29_teil3_weiterbildung_q5",
               "type": "true_false",
-              "statement": "Katharina musste kein Motivationsschreiben einreichen.",
-              "answer": false
+              "statement": "Die Karte gilt bis zum Ende des Kalenderjahres.",
+              "answer": true
             },
             {
               "id": "29_teil3_weiterbildung_q6",
               "type": "true_false",
-              "statement": "Sie erhofft sich unter anderem eine offizielle Zertifizierung.",
+              "statement": "Eine Verlängerung kann von einer Altersgrenze abhängen.",
               "answer": true
             },
             {
               "id": "29_teil3_weiterbildung_q7",
               "type": "true_false",
-              "statement": "Ihr Urlaub wird wegen der Weiterbildung gekürzt.",
+              "statement": "Alle Eintrittskarten sind mit dem Pass kostenlos.",
               "answer": false
             }
           ]
@@ -1546,50 +1546,50 @@
           "type": "listening",
           "category": "teil3",
           "categoryLabel": "Hören · Teil 3 · Gespräche",
-          "title": "Reise mit Zwischenfall",
-          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "title": "Reise mit Zugausfall",
+          "instructions": "Sie hören ein Gespräch. Entscheiden Sie, ob die Aussagen richtig oder falsch sind. Sie hören den Text einmal.",
+          "maxPlays": 1,
           "questions": [
             {
               "id": "30_teil3_reise_ausfall_q1",
               "type": "true_false",
-              "statement": "Der Anschlussflug wurde wegen eines Sturms gestrichen.",
+              "statement": "Der ursprüngliche Zug fiel aus.",
               "answer": true
             },
             {
               "id": "30_teil3_reise_ausfall_q2",
               "type": "true_false",
-              "statement": "Steffi und ihr Begleiter mussten die zusätzliche Übernachtung selbst bezahlen.",
+              "statement": "Oskar erfuhr bereits am Vortag vom Ausfall.",
               "answer": false
             },
             {
               "id": "30_teil3_reise_ausfall_q3",
               "type": "true_false",
-              "statement": "Sie haben die Nordlichter überhaupt nicht gesehen.",
-              "answer": false
+              "statement": "Die Reisenden stiegen in Halle um.",
+              "answer": true
             },
             {
               "id": "30_teil3_reise_ausfall_q4",
               "type": "true_false",
-              "statement": "Sie haben die Nordlichter an drei von sieben Nächten gesehen.",
-              "answer": true
+              "statement": "Sie nahmen an der ersten Museumsführung teil.",
+              "answer": false
             },
             {
               "id": "30_teil3_reise_ausfall_q5",
               "type": "true_false",
-              "statement": "Das gebuchte Auto war bei Abholung größer als reserviert.",
-              "answer": false
+              "statement": "Das Museum verlangte für die Umbuchung kein Geld.",
+              "answer": true
             },
             {
               "id": "30_teil3_reise_ausfall_q6",
               "type": "true_false",
-              "statement": "Sie erhielten eine kleine Erstattung wegen des kleineren Autos.",
-              "answer": true
+              "statement": "Die Hotelreservierung war für den Morgen.",
+              "answer": false
             },
             {
               "id": "30_teil3_reise_ausfall_q7",
               "type": "true_false",
-              "statement": "Steffi würde trotz der anfänglichen Probleme wieder nach Island reisen.",
+              "statement": "Oskar will eine Entschädigung beantragen.",
               "answer": true
             }
           ]

@@ -1,29 +1,18 @@
-[Male / Tobias]
-Hallo Annika! Ich habe gehört, du ziehst nächsten Monat von Berlin nach Leipzig. Warum das denn?
-
-[Female / Annika]
-Hauptsächlich wegen der Mieten, die in Berlin in den letzten Jahren einfach zu stark gestiegen sind. In Leipzig bekomme ich für dasselbe Geld eine deutlich größere Wohnung.
-
-[Male / Tobias]
-Hast du dort schon einen Job in Aussicht, oder arbeitest du weiterhin remote?
-
-[Female / Annika]
-Mein jetziger Arbeitgeber hat mir erlaubt, komplett remote weiterzuarbeiten, ich muss nur einmal im Monat für ein persönliches Treffen nach Berlin fahren.
-
-[Male / Tobias]
-Kennst du schon jemanden in Leipzig, oder ziehst du dort völlig neu hin?
-
-[Female / Annika]
-Eine gute Freundin von mir wohnt dort schon seit drei Jahren, das hat meine Entscheidung sicher zusätzlich erleichtert.
-
-[Male / Tobias]
-Wird dir Berlin nicht fehlen?
-
-[Female / Annika]
-Bestimmt werde ich manche Orte vermissen, vor allem bestimmte Cafés und den Park in meiner alten Nachbarschaft, aber ich freue mich auch sehr auf einen ruhigeren Alltag.
-
-[Male / Tobias]
-Hast du die neue Wohnung schon besichtigt?
-
-[Female / Annika]
-Ja, sogar zweimal, einmal allein und einmal mit meinem Bruder, der noch einmal genauer auf die Bausubstanz geachtet hat.
+[Male / Ben]
+Unsere Hausgemeinschaft hat ein gemeinsames E-Bike angeschafft. Es steht im abgeschlossenen Fahrradraum.
+[Female / Julia]
+Wie bucht ihr es?
+[Male / Ben]
+Über einen Kalender. Man darf es höchstens für einen Tag am Stück reservieren, damit möglichst viele es nutzen können.
+[Female / Julia]
+Und wer wartet es?
+[Male / Ben]
+Eine Werkstatt überprüft es zweimal im Jahr. Kleine Dinge wie Luft aufpumpen erledigen wir selbst.
+[Female / Julia]
+Zahlen alle Hausbewohner?
+[Male / Ben]
+Nur die Mitglieder der Gruppe. Die monatlichen Beiträge decken Reparaturen und Versicherung.
+[Female / Julia]
+Kann ich als neue Bewohnerin beitreten?
+[Male / Ben]
+Ja, wenn du an der kurzen Einführung zum Akku teilnimmst. Nächsten Dienstag gibt es wieder eine.

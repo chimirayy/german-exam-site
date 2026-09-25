@@ -1,29 +1,18 @@
-[Male / Daniel]
-Hallo Sina! Du hast doch vor Kurzem gekündigt. Hast du schon eine neue Stelle gefunden?
-
-[Female / Sina]
-Ja, ich fange in drei Wochen bei einer kleineren Firma an, die sich auf nachhaltige Verpackungen spezialisiert hat. Das Thema hat mich schon lange interessiert.
-
-[Male / Daniel]
-War dein alter Job so schlecht, dass du unbedingt wechseln wolltest?
-
-[Female / Sina]
-Nicht schlecht, aber ich hatte das Gefühl, mich beruflich nicht mehr weiterzuentwickeln. Die Aufgaben blieben über Jahre praktisch identisch.
-
-[Male / Daniel]
-Verdienst du in der neuen Stelle mehr?
-
-[Female / Sina]
-Überraschenderweise sogar etwas weniger, allerdings bietet die neue Firma deutlich mehr Verantwortung und die Möglichkeit, eigene Projekte zu leiten, was mir wichtiger ist als das Gehalt.
-
-[Male / Daniel]
-Wie lange war deine Kündigungsfrist?
-
-[Female / Sina]
-Drei Monate, das hat sich ziemlich lange angefühlt, vor allem, weil meine Kollegen schon wussten, dass ich gehe.
-
-[Male / Daniel]
-Hast du dich schwergetan, den Kollegen von der Kündigung zu erzählen?
-
-[Female / Sina]
-Ja, besonders meiner direkten Teamkollegin, mit der ich über Jahre eng zusammengearbeitet habe. Wir bleiben aber auf jeden Fall privat in Kontakt.
+[Male / Felix]
+Meine Firma finanziert eine Fortbildung zur Projektleitung. Der Kurs beginnt im November.
+[Female / Nora]
+Findet er während der Arbeitszeit statt?
+[Male / Felix]
+Zum Teil. Ein Nachmittag pro Woche ist freigestellt, das Online-Seminar am Abend mache ich in meiner Freizeit.
+[Female / Nora]
+Ist die Abschlussprüfung Pflicht?
+[Male / Felix]
+Für das Zertifikat ja. Die Kursgebühr zahlt die Firma, die Prüfungsgebühr übernehme ich zunächst selbst. Bestehe ich, bekomme ich sie erstattet.
+[Female / Nora]
+Das setzt dich bestimmt unter Druck.
+[Male / Felix]
+Etwas. Mir hilft, dass wir in kleinen Gruppen üben und eigene Projekte besprechen.
+[Female / Nora]
+Wechselst du danach in eine andere Abteilung?
+[Male / Felix]
+Das ist offen. Eine konkrete Stelle wurde mir nicht versprochen.

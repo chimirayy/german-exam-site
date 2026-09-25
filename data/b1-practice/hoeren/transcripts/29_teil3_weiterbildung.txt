@@ -1,32 +1,18 @@
-[Female / Katharina]
-Hallo Simon! Ich habe mich letzte Woche für eine berufsbegleitende Weiterbildung im Bereich Projektmanagement angemeldet.
-
-[Male / Simon]
-Klingt nach viel Aufwand neben dem normalen Job. Wie oft finden die Kurse statt?
-
-[Female / Katharina]
-Einmal pro Woche abends sowie an zwei Samstagen im Monat, insgesamt läuft die Weiterbildung über anderthalb Jahre.
-
-[Male / Simon]
-Bezahlt dein Arbeitgeber die Kosten dafür?
-
-[Female / Katharina]
-Zu zwei Dritteln, den Rest muss ich selbst tragen, allerdings darf ich im Gegenzug einen Teil der Kurszeit als Arbeitszeit anrechnen lassen.
-
-[Male / Simon]
-Musstest du für die Weiterbildung bestimmte Voraussetzungen erfüllen?
-
-[Female / Katharina]
-Ja, mindestens zwei Jahre Berufserfahrung waren Pflicht, außerdem musste ich ein kurzes Motivationsschreiben einreichen, warum ich mich für diesen Bereich interessiere.
-
-[Male / Simon]
-Was erhoffst du dir konkret von der Weiterbildung?
-
-[Female / Katharina]
-Vor allem eine offizielle Zertifizierung, die mir bei zukünftigen Bewerbungen helfen soll, aber auch praktisches Wissen, das ich schon jetzt in meinen laufenden Projekten anwenden kann.
-
-[Male / Simon]
-Wird dir während der Zeit der Urlaub gekürzt oder ähnliches?
-
-[Female / Katharina]
-Nein, das nicht, allerdings muss ich für die Samstagstermine auf einige private Wochenenden verzichten, was mir schon ein wenig schwerfällt.
+[Female / Amira]
+Meine Schwester hat sich für den Kulturpass der Stadt angemeldet. Damit kann sie Theater und Museen günstiger besuchen.
+[Male / Leo]
+Kann man den Pass überall kaufen?
+[Female / Amira]
+Nein, die Anmeldung läuft online, aber die Karte holt man im Bürgerbüro ab. Man muss dort den Ausweis vorzeigen.
+[Male / Leo]
+Gilt er auch für Kinobesuche?
+[Female / Amira]
+Nur bei den beiden teilnehmenden Programmkinos, nicht bei allen. Eine Liste steht auf der Website.
+[Male / Leo]
+Wie lange ist die Karte gültig?
+[Female / Amira]
+Bis zum Ende des jeweiligen Kalenderjahres. Wer weiterhin die Altersgrenze erfüllt, kann sie danach verlängern.
+[Male / Leo]
+Ich dachte, der Pass sei kostenlos.
+[Female / Amira]
+Die Anmeldung ja, aber die Eintrittskarten kosten meist noch etwas.

@@ -1,32 +1,20 @@
-[Female / Nora]
-Hallo Kevin! Ich engagiere mich seit einem halben Jahr ehrenamtlich in der Nachbarschaftshilfe. Letzte Woche habe ich zum ersten Mal eine ältere Dame beim Einkaufen begleitet.
-
-[Male / Kevin]
-Wie bist du überhaupt darauf gekommen, dich ehrenamtlich zu engagieren?
-
-[Female / Nora]
-Eine Kollegin hat mich mitgenommen, weil ihr eine helfende Hand fehlte. Danach habe ich gemerkt, wie sinnvoll und dankbar diese Arbeit ist, und bin einfach dabeigeblieben.
-
-[Male / Kevin]
-Wie viel Zeit investierst du wöchentlich?
-
-[Female / Nora]
-Im Schnitt etwa drei Stunden, meistens am Samstagvormittag. Manchmal kommen aber auch spontane Einsätze dazu, wenn kurzfristig jemand krank wird und Unterstützung braucht.
-
-[Male / Kevin]
-Bekommst du für deine Arbeit irgendeine Aufwandsentschädigung?
-
-[Female / Nora]
-Nein, das Engagement ist komplett unbezahlt, allerdings werden mir Fahrtkosten erstattet, wenn ich mit dem Auto zu jemandem fahren muss.
-
-[Male / Kevin]
-Musstest du vorher eine besondere Schulung machen?
-
-[Female / Nora]
-Ja, eine eintägige Einführungsschulung war Pflicht, bei der es unter anderem um den richtigen Umgang mit älteren oder kranken Menschen ging.
-
-[Male / Kevin]
-Würdest du anderen empfehlen, sich auch zu engagieren?
-
-[Female / Nora]
-Auf jeden Fall, man bekommt so viel zurück, dass sich der Aufwand wirklich lohnt.
+[Female / Eva]
+Unsere Nachbarschaftsküche kocht seit einem Monat auch am Sonntag. Bisher gab es nur samstags Essen.
+[Male / David]
+Habt ihr genügend Helfer?
+[Female / Eva]
+Noch nicht ganz. Für die Ausgabe reicht es, aber beim Vorbereiten fehlen Leute.
+[Male / David]
+Kann ich ohne Erfahrung helfen?
+[Female / Eva]
+Ja. Eine Köchin erklärt am Anfang die Hygienevorschriften. Du könntest Gemüse schneiden oder später abwaschen.
+[Male / David]
+Wie finanziert ihr die Zutaten?
+[Female / Eva]
+Ein Supermarkt gibt uns Lebensmittel, die bald verkauft werden müssten. Fehlende Zutaten kaufen wir aus Spenden.
+[Male / David]
+Muss man für das Essen bezahlen?
+[Female / Eva]
+Nein, jeder darf essen. Wer kann, gibt einen freiwilligen Beitrag.
+[Male / David]
+Dann komme ich nächsten Sonntag zum Vorbereiten.

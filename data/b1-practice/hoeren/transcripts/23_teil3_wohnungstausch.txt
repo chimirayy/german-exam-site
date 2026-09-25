@@ -1,32 +1,18 @@
-[Female / Mira]
-Hallo Timo! Ich habe gerade drei Wochen meine Wohnung mit einer Familie aus Kanada getauscht. Kein Hotel, nur Wohnungstausch.
-
-[Male / Timo]
-Das klingt spannend. Hattest du keine Bedenken, Fremde in deiner Wohnung wohnen zu lassen?
-
-[Female / Mira]
-Am Anfang schon, aber die Plattform verlangt von beiden Seiten Bewertungen früherer Tauschpartner, sodass man ein gewisses Vertrauen aufbauen kann. Außerdem haben wir vorher mehrmals per Videoanruf gesprochen.
-
-[Male / Timo]
-Und, wie war das Haus der Familie in Kanada?
-
-[Female / Mira]
-Wunderschön, direkt am Waldrand gelegen, mit einem großen Garten. Allerdings musste ich mich erst daran gewöhnen, dass es dort keine öffentlichen Verkehrsmittel gab und ich für alles das Auto der Familie nutzen musste.
-
-[Male / Timo]
-Hast du zu Hause auch etwas vorbereiten müssen?
-
-[Female / Mira]
-Ja, ich musste einen Schrank für persönliche Sachen abschließen und der Familie eine ausführliche Liste mit Tipps zur Nachbarschaft dalassen, etwa welche Cafés empfehlenswert sind.
-
-[Male / Timo]
-Ist bei dem Tausch irgendetwas kaputtgegangen?
-
-[Female / Mira]
-Nur eine Kaffeetasse ist zerbrochen, aber die Familie hat sich sofort entschuldigt und eine neue mitgebracht, obwohl das gar nicht nötig gewesen wäre.
-
-[Male / Timo]
-Würdest du das noch einmal machen?
-
-[Female / Mira]
-Auf jeden Fall, ich spare dadurch enorm viele Reisekosten und lerne trotzdem wie ein Einheimischer leben.
+[Female / Nina]
+Unser Vermieter will Solarmodule auf dem Dach installieren. Gestern gab es dazu eine Informationsveranstaltung.
+[Male / Paul]
+Müssen alle Bewohner sich beteiligen?
+[Female / Nina]
+Nein, der Stromvertrag ist freiwillig. Wer nicht mitmacht, behält seinen bisherigen Anbieter.
+[Male / Paul]
+Und sind die Module schon genehmigt?
+[Female / Nina]
+Noch nicht. Ein Gutachten zur Tragfähigkeit des Dachs fehlt. Der Vermieter will den Antrag nächsten Monat einreichen.
+[Male / Paul]
+Wird dafür die Miete erhöht?
+[Female / Nina]
+Laut seiner Aussage nicht allein wegen der Anlage. Wir haben ihn gebeten, das schriftlich festzuhalten.
+[Male / Paul]
+Vernünftig. Ich würde erst die konkreten Preise vergleichen.
+[Female / Nina]
+Genau das mache ich auch, sobald das Angebot vorliegt.
