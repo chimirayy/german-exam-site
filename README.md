@@ -1,4 +1,4 @@
-# Deutsch B1 Intensivtraining (telc-Format)
+# Deutsch B2 Intensivtraining (Goethe-Format)
 
 Static GitHub-Pages-ready B1 practice site with 3 pages (tabs): Lesen, Hören, Schreiben. Each page has its own localStorage key, timer, submission lock, results, and restart action.
 
