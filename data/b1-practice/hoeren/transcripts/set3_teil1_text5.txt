@@ -1,0 +1,20 @@
+[Female / Vereinsmitglied]
+Für das Sommerfest brauchen wir noch Geschirr. Kaufen wir Einwegteller?
+
+[Male / Vereinsmitglied]
+Der Nachbarverein hat ein Geschirrmobil, das wir leihen können.
+
+[Female / Vereinsmitglied]
+Dann müssen wir nachher alles spülen.
+
+[Male / Vereinsmitglied]
+Eine Spülmaschine ist dabei. Zwei Personen müssen sie bedienen, aber wir erzeugen deutlich weniger Abfall.
+
+[Female / Vereinsmitglied]
+Gut. Ist die Lieferung im Preis enthalten?
+
+[Male / Vereinsmitglied]
+Nein, wir holen den Anhänger selbst ab. Ich habe ein passendes Auto.
+
+[Female / Vereinsmitglied]
+Dann frage ich heute zwei Helfer für die Ausgabe und Rücknahme. Wir sollten den Gästen auch sagen, wo sie die benutzten Teller abgeben.

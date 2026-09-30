@@ -1,0 +1,20 @@
+[Female / Freundin]
+Für unseren Ausflug am Sonntag meldet der Wetterdienst Regen.
+
+[Male / Freund]
+Dann fällt die Wanderung vielleicht aus. Wollen wir stattdessen ins Technikmuseum?
+
+[Female / Freundin]
+Das ist eine gute Idee, aber die Sonderausstellung muss man vorher buchen.
+
+[Male / Freund]
+Ich schaue heute nach freien Zeiten.
+
+[Female / Freundin]
+Bitte nicht gleich morgens. Mit dem Zug kommen wir erst gegen elf an.
+
+[Male / Freund]
+Dann nehme ich einen Termin mittags. Nachher können wir im Museum essen.
+
+[Female / Freundin]
+Gut. Die Wanderung holen wir später nach. Wir ändern also das Ziel, nicht den Ausflugstag.

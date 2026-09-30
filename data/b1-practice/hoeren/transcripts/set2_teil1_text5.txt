@@ -1,0 +1,20 @@
+[Male / Mitarbeiter]
+Sollen wir morgen wieder eine Stunde für die Teamsitzung reservieren?
+
+[Female / Mitarbeiterin]
+Lieber nur eine halbe. Die Statusberichte können alle vorher im gemeinsamen Dokument lesen.
+
+[Male / Mitarbeiter]
+Dann fehlt uns aber die Zeit für Rückfragen.
+
+[Female / Mitarbeiterin]
+Die sollen gerade im Mittelpunkt stehen. Wir besprechen nur die offenen Entscheidungen, statt jede Liste vorzulesen.
+
+[Male / Mitarbeiter]
+Gut, ich schreibe heute die zwei Punkte zur Budgetplanung hinein.
+
+[Female / Mitarbeiterin]
+Und ich sammle die Fragen zum neuen Ablauf. Wenn wir vorher vorbereitet sind, reichen dreißig Minuten.
+
+[Male / Mitarbeiter]
+Dann probieren wir das für einen Monat und fragen danach das Team, ob es funktioniert.

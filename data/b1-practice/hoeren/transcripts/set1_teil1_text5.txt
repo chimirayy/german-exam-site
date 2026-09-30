@@ -1,0 +1,17 @@
+[Female / Studentin]
+Hast du die Nachricht von Frau Berg gelesen? Unsere Abgabe bleibt am Freitag.
+
+[Male / Student]
+Ja. Den Vortrag halten wir erst nächste Woche, aber bis Freitag braucht sie unsere schriftliche Analyse.
+
+[Female / Studentin]
+Genau. Ein Thema haben wir ja schon: Wie lokale Zeitungen über Wohnungsnot berichten. Wir müssen jetzt noch festlegen, welche Artikel wir vergleichen.
+
+[Male / Student]
+Ich würde lieber drei gründlich untersuchen als zehn nur oberflächlich.
+
+[Female / Studentin]
+Einverstanden. Die Dozentin hat auch gesagt, dass nachvollziehbare Kriterien wichtiger sind als die Menge.
+
+[Male / Student]
+Dann treffen wir uns morgen in der Bibliothek und erstellen zuerst das Raster. Die Folien für den Vortrag können bis zum Wochenende warten.

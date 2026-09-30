@@ -1,1596 +1,2096 @@
 {
-  "levelName": "German B2 Listening – Set 2 (30-task set)",
+  "levelName": "Goethe-Zertifikat B2 · Hören · 5 Übungssätze",
   "sections": [
     {
       "title": "Hören",
       "parts": [
         {
-          "id": "31_teil1_waschmaschine",
+          "id": "set1_teil1_text1",
           "type": "listening",
           "category": "teil1",
-          "categoryLabel": "Hören · Teil 1 · Kurze Texte",
-          "title": "Waschmaschinen-Lieferung",
-          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "categoryLabel": "Übungssatz 1 · Alltag im Wandel · Teil 1",
+          "title": "Die neue Stadtbibliothek",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
           "questions": [
             {
-              "id": "31_teil1_waschmaschine_q1",
-              "type": "multiple_choice",
-              "question": "Warum verzögert sich die Lieferung?",
-              "options": [
-                "Wegen eines Lieferengpasses beim Hersteller.",
-                "Weil Frau Kessler den Termin verschoben hat.",
-                "Weil die Waschmaschine defekt ist."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Wegen eines Lieferengpasses beim Hersteller."
+              "id": "set1_q1",
+              "type": "true_false",
+              "statement": "Die Frau berichtet über Veränderungen in einer Bibliothek.",
+              "answer": true
             },
             {
-              "id": "31_teil1_waschmaschine_q2",
+              "id": "set1_q2",
               "type": "multiple_choice",
-              "question": "Was bietet das Möbelhaus als Entschädigung an?",
+              "question": "Was gefällt der Frau besonders?",
               "options": [
-                "Eine kostenlose Reparatur.",
-                "Einen Gutschein über 30 Euro.",
-                "Eine zweite Waschmaschine."
+                "Das kostenlose Getränkeangebot.",
+                "Die Möglichkeit, Geräte zu reparieren.",
+                "Die kürzere Öffnungszeit."
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Einen Gutschein über 30 Euro."
+              "explanation": "Richtige Antwort: Die Möglichkeit, Geräte zu reparieren."
             }
           ]
         },
         {
-          "id": "32_teil1_stau_a2",
+          "id": "set1_teil1_text2",
           "type": "listening",
           "category": "teil1",
-          "categoryLabel": "Hören · Teil 1 · Kurze Texte",
-          "title": "Unfall A2",
-          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "categoryLabel": "Übungssatz 1 · Alltag im Wandel · Teil 1",
+          "title": "Bezahlen auf dem Markt",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
           "questions": [
             {
-              "id": "32_teil1_stau_a2_q1",
-              "type": "multiple_choice",
-              "question": "Was ist der Grund für den Stau?",
-              "options": [
-                "Ein Unfall mit mehreren Fahrzeugen.",
-                "Bauarbeiten.",
-                "Ein Stromausfall an den Ampeln."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Ein Unfall mit mehreren Fahrzeugen."
+              "id": "set1_q3",
+              "type": "true_false",
+              "statement": "Der Mann verkauft seine Waren hauptsächlich im Internet.",
+              "answer": false
             },
             {
-              "id": "32_teil1_stau_a2_q2",
+              "id": "set1_q4",
               "type": "multiple_choice",
-              "question": "Wie lang ist der Stau ungefähr?",
+              "question": "Welche Folge hatte die Kartenzahlung?",
               "options": [
-                "Etwa 40 Kilometer.",
-                "Etwa 9 Kilometer.",
-                "Etwa 2 Kilometer."
+                "Viele Kunden geben mehr Geld aus.",
+                "Die Stammkunden bleiben weg.",
+                "Die Gebühren übersteigen den Gewinn."
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Etwa 9 Kilometer."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Viele Kunden geben mehr Geld aus."
             }
           ]
         },
         {
-          "id": "33_teil1_sbahn_stoerung",
+          "id": "set1_teil1_text3",
           "type": "listening",
           "category": "teil1",
-          "categoryLabel": "Hören · Teil 1 · Kurze Texte",
-          "title": "S-Bahn Signalstörung",
-          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "categoryLabel": "Übungssatz 1 · Alltag im Wandel · Teil 1",
+          "title": "Das Praktikum",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
           "questions": [
             {
-              "id": "33_teil1_sbahn_stoerung_q1",
-              "type": "multiple_choice",
-              "question": "Was ist die Ursache für die Verspätungen?",
-              "options": [
-                "Eine Signalstörung.",
-                "Ein Streik.",
-                "Starker Schneefall."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Eine Signalstörung."
+              "id": "set1_q5",
+              "type": "true_false",
+              "statement": "Die Frau hat in einem Museum ein Praktikum gemacht.",
+              "answer": true
             },
             {
-              "id": "33_teil1_sbahn_stoerung_q2",
+              "id": "set1_q6",
               "type": "multiple_choice",
-              "question": "Was sollen Fahrgäste zum Flughafen tun?",
+              "question": "Was war für sie besonders wertvoll?",
               "options": [
-                "Am Ostbahnhof in die S8 umsteigen.",
-                "Ein Taxi nehmen.",
-                "Bis zur Endstation der S3 warten."
+                "Sie erhielt anschließend eine feste Stelle.",
+                "Sie konnte berühmte Bilder restaurieren.",
+                "Sie setzte Studienwissen praktisch ein."
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Am Ostbahnhof in die S8 umsteigen."
+              "answer": 2,
+              "explanation": "Richtige Antwort: Sie setzte Studienwissen praktisch ein."
             }
           ]
         },
         {
-          "id": "34_teil1_hitzewarnung",
+          "id": "set1_teil1_text4",
           "type": "listening",
           "category": "teil1",
-          "categoryLabel": "Hören · Teil 1 · Kurze Texte",
-          "title": "Hitzewarnung",
-          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "categoryLabel": "Übungssatz 1 · Alltag im Wandel · Teil 1",
+          "title": "Radweg am Fluss",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
           "questions": [
             {
-              "id": "34_teil1_hitzewarnung_q1",
-              "type": "multiple_choice",
-              "question": "Wer sollte körperliche Anstrengung mittags besonders vermeiden?",
-              "options": [
-                "Nur Sportler.",
-                "Ältere Menschen und Kinder.",
-                "Nur Berufstätige."
-              ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Ältere Menschen und Kinder."
+              "id": "set1_q7",
+              "type": "true_false",
+              "statement": "Der Mann fordert die dauerhafte Schließung eines Radwegs.",
+              "answer": false
             },
             {
-              "id": "34_teil1_hitzewarnung_q2",
+              "id": "set1_q8",
               "type": "multiple_choice",
-              "question": "Was wird zum Lüften der Wohnung empfohlen?",
+              "question": "Was schlägt die Naturschutzgruppe vor?",
               "options": [
-                "Frühmorgens lüften.",
-                "Den ganzen Tag lüften.",
-                "Nachts nicht lüften."
+                "Lampen, die auf Bewegung reagieren.",
+                "Eine Beleuchtung rund um die Uhr.",
+                "Ein Fahrverbot während des Winters."
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Frühmorgens lüften."
+              "explanation": "Richtige Antwort: Lampen, die auf Bewegung reagieren."
             }
           ]
         },
         {
-          "id": "35_teil1_buchhandlung",
+          "id": "set1_teil1_text5",
           "type": "listening",
           "category": "teil1",
-          "categoryLabel": "Hören · Teil 1 · Kurze Texte",
-          "title": "Buchhandlung Räumungsverkauf",
-          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "categoryLabel": "Übungssatz 1 · Alltag im Wandel · Teil 1",
+          "title": "Vorbereitung im Seminar",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
           "questions": [
             {
-              "id": "35_teil1_buchhandlung_q1",
-              "type": "multiple_choice",
-              "question": "Warum schließt die Filiale?",
-              "options": [
-                "Weil der Mietvertrag ausläuft.",
-                "Wegen zu weniger Kunden.",
-                "Wegen eines Wasserschadens."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Weil der Mietvertrag ausläuft."
+              "id": "set1_q9",
+              "type": "true_false",
+              "statement": "Die beiden sprechen über die Vorbereitung einer Prüfung.",
+              "answer": false
             },
             {
-              "id": "35_teil1_buchhandlung_q2",
+              "id": "set1_q10",
               "type": "multiple_choice",
-              "question": "Was gilt ab kommender Woche?",
+              "question": "Was müssen die beiden bis Freitag abgeben?",
               "options": [
-                "Ein Rabatt von 20 Prozent.",
-                "Ein Rabatt von 40 Prozent.",
-                "Kein Rabatt mehr."
+                "Eine Liste möglicher Vortragsthemen.",
+                "Eine schriftliche Analyse.",
+                "Die fertigen Vortragsfolien."
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Ein Rabatt von 40 Prozent."
+              "explanation": "Richtige Antwort: Eine schriftliche Analyse."
             }
           ]
         },
         {
-          "id": "36_teil1_zoo_fuetterung",
+          "id": "set1_teil2",
+          "type": "listening",
+          "category": "teil2",
+          "categoryLabel": "Übungssatz 1 · Alltag im Wandel · Teil 2",
+          "title": "Interview aus der Wissenschaft",
+          "instructions": "Sie hören im Radio ein Interview mit einer Persönlichkeit aus der Wissenschaft. Sie hören den Text zweimal. Wählen Sie bei jeder Aufgabe die richtige Lösung. Lesen Sie jetzt die Aufgaben 11 bis 16. Dazu haben Sie 90 Sekunden Zeit.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "set1_q11",
+              "type": "multiple_choice",
+              "question": "Warum untersucht Dr. Seidel städtische Hitze?",
+              "options": [
+                "Weil Wetterstationen abgeschafft werden sollen.",
+                "Weil Temperaturen innerhalb einer Stadt stark variieren.",
+                "Weil ländliche Regionen grundsätzlich wärmer sind."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Weil Temperaturen innerhalb einer Stadt stark variieren."
+            },
+            {
+              "id": "set1_q12",
+              "type": "multiple_choice",
+              "question": "Wie werden die Messorte ausgewählt?",
+              "options": [
+                "Bewohner nennen besonders belastende Orte.",
+                "Die Forschenden wählen ausschließlich Parks.",
+                "Es werden nur Orte mit hoher Besucherzahl untersucht."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Bewohner nennen besonders belastende Orte."
+            },
+            {
+              "id": "set1_q13",
+              "type": "multiple_choice",
+              "question": "Was überrascht bei den Ergebnissen?",
+              "options": [
+                "Bäume erwärmen die Umgebung nachts.",
+                "Alle Straßen kühlen gleich schnell ab.",
+                "Manche Viertel bleiben nachts lange warm."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Manche Viertel bleiben nachts lange warm."
+            },
+            {
+              "id": "set1_q14",
+              "type": "multiple_choice",
+              "question": "Welche Maßnahme hält die Wissenschaftlerin kurzfristig für sinnvoll?",
+              "options": [
+                "Alle Gebäude sofort abzureißen.",
+                "An besonders belasteten Orten Schatten anzubieten.",
+                "Den gesamten Verkehr dauerhaft zu verbieten."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: An besonders belasteten Orten Schatten anzubieten."
+            },
+            {
+              "id": "set1_q15",
+              "type": "multiple_choice",
+              "question": "Warum veröffentlicht das Team seine Daten?",
+              "options": [
+                "Damit Bürger Entscheidungen nachvollziehen können.",
+                "Damit Privatfirmen exklusiv darauf zugreifen.",
+                "Damit auf weitere Messungen verzichtet werden kann."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Damit Bürger Entscheidungen nachvollziehen können."
+            },
+            {
+              "id": "set1_q16",
+              "type": "multiple_choice",
+              "question": "Wie beurteilt Dr. Seidel den Erfolg des Projekts?",
+              "options": [
+                "Die Zahl neuer Sensoren ist ausschlaggebend.",
+                "Eine möglichst große Medienwirkung ist entscheidend.",
+                "Der Alltag gefährdeter Menschen soll leichter werden."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Der Alltag gefährdeter Menschen soll leichter werden."
+            }
+          ]
+        },
+        {
+          "id": "set1_teil3",
+          "type": "listening",
+          "category": "teil3",
+          "categoryLabel": "Übungssatz 1 · Alltag im Wandel · Teil 3",
+          "title": "Gespräch mit mehreren Personen",
+          "instructions": "Sie hören im Radio ein Gespräch mit mehreren Personen. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe: Wer sagt das? Lesen Sie jetzt die Aufgaben 17 bis 22. Dazu haben Sie 60 Sekunden Zeit.",
+          "maxPlays": 1,
+          "questions": [
+            {
+              "id": "set1_q17",
+              "type": "multiple_choice",
+              "question": "Er/Sie spart durch das gemeinsame Nutzen von Werkzeug Geld.",
+              "options": [
+                "Moderator",
+                "Frau Brandt, Bewohnerin",
+                "Herr König, Hausverwalter"
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Frau Brandt, Bewohnerin"
+            },
+            {
+              "id": "set1_q18",
+              "type": "multiple_choice",
+              "question": "Er/Sie hält klare Zuständigkeiten für notwendig.",
+              "options": [
+                "Moderator",
+                "Frau Brandt, Bewohnerin",
+                "Herr König, Hausverwalter"
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Herr König, Hausverwalter"
+            },
+            {
+              "id": "set1_q19",
+              "type": "multiple_choice",
+              "question": "Er/Sie beobachtet ein wachsendes Interesse an gemeinschaftlichen Angeboten.",
+              "options": [
+                "Moderator",
+                "Frau Brandt, Bewohnerin",
+                "Herr König, Hausverwalter"
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Moderator"
+            },
+            {
+              "id": "set1_q20",
+              "type": "multiple_choice",
+              "question": "Er/Sie möchte trotz Gemeinschaft einen privaten Rückzugsort behalten.",
+              "options": [
+                "Moderator",
+                "Frau Brandt, Bewohnerin",
+                "Herr König, Hausverwalter"
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Frau Brandt, Bewohnerin"
+            },
+            {
+              "id": "set1_q21",
+              "type": "multiple_choice",
+              "question": "Er/Sie empfiehlt, neue Angebote zunächst klein zu erproben.",
+              "options": [
+                "Moderator",
+                "Frau Brandt, Bewohnerin",
+                "Herr König, Hausverwalter"
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Herr König, Hausverwalter"
+            },
+            {
+              "id": "set1_q22",
+              "type": "multiple_choice",
+              "question": "Er/Sie fragt nach der Beteiligung wenig kontaktfreudiger Bewohner.",
+              "options": [
+                "Moderator",
+                "Frau Brandt, Bewohnerin",
+                "Herr König, Hausverwalter"
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Moderator"
+            }
+          ]
+        },
+        {
+          "id": "set1_teil4",
+          "type": "listening",
+          "category": "teil4",
+          "categoryLabel": "Übungssatz 1 · Alltag im Wandel · Teil 4",
+          "title": "Kurzer Vortrag",
+          "instructions": "Sie hören einen kurzen Vortrag. Sie hören den Text zweimal. Wählen Sie bei jeder Aufgabe die richtige Lösung. Lesen Sie jetzt die Aufgaben 23 bis 30. Dazu haben Sie 90 Sekunden Zeit.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "set1_q23",
+              "type": "multiple_choice",
+              "question": "Was sollte am Beginn einer Lernphase stehen?",
+              "options": [
+                "Eine Liste aller denkbaren Themen.",
+                "Ein konkretes, erreichbares Ziel.",
+                "Der Vergleich mit anderen Lernenden."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Ein konkretes, erreichbares Ziel."
+            },
+            {
+              "id": "set1_q24",
+              "type": "multiple_choice",
+              "question": "Warum empfiehlt die Rednerin kurze Selbsttests?",
+              "options": [
+                "Sie ersetzen jede Wiederholung.",
+                "Sie machen alle Lernpausen überflüssig.",
+                "Sie zeigen, was tatsächlich abrufbar ist."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Sie zeigen, was tatsächlich abrufbar ist."
+            },
+            {
+              "id": "set1_q25",
+              "type": "multiple_choice",
+              "question": "Wie sollten Wiederholungen verteilt werden?",
+              "options": [
+                "Über mehrere Tage.",
+                "Nur direkt vor der Prüfung.",
+                "Ausschließlich am ersten Lerntag."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Über mehrere Tage."
+            },
+            {
+              "id": "set1_q26",
+              "type": "multiple_choice",
+              "question": "Was ist beim Lernen in einer Gruppe wichtig?",
+              "options": [
+                "Alle bearbeiten immer dieselbe Seite still.",
+                "Die Gruppe enthält möglichst viele Personen.",
+                "Die Beteiligten erklären und prüfen einander Inhalte."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Die Beteiligten erklären und prüfen einander Inhalte."
+            },
+            {
+              "id": "set1_q27",
+              "type": "multiple_choice",
+              "question": "Was sollte man während einer Pause tun?",
+              "options": [
+                "Die nächste Aufgabe bereits vollständig lösen.",
+                "Den Arbeitsplatz kurz verlassen.",
+                "Weitere Lernvideos ansehen."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Den Arbeitsplatz kurz verlassen."
+            },
+            {
+              "id": "set1_q28",
+              "type": "multiple_choice",
+              "question": "Welche Rolle spielen Fehler?",
+              "options": [
+                "Sie weisen auf bestimmte Verständnisprobleme hin.",
+                "Sie beweisen fehlende Begabung.",
+                "Sie sollten aus den Unterlagen entfernt werden."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Sie weisen auf bestimmte Verständnisprobleme hin."
+            },
+            {
+              "id": "set1_q29",
+              "type": "multiple_choice",
+              "question": "Wie beurteilt die Rednerin Lern-Apps?",
+              "options": [
+                "Sie garantieren bessere Ergebnisse.",
+                "Sie sollten grundsätzlich vermieden werden.",
+                "Ihr Nutzen hängt von der passenden Verwendung ab."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Ihr Nutzen hängt von der passenden Verwendung ab."
+            },
+            {
+              "id": "set1_q30",
+              "type": "multiple_choice",
+              "question": "Was empfiehlt sie für den Abschluss einer Lerneinheit?",
+              "options": [
+                "Den nächsten kleinen Schritt festzuhalten.",
+                "Sofort ein neues Thema zu beginnen.",
+                "Alle Notizen endgültig wegzuwerfen."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Den nächsten kleinen Schritt festzuhalten."
+            }
+          ]
+        },
+        {
+          "id": "set2_teil1_text1",
           "type": "listening",
           "category": "teil1",
-          "categoryLabel": "Hören · Teil 1 · Kurze Texte",
-          "title": "Zoo Fütterungszeiten",
-          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "categoryLabel": "Übungssatz 2 · Mobilität und Zusammenarbeit · Teil 1",
+          "title": "Fahrt ins Büro",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
           "questions": [
             {
-              "id": "36_teil1_zoo_fuetterung_q1",
-              "type": "multiple_choice",
-              "question": "Warum wird die Pinguinfütterung vorgezogen?",
-              "options": [
-                "Wegen einer Fortbildung der Tierpfleger.",
-                "Wegen des Wetters.",
-                "Wegen zu vieler Besucher."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Wegen einer Fortbildung der Tierpfleger."
+              "id": "set2_q1",
+              "type": "true_false",
+              "statement": "Der Mann erklärt, warum er sein Verkehrsmittel gewechselt hat.",
+              "answer": true
             },
             {
-              "id": "36_teil1_zoo_fuetterung_q2",
+              "id": "set2_q2",
               "type": "multiple_choice",
-              "question": "Was gilt für den Kontakt mit den Tieren?",
+              "question": "Welchen Vorteil findet er entscheidend?",
               "options": [
-                "Er ist erlaubt, wenn ein Pfleger dabei ist.",
-                "Er ist grundsätzlich nicht gestattet.",
-                "Er ist nur bei Elefanten erlaubt."
+                "Er spart jeden Monat viel Geld.",
+                "Er erreicht das Büro immer pünktlich.",
+                "Er kann die Fahrzeit sinnvoll nutzen."
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Er ist grundsätzlich nicht gestattet."
+              "answer": 2,
+              "explanation": "Richtige Antwort: Er kann die Fahrzeit sinnvoll nutzen."
             }
           ]
         },
         {
-          "id": "37_teil1_konzerthalle",
+          "id": "set2_teil1_text2",
           "type": "listening",
           "category": "teil1",
-          "categoryLabel": "Hören · Teil 1 · Kurze Texte",
-          "title": "Konzerthalle Programmänderung",
-          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "categoryLabel": "Übungssatz 2 · Mobilität und Zusammenarbeit · Teil 1",
+          "title": "Leihfahrräder",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
           "questions": [
             {
-              "id": "37_teil1_konzerthalle_q1",
-              "type": "multiple_choice",
-              "question": "Warum tritt die ursprüngliche Pianistin nicht auf?",
-              "options": [
-                "Sie ist erkrankt.",
-                "Sie hat abgesagt, weil sie keine Lust hat.",
-                "Sie ist im Stau stecken geblieben."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Sie ist erkrankt."
+              "id": "set2_q3",
+              "type": "true_false",
+              "statement": "Die Frau hat einen Monatstarif abgeschlossen.",
+              "answer": false
             },
             {
-              "id": "37_teil1_konzerthalle_q2",
+              "id": "set2_q4",
               "type": "multiple_choice",
-              "question": "Was ändert sich am Programm?",
+              "question": "Was gefällt ihr besonders?",
               "options": [
-                "Es wird deutlich gekürzt.",
-                "Ein Stück von Chopin wird durch Schubert ersetzt.",
-                "Es findet gar kein Konzert statt."
+                "Die Rückgabe an verschiedenen Stationen.",
+                "Die dauerhaft kostenlose Nutzung.",
+                "Das Abstellen an jedem Straßenrand."
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Ein Stück von Chopin wird durch Schubert ersetzt."
+              "answer": 0,
+              "explanation": "Richtige Antwort: Die Rückgabe an verschiedenen Stationen."
             }
           ]
         },
         {
-          "id": "38_teil1_sprachschule_pruefung",
+          "id": "set2_teil1_text3",
           "type": "listening",
           "category": "teil1",
-          "categoryLabel": "Hören · Teil 1 · Kurze Texte",
-          "title": "Prüfungstermin Sprachschule",
-          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "categoryLabel": "Übungssatz 2 · Mobilität und Zusammenarbeit · Teil 1",
+          "title": "Ausfall einer Veranstaltung",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
           "questions": [
             {
-              "id": "38_teil1_sprachschule_pruefung_q1",
-              "type": "multiple_choice",
-              "question": "Warum verschiebt sich der Prüfungstermin?",
-              "options": [
-                "Der Prüfungsraum steht an diesem Tag nicht zur Verfügung.",
-                "Frau Ivanova hat abgesagt.",
-                "Der Prüfer ist erkrankt."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Der Prüfungsraum steht an diesem Tag nicht zur Verfügung."
+              "id": "set2_q5",
+              "type": "true_false",
+              "statement": "Der Vortrag wird auf einen anderen Tag verschoben.",
+              "answer": false
             },
             {
-              "id": "38_teil1_sprachschule_pruefung_q2",
+              "id": "set2_q6",
               "type": "multiple_choice",
-              "question": "Was muss Frau Ivanova zur Prüfung mitbringen?",
+              "question": "Was sollen angemeldete Gäste tun?",
               "options": [
-                "Nur die Anmeldebestätigung.",
-                "Personalausweis und Anmeldebestätigung.",
-                "Nur den Personalausweis."
+                "Eine neue Eintrittskarte kaufen.",
+                "Ihre Teilnahme bestätigen.",
+                "Eine andere Referentin auswählen."
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Personalausweis und Anmeldebestätigung."
+              "explanation": "Richtige Antwort: Ihre Teilnahme bestätigen."
             }
           ]
         },
         {
-          "id": "39_teil1_freibad_wasserqualitaet",
+          "id": "set2_teil1_text4",
           "type": "listening",
           "category": "teil1",
-          "categoryLabel": "Hören · Teil 1 · Kurze Texte",
-          "title": "Freibad geschlossen",
-          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "categoryLabel": "Übungssatz 2 · Mobilität und Zusammenarbeit · Teil 1",
+          "title": "Besuch im Reparaturcafé",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
           "questions": [
             {
-              "id": "39_teil1_freibad_wasserqualitaet_q1",
-              "type": "multiple_choice",
-              "question": "Warum wird das Freibad geschlossen?",
-              "options": [
-                "Wegen erhöhter Bakterienwerte im Wasser.",
-                "Wegen eines technischen Defekts der Pumpen.",
-                "Wegen eines Unwetters."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Wegen erhöhter Bakterienwerte im Wasser."
+              "id": "set2_q7",
+              "type": "true_false",
+              "statement": "Die Frau hat mit Unterstützung ein Gerät repariert.",
+              "answer": true
             },
             {
-              "id": "39_teil1_freibad_wasserqualitaet_q2",
+              "id": "set2_q8",
               "type": "multiple_choice",
-              "question": "Was passiert mit bereits bezahlten Tageskarten?",
+              "question": "Was war für sie besonders interessant?",
               "options": [
-                "Sie verfallen sofort.",
-                "Sie können innerhalb der nächsten vier Wochen genutzt werden.",
-                "Das Geld wird automatisch zurücküberwiesen."
+                "Sie erhielt eine Garantie für das Gerät.",
+                "Sie bekam kostenlos einen neuen Mixer.",
+                "Sie verstand die Ursache des Defekts."
               ],
-              "answer": 1,
-              "explanation": "Richtige Antwort: Sie können innerhalb der nächsten vier Wochen genutzt werden."
+              "answer": 2,
+              "explanation": "Richtige Antwort: Sie verstand die Ursache des Defekts."
             }
           ]
         },
         {
-          "id": "40_teil1_paketstation",
+          "id": "set2_teil1_text5",
           "type": "listening",
           "category": "teil1",
-          "categoryLabel": "Hören · Teil 1 · Kurze Texte",
-          "title": "Paketabholung",
-          "instructions": "Sie hören einen kurzen Text. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
+          "categoryLabel": "Übungssatz 2 · Mobilität und Zusammenarbeit · Teil 1",
+          "title": "Gemeinsame Besprechung",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
           "questions": [
             {
-              "id": "40_teil1_paketstation_q1",
+              "id": "set2_q9",
+              "type": "true_false",
+              "statement": "Die beiden wollen künftig jede Teamsitzung abschaffen.",
+              "answer": false
+            },
+            {
+              "id": "set2_q10",
               "type": "multiple_choice",
-              "question": "Warum konnte das Paket nicht zugestellt werden?",
+              "question": "Wofür soll die Sitzung hauptsächlich genutzt werden?",
               "options": [
-                "Die Adresse war falsch.",
-                "Niemand hat auf das Klingeln reagiert.",
-                "Das Paket war beschädigt."
+                "Zum Vorlesen fertiger Berichte.",
+                "Zum Klären offener Entscheidungen.",
+                "Zum Ausfüllen persönlicher Urlaubsanträge."
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Niemand hat auf das Klingeln reagiert."
-            },
-            {
-              "id": "40_teil1_paketstation_q2",
-              "type": "multiple_choice",
-              "question": "Was passiert, wenn das Paket nach sieben Tagen nicht abgeholt wird?",
-              "options": [
-                "Es wird an den Absender zurückgeschickt.",
-                "Es wird automatisch entsorgt.",
-                "Es wird kostenlos nach Hause geliefert."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Es wird an den Absender zurückgeschickt."
+              "explanation": "Richtige Antwort: Zum Klären offener Entscheidungen."
             }
           ]
         },
         {
-          "id": "41_teil2_imkerei",
+          "id": "set2_teil2",
           "type": "listening",
           "category": "teil2",
-          "categoryLabel": "Hören · Teil 2 · Vorträge",
-          "title": "Imkerei",
-          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "categoryLabel": "Übungssatz 2 · Mobilität und Zusammenarbeit · Teil 2",
+          "title": "Interview aus der Wissenschaft",
+          "instructions": "Sie hören im Radio ein Interview mit einer Persönlichkeit aus der Wissenschaft. Sie hören den Text zweimal. Wählen Sie bei jeder Aufgabe die richtige Lösung. Lesen Sie jetzt die Aufgaben 11 bis 16. Dazu haben Sie 90 Sekunden Zeit.",
           "maxPlays": 2,
           "questions": [
             {
-              "id": "41_teil2_imkerei_q1",
+              "id": "set2_q11",
               "type": "multiple_choice",
-              "question": "Woraus besteht ein Bienenvolk im Sommer überwiegend?",
+              "question": "Was erforscht Professorin Hartmann?",
               "options": [
-                "Aus weiblichen Arbeiterinnen.",
-                "Aus Drohnen.",
-                "Aus Königinnen."
+                "Wie Menschen ihren täglichen Arbeitsweg wählen.",
+                "Wie neue Motoren hergestellt werden.",
+                "Wie Flugzeuge weniger Treibstoff brauchen."
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Aus weiblichen Arbeiterinnen."
+              "explanation": "Richtige Antwort: Wie Menschen ihren täglichen Arbeitsweg wählen."
             },
             {
-              "id": "41_teil2_imkerei_q2",
+              "id": "set2_q12",
               "type": "multiple_choice",
-              "question": "Wozu dient der Rauch beim Öffnen der Beute?",
+              "question": "Warum reicht ein günstiger Fahrpreis oft nicht aus?",
               "options": [
-                "Er tötet Schädlinge ab.",
-                "Er beruhigt die Bienen.",
-                "Er reinigt die Waben."
+                "Weil alle Menschen kostenlose Parkplätze haben.",
+                "Weil niemand Preise miteinander vergleicht.",
+                "Weil die Verbindung zuverlässig und passend sein muss."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Weil die Verbindung zuverlässig und passend sein muss."
+            },
+            {
+              "id": "set2_q13",
+              "type": "multiple_choice",
+              "question": "Wie untersucht das Team neue Angebote?",
+              "options": [
+                "Es befragt ausschließlich Verkehrsbetriebe.",
+                "Es begleitet Teilnehmer über mehrere Wochen.",
+                "Es zählt nur Fahrzeuge an einem einzigen Tag."
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Er beruhigt die Bienen."
+              "explanation": "Richtige Antwort: Es begleitet Teilnehmer über mehrere Wochen."
             },
             {
-              "id": "41_teil2_imkerei_q3",
+              "id": "set2_q14",
               "type": "multiple_choice",
-              "question": "Was stimmt über den Bienenstich laut der Imkerin?",
+              "question": "Was zeigt sich beim Umstieg auf das Fahrrad?",
               "options": [
-                "Eine Biene stirbt immer sofort nach jedem Stich.",
-                "Der Stachel bleibt nur bei Stichen an Menschen stecken.",
-                "Bienen stechen nie andere Bienen."
+                "Eine sichere Strecke ist häufig entscheidend.",
+                "Sportliche Kleidung ist immer notwendig.",
+                "Die Fahrzeit ist für alle unwichtig."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Eine sichere Strecke ist häufig entscheidend."
+            },
+            {
+              "id": "set2_q15",
+              "type": "multiple_choice",
+              "question": "Was empfiehlt sie Arbeitgebern?",
+              "options": [
+                "Alle Parkplätze ohne Vorankündigung zu schließen.",
+                "Allen Beschäftigten dieselbe Strecke vorzuschreiben.",
+                "Verschiedene Lösungen für unterschiedliche Arbeitszeiten anzubieten."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Verschiedene Lösungen für unterschiedliche Arbeitszeiten anzubieten."
+            },
+            {
+              "id": "set2_q16",
+              "type": "multiple_choice",
+              "question": "Wann hält sie eine Veränderung für dauerhaft?",
+              "options": [
+                "Wenn viele Menschen sie einmal testen.",
+                "Wenn sie auch ohne besondere Aktion beibehalten wird.",
+                "Wenn sie ausführlich beworben wird."
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Der Stachel bleibt nur bei Stichen an Menschen stecken."
+              "explanation": "Richtige Antwort: Wenn sie auch ohne besondere Aktion beibehalten wird."
+            }
+          ]
+        },
+        {
+          "id": "set2_teil3",
+          "type": "listening",
+          "category": "teil3",
+          "categoryLabel": "Übungssatz 2 · Mobilität und Zusammenarbeit · Teil 3",
+          "title": "Gespräch mit mehreren Personen",
+          "instructions": "Sie hören im Radio ein Gespräch mit mehreren Personen. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe: Wer sagt das? Lesen Sie jetzt die Aufgaben 17 bis 22. Dazu haben Sie 60 Sekunden Zeit.",
+          "maxPlays": 1,
+          "questions": [
+            {
+              "id": "set2_q17",
+              "type": "multiple_choice",
+              "question": "Er/Sie arbeitet zu Hause besonders konzentriert.",
+              "options": [
+                "Moderator",
+                "Frau Peters, Personalreferentin",
+                "Herr Vogt, Softwareentwickler"
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Herr Vogt, Softwareentwickler"
             },
             {
-              "id": "41_teil2_imkerei_q4",
+              "id": "set2_q18",
               "type": "multiple_choice",
-              "question": "Wie viel Honig wird pro Volk und Jahr durchschnittlich geerntet?",
+              "question": "Er/Sie vermisst spontane Gespräche bei der Arbeit.",
               "options": [
-                "5 bis 10 Kilogramm.",
-                "20 bis 25 Kilogramm.",
-                "50 Kilogramm."
+                "Moderator",
+                "Frau Peters, Personalreferentin",
+                "Herr Vogt, Softwareentwickler"
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: 20 bis 25 Kilogramm."
+              "explanation": "Richtige Antwort: Frau Peters, Personalreferentin"
             },
             {
-              "id": "41_teil2_imkerei_q5",
+              "id": "set2_q19",
               "type": "multiple_choice",
-              "question": "Wann finden die Imkerkurse für Einsteiger statt?",
+              "question": "Er/Sie verweist auf Unterschiede zwischen Berufsgruppen.",
               "options": [
-                "Im Frühjahr.",
-                "Im Winter.",
-                "Das ganze Jahr über."
+                "Moderator",
+                "Frau Peters, Personalreferentin",
+                "Herr Vogt, Softwareentwickler"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Im Frühjahr."
-            }
-          ]
-        },
-        {
-          "id": "42_teil2_feuerwache",
-          "type": "listening",
-          "category": "teil2",
-          "categoryLabel": "Hören · Teil 2 · Vorträge",
-          "title": "Feuerwache",
-          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
-          "questions": [
-            {
-              "id": "42_teil2_feuerwache_q1",
-              "type": "multiple_choice",
-              "question": "Was passiert nach jedem Einsatz mit der Fahrzeugbeladung?",
-              "options": [
-                "Sie wird kontrolliert und bei Bedarf ergänzt.",
-                "Sie wird komplett ausgetauscht.",
-                "Sie bleibt unverändert."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Sie wird kontrolliert und bei Bedarf ergänzt."
+              "explanation": "Richtige Antwort: Moderator"
             },
             {
-              "id": "42_teil2_feuerwache_q2",
+              "id": "set2_q20",
               "type": "multiple_choice",
-              "question": "Wie schnell rückt im Durchschnitt das erste Fahrzeug aus?",
+              "question": "Er/Sie findet schriftliche Absprachen zur Erreichbarkeit hilfreich.",
               "options": [
-                "Nach etwa 90 Sekunden.",
-                "Nach etwa 10 Minuten.",
-                "Nach etwa 5 Minuten."
+                "Moderator",
+                "Frau Peters, Personalreferentin",
+                "Herr Vogt, Softwareentwickler"
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Nach etwa 90 Sekunden."
+              "answer": 2,
+              "explanation": "Richtige Antwort: Herr Vogt, Softwareentwickler"
             },
             {
-              "id": "42_teil2_feuerwache_q3",
+              "id": "set2_q21",
               "type": "multiple_choice",
-              "question": "Was machen die Feuerwehrleute in einsatzfreier Zeit?",
+              "question": "Er/Sie möchte neue Beschäftigte zunächst häufiger im Büro begleiten.",
               "options": [
-                "Sie sitzen nur wartend herum.",
-                "Sie üben, pflegen Fahrzeuge und ruhen sich aus.",
-                "Sie fahren nach Hause."
+                "Moderator",
+                "Frau Peters, Personalreferentin",
+                "Herr Vogt, Softwareentwickler"
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Sie üben, pflegen Fahrzeuge und ruhen sich aus."
+              "explanation": "Richtige Antwort: Frau Peters, Personalreferentin"
             },
             {
-              "id": "42_teil2_feuerwache_q4",
+              "id": "set2_q22",
               "type": "multiple_choice",
-              "question": "Was gehört zur Brandschutzerziehung?",
+              "question": "Er/Sie fragt nach der gerechten Verteilung gemeinsamer Büroplätze.",
               "options": [
-                "Besuche in Schulen und Kindergärten.",
-                "Nur Übungen für Erwachsene.",
-                "Vorträge an Universitäten."
+                "Moderator",
+                "Frau Peters, Personalreferentin",
+                "Herr Vogt, Softwareentwickler"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Besuche in Schulen und Kindergärten."
-            },
-            {
-              "id": "42_teil2_feuerwache_q5",
-              "type": "multiple_choice",
-              "question": "Was schränken die Atemschutzmasken ein?",
-              "options": [
-                "Das Sichtfeld.",
-                "Die Atmung ganz allgemein.",
-                "Die Bewegungsfreiheit der Arme."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Das Sichtfeld."
+              "explanation": "Richtige Antwort: Moderator"
             }
           ]
         },
         {
-          "id": "43_teil2_klaeranlage",
+          "id": "set2_teil4",
           "type": "listening",
-          "category": "teil2",
-          "categoryLabel": "Hören · Teil 2 · Vorträge",
-          "title": "Kläranlage",
-          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "category": "teil4",
+          "categoryLabel": "Übungssatz 2 · Mobilität und Zusammenarbeit · Teil 4",
+          "title": "Kurzer Vortrag",
+          "instructions": "Sie hören einen kurzen Vortrag. Sie hören den Text zweimal. Wählen Sie bei jeder Aufgabe die richtige Lösung. Lesen Sie jetzt die Aufgaben 23 bis 30. Dazu haben Sie 90 Sekunden Zeit.",
           "maxPlays": 2,
           "questions": [
             {
-              "id": "43_teil2_klaeranlage_q1",
+              "id": "set2_q23",
               "type": "multiple_choice",
-              "question": "Was entfernt der grobe Rechen am Anfang?",
+              "question": "Was sollte man vor einem Teamprojekt klären?",
               "options": [
-                "Größere Gegenstände wie Feuchttücher.",
-                "Chemische Schadstoffe.",
-                "Gelöste organische Stoffe."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Größere Gegenstände wie Feuchttücher."
-            },
-            {
-              "id": "43_teil2_klaeranlage_q2",
-              "type": "multiple_choice",
-              "question": "Was passiert im biologischen Klärbecken?",
-              "options": [
-                "Mikroorganismen bauen organische Stoffe ab.",
-                "Das Wasser wird gefiltert.",
-                "Sand setzt sich ab."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Mikroorganismen bauen organische Stoffe ab."
-            },
-            {
-              "id": "43_teil2_klaeranlage_q3",
-              "type": "multiple_choice",
-              "question": "Wozu wird ein Teil des Klärschlamms verwendet?",
-              "options": [
-                "Zur Herstellung von Biogas.",
-                "Als Dünger für den Garten der Anlage.",
-                "Er wird einfach verbrannt."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Zur Herstellung von Biogas."
-            },
-            {
-              "id": "43_teil2_klaeranlage_q4",
-              "type": "multiple_choice",
-              "question": "Was wird vor der Einleitung ins Flusswasser kontrolliert?",
-              "options": [
-                "Nur die Temperatur.",
-                "Sauerstoffgehalt und Schadstoffreste.",
-                "Nur der pH-Wert."
+                "Die Lieblingsprogramme aller Mitglieder.",
+                "Das gemeinsame Ergebnis und die Zuständigkeiten.",
+                "Die endgültige Gestaltung aller Folien."
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Sauerstoffgehalt und Schadstoffreste."
+              "explanation": "Richtige Antwort: Das gemeinsame Ergebnis und die Zuständigkeiten."
             },
             {
-              "id": "43_teil2_klaeranlage_q5",
+              "id": "set2_q24",
               "type": "multiple_choice",
-              "question": "Worauf sollen Besucher während des Rundgangs achten?",
+              "question": "Wie lassen sich Missverständnisse in Aufgaben vermeiden?",
               "options": [
-                "Auf den markierten Wegen zu bleiben.",
-                "Immer Schutzhelme zu tragen.",
-                "Nicht zu fotografieren."
+                "Durch konkrete Beispiele und Rückfragen.",
+                "Durch möglichst viele Fachabkürzungen.",
+                "Durch den Verzicht auf schriftliche Notizen."
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Auf den markierten Wegen zu bleiben."
-            }
-          ]
-        },
-        {
-          "id": "44_teil2_kunstgalerie",
-          "type": "listening",
-          "category": "teil2",
-          "categoryLabel": "Hören · Teil 2 · Vorträge",
-          "title": "Kunstgalerie",
-          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
-          "questions": [
-            {
-              "id": "44_teil2_kunstgalerie_q1",
-              "type": "multiple_choice",
-              "question": "Womit arbeitet die Künstlerin Ines Dorner?",
-              "options": [
-                "Mit selbst hergestellten natürlichen Pigmenten.",
-                "Mit digitalen Bildbearbeitungsprogrammen.",
-                "Mit industriellen Farben."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Mit selbst hergestellten natürlichen Pigmenten."
+              "explanation": "Richtige Antwort: Durch konkrete Beispiele und Rückfragen."
             },
             {
-              "id": "44_teil2_kunstgalerie_q2",
+              "id": "set2_q25",
               "type": "multiple_choice",
-              "question": "Was ist besonders an der Videoinstallation von Marek Novak?",
+              "question": "Wozu dient ein kurzer Zwischenstand?",
               "options": [
-                "Sie hat keinen festen Anfangspunkt.",
-                "Sie dauert nur eine Minute.",
-                "Sie wird nur einmal täglich gezeigt."
+                "Er ersetzt die eigentliche Arbeit.",
+                "Er beweist, wer am längsten gearbeitet hat.",
+                "Er macht Probleme früh sichtbar."
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Sie hat keinen festen Anfangspunkt."
+              "answer": 2,
+              "explanation": "Richtige Antwort: Er macht Probleme früh sichtbar."
             },
             {
-              "id": "44_teil2_kunstgalerie_q3",
+              "id": "set2_q26",
               "type": "multiple_choice",
-              "question": "Woraus besteht die begehbare Skulptur im dritten Raum?",
+              "question": "Wie sollte Kritik formuliert werden?",
               "options": [
-                "Aus recycelten Zeitungen.",
-                "Aus Metallresten.",
-                "Aus altem Holz."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Aus recycelten Zeitungen."
-            },
-            {
-              "id": "44_teil2_kunstgalerie_q4",
-              "type": "multiple_choice",
-              "question": "Was ist bei der heutigen Eröffnung besonders?",
-              "options": [
-                "Drei Künstlerinnen sind persönlich anwesend.",
-                "Der Eintritt ist doppelt so teuer.",
-                "Es gibt keine Führung."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Drei Künstlerinnen sind persönlich anwesend."
-            },
-            {
-              "id": "44_teil2_kunstgalerie_q5",
-              "type": "multiple_choice",
-              "question": "Wo ist Fotografieren nicht erlaubt?",
-              "options": [
-                "Bei der Videoinstallation.",
-                "Bei den Gemälden von Ines Dorner.",
-                "Im Foyer."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Bei der Videoinstallation."
-            }
-          ]
-        },
-        {
-          "id": "45_teil2_schokoladenfabrik",
-          "type": "listening",
-          "category": "teil2",
-          "categoryLabel": "Hören · Teil 2 · Vorträge",
-          "title": "Schokoladenfabrik",
-          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
-          "questions": [
-            {
-              "id": "45_teil2_schokoladenfabrik_q1",
-              "type": "multiple_choice",
-              "question": "Woher stammt laut dem Produktionsleiter der typische Schokoladengeschmack hauptsächlich?",
-              "options": [
-                "Vom Rösten der Bohnen.",
-                "Allein von der Kakaobohne selbst.",
-                "Von der Verpackung."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Vom Rösten der Bohnen."
-            },
-            {
-              "id": "45_teil2_schokoladenfabrik_q2",
-              "type": "multiple_choice",
-              "question": "Was bewirkt das Conchieren?",
-              "options": [
-                "Es macht die Schokolade zart und cremig.",
-                "Es entfernt die Schale der Bohnen.",
-                "Es färbt die Schokolade dunkler."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Es macht die Schokolade zart und cremig."
-            },
-            {
-              "id": "45_teil2_schokoladenfabrik_q3",
-              "type": "multiple_choice",
-              "question": "Womit wird in der Versuchsküche aktuell experimentiert?",
-              "options": [
-                "Mit getrockneten heimischen Kräutern.",
-                "Mit exotischen Gewürzen.",
-                "Mit künstlichen Aromen."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Mit getrockneten heimischen Kräutern."
-            },
-            {
-              "id": "45_teil2_schokoladenfabrik_q4",
-              "type": "multiple_choice",
-              "question": "Wozu dient der Temperiervorgang?",
-              "options": [
-                "Damit die Schokolade glänzt und knackt.",
-                "Damit die Schokolade länger haltbar ist.",
-                "Damit die Schokolade süßer schmeckt."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Damit die Schokolade glänzt und knackt."
-            },
-            {
-              "id": "45_teil2_schokoladenfabrik_q5",
-              "type": "multiple_choice",
-              "question": "Warum sollen Besucher auf Parfum verzichten?",
-              "options": [
-                "Starke Gerüche beeinträchtigen die Aromaentwicklung.",
-                "Parfum ist feuergefährlich.",
-                "Es ist gesetzlich vorgeschrieben."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Starke Gerüche beeinträchtigen die Aromaentwicklung."
-            }
-          ]
-        },
-        {
-          "id": "46_teil2_zeitungsredaktion",
-          "type": "listening",
-          "category": "teil2",
-          "categoryLabel": "Hören · Teil 2 · Vorträge",
-          "title": "Zeitungsredaktion",
-          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
-          "questions": [
-            {
-              "id": "46_teil2_zeitungsredaktion_q1",
-              "type": "multiple_choice",
-              "question": "Was wird in der ersten Redaktionskonferenz entschieden?",
-              "options": [
-                "Welche Geschichte auf die Titelseite kommt.",
-                "Wie viele Exemplare gedruckt werden.",
-                "Welche Mitarbeiter Urlaub bekommen."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Welche Geschichte auf die Titelseite kommt."
-            },
-            {
-              "id": "46_teil2_zeitungsredaktion_q2",
-              "type": "multiple_choice",
-              "question": "Wie viele unabhängige Quellen braucht ein Artikel für die Titelseite mindestens?",
-              "options": [
-                "Eine.",
-                "Zwei.",
-                "Vier."
+                "Als Urteil über den Charakter einer Person.",
+                "Mit Bezug auf eine beobachtbare Handlung.",
+                "Möglichst indirekt und ohne Beispiel."
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Zwei."
+              "explanation": "Richtige Antwort: Mit Bezug auf eine beobachtbare Handlung."
             },
             {
-              "id": "46_teil2_zeitungsredaktion_q3",
+              "id": "set2_q27",
               "type": "multiple_choice",
-              "question": "Was passiert in der Schlussredaktion?",
+              "question": "Welche Aufgabe hat eine Tagesordnung?",
               "options": [
-                "Texte werden auf Fehler und rechtliche Probleme geprüft.",
-                "Neue Themen werden gesucht.",
-                "Fotos werden gemacht."
+                "Sie hilft, die Besprechung auf Entscheidungen auszurichten.",
+                "Sie soll möglichst viele Themen enthalten.",
+                "Sie macht jede Vorbereitung unnötig."
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Texte werden auf Fehler und rechtliche Probleme geprüft."
+              "explanation": "Richtige Antwort: Sie hilft, die Besprechung auf Entscheidungen auszurichten."
             },
             {
-              "id": "46_teil2_zeitungsredaktion_q4",
+              "id": "set2_q28",
               "type": "multiple_choice",
-              "question": "Was hat sich bei der Online-Redaktion verändert?",
+              "question": "Was empfiehlt der Redner bei einem Konflikt?",
               "options": [
-                "Nachrichten müssen oft schon vor Redaktionsschluss online erscheinen.",
-                "Es gibt keine Online-Redaktion mehr.",
-                "Alles wird jetzt nur noch gedruckt."
+                "Den Konflikt ausschließlich öffentlich auszutragen.",
+                "Die Beteiligten dauerhaft zu trennen.",
+                "Zunächst die unterschiedlichen Interessen zu verstehen."
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Nachrichten müssen oft schon vor Redaktionsschluss online erscheinen."
+              "answer": 2,
+              "explanation": "Richtige Antwort: Zunächst die unterschiedlichen Interessen zu verstehen."
             },
             {
-              "id": "46_teil2_zeitungsredaktion_q5",
+              "id": "set2_q29",
               "type": "multiple_choice",
-              "question": "Wie viele Exemplare können pro Stunde gedruckt werden?",
+              "question": "Wie sollte Wissen dokumentiert werden?",
               "options": [
-                "Bis zu 4.000.",
-                "Bis zu 40.000.",
-                "Bis zu 400.000."
+                "In allen möglichen Ordnern gleichzeitig.",
+                "An einem vereinbarten, gut auffindbaren Ort.",
+                "Nur im Gedächtnis der erfahrensten Person."
               ],
               "answer": 1,
-              "explanation": "Richtige Antwort: Bis zu 40.000."
+              "explanation": "Richtige Antwort: An einem vereinbarten, gut auffindbaren Ort."
+            },
+            {
+              "id": "set2_q30",
+              "type": "multiple_choice",
+              "question": "Was gehört zum Abschluss eines Projekts?",
+              "options": [
+                "Eine kurze gemeinsame Auswertung.",
+                "Die sofortige Löschung aller Unterlagen.",
+                "Eine Bewertung ausschließlich durch die Leitung."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Eine kurze gemeinsame Auswertung."
             }
           ]
         },
         {
-          "id": "47_teil2_baumschule",
+          "id": "set3_teil1_text1",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Übungssatz 3 · Umwelt und Ernährung · Teil 1",
+          "title": "Gemüsekiste",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
+          "questions": [
+            {
+              "id": "set3_q1",
+              "type": "true_false",
+              "statement": "Die Frau ist mit dem Angebot einer Gemüsekiste zufrieden.",
+              "answer": true
+            },
+            {
+              "id": "set3_q2",
+              "type": "multiple_choice",
+              "question": "Was hilft ihr beim Verwenden unbekannter Sorten?",
+              "options": [
+                "Die wöchentlichen Rezeptideen.",
+                "Ein Kochkurs im Supermarkt.",
+                "Die persönliche Auswahl jedes Produkts."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Die wöchentlichen Rezeptideen."
+            }
+          ]
+        },
+        {
+          "id": "set3_teil1_text2",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Übungssatz 3 · Umwelt und Ernährung · Teil 1",
+          "title": "Lebensmittel im Café",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
+          "questions": [
+            {
+              "id": "set3_q3",
+              "type": "true_false",
+              "statement": "Der Mann erhöht wegen einer Rabattaktion seine Produktion.",
+              "answer": false
+            },
+            {
+              "id": "set3_q4",
+              "type": "multiple_choice",
+              "question": "Was ist das Ziel des Angebots?",
+              "options": [
+                "Neue warme Gerichte einzuführen.",
+                "Weniger Backwaren wegzuwerfen.",
+                "Die regulären Preise zu verdoppeln."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Weniger Backwaren wegzuwerfen."
+            }
+          ]
+        },
+        {
+          "id": "set3_teil1_text3",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Übungssatz 3 · Umwelt und Ernährung · Teil 1",
+          "title": "Garten auf dem Dach",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
+          "questions": [
+            {
+              "id": "set3_q5",
+              "type": "true_false",
+              "statement": "Der Dachgarten soll alle Bewohner vollständig mit Gemüse versorgen.",
+              "answer": false
+            },
+            {
+              "id": "set3_q6",
+              "type": "multiple_choice",
+              "question": "Was steht bei dem Projekt im Vordergrund?",
+              "options": [
+                "Der Verkauf großer Erntemengen.",
+                "Die Ausbildung beruflicher Gärtner.",
+                "Der Kontakt zwischen Nachbarn."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Der Kontakt zwischen Nachbarn."
+            }
+          ]
+        },
+        {
+          "id": "set3_teil1_text4",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Übungssatz 3 · Umwelt und Ernährung · Teil 1",
+          "title": "Energieberatung",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
+          "questions": [
+            {
+              "id": "set3_q7",
+              "type": "true_false",
+              "statement": "Der Mann berichtet von einer Beratung zum Energieverbrauch.",
+              "answer": true
+            },
+            {
+              "id": "set3_q8",
+              "type": "multiple_choice",
+              "question": "Welche Änderung konnte er selbst umsetzen?",
+              "options": [
+                "Er stellte ein Möbelstück um.",
+                "Er ließ alle Fenster austauschen.",
+                "Er baute eine neue Heizungsanlage ein."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Er stellte ein Möbelstück um."
+            }
+          ]
+        },
+        {
+          "id": "set3_teil1_text5",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Übungssatz 3 · Umwelt und Ernährung · Teil 1",
+          "title": "Einkauf für das Fest",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
+          "questions": [
+            {
+              "id": "set3_q9",
+              "type": "true_false",
+              "statement": "Die beiden planen die Verpflegung für eine private Hochzeit.",
+              "answer": false
+            },
+            {
+              "id": "set3_q10",
+              "type": "multiple_choice",
+              "question": "Wofür entscheiden sie sich?",
+              "options": [
+                "Für ausschließlich kalte Speisen.",
+                "Für geliehenes Mehrweggeschirr.",
+                "Für den Kauf von Einwegtellern."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Für geliehenes Mehrweggeschirr."
+            }
+          ]
+        },
+        {
+          "id": "set3_teil2",
           "type": "listening",
           "category": "teil2",
-          "categoryLabel": "Hören · Teil 2 · Vorträge",
-          "title": "Baumschule",
-          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "categoryLabel": "Übungssatz 3 · Umwelt und Ernährung · Teil 2",
+          "title": "Interview aus der Wissenschaft",
+          "instructions": "Sie hören im Radio ein Interview mit einer Persönlichkeit aus der Wissenschaft. Sie hören den Text zweimal. Wählen Sie bei jeder Aufgabe die richtige Lösung. Lesen Sie jetzt die Aufgaben 11 bis 16. Dazu haben Sie 90 Sekunden Zeit.",
           "maxPlays": 2,
           "questions": [
             {
-              "id": "47_teil2_baumschule_q1",
+              "id": "set3_q11",
               "type": "multiple_choice",
-              "question": "Was benötigen viele heimische Baumarten, um zu keimen?",
+              "question": "Was untersucht Dr. Winter hauptsächlich?",
               "options": [
-                "Eine Kältephase.",
-                "Sehr viel Licht.",
-                "Salzwasser."
+                "Die Gestaltung von Restaurantküchen.",
+                "Den Geschmack importierter Früchte.",
+                "Die Ursachen von Lebensmittelabfällen in Haushalten."
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Eine Kältephase."
+              "answer": 2,
+              "explanation": "Richtige Antwort: Die Ursachen von Lebensmittelabfällen in Haushalten."
             },
             {
-              "id": "47_teil2_baumschule_q2",
+              "id": "set3_q12",
               "type": "multiple_choice",
-              "question": "Wie lange wachsen die jungen Pflänzchen zunächst dicht gedrängt?",
+              "question": "Welche Rolle spielt die Einkaufsplanung?",
               "options": [
-                "Zwei Jahre.",
-                "Zehn Jahre.",
-                "Einen Monat."
+                "Sie verhindert jeden spontanen Kauf.",
+                "Sie hilft, vorhandene Vorräte zu berücksichtigen.",
+                "Sie ist nur bei Großfamilien sinnvoll."
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Zwei Jahre."
+              "answer": 1,
+              "explanation": "Richtige Antwort: Sie hilft, vorhandene Vorräte zu berücksichtigen."
             },
             {
-              "id": "47_teil2_baumschule_q3",
+              "id": "set3_q13",
               "type": "multiple_choice",
-              "question": "Wie lange kann ein großer Park-Baum in der Baumschule verbringen?",
+              "question": "Warum werden Produkte nach dem Mindesthaltbarkeitsdatum weggeworfen?",
               "options": [
-                "Zwanzig Jahre oder länger.",
-                "Nur ein Jahr.",
-                "Genau fünf Jahre."
+                "Viele verwechseln es mit einer verbindlichen Wegwerfgrenze.",
+                "Es gilt ausschließlich für offene Verpackungen.",
+                "Alle Produkte sind danach gefährlich."
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Zwanzig Jahre oder länger."
+              "explanation": "Richtige Antwort: Viele verwechseln es mit einer verbindlichen Wegwerfgrenze."
             },
             {
-              "id": "47_teil2_baumschule_q4",
+              "id": "set3_q14",
               "type": "multiple_choice",
-              "question": "Was wird auf der Versuchsfläche getestet?",
+              "question": "Was erleichtert die Nutzung von Resten?",
               "options": [
-                "Die Stadtklimatauglichkeit verschiedener Baumarten.",
-                "Neue Düngemittel.",
-                "Die Widerstandsfähigkeit gegen Insekten."
+                "Jeden Tag ein völlig neues Rezept zu planen.",
+                "Reste grundsätzlich nicht zu beschriften.",
+                "Eine flexible Mahlzeit pro Woche einzuplanen."
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Die Stadtklimatauglichkeit verschiedener Baumarten."
+              "answer": 2,
+              "explanation": "Richtige Antwort: Eine flexible Mahlzeit pro Woche einzuplanen."
             },
             {
-              "id": "47_teil2_baumschule_q5",
+              "id": "set3_q15",
               "type": "multiple_choice",
-              "question": "Warum werden Bäume vor dem Verkauf mehrfach verpflanzt?",
+              "question": "Wie gewinnt das Team zuverlässige Informationen?",
               "options": [
-                "Damit ein kompakter, transportfähiger Wurzelballen entsteht.",
-                "Damit sie schneller wachsen.",
-                "Damit sie schöner aussehen."
+                "Durch einmalige Schätzungen am Telefon.",
+                "Durch Tagebücher und die dokumentierten Abfälle.",
+                "Nur durch Verkaufszahlen großer Geschäfte."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Durch Tagebücher und die dokumentierten Abfälle."
+            },
+            {
+              "id": "set3_q16",
+              "type": "multiple_choice",
+              "question": "Was ist nach Ansicht der Forscherin besonders wirksam?",
+              "options": [
+                "Einfache Routinen, die zum Haushalt passen.",
+                "Ein kompliziertes tägliches Kontrollsystem.",
+                "Ein vollständiges Verbot von Sonderangeboten."
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Damit ein kompakter, transportfähiger Wurzelballen entsteht."
+              "explanation": "Richtige Antwort: Einfache Routinen, die zum Haushalt passen."
             }
           ]
         },
         {
-          "id": "48_teil2_fischzucht",
+          "id": "set3_teil3",
+          "type": "listening",
+          "category": "teil3",
+          "categoryLabel": "Übungssatz 3 · Umwelt und Ernährung · Teil 3",
+          "title": "Gespräch mit mehreren Personen",
+          "instructions": "Sie hören im Radio ein Gespräch mit mehreren Personen. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe: Wer sagt das? Lesen Sie jetzt die Aufgaben 17 bis 22. Dazu haben Sie 60 Sekunden Zeit.",
+          "maxPlays": 1,
+          "questions": [
+            {
+              "id": "set3_q17",
+              "type": "multiple_choice",
+              "question": "Er/Sie hat anfangs wegen der Kosten gebrauchte Kleidung gekauft.",
+              "options": [
+                "Moderatorin",
+                "Frau Adler, Studentin",
+                "Herr Braun, Schneider"
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Frau Adler, Studentin"
+            },
+            {
+              "id": "set3_q18",
+              "type": "multiple_choice",
+              "question": "Er/Sie achtet bei Kleidung vor allem auf Reparierbarkeit.",
+              "options": [
+                "Moderatorin",
+                "Frau Adler, Studentin",
+                "Herr Braun, Schneider"
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Herr Braun, Schneider"
+            },
+            {
+              "id": "set3_q19",
+              "type": "multiple_choice",
+              "question": "Er/Sie berichtet von mehr Angeboten zum Kleidertausch.",
+              "options": [
+                "Moderatorin",
+                "Frau Adler, Studentin",
+                "Herr Braun, Schneider"
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Moderatorin"
+            },
+            {
+              "id": "set3_q20",
+              "type": "multiple_choice",
+              "question": "Er/Sie findet genaue Angaben zum Zustand beim Onlinekauf wichtig.",
+              "options": [
+                "Moderatorin",
+                "Frau Adler, Studentin",
+                "Herr Braun, Schneider"
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Frau Adler, Studentin"
+            },
+            {
+              "id": "set3_q21",
+              "type": "multiple_choice",
+              "question": "Er/Sie warnt davor, Nachhaltigkeit nur am Kaufpreis zu beurteilen.",
+              "options": [
+                "Moderatorin",
+                "Frau Adler, Studentin",
+                "Herr Braun, Schneider"
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Herr Braun, Schneider"
+            },
+            {
+              "id": "set3_q22",
+              "type": "multiple_choice",
+              "question": "Er/Sie fragt, wie Menschen ohne Nähkenntnisse unterstützt werden können.",
+              "options": [
+                "Moderatorin",
+                "Frau Adler, Studentin",
+                "Herr Braun, Schneider"
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Moderatorin"
+            }
+          ]
+        },
+        {
+          "id": "set3_teil4",
+          "type": "listening",
+          "category": "teil4",
+          "categoryLabel": "Übungssatz 3 · Umwelt und Ernährung · Teil 4",
+          "title": "Kurzer Vortrag",
+          "instructions": "Sie hören einen kurzen Vortrag. Sie hören den Text zweimal. Wählen Sie bei jeder Aufgabe die richtige Lösung. Lesen Sie jetzt die Aufgaben 23 bis 30. Dazu haben Sie 90 Sekunden Zeit.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "set3_q23",
+              "type": "multiple_choice",
+              "question": "Was sollte man vor einer Anschaffung prüfen?",
+              "options": [
+                "Ob man den Gegenstand tatsächlich braucht.",
+                "Ob das Produkt stark beworben wird.",
+                "Ob andere denselben Gegenstand besitzen."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Ob man den Gegenstand tatsächlich braucht."
+            },
+            {
+              "id": "set3_q24",
+              "type": "multiple_choice",
+              "question": "Warum sind sehr große Packungen nicht immer sinnvoll?",
+              "options": [
+                "Sie enthalten grundsätzlich schlechtere Ware.",
+                "Sie dürfen nicht geteilt werden.",
+                "Ungenutzte Mengen können den Preisvorteil aufheben."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Ungenutzte Mengen können den Preisvorteil aufheben."
+            },
+            {
+              "id": "set3_q25",
+              "type": "multiple_choice",
+              "question": "Wie sollte man Werbeversprechen bewerten?",
+              "options": [
+                "Nur auf grüne Farben achten.",
+                "Konkrete, überprüfbare Angaben suchen.",
+                "Alle Aussagen grundsätzlich glauben."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Konkrete, überprüfbare Angaben suchen."
+            },
+            {
+              "id": "set3_q26",
+              "type": "multiple_choice",
+              "question": "Was kann die Nutzungsdauer verlängern?",
+              "options": [
+                "Passende Pflege und rechtzeitige kleine Reparaturen.",
+                "Der regelmäßige Wechsel zu neuen Modellen.",
+                "Die Aufbewahrung aller Geräte in Originalkartons."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Passende Pflege und rechtzeitige kleine Reparaturen."
+            },
+            {
+              "id": "set3_q27",
+              "type": "multiple_choice",
+              "question": "Für welche Dinge ist Teilen besonders geeignet?",
+              "options": [
+                "Für Gegenstände, die ständig gleichzeitig gebraucht werden.",
+                "Für Gegenstände mit unklaren Besitzverhältnissen.",
+                "Für selten benötigte Gegenstände mit klaren Nutzungsregeln."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Für selten benötigte Gegenstände mit klaren Nutzungsregeln."
+            },
+            {
+              "id": "set3_q28",
+              "type": "multiple_choice",
+              "question": "Was empfiehlt die Rednerin bei Lieferungen?",
+              "options": [
+                "Jedes Produkt einzeln zu bestellen.",
+                "Bestellungen nach Möglichkeit zu bündeln.",
+                "Die Lieferadresse möglichst oft zu wechseln."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Bestellungen nach Möglichkeit zu bündeln."
+            },
+            {
+              "id": "set3_q29",
+              "type": "multiple_choice",
+              "question": "Wie bewertet sie persönliche Veränderungen?",
+              "options": [
+                "Auch kleine dauerhaft beibehaltene Schritte sind sinnvoll.",
+                "Nur ein vollständig veränderter Lebensstil zählt.",
+                "Eine einmalige große Aktion ist immer ausreichend."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Auch kleine dauerhaft beibehaltene Schritte sind sinnvoll."
+            },
+            {
+              "id": "set3_q30",
+              "type": "multiple_choice",
+              "question": "Was sollte man am Ende regelmäßig tun?",
+              "options": [
+                "Alle Kaufbelege ohne Prüfung wegwerfen.",
+                "Nur die Anzahl gekaufter Produkte zählen.",
+                "Prüfen, welche Veränderungen im eigenen Alltag funktionieren."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Prüfen, welche Veränderungen im eigenen Alltag funktionieren."
+            }
+          ]
+        },
+        {
+          "id": "set4_teil1_text1",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Übungssatz 4 · Digitale Welt und Bildung · Teil 1",
+          "title": "Onlinekurs",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
+          "questions": [
+            {
+              "id": "set4_q1",
+              "type": "true_false",
+              "statement": "Der Mann schildert seine Erfahrungen mit einem Onlinekurs.",
+              "answer": true
+            },
+            {
+              "id": "set4_q2",
+              "type": "multiple_choice",
+              "question": "Was fand er besonders hilfreich?",
+              "options": [
+                "Die automatische Bearbeitung seiner Fotos.",
+                "Das wiederholte Ansehen von Erklärungen.",
+                "Die kostenlose Teilnahme am gesamten Kurs."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Das wiederholte Ansehen von Erklärungen."
+            }
+          ]
+        },
+        {
+          "id": "set4_teil1_text2",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Übungssatz 4 · Digitale Welt und Bildung · Teil 1",
+          "title": "Nachricht auf dem Handy",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
+          "questions": [
+            {
+              "id": "set4_q3",
+              "type": "true_false",
+              "statement": "Die Frau hat ihre Zugangsdaten über einen Link bestätigt.",
+              "answer": false
+            },
+            {
+              "id": "set4_q4",
+              "type": "multiple_choice",
+              "question": "Wie überprüfte sie die Nachricht?",
+              "options": [
+                "Sie rief eine bekannte Nummer ihrer Bank an.",
+                "Sie antwortete direkt dem Absender.",
+                "Sie öffnete mehrere Links aus der Nachricht."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Sie rief eine bekannte Nummer ihrer Bank an."
+            }
+          ]
+        },
+        {
+          "id": "set4_teil1_text3",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Übungssatz 4 · Digitale Welt und Bildung · Teil 1",
+          "title": "Tablet im Unterricht",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
+          "questions": [
+            {
+              "id": "set4_q5",
+              "type": "true_false",
+              "statement": "Der Lehrer möchte im Unterricht vollständig auf Papier verzichten.",
+              "answer": false
+            },
+            {
+              "id": "set4_q6",
+              "type": "multiple_choice",
+              "question": "Was ist für ihn bei der Gerätenutzung wichtig?",
+              "options": [
+                "Dass jede Aufgabe digital bearbeitet wird.",
+                "Dass Eltern alle Programme auswählen.",
+                "Dass das Werkzeug zur Aufgabe passt."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Dass das Werkzeug zur Aufgabe passt."
+            }
+          ]
+        },
+        {
+          "id": "set4_teil1_text4",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Übungssatz 4 · Digitale Welt und Bildung · Teil 1",
+          "title": "Digitales Bürgeramt",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
+          "questions": [
+            {
+              "id": "set4_q7",
+              "type": "true_false",
+              "statement": "Die Frau berichtet über einen online gestellten Antrag.",
+              "answer": true
+            },
+            {
+              "id": "set4_q8",
+              "type": "multiple_choice",
+              "question": "Welchen Vorteil nennt sie?",
+              "options": [
+                "Sie musste keine Dokumente mehr einreichen.",
+                "Sie konnte den Antrag außerhalb der Öffnungszeiten stellen.",
+                "Sie erhielt sofort ohne Prüfung den Ausweis."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Sie konnte den Antrag außerhalb der Öffnungszeiten stellen."
+            }
+          ]
+        },
+        {
+          "id": "set4_teil1_text5",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Übungssatz 4 · Digitale Welt und Bildung · Teil 1",
+          "title": "Projekt im Medienkurs",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
+          "questions": [
+            {
+              "id": "set4_q9",
+              "type": "true_false",
+              "statement": "Die beiden bereiten die Veröffentlichung einer Tonaufnahme vor.",
+              "answer": true
+            },
+            {
+              "id": "set4_q10",
+              "type": "multiple_choice",
+              "question": "Was soll vor der Aufnahme geklärt werden?",
+              "options": [
+                "Die Zustimmung zur Veröffentlichung.",
+                "Der Verkauf der fertigen Musik.",
+                "Die Auswahl eines neuen Kursthemas."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Die Zustimmung zur Veröffentlichung."
+            }
+          ]
+        },
+        {
+          "id": "set4_teil2",
           "type": "listening",
           "category": "teil2",
-          "categoryLabel": "Hören · Teil 2 · Vorträge",
-          "title": "Fischzucht",
-          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "categoryLabel": "Übungssatz 4 · Digitale Welt und Bildung · Teil 2",
+          "title": "Interview aus der Wissenschaft",
+          "instructions": "Sie hören im Radio ein Interview mit einer Persönlichkeit aus der Wissenschaft. Sie hören den Text zweimal. Wählen Sie bei jeder Aufgabe die richtige Lösung. Lesen Sie jetzt die Aufgaben 11 bis 16. Dazu haben Sie 90 Sekunden Zeit.",
           "maxPlays": 2,
           "questions": [
             {
-              "id": "48_teil2_fischzucht_q1",
+              "id": "set4_q11",
               "type": "multiple_choice",
-              "question": "Woher stammt das Wasser für die Aufzuchtbecken?",
+              "question": "Was erforscht Professor Berger?",
               "options": [
-                "Aus einer nahegelegenen Quelle.",
-                "Aus dem öffentlichen Trinkwassernetz.",
-                "Aus einem nahegelegenen Fluss."
+                "Die Herstellung leistungsfähiger Computer.",
+                "Die Entwicklung von Videospielen.",
+                "Wie Menschen Informationen im Internet beurteilen."
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Aus einer nahegelegenen Quelle."
+              "answer": 2,
+              "explanation": "Richtige Antwort: Wie Menschen Informationen im Internet beurteilen."
             },
             {
-              "id": "48_teil2_fischzucht_q2",
+              "id": "set4_q12",
               "type": "multiple_choice",
-              "question": "Warum setzt der Betrieb auf eine geringere Besatzdichte?",
+              "question": "Warum genügt ein professionelles Aussehen nicht?",
               "options": [
-                "Um weniger Krankheiten und Medikamentenbedarf zu haben.",
-                "Um mehr Ertrag zu erzielen.",
-                "Weil es gesetzlich vorgeschrieben ist."
+                "Weil eine ansprechende Gestaltung keine Richtigkeit garantiert.",
+                "Weil seriöse Seiten nie Bilder verwenden.",
+                "Weil gut gestaltete Seiten immer kostenpflichtig sind."
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Um weniger Krankheiten und Medikamentenbedarf zu haben."
+              "explanation": "Richtige Antwort: Weil eine ansprechende Gestaltung keine Richtigkeit garantiert."
             },
             {
-              "id": "48_teil2_fischzucht_q3",
+              "id": "set4_q13",
               "type": "multiple_choice",
-              "question": "Woraus besteht das Futter größtenteils?",
+              "question": "Was empfiehlt er beim Prüfen einer überraschenden Nachricht?",
               "options": [
-                "Aus eigenen Fischresten und pflanzlichen Proteinen.",
-                "Ausschließlich aus importiertem Fischmehl.",
-                "Aus künstlichen Zusatzstoffen."
+                "Sie sofort an möglichst viele Menschen weiterzuleiten.",
+                "Eine unabhängige weitere Quelle zu suchen.",
+                "Nur die Kommentare unter dem Beitrag zu lesen."
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Aus eigenen Fischresten und pflanzlichen Proteinen."
+              "answer": 1,
+              "explanation": "Richtige Antwort: Eine unabhängige weitere Quelle zu suchen."
             },
             {
-              "id": "48_teil2_fischzucht_q4",
+              "id": "set4_q14",
               "type": "multiple_choice",
-              "question": "Was passiert mit dem Wasser, bevor es den Betrieb verlässt?",
+              "question": "Welche Schwierigkeit haben ältere Beiträge?",
               "options": [
-                "Es wird gefiltert.",
-                "Es wird eingefärbt.",
-                "Es wird erhitzt."
+                "Sie sind grundsätzlich nicht mehr lesbar.",
+                "Sie enthalten niemals nützliche Informationen.",
+                "Ihr ursprünglicher Kontext kann bei neuer Verbreitung fehlen."
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Es wird gefiltert."
+              "answer": 2,
+              "explanation": "Richtige Antwort: Ihr ursprünglicher Kontext kann bei neuer Verbreitung fehlen."
             },
             {
-              "id": "48_teil2_fischzucht_q5",
+              "id": "set4_q15",
               "type": "multiple_choice",
-              "question": "Warum ist der Schlachtbereich für Besucher nicht zugänglich?",
+              "question": "Wie sollen Schulen Medienkompetenz vermitteln?",
               "options": [
-                "Aus hygienischen Gründen.",
-                "Weil er nicht existiert.",
-                "Weil dort Baustelle ist."
+                "An konkreten Beispielen mit begründeten Entscheidungen.",
+                "Ausschließlich durch das Auswendiglernen von Begriffen.",
+                "Nur durch das Sperren aller unbekannten Seiten."
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Aus hygienischen Gründen."
+              "explanation": "Richtige Antwort: An konkreten Beispielen mit begründeten Entscheidungen."
+            },
+            {
+              "id": "set4_q16",
+              "type": "multiple_choice",
+              "question": "Was hält Berger für ein Zeichen guter Urteilskraft?",
+              "options": [
+                "Jede Information sofort eindeutig einzuordnen.",
+                "Bei unklarer Beweislage ein Urteil zurückzustellen.",
+                "Nur der eigenen ersten Reaktion zu folgen."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Bei unklarer Beweislage ein Urteil zurückzustellen."
             }
           ]
         },
         {
-          "id": "49_teil2_hafenmuseum",
+          "id": "set4_teil3",
+          "type": "listening",
+          "category": "teil3",
+          "categoryLabel": "Übungssatz 4 · Digitale Welt und Bildung · Teil 3",
+          "title": "Gespräch mit mehreren Personen",
+          "instructions": "Sie hören im Radio ein Gespräch mit mehreren Personen. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe: Wer sagt das? Lesen Sie jetzt die Aufgaben 17 bis 22. Dazu haben Sie 60 Sekunden Zeit.",
+          "maxPlays": 1,
+          "questions": [
+            {
+              "id": "set4_q17",
+              "type": "multiple_choice",
+              "question": "Er/Sie bevorzugt beim Lesen längerer Texte Papier.",
+              "options": [
+                "Moderatorin",
+                "Frau Kaya, berufstätige Lernende",
+                "Herr Stein, Bibliothekar"
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Herr Stein, Bibliothekar"
+            },
+            {
+              "id": "set4_q18",
+              "type": "multiple_choice",
+              "question": "Er/Sie schätzt die ortsunabhängige Teilnahme an Kursen.",
+              "options": [
+                "Moderatorin",
+                "Frau Kaya, berufstätige Lernende",
+                "Herr Stein, Bibliothekar"
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Frau Kaya, berufstätige Lernende"
+            },
+            {
+              "id": "set4_q19",
+              "type": "multiple_choice",
+              "question": "Er/Sie nennt Unterschiede bei der technischen Ausstattung.",
+              "options": [
+                "Moderatorin",
+                "Frau Kaya, berufstätige Lernende",
+                "Herr Stein, Bibliothekar"
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Moderatorin"
+            },
+            {
+              "id": "set4_q20",
+              "type": "multiple_choice",
+              "question": "Er/Sie plant feste Lernzeiten trotz flexibler Kursangebote.",
+              "options": [
+                "Moderatorin",
+                "Frau Kaya, berufstätige Lernende",
+                "Herr Stein, Bibliothekar"
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Frau Kaya, berufstätige Lernende"
+            },
+            {
+              "id": "set4_q21",
+              "type": "multiple_choice",
+              "question": "Er/Sie möchte gedruckte und digitale Angebote verbinden.",
+              "options": [
+                "Moderatorin",
+                "Frau Kaya, berufstätige Lernende",
+                "Herr Stein, Bibliothekar"
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Herr Stein, Bibliothekar"
+            },
+            {
+              "id": "set4_q22",
+              "type": "multiple_choice",
+              "question": "Er/Sie fragt nach Unterstützung bei technischen Schwierigkeiten.",
+              "options": [
+                "Moderatorin",
+                "Frau Kaya, berufstätige Lernende",
+                "Herr Stein, Bibliothekar"
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Moderatorin"
+            }
+          ]
+        },
+        {
+          "id": "set4_teil4",
+          "type": "listening",
+          "category": "teil4",
+          "categoryLabel": "Übungssatz 4 · Digitale Welt und Bildung · Teil 4",
+          "title": "Kurzer Vortrag",
+          "instructions": "Sie hören einen kurzen Vortrag. Sie hören den Text zweimal. Wählen Sie bei jeder Aufgabe die richtige Lösung. Lesen Sie jetzt die Aufgaben 23 bis 30. Dazu haben Sie 90 Sekunden Zeit.",
+          "maxPlays": 2,
+          "questions": [
+            {
+              "id": "set4_q23",
+              "type": "multiple_choice",
+              "question": "Was sollte man bei einer Präsentation zuerst bestimmen?",
+              "options": [
+                "Die genaue Zahl der Animationen.",
+                "Das Ziel für die Zuhörer.",
+                "Die Farbe jeder einzelnen Folie."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Das Ziel für die Zuhörer."
+            },
+            {
+              "id": "set4_q24",
+              "type": "multiple_choice",
+              "question": "Wie viele Hauptgedanken empfiehlt der Redner?",
+              "options": [
+                "So viele wie technisch möglich.",
+                "Für jeden Satz einen neuen Gedanken.",
+                "Wenige klar erkennbare Hauptgedanken."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Wenige klar erkennbare Hauptgedanken."
+            },
+            {
+              "id": "set4_q25",
+              "type": "multiple_choice",
+              "question": "Wozu dienen Beispiele?",
+              "options": [
+                "Sie verbinden abstrakte Aussagen mit konkreten Situationen.",
+                "Sie ersetzen grundsätzlich alle Belege.",
+                "Sie verlängern den Vortrag ohne inhaltliche Funktion."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Sie verbinden abstrakte Aussagen mit konkreten Situationen."
+            },
+            {
+              "id": "set4_q26",
+              "type": "multiple_choice",
+              "question": "Wie sollten Folien gestaltet sein?",
+              "options": [
+                "Mit möglichst langen Fließtexten.",
+                "Mit gut lesbaren, gezielt ausgewählten Informationen.",
+                "Mit wechselnden Schriften in jeder Zeile."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Mit gut lesbaren, gezielt ausgewählten Informationen."
+            },
+            {
+              "id": "set4_q27",
+              "type": "multiple_choice",
+              "question": "Wie sollte man einen Vortrag üben?",
+              "options": [
+                "Nur den ersten Satz still lesen.",
+                "Die Folien ohne Sprechen durchklicken.",
+                "Laut und mit einer realistischen Zeitmessung."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Laut und mit einer realistischen Zeitmessung."
+            },
+            {
+              "id": "set4_q28",
+              "type": "multiple_choice",
+              "question": "Was empfiehlt er bei Nervosität?",
+              "options": [
+                "Den Beginn gut vorzubereiten und ruhig zu atmen.",
+                "Jede Pause unbedingt zu vermeiden.",
+                "Möglichst schnell alle Folien zu zeigen."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Den Beginn gut vorzubereiten und ruhig zu atmen."
+            },
+            {
+              "id": "set4_q29",
+              "type": "multiple_choice",
+              "question": "Wie soll man auf eine unbeantwortbare Frage reagieren?",
+              "options": [
+                "Eine plausible Antwort erfinden.",
+                "Offen sagen, dass man sie noch klären muss.",
+                "Die fragende Person zurechtweisen."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Offen sagen, dass man sie noch klären muss."
+            },
+            {
+              "id": "set4_q30",
+              "type": "multiple_choice",
+              "question": "Was gehört an das Ende?",
+              "options": [
+                "Eine neue lange Liste von Einzelthemen.",
+                "Die Wiederholung aller Folien im Schnelltempo.",
+                "Die zentrale Aussage und ein passender nächster Schritt."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Die zentrale Aussage und ein passender nächster Schritt."
+            }
+          ]
+        },
+        {
+          "id": "set5_teil1_text1",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Übungssatz 5 · Gesellschaft und Freizeit · Teil 1",
+          "title": "Ehrenamt am Wochenende",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
+          "questions": [
+            {
+              "id": "set5_q1",
+              "type": "true_false",
+              "statement": "Die Frau berichtet von einer ehrenamtlichen Tätigkeit.",
+              "answer": true
+            },
+            {
+              "id": "set5_q2",
+              "type": "multiple_choice",
+              "question": "Was schätzt sie besonders?",
+              "options": [
+                "Die Aussicht auf eine bezahlte Stelle.",
+                "Die Gespräche und Erfahrungen der begleiteten Menschen.",
+                "Die Möglichkeit, auf jede Vorbereitung zu verzichten."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Die Gespräche und Erfahrungen der begleiteten Menschen."
+            }
+          ]
+        },
+        {
+          "id": "set5_teil1_text2",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Übungssatz 5 · Gesellschaft und Freizeit · Teil 1",
+          "title": "Theaterkarte",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
+          "questions": [
+            {
+              "id": "set5_q3",
+              "type": "true_false",
+              "statement": "Der Mann besucht mit seinem Abonnement immer denselben Termin.",
+              "answer": false
+            },
+            {
+              "id": "set5_q4",
+              "type": "multiple_choice",
+              "question": "Warum passt das Angebot zu ihm?",
+              "options": [
+                "Er kann die Vorstellungstermine selbst wählen.",
+                "Er erhält für jedes Stück denselben festen Platz.",
+                "Er muss keine Plätze reservieren."
+              ],
+              "answer": 0,
+              "explanation": "Richtige Antwort: Er kann die Vorstellungstermine selbst wählen."
+            }
+          ]
+        },
+        {
+          "id": "set5_teil1_text3",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Übungssatz 5 · Gesellschaft und Freizeit · Teil 1",
+          "title": "Training im Verein",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
+          "questions": [
+            {
+              "id": "set5_q5",
+              "type": "true_false",
+              "statement": "Die Frau bereitet sich auf einen sportlichen Wettkampf vor.",
+              "answer": false
+            },
+            {
+              "id": "set5_q6",
+              "type": "multiple_choice",
+              "question": "Was überzeugt sie an der Gruppe?",
+              "options": [
+                "Der kostenlose Eintritt zu allen Spielen.",
+                "Die Pflicht, an Turnieren teilzunehmen.",
+                "Das Spielen ohne Wettkampfdruck."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Das Spielen ohne Wettkampfdruck."
+            }
+          ]
+        },
+        {
+          "id": "set5_teil1_text4",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Übungssatz 5 · Gesellschaft und Freizeit · Teil 1",
+          "title": "Stadtführung",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
+          "questions": [
+            {
+              "id": "set5_q7",
+              "type": "true_false",
+              "statement": "Der Mann beschreibt eine Führung über den Alltag in einem Viertel.",
+              "answer": true
+            },
+            {
+              "id": "set5_q8",
+              "type": "multiple_choice",
+              "question": "Welche Quellen nutzt er zusätzlich zu historischen Fakten?",
+              "options": [
+                "Nur aktuelle Werbeprospekte.",
+                "Erinnerungen langjähriger Bewohner.",
+                "Ausschließlich Pläne des Schlosses."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Erinnerungen langjähriger Bewohner."
+            }
+          ]
+        },
+        {
+          "id": "set5_teil1_text5",
+          "type": "listening",
+          "category": "teil1",
+          "categoryLabel": "Übungssatz 5 · Gesellschaft und Freizeit · Teil 1",
+          "title": "Wahl eines Ausflugsziels",
+          "instructions": "Sie hören fünf Gespräche und Äußerungen. Sie hören jeden Text einmal. Zu jedem Text lösen Sie zwei Aufgaben. Wählen Sie bei jeder Aufgabe die richtige Lösung.",
+          "maxPlays": 1,
+          "questions": [
+            {
+              "id": "set5_q9",
+              "type": "true_false",
+              "statement": "Die beiden verschieben ihren Ausflug auf einen anderen Tag.",
+              "answer": false
+            },
+            {
+              "id": "set5_q10",
+              "type": "multiple_choice",
+              "question": "Was möchte der Mann als Nächstes tun?",
+              "options": [
+                "Eine Sonderausstellung selbst organisieren.",
+                "Die Zugfahrt endgültig absagen.",
+                "Nach freien Eintrittszeiten suchen."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Nach freien Eintrittszeiten suchen."
+            }
+          ]
+        },
+        {
+          "id": "set5_teil2",
           "type": "listening",
           "category": "teil2",
-          "categoryLabel": "Hören · Teil 2 · Vorträge",
-          "title": "Hafenmuseum",
-          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
+          "categoryLabel": "Übungssatz 5 · Gesellschaft und Freizeit · Teil 2",
+          "title": "Interview aus der Wissenschaft",
+          "instructions": "Sie hören im Radio ein Interview mit einer Persönlichkeit aus der Wissenschaft. Sie hören den Text zweimal. Wählen Sie bei jeder Aufgabe die richtige Lösung. Lesen Sie jetzt die Aufgaben 11 bis 16. Dazu haben Sie 90 Sekunden Zeit.",
           "maxPlays": 2,
           "questions": [
             {
-              "id": "49_teil2_hafenmuseum_q1",
+              "id": "set5_q11",
               "type": "multiple_choice",
-              "question": "Wie wurde die Ladung früher auf dem Deck bewegt?",
+              "question": "Was untersucht Dr. Hoffmann?",
               "options": [
-                "Von Hand mit einfachen Kränen.",
-                "Vollautomatisch.",
-                "Mit modernen Containerkränen."
+                "Wie Städte mehr Parkhäuser bauen können.",
+                "Wie soziale Kontakte im Alltag entstehen.",
+                "Wie Sportvereine ihre Preise festlegen."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Wie soziale Kontakte im Alltag entstehen."
+            },
+            {
+              "id": "set5_q12",
+              "type": "multiple_choice",
+              "question": "Warum sind regelmäßige Begegnungen bedeutsam?",
+              "options": [
+                "Sie schaffen allmählich Vertrautheit.",
+                "Sie ersetzen jede persönliche Freundschaft.",
+                "Sie verhindern grundsätzlich alle Konflikte."
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Von Hand mit einfachen Kränen."
+              "explanation": "Richtige Antwort: Sie schaffen allmählich Vertrautheit."
             },
             {
-              "id": "49_teil2_hafenmuseum_q2",
+              "id": "set5_q13",
               "type": "multiple_choice",
-              "question": "Wer hatte Anspruch auf eine eigene, größere Kabine?",
+              "question": "Was kann einen Treffpunkt unzugänglich machen?",
               "options": [
-                "Kapitän und erster Offizier.",
-                "Alle Seeleute gleichermaßen.",
-                "Nur der Koch."
+                "Dass dort unterschiedliche Menschen zusammenkommen.",
+                "Dass es dort mehrere Sitzmöglichkeiten gibt.",
+                "Dass man dort ständig etwas kaufen muss."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Dass man dort ständig etwas kaufen muss."
+            },
+            {
+              "id": "set5_q14",
+              "type": "multiple_choice",
+              "question": "Wie bezieht das Team Bewohner ein?",
+              "options": [
+                "Es entscheidet ausschließlich nach Straßenkarten.",
+                "Es lässt sie auf gemeinsamen Rundgängen Orte beschreiben.",
+                "Es befragt nur Eigentümer großer Häuser."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Es lässt sie auf gemeinsamen Rundgängen Orte beschreiben."
+            },
+            {
+              "id": "set5_q15",
+              "type": "multiple_choice",
+              "question": "Was sollte bei neuen Angeboten vermieden werden?",
+              "options": [
+                "Über die Bewohner hinweg fertige Konzepte umzusetzen.",
+                "Verschiedene Altersgruppen einzuladen.",
+                "Einen kleinen Versuch zu beobachten."
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Kapitän und erster Offizier."
+              "explanation": "Richtige Antwort: Über die Bewohner hinweg fertige Konzepte umzusetzen."
             },
             {
-              "id": "49_teil2_hafenmuseum_q3",
+              "id": "set5_q16",
               "type": "multiple_choice",
-              "question": "Wie schwer war der ursprüngliche Dieselmotor ungefähr?",
+              "question": "Was ist für die langfristige Wirkung wichtig?",
               "options": [
-                "Über 30 Tonnen.",
-                "Etwa 3 Tonnen.",
-                "Etwa 300 Kilogramm."
+                "Eine einmalige große Werbekampagne.",
+                "Eine möglichst aufwendige Eröffnungsfeier.",
+                "Verlässliche Betreuung und dauerhaft nutzbare Angebote."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Verlässliche Betreuung und dauerhaft nutzbare Angebote."
+            }
+          ]
+        },
+        {
+          "id": "set5_teil3",
+          "type": "listening",
+          "category": "teil3",
+          "categoryLabel": "Übungssatz 5 · Gesellschaft und Freizeit · Teil 3",
+          "title": "Gespräch mit mehreren Personen",
+          "instructions": "Sie hören im Radio ein Gespräch mit mehreren Personen. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe: Wer sagt das? Lesen Sie jetzt die Aufgaben 17 bis 22. Dazu haben Sie 60 Sekunden Zeit.",
+          "maxPlays": 1,
+          "questions": [
+            {
+              "id": "set5_q17",
+              "type": "multiple_choice",
+              "question": "Er/Sie wollte durch den Verein nach einem Umzug Kontakte finden.",
+              "options": [
+                "Moderator",
+                "Frau Weber, Vereinsmitglied",
+                "Herr Lange, Vereinsvorsitzender"
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Frau Weber, Vereinsmitglied"
+            },
+            {
+              "id": "set5_q18",
+              "type": "multiple_choice",
+              "question": "Er/Sie möchte Aufgaben auf mehrere Helfer verteilen.",
+              "options": [
+                "Moderator",
+                "Frau Weber, Vereinsmitglied",
+                "Herr Lange, Vereinsvorsitzender"
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Herr Lange, Vereinsvorsitzender"
+            },
+            {
+              "id": "set5_q19",
+              "type": "multiple_choice",
+              "question": "Er/Sie berichtet von Veränderungen im Freizeitverhalten.",
+              "options": [
+                "Moderator",
+                "Frau Weber, Vereinsmitglied",
+                "Herr Lange, Vereinsvorsitzender"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Über 30 Tonnen."
+              "explanation": "Richtige Antwort: Moderator"
             },
             {
-              "id": "49_teil2_hafenmuseum_q4",
+              "id": "set5_q20",
               "type": "multiple_choice",
-              "question": "Wie war die Kommunikation auf See vor dem Satellitenfunk?",
+              "question": "Er/Sie schätzt die Möglichkeit, zunächst unverbindlich teilzunehmen.",
               "options": [
-                "Oft über Morsezeichen mit Verzögerung.",
-                "Über sofortige Videoanrufe.",
-                "Über normale Telefone."
+                "Moderator",
+                "Frau Weber, Vereinsmitglied",
+                "Herr Lange, Vereinsvorsitzender"
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Frau Weber, Vereinsmitglied"
+            },
+            {
+              "id": "set5_q21",
+              "type": "multiple_choice",
+              "question": "Er/Sie findet Anerkennung für kleine Beiträge wichtig.",
+              "options": [
+                "Moderator",
+                "Frau Weber, Vereinsmitglied",
+                "Herr Lange, Vereinsvorsitzender"
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Herr Lange, Vereinsvorsitzender"
+            },
+            {
+              "id": "set5_q22",
+              "type": "multiple_choice",
+              "question": "Er/Sie fragt nach Angeboten für Menschen mit wenig freier Zeit.",
+              "options": [
+                "Moderator",
+                "Frau Weber, Vereinsmitglied",
+                "Herr Lange, Vereinsvorsitzender"
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Oft über Morsezeichen mit Verzögerung."
-            },
+              "explanation": "Richtige Antwort: Moderator"
+            }
+          ]
+        },
+        {
+          "id": "set5_teil4",
+          "type": "listening",
+          "category": "teil4",
+          "categoryLabel": "Übungssatz 5 · Gesellschaft und Freizeit · Teil 4",
+          "title": "Kurzer Vortrag",
+          "instructions": "Sie hören einen kurzen Vortrag. Sie hören den Text zweimal. Wählen Sie bei jeder Aufgabe die richtige Lösung. Lesen Sie jetzt die Aufgaben 23 bis 30. Dazu haben Sie 90 Sekunden Zeit.",
+          "maxPlays": 2,
+          "questions": [
             {
-              "id": "49_teil2_hafenmuseum_q5",
+              "id": "set5_q23",
               "type": "multiple_choice",
-              "question": "Was befindet sich im Bordsalon?",
+              "question": "Was sollte am Anfang einer Veranstaltungsvorbereitung stehen?",
               "options": [
-                "Ein Kartenspiel und ein Grammofon.",
-                "Nur Betten.",
-                "Der Maschinenraum."
+                "Eine klare Vorstellung von Ziel und Zielgruppe.",
+                "Die Bestellung möglichst vieler Getränke.",
+                "Die endgültige Auswahl sämtlicher Dekorationen."
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Ein Kartenspiel und ein Grammofon."
-            }
-          ]
-        },
-        {
-          "id": "50_teil2_kaeserei",
-          "type": "listening",
-          "category": "teil2",
-          "categoryLabel": "Hören · Teil 2 · Vorträge",
-          "title": "Käserei",
-          "instructions": "Sie hören einen längeren Vortrag. Wählen Sie bei den Aufgaben jeweils die richtige Antwort (a, b oder c). Sie hören den Text zweimal.",
-          "maxPlays": 2,
-          "questions": [
+              "explanation": "Richtige Antwort: Eine klare Vorstellung von Ziel und Zielgruppe."
+            },
             {
-              "id": "50_teil2_kaeserei_q1",
+              "id": "set5_q24",
               "type": "multiple_choice",
-              "question": "Was wird bei jeder Milchlieferung sofort geprüft?",
+              "question": "Wie sollte das Budget geplant werden?",
               "options": [
-                "Qualität, Fettgehalt und mögliche Rückstände.",
-                "Nur die Temperatur.",
-                "Nur die Farbe."
+                "Ohne schriftliche Übersicht.",
+                "Nur anhand der erwarteten Einnahmen.",
+                "Mit einem Spielraum für unerwartete Kosten."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Mit einem Spielraum für unerwartete Kosten."
+            },
+            {
+              "id": "set5_q25",
+              "type": "multiple_choice",
+              "question": "Was ist bei der Auswahl des Ortes wichtig?",
+              "options": [
+                "Dass er möglichst weit entfernt liegt.",
+                "Dass die Zielgruppe ihn gut erreichen und nutzen kann.",
+                "Dass er grundsätzlich die größte verfügbare Fläche hat."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Dass die Zielgruppe ihn gut erreichen und nutzen kann."
+            },
+            {
+              "id": "set5_q26",
+              "type": "multiple_choice",
+              "question": "Wie sollten Aufgaben verteilt werden?",
+              "options": [
+                "Mit klaren Zuständigkeiten und realistischen Fristen.",
+                "Ausschließlich an die erfahrenste Person.",
+                "Erst unmittelbar nach Beginn der Veranstaltung."
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Qualität, Fettgehalt und mögliche Rückstände."
+              "explanation": "Richtige Antwort: Mit klaren Zuständigkeiten und realistischen Fristen."
             },
             {
-              "id": "50_teil2_kaeserei_q2",
+              "id": "set5_q27",
               "type": "multiple_choice",
-              "question": "Wodurch entstehen die Löcher im Käse?",
+              "question": "Was sollte eine Einladung enthalten?",
               "options": [
-                "Durch bestimmte Bakterienkulturen, die Kohlendioxid produzieren.",
-                "Durch das Schneiden des Bruchs.",
-                "Durch Luftblasen beim Transport."
+                "Vor allem möglichst viele Bilder.",
+                "Nur einen allgemeinen Werbespruch.",
+                "Die wesentlichen Angaben zu Teilnahme, Ort und Zeit."
+              ],
+              "answer": 2,
+              "explanation": "Richtige Antwort: Die wesentlichen Angaben zu Teilnahme, Ort und Zeit."
+            },
+            {
+              "id": "set5_q28",
+              "type": "multiple_choice",
+              "question": "Warum ist ein Ablaufplan hilfreich?",
+              "options": [
+                "Er macht jede spontane Reaktion unmöglich.",
+                "Er gibt den Helfern Orientierung und erleichtert Übergaben.",
+                "Er ersetzt die Kommunikation mit den Gästen."
+              ],
+              "answer": 1,
+              "explanation": "Richtige Antwort: Er gibt den Helfern Orientierung und erleichtert Übergaben."
+            },
+            {
+              "id": "set5_q29",
+              "type": "multiple_choice",
+              "question": "Was empfiehlt der Redner für mögliche Probleme?",
+              "options": [
+                "Vorher Zuständigkeiten und einfache Ausweichmöglichkeiten klären.",
+                "Alle Schwierigkeiten grundsätzlich zu ignorieren.",
+                "Für jedes Problem sofort die Veranstaltung abzusagen."
               ],
               "answer": 0,
-              "explanation": "Richtige Antwort: Durch bestimmte Bakterienkulturen, die Kohlendioxid produzieren."
+              "explanation": "Richtige Antwort: Vorher Zuständigkeiten und einfache Ausweichmöglichkeiten klären."
             },
             {
-              "id": "50_teil2_kaeserei_q3",
+              "id": "set5_q30",
               "type": "multiple_choice",
-              "question": "Was passiert mit den Käselaiben im Reiferaum regelmäßig?",
+              "question": "Wozu dient die gemeinsame Nachbesprechung?",
               "options": [
-                "Sie werden gewendet und mit Salzwasser abgerieben.",
-                "Sie werden eingefroren.",
-                "Sie werden in Folie eingewickelt."
+                "Ausschließlich dazu, eine Person für Fehler verantwortlich zu machen.",
+                "Dazu, die Veranstaltung ohne weitere Planung zu wiederholen.",
+                "Dazu, Erfahrungen für kommende Veranstaltungen festzuhalten."
               ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Sie werden gewendet und mit Salzwasser abgerieben."
-            },
-            {
-              "id": "50_teil2_kaeserei_q4",
-              "type": "multiple_choice",
-              "question": "Wie lange kann der Käse maximal reifen?",
-              "options": [
-                "Über zwei Jahre.",
-                "Nur eine Woche.",
-                "Genau drei Monate."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Über zwei Jahre."
-            },
-            {
-              "id": "50_teil2_kaeserei_q5",
-              "type": "multiple_choice",
-              "question": "Warum sollen Besucher die Käselaibe nicht berühren?",
-              "options": [
-                "Fingerabdrücke können die Rinde beschädigen.",
-                "Der Käse ist noch zu heiß.",
-                "Es ist aus versicherungstechnischen Gründen verboten, ihn überhaupt anzusehen."
-              ],
-              "answer": 0,
-              "explanation": "Richtige Antwort: Fingerabdrücke können die Rinde beschädigen."
-            }
-          ]
-        },
-        {
-          "id": "51_teil3_elektroauto",
-          "type": "listening",
-          "category": "teil3",
-          "categoryLabel": "Hören · Teil 3 · Gespräche",
-          "title": "Elektroauto",
-          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
-          "maxPlays": 2,
-          "questions": [
-            {
-              "id": "51_teil3_elektroauto_q1",
-              "type": "true_false",
-              "statement": "Meike hat sich vor einem Jahr ein Elektroauto gekauft.",
-              "answer": false
-            },
-            {
-              "id": "51_teil3_elektroauto_q2",
-              "type": "true_false",
-              "statement": "Sie war anfangs unsicher wegen der Reichweite.",
-              "answer": true
-            },
-            {
-              "id": "51_teil3_elektroauto_q3",
-              "type": "true_false",
-              "statement": "Für ihren Arbeitsweg muss sie das Auto täglich aufladen.",
-              "answer": false
-            },
-            {
-              "id": "51_teil3_elektroauto_q4",
-              "type": "true_false",
-              "statement": "Sie hat sich eine eigene Wallbox installieren lassen.",
-              "answer": true
-            },
-            {
-              "id": "51_teil3_elektroauto_q5",
-              "type": "true_false",
-              "statement": "Bei längeren Fahrten muss sie regelmäßig Ladepausen einplanen.",
-              "answer": true
-            },
-            {
-              "id": "51_teil3_elektroauto_q6",
-              "type": "true_false",
-              "statement": "Meike bereut den Kauf des Elektroautos.",
-              "answer": false
-            },
-            {
-              "id": "51_teil3_elektroauto_q7",
-              "type": "true_false",
-              "statement": "Sie schätzt die niedrigen Betriebskosten und den leisen Motor.",
-              "answer": true
-            }
-          ]
-        },
-        {
-          "id": "52_teil3_nebenjob",
-          "type": "listening",
-          "category": "teil3",
-          "categoryLabel": "Hören · Teil 3 · Gespräche",
-          "title": "Nebenjob im Studium",
-          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
-          "maxPlays": 2,
-          "questions": [
-            {
-              "id": "52_teil3_nebenjob_q1",
-              "type": "true_false",
-              "statement": "Tom arbeitet seit ein paar Monaten in einem Café.",
-              "answer": true
-            },
-            {
-              "id": "52_teil3_nebenjob_q2",
-              "type": "true_false",
-              "statement": "Er arbeitet meistens zwanzig Stunden pro Woche.",
-              "answer": false
-            },
-            {
-              "id": "52_teil3_nebenjob_q3",
-              "type": "true_false",
-              "statement": "Tom braucht das Geld nur, um Erfahrung zu sammeln, nicht zum Leben.",
-              "answer": false
-            },
-            {
-              "id": "52_teil3_nebenjob_q4",
-              "type": "true_false",
-              "statement": "Ohne den Nebenjob könnte er sich seine Wohnung kaum leisten.",
-              "answer": true
-            },
-            {
-              "id": "52_teil3_nebenjob_q5",
-              "type": "true_false",
-              "statement": "Seine Note hat sich bisher verschlechtert.",
-              "answer": false
-            },
-            {
-              "id": "52_teil3_nebenjob_q6",
-              "type": "true_false",
-              "statement": "Er musste lernen, seine Zeit strukturierter zu planen.",
-              "answer": true
-            },
-            {
-              "id": "52_teil3_nebenjob_q7",
-              "type": "true_false",
-              "statement": "Tom würde anderen Studierenden von einem Nebenjob abraten.",
-              "answer": false
-            }
-          ]
-        },
-        {
-          "id": "53_teil3_yoga_retreat",
-          "type": "listening",
-          "category": "teil3",
-          "categoryLabel": "Hören · Teil 3 · Gespräche",
-          "title": "Yoga-Retreat",
-          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
-          "maxPlays": 2,
-          "questions": [
-            {
-              "id": "53_teil3_yoga_retreat_q1",
-              "type": "true_false",
-              "statement": "Nadine war eine Woche auf dem Retreat.",
-              "answer": false
-            },
-            {
-              "id": "53_teil3_yoga_retreat_q2",
-              "type": "true_false",
-              "statement": "Es gab jeden Tag zwei Yogaeinheiten.",
-              "answer": true
-            },
-            {
-              "id": "53_teil3_yoga_retreat_q3",
-              "type": "true_false",
-              "statement": "Handys waren während des gesamten Retreats komplett verboten.",
-              "answer": false
-            },
-            {
-              "id": "53_teil3_yoga_retreat_q4",
-              "type": "true_false",
-              "statement": "Die Verpflegung war vegetarisch.",
-              "answer": true
-            },
-            {
-              "id": "53_teil3_yoga_retreat_q5",
-              "type": "true_false",
-              "statement": "Es nahmen insgesamt zwölf Personen teil.",
-              "answer": true
-            },
-            {
-              "id": "53_teil3_yoga_retreat_q6",
-              "type": "true_false",
-              "statement": "Nadine hat seitdem zu niemandem mehr Kontakt.",
-              "answer": false
-            },
-            {
-              "id": "53_teil3_yoga_retreat_q7",
-              "type": "true_false",
-              "statement": "Sie würde nicht noch einmal an einem Retreat teilnehmen.",
-              "answer": false
-            }
-          ]
-        },
-        {
-          "id": "54_teil3_moebel_bauen",
-          "type": "listening",
-          "category": "teil3",
-          "categoryLabel": "Hören · Teil 3 · Gespräche",
-          "title": "Möbel selbst bauen",
-          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
-          "maxPlays": 2,
-          "questions": [
-            {
-              "id": "54_teil3_moebel_bauen_q1",
-              "type": "true_false",
-              "statement": "Wiebke hat sich einen Couchtisch selbst gebaut.",
-              "answer": true
-            },
-            {
-              "id": "54_teil3_moebel_bauen_q2",
-              "type": "true_false",
-              "statement": "Der Bau dauerte insgesamt nur ein Wochenende.",
-              "answer": false
-            },
-            {
-              "id": "54_teil3_moebel_bauen_q3",
-              "type": "true_false",
-              "statement": "Der größte Zeitaufwand entstand beim Schleifen und Ölen.",
-              "answer": true
-            },
-            {
-              "id": "54_teil3_moebel_bauen_q4",
-              "type": "true_false",
-              "statement": "Sie hatte bereits das gesamte benötigte Werkzeug selbst.",
-              "answer": false
-            },
-            {
-              "id": "54_teil3_moebel_bauen_q5",
-              "type": "true_false",
-              "statement": "Der selbstgebaute Tisch war deutlich teurer als ein fertiger Tisch.",
-              "answer": false
-            },
-            {
-              "id": "54_teil3_moebel_bauen_q6",
-              "type": "true_false",
-              "statement": "Beim Bauen ist nichts schiefgegangen.",
-              "answer": false
-            },
-            {
-              "id": "54_teil3_moebel_bauen_q7",
-              "type": "true_false",
-              "statement": "Wiebke musste wegen eines Fehlers neues Holz kaufen.",
-              "answer": true
-            }
-          ]
-        },
-        {
-          "id": "55_teil3_hund_tierheim",
-          "type": "listening",
-          "category": "teil3",
-          "categoryLabel": "Hören · Teil 3 · Gespräche",
-          "title": "Hund aus dem Tierheim",
-          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
-          "maxPlays": 2,
-          "questions": [
-            {
-              "id": "55_teil3_hund_tierheim_q1",
-              "type": "true_false",
-              "statement": "Der adoptierte Hund ist sechs Jahre alt.",
-              "answer": true
-            },
-            {
-              "id": "55_teil3_hund_tierheim_q2",
-              "type": "true_false",
-              "statement": "Jüngere Hunde werden im Tierheim erfahrungsgemäß langsamer vermittelt als ältere.",
-              "answer": false
-            },
-            {
-              "id": "55_teil3_hund_tierheim_q3",
-              "type": "true_false",
-              "statement": "Eine Mitarbeiterin des Tierheims hat die Familie zu Hause besucht.",
-              "answer": true
-            },
-            {
-              "id": "55_teil3_hund_tierheim_q4",
-              "type": "true_false",
-              "statement": "Der Hund verhielt sich von Anfang an sehr offen und zutraulich.",
-              "answer": false
-            },
-            {
-              "id": "55_teil3_hund_tierheim_q5",
-              "type": "true_false",
-              "statement": "Anke und ihre Familie hatten bereits vorher einen Hund.",
-              "answer": false
-            },
-            {
-              "id": "55_teil3_hund_tierheim_q6",
-              "type": "true_false",
-              "statement": "Sie haben an einem Beratungsgespräch beim Tierarzt teilgenommen.",
-              "answer": true
-            },
-            {
-              "id": "55_teil3_hund_tierheim_q7",
-              "type": "true_false",
-              "statement": "Anke bereut die Entscheidung, den Hund zu adoptieren.",
-              "answer": false
-            }
-          ]
-        },
-        {
-          "id": "56_teil3_kochkurs_team",
-          "type": "listening",
-          "category": "teil3",
-          "categoryLabel": "Hören · Teil 3 · Gespräche",
-          "title": "Kochevent mit dem Team",
-          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
-          "maxPlays": 2,
-          "questions": [
-            {
-              "id": "56_teil3_kochkurs_team_q1",
-              "type": "true_false",
-              "statement": "Petra war von Anfang an begeistert von der Idee des Kochevents.",
-              "answer": false
-            },
-            {
-              "id": "56_teil3_kochkurs_team_q2",
-              "type": "true_false",
-              "statement": "Die Teilnehmer wurden in vier Gruppen aufgeteilt.",
-              "answer": true
-            },
-            {
-              "id": "56_teil3_kochkurs_team_q3",
-              "type": "true_false",
-              "statement": "Jede Gruppe wusste vorher genau, was die anderen kochen.",
-              "answer": false
-            },
-            {
-              "id": "56_teil3_kochkurs_team_q4",
-              "type": "true_false",
-              "statement": "Ein Profikoch hat die Gruppen begleitet.",
-              "answer": true
-            },
-            {
-              "id": "56_teil3_kochkurs_team_q5",
-              "type": "true_false",
-              "statement": "Es gab einen Wettbewerb zwischen den Gruppen.",
-              "answer": false
-            },
-            {
-              "id": "56_teil3_kochkurs_team_q6",
-              "type": "true_false",
-              "statement": "Die Teilnehmer mussten die Zutaten selbst bezahlen.",
-              "answer": false
-            },
-            {
-              "id": "56_teil3_kochkurs_team_q7",
-              "type": "true_false",
-              "statement": "Der Arbeitgeber hat die gesamten Kosten übernommen.",
-              "answer": true
-            }
-          ]
-        },
-        {
-          "id": "57_teil3_balkongarten",
-          "type": "listening",
-          "category": "teil3",
-          "categoryLabel": "Hören · Teil 3 · Gespräche",
-          "title": "Balkon-Garten",
-          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
-          "maxPlays": 2,
-          "questions": [
-            {
-              "id": "57_teil3_balkongarten_q1",
-              "type": "true_false",
-              "statement": "Hannah hat im letzten Herbst mit dem Balkongarten begonnen.",
-              "answer": false
-            },
-            {
-              "id": "57_teil3_balkongarten_q2",
-              "type": "true_false",
-              "statement": "Sie nutzt vertikale Pflanztaschen an der Wand.",
-              "answer": true
-            },
-            {
-              "id": "57_teil3_balkongarten_q3",
-              "type": "true_false",
-              "statement": "Sie baut unter anderem Tomaten und Kräuter an.",
-              "answer": true
-            },
-            {
-              "id": "57_teil3_balkongarten_q4",
-              "type": "true_false",
-              "statement": "Der Balkongarten hat ihr von Anfang an kein Geld gekostet.",
-              "answer": false
-            },
-            {
-              "id": "57_teil3_balkongarten_q5",
-              "type": "true_false",
-              "statement": "Sie spart inzwischen Geld durch die eigene Ernte.",
-              "answer": true
-            },
-            {
-              "id": "57_teil3_balkongarten_q6",
-              "type": "true_false",
-              "statement": "Sie hatte keine Probleme mit Schädlingen.",
-              "answer": false
-            },
-            {
-              "id": "57_teil3_balkongarten_q7",
-              "type": "true_false",
-              "statement": "Sie hat die Blattläuse mit Chemie bekämpft.",
-              "answer": false
-            }
-          ]
-        },
-        {
-          "id": "58_teil3_marathon",
-          "type": "listening",
-          "category": "teil3",
-          "categoryLabel": "Hören · Teil 3 · Gespräche",
-          "title": "Marathon-Vorbereitung",
-          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
-          "maxPlays": 2,
-          "questions": [
-            {
-              "id": "58_teil3_marathon_q1",
-              "type": "true_false",
-              "statement": "Denise trainiert für ihren ersten Marathon.",
-              "answer": true
-            },
-            {
-              "id": "58_teil3_marathon_q2",
-              "type": "true_false",
-              "statement": "Sie trainiert derzeit nur einmal pro Woche.",
-              "answer": false
-            },
-            {
-              "id": "58_teil3_marathon_q3",
-              "type": "true_false",
-              "statement": "Ihr bisher längster Lauf betrug 15 Kilometer.",
-              "answer": true
-            },
-            {
-              "id": "58_teil3_marathon_q4",
-              "type": "true_false",
-              "statement": "Sie hat sich einen persönlichen Trainer engagiert.",
-              "answer": false
-            },
-            {
-              "id": "58_teil3_marathon_q5",
-              "type": "true_false",
-              "statement": "Sie achtet inzwischen bewusster auf ihre Kohlenhydratzufuhr.",
-              "answer": true
-            },
-            {
-              "id": "58_teil3_marathon_q6",
-              "type": "true_false",
-              "statement": "Sie hat bereits ernsthafte Knieprobleme.",
-              "answer": false
-            },
-            {
-              "id": "58_teil3_marathon_q7",
-              "type": "true_false",
-              "statement": "Sie macht nach langen Läufen keine Dehnübungen.",
-              "answer": false
-            }
-          ]
-        },
-        {
-          "id": "59_teil3_renovierung",
-          "type": "listening",
-          "category": "teil3",
-          "categoryLabel": "Hören · Teil 3 · Gespräche",
-          "title": "Wohnung renovieren",
-          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
-          "maxPlays": 2,
-          "questions": [
-            {
-              "id": "59_teil3_renovierung_q1",
-              "type": "true_false",
-              "statement": "Matti und seine Partnerin sind bereits vollständig mit der Renovierung fertig.",
-              "answer": false
-            },
-            {
-              "id": "59_teil3_renovierung_q2",
-              "type": "true_false",
-              "statement": "Für die Elektroleitungen im Bad haben sie einen Elektriker beauftragt.",
-              "answer": true
-            },
-            {
-              "id": "59_teil3_renovierung_q3",
-              "type": "true_false",
-              "statement": "Ursprünglich waren sechs Wochen für die Renovierung eingeplant.",
-              "answer": true
-            },
-            {
-              "id": "59_teil3_renovierung_q4",
-              "type": "true_false",
-              "statement": "Die Renovierung dauert am Ende voraussichtlich kürzer als geplant.",
-              "answer": false
-            },
-            {
-              "id": "59_teil3_renovierung_q5",
-              "type": "true_false",
-              "statement": "Sie sind während der Renovierung in eine andere Wohnung gezogen.",
-              "answer": false
-            },
-            {
-              "id": "59_teil3_renovierung_q6",
-              "type": "true_false",
-              "statement": "Hinter der alten Tapete haben sie eine Holzwand entdeckt.",
-              "answer": true
-            },
-            {
-              "id": "59_teil3_renovierung_q7",
-              "type": "true_false",
-              "statement": "Sie wollen die entdeckte Holzwand wieder mit neuer Tapete verdecken.",
-              "answer": false
-            }
-          ]
-        },
-        {
-          "id": "60_teil3_video_interview",
-          "type": "listening",
-          "category": "teil3",
-          "categoryLabel": "Hören · Teil 3 · Gespräche",
-          "title": "Video-Bewerbungsgespräch",
-          "instructions": "Sie hören ein Gespräch. Entscheiden Sie bei den Aussagen jeweils, ob sie richtig oder falsch sind. Sie hören den Text zweimal.",
-          "maxPlays": 2,
-          "questions": [
-            {
-              "id": "60_teil3_video_interview_q1",
-              "type": "true_false",
-              "statement": "Sarah hatte bereits mehrfach Erfahrung mit Videobewerbungsgesprächen.",
-              "answer": false
-            },
-            {
-              "id": "60_teil3_video_interview_q2",
-              "type": "true_false",
-              "statement": "Während des Gesprächs gab es kurz technische Probleme.",
-              "answer": true
-            },
-            {
-              "id": "60_teil3_video_interview_q3",
-              "type": "true_false",
-              "statement": "Auf der anderen Seite war nur eine Person anwesend.",
-              "answer": false
-            },
-            {
-              "id": "60_teil3_video_interview_q4",
-              "type": "true_false",
-              "statement": "Sarah musste eine kurze Präsentation halten.",
-              "answer": true
-            },
-            {
-              "id": "60_teil3_video_interview_q5",
-              "type": "true_false",
-              "statement": "Sie hatte keine Zeit, sich auf die Präsentation vorzubereiten.",
-              "answer": false
-            },
-            {
-              "id": "60_teil3_video_interview_q6",
-              "type": "true_false",
-              "statement": "Sie weiß bereits sicher, dass sie die Stelle bekommt.",
-              "answer": false
-            },
-            {
-              "id": "60_teil3_video_interview_q7",
-              "type": "true_false",
-              "statement": "Eine Rückmeldung wurde ihr innerhalb einer Woche zugesagt.",
-              "answer": true
+              "answer": 2,
+              "explanation": "Richtige Antwort: Dazu, Erfahrungen für kommende Veranstaltungen festzuhalten."
             }
           ]
         }
